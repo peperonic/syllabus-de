@@ -1,0 +1,6 @@
+# Fixture judge (S6): passes every edge except these.
+decline:
+- src: ZA:mathematik-rahmenplan-mathematik-gymnasium-2016:LB3/KE2
+  rel: maps_to
+  dst: math.geometry.pythagoras
+  reason: Der Text behandelt quadratische Funktionen, nicht den Satz des Pythagoras.

@@ -1,0 +1,34 @@
+# Toy pack for offline tests: three fictional Länder, one subject.
+# ZA Zettland: Grundschule, Gymnasium with an ascending rollout in 2027/28,
+#              Hauptschule backed by a structure-only (KMK-like) document.
+# ZB Ypsland:  a second Land with different grade placements.
+# ZC Xenland:  a placeholder Land with no usable documents.
+version: 1
+name: toy
+inventory: inventory.yaml
+corpus:
+  knowledgebase: kb.sqlite
+  cache_ttl_days: 30
+fetch:
+  user_agent: "curricula-kb test fixture (contact: test@example.invalid)"
+  rate_limit_per_second: 1
+  respect_robots_txt: true
+  headless_browser_for: []
+mapping:
+  proposer: fixture:proposals.yaml
+  judge: fixture:judge.yaml
+  held_out_gold: gold.csv
+licence_policy:
+  curriculum_default: "amtliches Werk (§ 5 UrhG)"
+  full_text: ["amtliches Werk (§ 5 UrhG)", "CC BY-SA 4.0", "CC BY 4.0", "CC0"]
+  structure_only: [KMK, IQB, exam focus documents]
+  cross_check_only: [textbook plans, LEIFIphysik, commercial platforms]
+curated:
+  context_aliases: context_aliases.yaml
+  backbone: backbone.yaml
+  evidence: evidence.yaml
+  coverage: coverage.yaml
+nodes:
+  content_kinds: [Kompetenzerwartung, Inhalt]
+parse:
+  profiles: {ZA: markup, ZB: markup}

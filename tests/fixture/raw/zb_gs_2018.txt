@@ -1,0 +1,4 @@
+@Lernbereich LB1 [1-2] Zahlen bis 100
+@Kompetenzerwartung LB1/KE1 Die Schülerinnen und Schüler addieren und subtrahieren im Zahlenraum bis 100.
+@Lernbereich LB2 [3-4] Multiplikation und Division
+@Kompetenzerwartung LB2/KE1 Die Schülerinnen und Schüler multiplizieren und dividieren und beherrschen das Einmaleins.

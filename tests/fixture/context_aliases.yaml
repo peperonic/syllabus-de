@@ -1,0 +1,10 @@
+ZA:
+  school_form_aliases: {gym: Gymnasium, gymnasium: Gymnasium, hs: Hauptschule, gs: Grundschule}
+  pathways:
+    - {tracks: [Gymnasium, Hauptschule], grades: [1, 4], attends: Grundschule}
+ZB:
+  school_form_aliases: {gym: Gymnasium}
+  pathways:
+    - {tracks: [Gymnasium], grades: [1, 4], attends: Grundschule}
+ZC:
+  school_form_aliases: {gym: Gymnasium}

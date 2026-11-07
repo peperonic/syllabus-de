@@ -1,0 +1,2 @@
+@Leitidee L1 [5-9] Zahl
+@Inhalt L1/I1 GEHEIMER VOLLTEXT KMK: Die Schülerinnen und Schüler nutzen Bruchzahlen in Sachzusammenhängen.

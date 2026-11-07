@@ -210,9 +210,12 @@ def _link_successors(sc: StageContext, docs: list[dict]) -> int:
             older, newer = _order(a, b)
             if older is None:
                 if a.get("status") == b.get("status") == "current":
+                    # Same status, school form and grades: usually parallel plans (an elective
+                    # group, a sub-subject such as Politik vs Wirtschaft), not two versions.
+                    # Recorded, not treated as a validity problem; kb_api asks for the course.
                     for x, y in ((a, b), (b, a)):
-                        conn.execute("UPDATE document SET validity_note = trim(coalesce(validity_note,'') || '; überschneidet sich mit ' || ?, '; '), "
-                                     "validity_confidence = 'needs_review' WHERE document_id = ?", (y["document_id"], x["document_id"]))
+                        conn.execute("UPDATE document SET validity_note = trim(coalesce(validity_note,'') || '; parallel zu ' || ?, '; ') "
+                                     "WHERE document_id = ?", (y["document_id"], x["document_id"]))
                 continue
             pairs.append((older, newer))
         # Keep one successor per predecessor: the one whose school forms match best

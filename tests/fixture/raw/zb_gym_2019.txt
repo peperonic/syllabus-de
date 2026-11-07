@@ -1,0 +1,13 @@
+@Operatorenliste OP [5-10] Operatoren: berechnen, beweisen, erläutern.
+@Lernbereich LB1 [5-6] Zahlbereiche
+@Kompetenzerwartung LB1/KE1 Die Schülerinnen und Schüler vergleichen Bruchzahlen.
+@Kompetenzerwartung LB1/KE2 Die Schülerinnen und Schüler rechnen mit Dezimalzahlen.
+@Kompetenzerwartung LB1/KE3 Die Schülerinnen und Schüler berechnen Prozentsätze.
+@Lernbereich LB2 [7-8] Algebra und Geometrie
+@Kompetenzerwartung LB2/KE1 Die Schülerinnen und Schüler lösen lineare Gleichungen.
+@Kompetenzerwartung LB2/KE2 Die Schülerinnen und Schüler beschreiben lineare Funktionen.
+@Kompetenzerwartung LB2/KE3 Die Schülerinnen und Schüler beweisen den Satz des Pythagoras.
+@Lernbereich LB3 [9-10] Funktionen und Trigonometrie
+@Kompetenzerwartung LB3/KE1 Die Schülerinnen und Schüler untersuchen quadratische Funktionen.
+@Kompetenzerwartung LB3/KE2 Die Schülerinnen und Schüler nutzen Sinus, Kosinus und Tangens.
+@Kompetenzerwartung LB3/KE3 Die Schülerinnen und Schüler beschreiben exponentielles Wachstum.

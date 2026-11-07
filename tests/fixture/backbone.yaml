@@ -1,0 +1,332 @@
+# Toy backbone (curated). Topics, prerequisite edges, competences, conventions.
+# Hand-curated test data; edit freely.
+topics:
+- id: math.arith.add_sub
+  subject: Mathematik
+  label_de: Addition und Subtraktion
+  kmk_anchor: L1 Zahl
+  grade_band: 1-2
+  keywords:
+  - addieren
+  - subtrahieren
+  - Addition
+  - Subtraktion
+  - Summe
+  - Differenz
+- id: math.arith.mult_div
+  subject: Mathematik
+  label_de: Multiplikation und Division
+  kmk_anchor: L1 Zahl
+  grade_band: 2-4
+  keywords:
+  - multiplizieren
+  - dividieren
+  - Einmaleins
+  - Produkt
+  - Quotient
+  requires:
+  - math.arith.add_sub
+- id: math.numbers.fractions
+  subject: Mathematik
+  label_de: Bruchzahlen
+  kmk_anchor: L1 Zahl
+  grade_band: 5-6
+  keywords:
+  - Bruch
+  - Brüche
+  - Bruchzahl*
+  - Nenner
+  - Zähler
+  requires:
+  - math.arith.mult_div
+- id: math.numbers.decimals
+  subject: Mathematik
+  label_de: Dezimalzahlen
+  kmk_anchor: L1 Zahl
+  grade_band: 5-6
+  keywords:
+  - Dezimalzahl*
+  - Kommazahl*
+  requires:
+  - math.numbers.fractions
+- id: math.numbers.percent
+  subject: Mathematik
+  label_de: Prozentrechnung
+  kmk_anchor: L1 Zahl
+  grade_band: 6-7
+  keywords:
+  - Prozent*
+  - Grundwert
+  - Prozentwert
+  - Prozentsatz
+  requires:
+  - math.numbers.fractions
+  - math.numbers.decimals
+- id: math.algebra.linear_equations
+  subject: Mathematik
+  label_de: Lineare Gleichungen
+  kmk_anchor: L4 Funktionaler Zusammenhang
+  grade_band: 7-8
+  keywords:
+  - Gleichung
+  - Gleichungen
+  - Unbekannte*
+  requires:
+  - math.numbers.decimals
+- id: math.functions.linear
+  subject: Mathematik
+  label_de: Lineare Funktionen
+  kmk_anchor: L4 Funktionaler Zusammenhang
+  grade_band: 7-8
+  keywords:
+  - lineare Funktion*
+  - Steigung
+  - Geradengleichung
+  - y-Achsenabschnitt
+  requires:
+  - math.algebra.linear_equations
+- id: math.geometry.pythagoras
+  subject: Mathematik
+  label_de: Satz des Pythagoras
+  kmk_anchor: L3 Raum und Form
+  grade_band: 8-9
+  keywords:
+  - Pythagoras
+  - Hypotenuse
+  - Kathete*
+  requires:
+  - math.algebra.linear_equations
+- id: math.functions.quadratic
+  subject: Mathematik
+  label_de: Quadratische Funktionen
+  kmk_anchor: L4 Funktionaler Zusammenhang
+  grade_band: 8-10
+  keywords:
+  - quadratische Funktion*
+  - Parabel*
+  - Scheitelpunkt*
+  requires:
+  - math.functions.linear
+- id: math.geometry.trigonometry
+  subject: Mathematik
+  label_de: Trigonometrie
+  kmk_anchor: L3 Raum und Form
+  grade_band: 9-10
+  keywords:
+  - Sinus
+  - Kosinus
+  - Tangens
+  requires:
+  - math.geometry.pythagoras
+- id: math.functions.exponential
+  subject: Mathematik
+  label_de: Exponentialfunktionen
+  kmk_anchor: L4 Funktionaler Zusammenhang
+  grade_band: 9-10
+  keywords:
+  - Exponentialfunktion*
+  - exponentiell*
+  - Wachstumsfaktor
+  requires:
+  - math.functions.linear
+- id: math.stochastics.tree_diagrams
+  subject: Mathematik
+  label_de: Baumdiagramme
+  kmk_anchor: L5 Daten und Zufall
+  grade_band: 5-10
+  keywords:
+  - Baumdiagramm*
+  - Zufallsexperiment*
+- id: phys.mechanics.speed
+  subject: Physik
+  label_de: Geschwindigkeit
+  kmk_anchor: Basiskonzept Wechselwirkung
+  grade_band: 7-8
+  keywords:
+  - Geschwindigkeit
+competences:
+- id: KMK.M.K1
+  kind: process_competence
+  subject: Mathematik
+  label_de: Mathematisch argumentieren
+  source: KMK Bildungsstandards Mathematik (Struktur, structure only)
+- id: KMK.M.K2
+  kind: process_competence
+  subject: Mathematik
+  label_de: Probleme mathematisch lösen
+  source: KMK Bildungsstandards Mathematik (Struktur, structure only)
+- id: KMK.M.K3
+  kind: process_competence
+  subject: Mathematik
+  label_de: Mathematisch modellieren
+  source: KMK Bildungsstandards Mathematik (Struktur, structure only)
+- id: KMK.M.K4
+  kind: process_competence
+  subject: Mathematik
+  label_de: Mathematische Darstellungen verwenden
+  source: KMK Bildungsstandards Mathematik (Struktur, structure only)
+- id: KMK.M.K5
+  kind: process_competence
+  subject: Mathematik
+  label_de: Mit symbolischen, formalen und technischen Elementen der Mathematik umgehen
+  source: KMK Bildungsstandards Mathematik (Struktur, structure only)
+- id: KMK.M.K6
+  kind: process_competence
+  subject: Mathematik
+  label_de: Mathematisch kommunizieren
+  source: KMK Bildungsstandards Mathematik (Struktur, structure only)
+- id: KMK.AFB.I
+  kind: afb
+  label_de: Reproduzieren
+  source: KMK Bildungsstandards (structure only)
+- id: KMK.AFB.II
+  kind: afb
+  label_de: Zusammenhänge herstellen
+  source: KMK Bildungsstandards (structure only)
+- id: KMK.AFB.III
+  kind: afb
+  label_de: Verallgemeinern und Reflektieren
+  source: KMK Bildungsstandards (structure only)
+- id: ZA.G16.OP.berechnen
+  kind: operator
+  land: ZA
+  subject: Mathematik
+  label_de: berechnen
+  afb: I-II
+  source_node: ZA:mathematik-rahmenplan-mathematik-gymnasium-2016:OP
+- id: ZA.G16.OP.bestimmen
+  kind: operator
+  land: ZA
+  subject: Mathematik
+  label_de: bestimmen
+  afb: II
+  source_node: ZA:mathematik-rahmenplan-mathematik-gymnasium-2016:OP
+- id: ZA.G16.OP.begründen
+  kind: operator
+  land: ZA
+  subject: Mathematik
+  label_de: begründen
+  afb: III
+  source_node: ZA:mathematik-rahmenplan-mathematik-gymnasium-2016:OP
+- id: ZA.G16.OP.darstellen
+  kind: operator
+  land: ZA
+  subject: Mathematik
+  label_de: darstellen
+  afb: I
+  source_node: ZA:mathematik-rahmenplan-mathematik-gymnasium-2016:OP
+- id: ZA.G16.OP.vergleichen
+  kind: operator
+  land: ZA
+  subject: Mathematik
+  label_de: vergleichen
+  afb: II
+  source_node: ZA:mathematik-rahmenplan-mathematik-gymnasium-2016:OP
+- id: ZA.G16.OP.skizzieren
+  kind: operator
+  land: ZA
+  subject: Mathematik
+  label_de: skizzieren
+  afb: I
+  source_node: ZA:mathematik-rahmenplan-mathematik-gymnasium-2016:OP
+- id: ZA.G27.OP.berechnen
+  kind: operator
+  land: ZA
+  subject: Mathematik
+  label_de: berechnen
+  afb: I-II
+  source_node: ZA:mathematik-rahmenplan-mathematik-gymnasium-2027:OP
+- id: ZA.G27.OP.bestimmen
+  kind: operator
+  land: ZA
+  subject: Mathematik
+  label_de: bestimmen
+  afb: II
+  source_node: ZA:mathematik-rahmenplan-mathematik-gymnasium-2027:OP
+- id: ZA.G27.OP.begründen
+  kind: operator
+  land: ZA
+  subject: Mathematik
+  label_de: begründen
+  afb: III
+  source_node: ZA:mathematik-rahmenplan-mathematik-gymnasium-2027:OP
+- id: ZA.G27.OP.beweisen
+  kind: operator
+  land: ZA
+  subject: Mathematik
+  label_de: beweisen
+  afb: III
+  source_node: ZA:mathematik-rahmenplan-mathematik-gymnasium-2027:OP
+- id: ZA.G27.OP.darstellen
+  kind: operator
+  land: ZA
+  subject: Mathematik
+  label_de: darstellen
+  afb: I
+  source_node: ZA:mathematik-rahmenplan-mathematik-gymnasium-2027:OP
+- id: ZA.G27.OP.vergleichen
+  kind: operator
+  land: ZA
+  subject: Mathematik
+  label_de: vergleichen
+  afb: II
+  source_node: ZA:mathematik-rahmenplan-mathematik-gymnasium-2027:OP
+- id: ZA.G27.OP.skizzieren
+  kind: operator
+  land: ZA
+  subject: Mathematik
+  label_de: skizzieren
+  afb: I
+  source_node: ZA:mathematik-rahmenplan-mathematik-gymnasium-2027:OP
+- id: ZB.G19.OP.berechnen
+  kind: operator
+  land: ZB
+  subject: Mathematik
+  label_de: berechnen
+  afb: I-II
+  source_node: ZB:mathematik-lehrplan-mathematik-gymnasium-2019:OP
+- id: ZB.G19.OP.beweisen
+  kind: operator
+  land: ZB
+  subject: Mathematik
+  label_de: beweisen
+  afb: III
+  source_node: ZB:mathematik-lehrplan-mathematik-gymnasium-2019:OP
+- id: ZB.G19.OP.erläutern
+  kind: operator
+  land: ZB
+  subject: Mathematik
+  label_de: erläutern
+  afb: II
+  source_node: ZB:mathematik-lehrplan-mathematik-gymnasium-2019:OP
+conventions:
+- id: ZA.G16.notation.dezimalkomma
+  land: ZA
+  subject: Mathematik
+  grade_from: 5
+  grade_to: 10
+  kind: notation
+  text_de: Dezimalzahlen mit Komma schreiben (3,5 statt 3.5).
+  check_regex: \b\d+\.\d+\b
+  severity: warn
+  source_node: ZA:mathematik-rahmenplan-mathematik-gymnasium-2016:H1
+- id: ZA.G16.calculator.wtr
+  land: ZA
+  subject: Mathematik
+  grade_from: 9
+  grade_to: 10
+  kind: calculator
+  text_de: Wissenschaftlicher Taschenrechner (WTR) zugelassen, kein CAS.
+  check_regex: \bCAS\b
+  severity: fail
+  source_node: ZA:mathematik-rahmenplan-mathematik-gymnasium-2016:H2
+- id: ZA.G27.notation.dezimalkomma
+  land: ZA
+  subject: Mathematik
+  grade_from: 5
+  grade_to: 10
+  kind: notation
+  text_de: Dezimalzahlen mit Komma schreiben (3,5 statt 3.5).
+  check_regex: \b\d+\.\d+\b
+  severity: warn
+  source_node: ZA:mathematik-rahmenplan-mathematik-gymnasium-2027:H1

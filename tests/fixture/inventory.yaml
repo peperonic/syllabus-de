@@ -1,0 +1,39 @@
+schema: curricula-inventory/v1
+generated: "fixture"
+states:
+  - code: ZA
+    name: Zettland
+    notes: "Fictional Land for tests."
+    documents:
+      - {subject: Mathematik, school_form: Grundschule, level: Primar, grades: "1-4",
+         title: "Rahmenplan Mathematik Grundschule 2015", url: "file:raw/za_gs_2015.txt", format: txt,
+         in_force_since: "2015-08-01", status: current}
+      - {subject: Mathematik, school_form: Gymnasium, level: Sek I, grades: "5-10",
+         title: "Rahmenplan Mathematik Gymnasium 2016", url: "file:raw/za_gym_2016.txt", format: txt,
+         in_force_since: "2016-08-01", status: current, notes: "gültig bis 31.07.2032, auslaufend"}
+      - {subject: Mathematik, school_form: Gymnasium, level: Sek I, grades: "5-10",
+         title: "Rahmenplan Mathematik Gymnasium 2027", url: "file:raw/za_gym_2027.txt", format: txt,
+         in_force_since: "2027/28 aufwachsend (gültig ab 01.08.2027)", status: upcoming}
+      - {subject: Mathematik, school_form: Hauptschule, level: Sek I, grades: "5-9",
+         title: "KMK Bildungsstandards Mathematik Hauptschule", url: "file:raw/za_hs_kmk.txt", format: txt,
+         in_force_since: "2004-08-01", status: current, licence: "KMK Bildungsstandards (structure only)"}
+  - code: ZB
+    name: Ypsland
+    notes: "Fictional Land for tests."
+    documents:
+      - {subject: Mathematik, school_form: Grundschule, level: Primar, grades: "1-4",
+         title: "Lehrplan Mathematik Grundschule 2018", url: "file:raw/zb_gs_2018.txt", format: txt,
+         in_force_since: "2018-08-01", status: current}
+      - {subject: Mathematik, school_form: Gymnasium, level: Sek I, grades: "5-10",
+         title: "Lehrplan Mathematik Gymnasium 2019", url: "file:raw/zb_gym_2019.txt", format: txt,
+         in_force_since: "2019-08-01", status: current}
+      - {subject: Mathematik, school_form: Gymnasium, level: Sek I, grades: "5-10",
+         title: "Lehrplan Mathematik Gymnasium 2028", url: "file:raw/zb_gym_2028.txt", format: txt,
+         in_force_since: "2028/29 (Klassen 5 and 6, ascending)", status: upcoming}
+  - code: ZC
+    name: Xenland
+    notes: "Inventory entries are placeholders built from naming conventions; must be re-verified."
+    documents:
+      - {subject: Mathematik, school_form: Gymnasium, level: Sek I, grades: "5-10",
+         title: "Lehrplan Mathematik Gymnasium", url: "unverified: https://example.invalid/lehrplan", format: pdf,
+         in_force_since: "unknown", status: current}

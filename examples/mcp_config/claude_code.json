@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "curricula-kb": {
+      "type": "stdio",
+      "command": "python3",
+      "args": ["/ABSOLUTE/PATH/TO/syllabus-de/mcp_server.py"],
+      "env": {
+        "CURRICULA_DATA_DIR": "/ABSOLUTE/PATH/TO/syllabus-de/data",
+        "CURRICULA_CALL_LOG": "/ABSOLUTE/PATH/TO/syllabus-de/data/calls.jsonl"
+      }
+    }
+  }
+}

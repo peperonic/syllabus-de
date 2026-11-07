@@ -1,0 +1,16 @@
+@Hinweis H1 [5-10] Notation: Dezimalzahlen werden mit Komma geschrieben, zum Beispiel 3,5.
+@Operatorenliste OP [5-10] Verbindliche Operatoren: berechnen, bestimmen, begründen, beweisen, darstellen, vergleichen, skizzieren.
+@Lernbereich LB5 [5] Bruchzahlen
+@Kompetenzerwartung LB5/KE1 Die Schülerinnen und Schüler vergleichen und ordnen Bruchzahlen und stellen sie am Zahlenstrahl dar.
+@Lernbereich LB6 [6] Dezimalzahlen und Prozente
+@Kompetenzerwartung LB6/KE1 Die Schülerinnen und Schüler rechnen mit Dezimalzahlen.
+@Kompetenzerwartung LB6/KE2 Die Schülerinnen und Schüler berechnen Grundwert, Prozentwert und Prozentsatz.
+@Lernbereich LB7 [7] Gleichungen und lineare Funktionen
+@Kompetenzerwartung LB7/KE1 Die Schülerinnen und Schüler lösen lineare Gleichungen mit einer Unbekannten.
+@Kompetenzerwartung LB7/KE2 Die Schülerinnen und Schüler beschreiben lineare Funktionen und bestimmen die Steigung.
+@Lernbereich LB8 [8] Pythagoras und quadratische Funktionen
+@Kompetenzerwartung LB8/KE1 Die Schülerinnen und Schüler beweisen den Satz des Pythagoras und berechnen Seitenlängen im rechtwinkligen Dreieck.
+@Kompetenzerwartung LB8/KE2 Die Schülerinnen und Schüler untersuchen quadratische Funktionen und bestimmen den Scheitelpunkt.
+@Lernbereich LB9 [9-10] Trigonometrie und Wachstum
+@Kompetenzerwartung LB9/KE1 Die Schülerinnen und Schüler nutzen Sinus, Kosinus und Tangens zur Berechnung von Winkeln.
+@Kompetenzerwartung LB9/KE2 Die Schülerinnen und Schüler beschreiben exponentielles Wachstum mit Exponentialfunktionen.

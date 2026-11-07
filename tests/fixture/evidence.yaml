@@ -1,0 +1,18 @@
+- topic_id: math.geometry.trigonometry
+  source_kind: abitur_focus
+  land: ZA
+  label: 'Zettland Abiturschwerpunkte 2030: Trigonometrie'
+  url: https://example.invalid/za-abitur-2030
+  licence: exam focus documents
+- topic_id: math.numbers.fractions
+  source_kind: serlo
+  land: null
+  label: 'Serlo: Bruchrechnung'
+  url: https://de.serlo.org/mathe/zahlen-groessen/bruchrechnung
+  licence: CC BY-SA 4.0
+- topic_id: math.stochastics.tree_diagrams
+  source_kind: abitur_focus
+  land: ZA
+  label: Zettland Prüfungsschwerpunkt Baumdiagramme
+  url: https://example.invalid/za-focus
+  licence: exam focus documents

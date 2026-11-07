@@ -33,14 +33,17 @@ def s3_parse(sc: StageContext) -> dict:
             node_id = f"{d['document_id']}:{n['path']}"
             parent_id = f"{d['document_id']}:{n['parent_path']}" if n.get("parent_path") else None
             text = n["text"] if full_text else None
+            label = n.get("label")
             if not full_text:
                 stats["text_withheld"] += 1
+                # Structure only: keep a neutral label, never a fragment of the text.
+                label = label or f"{n['kind']} {n['path']}"
             conn.execute(
                 """INSERT INTO curriculum_node(node_id, document_id, parent_id, kind, ordinal, label, text,
                    grade_from, grade_to, course_level, page) VALUES (?,?,?,?,?,?,?,?,?,?,?)""",
-                (node_id, d["document_id"], parent_id, n["kind"], n["ordinal"], n.get("label"), text,
+                (node_id, d["document_id"], parent_id, n["kind"], n["ordinal"], label, text,
                  n.get("grade_from"), n.get("grade_to"), n.get("course_level"), n.get("page")))
-            conn.execute("INSERT INTO node_fts(node_id, label, text) VALUES (?,?,?)", (node_id, n.get("label") or "", text or ""))
+            conn.execute("INSERT INTO node_fts(node_id, label, text) VALUES (?,?,?)", (node_id, label or "", text or ""))
             stats["nodes"] += 1
         stats["documents"] += 1
     conn.commit()

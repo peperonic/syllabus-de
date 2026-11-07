@@ -1,0 +1,7 @@
+# What the (fictional) assistant already covers.
+- topic_id: math.numbers.fractions
+  content_ref: lesson:brueche-1
+  status: covered
+- topic_id: math.numbers.decimals
+  content_ref: lesson:dezimal-1
+  status: partial

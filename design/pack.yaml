@@ -62,6 +62,9 @@ curated:
   evidence: []
   coverage: []
 
+nodes:
+  content_kinds: [Kompetenzerwartung, Inhalt, Kompetenz, Standard]   # what counts as teachable content
+
 parse:
   profiles: {}          # Land code -> module in builder/parse/, e.g. MV: mv (M1)
 

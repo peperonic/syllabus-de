@@ -1,0 +1,15 @@
+@Hinweis H1 [5-10] Notation: Dezimalzahlen werden mit Komma geschrieben, zum Beispiel 3,5.
+@Hinweis H2 [9-10] Hilfsmittel: In den Klassen 9 und 10 ist ein wissenschaftlicher Taschenrechner (WTR) zugelassen, ein CAS nicht.
+@Operatorenliste OP [5-10] Verbindliche Operatoren: berechnen, bestimmen, begründen, darstellen, vergleichen, skizzieren.
+@Lernbereich LB1 [5-6] Zahlen und Größen
+@Kompetenzerwartung LB1/KE1 Die Schülerinnen und Schüler vergleichen und ordnen Bruchzahlen und stellen sie am Zahlenstrahl dar.
+@Kompetenzerwartung LB1/KE2 Die Schülerinnen und Schüler rechnen mit Dezimalzahlen und wandeln Brüche in Dezimalzahlen um.
+@Lernbereich LB2 [7-8] Zuordnungen und Funktionen
+@Kompetenzerwartung LB2/KE1 Die Schülerinnen und Schüler lösen lineare Gleichungen mit einer Unbekannten.
+@Kompetenzerwartung LB2/KE2 Die Schülerinnen und Schüler beschreiben lineare Funktionen und bestimmen die Steigung.
+@Kompetenzerwartung LB2/KE3 Die Schülerinnen und Schüler berechnen Grundwert, Prozentwert und Prozentsatz.
+@Lernbereich LB3 [9-10] Geometrie und Funktionen
+@Kompetenzerwartung LB3/KE1 Die Schülerinnen und Schüler begründen den Satz des Pythagoras und berechnen Seitenlängen im rechtwinkligen Dreieck.
+@Kompetenzerwartung LB3/KE2 Die Schülerinnen und Schüler untersuchen quadratische Funktionen und bestimmen den Scheitelpunkt.
+@Kompetenzerwartung LB3/KE3 Die Schülerinnen und Schüler nutzen Sinus, Kosinus und Tangens zur Berechnung von Winkeln.
+@Kompetenzerwartung LB3/KE4 Die Schülerinnen und Schüler stellen mehrstufige Zufallsexperimente in Baumdiagrammen dar.

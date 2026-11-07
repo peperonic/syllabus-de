@@ -190,8 +190,15 @@ def binding_for(conn: sqlite3.Connection, land: str, subject: str, school_form: 
             other = any(w.in_window(g2, y)[0] for g2 in range((w.grade_from or 1), (w.grade_to or 13) + 1))
             if other:
                 also.append({**d, "why": f"{why}; gilt {school_year_label(y)} für andere Klassen"})
+    land_row = one(conn, "SELECT inventory_status FROM land WHERE code = ?", (land,))
+    if land_row and land_row["inventory_status"] == "placeholder" and binding:
+        # A placeholder inventory is the nearest information, never a binding answer.
+        also = [{**d, "why": f"{d['why']}; Inventar ist Platzhalter, ungeprüft"} for d in binding] + also
+        binding = []
+        notes.append("Inventar ist ein Platzhalter: genannte Pläne sind ungeprüfte Kandidaten, nicht bindend")
     if len(binding) > 1:
-        notes.append("mehrere Fassungen binden gleichzeitig: " + ", ".join(b["document_id"] for b in binding))
+        notes.append("mehrere Pläne gelten parallel (Kurs, Wahlpflichtgruppe oder Teilfach angeben, falls bekannt): "
+                     + ", ".join(b["document_id"] for b in binding))
     if not binding:
         notes.append(f"kein bindender Plan für Klasse {grade} im Schuljahr {school_year_label(y)} gefunden")
     for b in binding:

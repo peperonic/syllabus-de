@@ -1,0 +1,4 @@
+@Lernbereich LB1 [1-2] Zahlen und Operationen bis 100
+@Kompetenzerwartung LB1/KE1 Die Schülerinnen und Schüler addieren und subtrahieren im Zahlenraum bis 100 halbschriftlich und im Kopf.
+@Lernbereich LB2 [3-4] Zahlen und Operationen bis 1 000 000
+@Kompetenzerwartung LB2/KE1 Die Schülerinnen und Schüler multiplizieren und dividieren schriftlich und beherrschen das Einmaleins.

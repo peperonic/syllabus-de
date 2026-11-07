@@ -17,7 +17,8 @@ corpus:
   cache_ttl_days: 30
 
 fetch:
-  user_agent: "curricula-kb research crawler (contact: set before running)"
+  user_agent: "curricula-kb research crawler (+https://github.com/peperonic/syllabus-de; contact: chiaramariaperrrone@pm.me)"
+  contact: "chiaramariaperrrone@pm.me"   # given by the project owner 2026-11-07
   rate_limit_per_second: 1
   respect_robots_txt: true
   headless_browser_for: [BY, RP, ST, SN, TH, SL]
@@ -37,8 +38,8 @@ backbone:
   vocabularies: [OpenEduHub oeh-metadata-vocabs (CC0)]
 
 mapping:
-  proposer: llm                      # proposes maps_to and requires edges
-  judge: independent_llm             # different model family from the proposer
+  proposer: anthropic:claude-sonnet-4-6   # proposes maps_to and requires edges
+  judge: anthropic:claude-opus-5-5        # owner decision 2026-11-07: same vendor, different model and generation (see docs/decisions.md)
   mechanical_checks:
     - cited node_id exists
     - subject of node equals subject of topic

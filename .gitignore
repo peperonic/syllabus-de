@@ -1,0 +1,5 @@
+data/raw/
+data/kb.sqlite
+data/*.sqlite-*
+__pycache__/
+.venv/

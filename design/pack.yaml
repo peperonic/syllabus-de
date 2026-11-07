@@ -1,0 +1,54 @@
+# Draft domain pack, conjecture style: everything field-specific in one file.
+# Code (fetcher, parsers, graph builder, kb_api) reads this and never hard-codes a Land.
+version: 1
+name: de-school-mint
+title: "German school curricula: Mathematik, Chemie, Physik, Biologie, Politik/Wirtschaft, Arbeitslehre/WAT"
+
+scope:
+  subjects: [Mathematik, Chemie, Physik, Biologie, Politik/Wirtschaft, Arbeitslehre/WAT, Naturwissenschaften, Gesellschaftslehre, Sachunterricht]
+  levels: [Primar, Sek I, Sek II]
+  excluded: [berufliche Schulen, Förderschulen]
+
+inventory: ../inventory/curricula_inventory.yaml
+
+corpus:
+  raw_dir: data/raw                 # downloads, named by sha256
+  knowledgebase: data/kb.sqlite     # schema: design/schema.sql
+  cache_ttl_days: 30
+
+fetch:
+  user_agent: "curricula-kb research crawler (contact: set before running)"
+  rate_limit_per_second: 1
+  respect_robots_txt: true
+  headless_browser_for: [BY, RP, ST, SN, TH, SL]
+  reindex_each_run: [HE, NW]        # PDF URLs change on re-upload
+
+backbone:
+  mathematik:
+    anchors: [KMK Leitideen L1-L5, IQB Inhaltliche Vereinbarungen Mathematik]
+  chemie:
+    anchors: [KMK Basiskonzepte Chemie (WeBiS 2024, AHR 2020), IQB Inhaltliche Vereinbarungen Chemie]
+  physik:
+    anchors: [KMK Basiskonzepte und Inhaltsbereiche Physik (WeBiS 2024, AHR 2020), IQB Inhaltliche Vereinbarungen Physik]
+  biologie:
+    anchors: [KMK Basiskonzepte Biologie (WeBiS 2024, AHR 2020), IQB Inhaltliche Vereinbarungen Biologie]
+  politik_wirtschaft:
+    anchors: [no KMK Bildungsstandards; use GPJE Bildungsstandards Politische Bildung and DeGÖB Kompetenzen ökonomischer Bildung as structure only, plus KMK Empfehlungen Verbraucherbildung, Demokratiebildung, Berufs- und Studienorientierung]
+  vocabularies: [OpenEduHub oeh-metadata-vocabs (CC0)]
+
+mapping:
+  proposer: llm                      # proposes maps_to and requires edges
+  judge: independent_llm             # different model family from the proposer
+  mechanical_checks:
+    - cited node_id exists
+    - subject of node equals subject of topic
+    - node grade span overlaps topic grade band (warn, not fail)
+  held_out_gold: data/gold_mappings.csv   # never shown to proposer or judge
+
+licence_policy:
+  full_text: ["amtliches Werk (§ 5 UrhG)", "CC BY-SA 4.0", "CC BY 4.0", "CC0"]
+  structure_only: [KMK, IQB, exam focus documents]
+  cross_check_only: [textbook plans, LEIFIphysik, commercial platforms]
+
+outputs:
+  dir: outputs

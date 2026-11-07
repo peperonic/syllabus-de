@@ -1,0 +1,496 @@
+<title>Curricula Knowledge Graph</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a left-to-right system map (sources > builder > knowledge base > access > consumers), then detail panels below it, all on one 1200px column. */
+:root {
+  --bg: #EEF1F0;
+  --surface: #FFFFFF;
+  --ink: #16212B;
+  --muted: #56626D;
+  --line: #C6CFD4;
+  --accent: #1D5C86;
+  --accent-soft: #DCE7EF;
+  --ok: #2B7A4B;
+  --warn: #9A6200;
+  --fail: #AF3328;
+  --new: #6E4AA8;
+  --new-soft: #ECE5F6;
+  --plan-old: #DFE3E6;
+  --plan-new: #CFE5D7;
+  --f-display: "Barlow Condensed", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+  --f-body: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --f-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #10161B; --surface: #172029; --ink: #E3E9ED; --muted: #97A4AF; --line: #2B3742;
+    --accent: #70AEDA; --accent-soft: #1B3244; --ok: #5DBE86; --warn: #DFA54A; --fail: #E3786E;
+    --new: #B597E2; --new-soft: #2A2240; --plan-old: #26303A; --plan-new: #1E3C2C; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #10161B; --surface: #172029; --ink: #E3E9ED; --muted: #97A4AF; --line: #2B3742;
+  --accent: #70AEDA; --accent-soft: #1B3244; --ok: #5DBE86; --warn: #DFA54A; --fail: #E3786E;
+  --new: #B597E2; --new-soft: #2A2240; --plan-old: #26303A; --plan-new: #1E3C2C; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--bg); color: var(--ink); font-family: var(--f-body); font-size: 16px; line-height: 1.55;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 40px 72px;
+}
+.wrap { max-width: 1200px; margin: 0 auto; display: flex; flex-direction: column; gap: 56px; }
+h1, h2, h3 { font-family: var(--f-display); font-weight: 600; letter-spacing: 0.01em; text-wrap: balance; margin: 0; line-height: 1.1; }
+h1 { font-size: clamp(2.4rem, 5vw, 3.6rem); font-weight: 700; }
+h2 { font-size: 1.9rem; }
+h3 { font-size: 1.2rem; }
+p { margin: 0; }
+.prose { max-width: 68ch; }
+.eyebrow { font-family: var(--f-mono); font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+code, .mono { font-family: var(--f-mono); font-size: 0.82em; }
+header { display: flex; flex-direction: column; gap: 16px; }
+.lede { font-size: 1.12rem; max-width: 70ch; }
+.facts { display: flex; flex-wrap: wrap; gap: 8px 28px; margin-top: 8px; font-family: var(--f-mono); font-size: 0.85rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.facts b { color: var(--ink); font-weight: 500; font-size: 1.05rem; }
+section { display: flex; flex-direction: column; gap: 20px; }
+.sec-head { display: flex; flex-direction: column; gap: 6px; }
+
+/* System map */
+.map { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 30px; align-items: stretch; }
+.lane { position: relative; display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.lane:not(:last-child)::after {
+  content: ""; position: absolute; top: 46px; right: -24px; width: 18px; height: 18px;
+  border-top: 2px solid var(--accent); border-right: 2px solid var(--accent); transform: rotate(45deg);
+}
+.lane-title { font-family: var(--f-display); font-size: 1.15rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: var(--accent); border-bottom: 2px solid var(--accent); padding-bottom: 6px; }
+.lane-sub { font-family: var(--f-mono); font-size: 0.72rem; color: var(--muted); margin-top: -4px; }
+.box { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 10px 12px; display: flex; flex-direction: column; gap: 4px; font-size: 0.88rem; line-height: 1.45; min-width: 0; }
+.box h3 { font-size: 1.02rem; }
+.box p { color: var(--muted); overflow-wrap: anywhere; }
+.box.new { border-style: dashed; border-color: var(--new); }
+.tag { display: inline-block; font-family: var(--f-mono); font-size: 0.68rem; padding: 1px 6px; border-radius: 3px; background: var(--accent-soft); color: var(--accent); white-space: nowrap; }
+.tag.new { background: var(--new-soft); color: var(--new); }
+.tag.ok { color: var(--ok); background: transparent; border: 1px solid var(--ok); }
+.tag.warn { color: var(--warn); background: transparent; border: 1px solid var(--warn); }
+.tag.fail { color: var(--fail); background: transparent; border: 1px solid var(--fail); }
+.stages { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+.stages li { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 7px 10px; display: grid; grid-template-columns: 2.4em minmax(0, 1fr); gap: 2px 6px; font-size: 0.85rem; line-height: 1.4; }
+.stages .sid { font-family: var(--f-mono); font-weight: 500; color: var(--accent); grid-row: span 2; }
+.stages .sname { font-weight: 600; }
+.stages .sout { color: var(--muted); font-size: 0.8rem; overflow-wrap: anywhere; }
+.stages li.new { border-style: dashed; border-color: var(--new); }
+.stages li.new .sid { color: var(--new); }
+.tgroup { display: flex; flex-direction: column; gap: 6px; }
+.tgroup .glabel { font-family: var(--f-mono); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+.chips { display: flex; flex-wrap: wrap; gap: 4px; }
+.chip { font-family: var(--f-mono); font-size: 0.72rem; padding: 2px 6px; border-radius: 3px; border: 1px solid var(--line); background: var(--bg); color: var(--ink); transition: background .15s, border-color .15s, color .15s; }
+.chip.new { border-style: dashed; border-color: var(--new); color: var(--new); }
+.chip.hot { background: var(--accent); border-color: var(--accent); color: var(--surface); }
+.legend { display: flex; flex-wrap: wrap; gap: 8px 20px; font-size: 0.85rem; color: var(--muted); align-items: center; }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.sw { width: 22px; height: 12px; border: 1px solid var(--line); border-radius: 2px; display: inline-block; background: var(--surface); }
+.sw.dash { border: 1.5px dashed var(--new); }
+
+/* Tools */
+.tools { display: grid; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); gap: 12px; }
+.tool { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 14px 16px; display: flex; flex-direction: column; gap: 8px; cursor: pointer; text-align: left; font: inherit; color: inherit; min-width: 0; }
+.tool:hover, .tool:focus-visible, .tool.on { border-color: var(--accent); outline: none; }
+.tool:focus-visible { box-shadow: 0 0 0 2px var(--accent-soft); }
+.tool .tname { font-family: var(--f-mono); font-weight: 500; font-size: 0.92rem; color: var(--accent); }
+.tool .tname small { color: var(--muted); font-weight: 400; }
+.tool p { font-size: 0.9rem; }
+.tool .reads { font-family: var(--f-mono); font-size: 0.7rem; color: var(--muted); }
+.note { font-size: 0.9rem; color: var(--muted); max-width: 80ch; }
+
+/* Loop */
+.loop { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 22px; position: relative; }
+.step { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 12px; display: flex; flex-direction: column; gap: 6px; position: relative; min-width: 0; font-size: 0.88rem; }
+.step:not(:last-child)::after { content: "\2192"; position: absolute; right: -18px; top: 14px; color: var(--accent); font-family: var(--f-mono); }
+.step .n { font-family: var(--f-display); font-size: 1.6rem; line-height: 1; color: var(--accent); }
+.step.model { background: var(--accent-soft); border-color: var(--accent); }
+.step .k { font-family: var(--f-mono); font-size: 0.8rem; font-weight: 500; overflow-wrap: anywhere; }
+.step p { color: var(--muted); }
+.backedge { font-family: var(--f-mono); font-size: 0.8rem; color: var(--fail); display: flex; gap: 8px; align-items: center; }
+
+/* Two-col panels */
+.two { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 32px; align-items: start; }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 18px 20px; display: flex; flex-direction: column; gap: 12px; min-width: 0; }
+.formula { font-family: var(--f-mono); font-size: 0.85rem; background: var(--bg); border-radius: 4px; padding: 10px 12px; line-height: 1.7; overflow-x: auto; }
+.formula var { font-style: italic; font-family: var(--f-body); font-size: 1.05em; }
+.scroll { overflow-x: auto; }
+table.roll { border-collapse: separate; border-spacing: 3px; font-family: var(--f-mono); font-size: 0.75rem; font-variant-numeric: tabular-nums; }
+table.roll th { font-weight: 500; color: var(--muted); padding: 4px 6px; text-align: center; white-space: nowrap; }
+table.roll td { width: 64px; height: 30px; text-align: center; border-radius: 3px; }
+table.roll td.o { background: var(--plan-old); color: var(--muted); }
+table.roll td.n { background: var(--plan-new); color: var(--ok); font-weight: 500; }
+.buckets { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+.bucket { border: 1px solid var(--line); border-radius: 4px; padding: 8px 10px; font-size: 0.85rem; display: flex; flex-direction: column; gap: 4px; }
+.bucket b { font-family: var(--f-mono); font-weight: 500; font-size: 0.8rem; }
+.bucket .formula { padding: 6px 8px; font-size: 0.78rem; }
+
+/* certify */
+.flow { display: flex; flex-direction: column; gap: 8px; }
+.frow { display: grid; grid-template-columns: 9.5em minmax(0, 1fr); gap: 10px; align-items: start; font-size: 0.9rem; }
+.frow .fk { font-family: var(--f-mono); font-size: 0.78rem; color: var(--accent); padding-top: 2px; }
+.verdicts { display: flex; gap: 8px; flex-wrap: wrap; }
+
+/* repo */
+pre.tree { font-family: var(--f-mono); font-size: 0.8rem; line-height: 1.6; background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 16px 18px; margin: 0; overflow-x: auto; color: var(--ink); }
+pre.tree .c { color: var(--muted); }
+pre.tree .nw { color: var(--new); }
+
+/* decisions */
+.dlist { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 10px; counter-reset: d; }
+.dlist li { display: grid; grid-template-columns: 2em minmax(0, 1fr); gap: 4px 8px; font-size: 0.92rem; counter-increment: d; }
+.dlist li::before { content: counter(d); font-family: var(--f-display); font-size: 1.3rem; color: var(--accent); line-height: 1.2; }
+.dlist.open li::before { color: var(--warn); }
+.dlist b { font-weight: 600; }
+.miles { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px; }
+.mile { border-top: 3px solid var(--accent); padding-top: 10px; display: flex; flex-direction: column; gap: 6px; font-size: 0.88rem; min-width: 0; }
+.mile .mk { font-family: var(--f-mono); font-size: 0.78rem; color: var(--accent); }
+.mile.gate { border-top-color: var(--warn); }
+.mile.gate .mk { color: var(--warn); }
+.mile p { color: var(--muted); }
+footer { font-size: 0.82rem; color: var(--muted); border-top: 1px solid var(--line); padding-top: 16px; }
+
+@media (max-width: 980px) {
+  .map { grid-template-columns: minmax(0, 1fr); gap: 34px; }
+  .lane:not(:last-child)::after { top: auto; bottom: -26px; right: auto; left: 50%; transform: rotate(135deg); }
+  .loop { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .step:not(:last-child)::after { display: none; }
+  .two { grid-template-columns: minmax(0, 1fr); }
+  .miles { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 520px) {
+  .tools { grid-template-columns: minmax(0, 1fr); }
+  .buckets { grid-template-columns: minmax(0, 1fr); }
+  .miles { grid-template-columns: minmax(0, 1fr); }
+  .frow { grid-template-columns: minmax(0, 1fr); gap: 2px; }
+}
+@media (prefers-reduced-motion: reduce) { .chip { transition: none; } }
+</style>
+
+<div class="wrap">
+
+<header>
+  <div class="eyebrow">peperonic/syllabus-de &middot; architecture map &middot; before the build &middot; 2026-11-07</div>
+  <h1>Curricula Knowledge Graph</h1>
+  <p class="lede">What the curricula-kb handoff package turns into: a staged, cached builder that reads the official curriculum documents of all 16 L&auml;nder into a SQLite knowledge graph with verbatim text and page numbers, and a read-only MCP server that an exercise-writing model must ask before it writes any Aufgabe.</p>
+  <div class="facts">
+    <span><b>16</b> L&auml;nder</span>
+    <span><b>399</b> curriculum documents</span>
+    <span><b>129</b> ancillary resources</span>
+    <span><b>8</b> subject groups, Primar to Abitur</span>
+    <span><b>7</b> build stages</span>
+    <span><b>9</b> MCP tools</span>
+  </div>
+</header>
+
+<section>
+  <div class="sec-head">
+    <h2>System map</h2>
+    <p class="note">Data flows left to right. Nothing on the right reads a source directly; everything goes through the knowledge base and one shared API. Dashed outlines mark parts I propose to add to the package's draft design.</p>
+  </div>
+  <div class="legend">
+    <span><i class="sw"></i>from the package design</span>
+    <span><i class="sw dash"></i>proposed addition</span>
+    <span><i class="chip hot" style="padding:0 8px">&nbsp;</i>table read by the selected MCP tool</span>
+  </div>
+
+  <div class="map" id="map">
+    <div class="lane">
+      <div class="lane-title">Sources</div>
+      <div class="lane-sub">read-only inputs</div>
+      <div class="box">
+        <h3>Inventory</h3>
+        <p><code>curricula_inventory.yaml</code>, <code>curricula_documents.csv</code>, <code>states/*.yaml</code>. The only list of what to fetch. No invented URLs.</p>
+        <div><span class="tag">399 docs</span> <span class="tag">129 ancillary</span></div>
+      </div>
+      <div class="box">
+        <h3>Land portals</h3>
+        <p>Rahmenpl&auml;ne, Kernlehrpl&auml;ne, Bildungspl&auml;ne as PDF and HTML. Plain HTTP: BW BE BB HB HH HE MV NI NW SH. Headless browser: BY RP ST SN. Placeholders: TH SL.</p>
+        <div><span class="tag">amtliches Werk</span> <span class="tag">full text</span></div>
+      </div>
+      <div class="box">
+        <h3>National frameworks</h3>
+        <p>KMK Bildungsstandards (Leitideen, Basiskonzepte), IQB Inhaltliche Vereinbarungen, EPA, GPJE, DeG&Ouml;B, KMK Verbraucherbildung 2025.</p>
+        <div><span class="tag">structure only</span></div>
+      </div>
+      <div class="box">
+        <h3>Cross-check sources</h3>
+        <p>Abitur focus papers, IQB pool categories, cosh, Serlo (CC BY-SA), LEIFIphysik and textbook plans.</p>
+        <div><span class="tag">labels and links</span></div>
+      </div>
+    </div>
+
+    <div class="lane">
+      <div class="lane-title">Builder</div>
+      <div class="lane-sub">builder/run.py --list | --from S3 | S5</div>
+      <ol class="stages">
+        <li><span class="sid">S0</span><span class="sname">Inventory merge</span><span class="sout">merged YAML and seed CSV</span></li>
+        <li class="new"><span class="sid">S0b</span><span class="sname">Normalise validity</span><span class="sout">"2027/28 aufwachsend" to valid_from, rollout rule, supersedes</span></li>
+        <li><span class="sid">S1</span><span class="sname">Fetch</span><span class="sout">data/raw/&lt;sha256&gt;, fetch_log; robots.txt, 1 req/s</span></li>
+        <li><span class="sid">S2</span><span class="sname">Extract</span><span class="sout">page text with layout hints (PyMuPDF, selectolax)</span></li>
+        <li><span class="sid">S3</span><span class="sname">Parse, one profile per Land</span><span class="sout">curriculum_node: verbatim text, page, grade band</span></li>
+        <li><span class="sid">S4</span><span class="sname">Backbone</span><span class="sout">topic and competence vocabularies (curated)</span></li>
+        <li><span class="sid">S5</span><span class="sname">Map (proposer LLM)</span><span class="sout">proposed maps_to and requires edges</span></li>
+        <li><span class="sid">S6</span><span class="sname">Certify or decline</span><span class="sout">mechanical checks, independent judge, audit</span></li>
+        <li><span class="sid">S7</span><span class="sname">Cross-check</span><span class="sout">evidence rows, coverage flags</span></li>
+      </ol>
+    </div>
+
+    <div class="lane">
+      <div class="lane-title">Knowledge base</div>
+      <div class="lane-sub">data/kb.sqlite (design/schema.sql)</div>
+      <div class="box tgroup">
+        <span class="glabel">Provenance</span>
+        <div class="chips"><span class="chip" data-t="fetch_log">fetch_log</span><span class="chip" data-t="document">document</span></div>
+      </div>
+      <div class="box tgroup">
+        <span class="glabel">Curriculum text</span>
+        <div class="chips"><span class="chip" data-t="curriculum_node">curriculum_node</span><span class="chip" data-t="node_fts">node_fts</span><span class="chip new" data-t="node_vec">node_vec</span></div>
+      </div>
+      <div class="box tgroup">
+        <span class="glabel">Backbone (curated)</span>
+        <div class="chips"><span class="chip" data-t="topic">topic</span><span class="chip" data-t="competence">competence</span></div>
+      </div>
+      <div class="box tgroup">
+        <span class="glabel">Graph</span>
+        <div class="chips"><span class="chip" data-t="edge">edge</span><span class="chip" data-t="context">context</span><span class="chip" data-t="expected_in">expected_in</span></div>
+      </div>
+      <div class="box tgroup">
+        <span class="glabel">Pupil context</span>
+        <div class="chips"><span class="chip new" data-t="school_form_alias">school_form_alias</span><span class="chip new" data-t="convention">convention</span></div>
+      </div>
+      <div class="box tgroup">
+        <span class="glabel">Quality</span>
+        <div class="chips"><span class="chip" data-t="audit">audit</span><span class="chip" data-t="evidence">evidence</span><span class="chip" data-t="gold">gold set (held out)</span></div>
+      </div>
+      <div class="box tgroup">
+        <span class="glabel">Downstream</span>
+        <div class="chips"><span class="chip" data-t="assistant_coverage">assistant_coverage</span></div>
+      </div>
+    </div>
+
+    <div class="lane">
+      <div class="lane-title">Access</div>
+      <div class="lane-sub">one core, three faces</div>
+      <div class="box">
+        <h3>kb_api.py</h3>
+        <p>Python API and CLI. All tool logic lives here, so every client sees the same data.</p>
+      </div>
+      <div class="box">
+        <h3>mcp_server.py</h3>
+        <p>stdio, Python MCP SDK. Thin wrapper over kb_api. Every tool annotated read-only and closed-world.</p>
+      </div>
+      <div class="box new">
+        <h3>Context resolver</h3>
+        <p>Land code or name, school form alias, grade, course level, date to binding document versions.</p>
+      </div>
+      <div class="box new">
+        <h3>Guards</h3>
+        <p>Licence filter (no full text for structure-only sources), citation validator (every claim has a node id that exists), <code>summary_de</code> writer.</p>
+      </div>
+      <div class="box">
+        <h3>Call log</h3>
+        <p>JSONL per call at <code>$CURRICULA_CALL_LOG</code>.</p>
+      </div>
+    </div>
+
+    <div class="lane">
+      <div class="lane-title">Consumers</div>
+      <div class="lane-sub">who asks</div>
+      <div class="box">
+        <h3>Exercise-writer LLM</h3>
+        <p>System prompt <code>examples/exercise_agent.md</code> forces the call order below.</p>
+      </div>
+      <div class="box">
+        <h3>Claude Code, Claude Desktop</h3>
+        <p>MCP config snippets for both.</p>
+      </div>
+      <div class="box new">
+        <h3>mathskills tutor</h3>
+        <p>Later: asks <code>curriculum_status</code> per lesson and fills <code>assistant_coverage</code>.</p>
+      </div>
+      <div class="box">
+        <h3>Human reviewers</h3>
+        <p><code>STATUS.md</code> per Land and subject, audit trail, page citations to check against the PDF.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head">
+    <h2>The nine MCP tools</h2>
+    <p class="note">Select a tool to light up the tables it reads in the map above. Most tools take the same context: <code>{"land": "MV", "school_form": "Gymnasium", "grade": 8, "subject": "Mathematik", "course_level": null, "date": "2026-11-07"}</code>. Every response states the curriculum version and the evaluation date, lists its node ids under <code>citations</code>, and carries a 2 to 4 sentence <code>summary_de</code>.</p>
+  </div>
+  <div class="tools" id="tools">
+    <button class="tool" data-reads="document context school_form_alias"><span class="tname">resolve_context <small>(context)</small></span><p>Normalised context and the binding document versions for the date, with the reason each applies. In a transition year it returns both versions and names the one binding for this cohort.</p><span class="reads">document, context, school_form_alias</span></button>
+    <button class="tool" data-reads="document curriculum_node edge topic expected_in competence convention"><span class="tname">curriculum_status <small>(context)</small></span><p>The core call. <code>taught_before</code>, <code>current</code> with verbatim Kompetenzerwartung and page, <code>not_yet</code>, process competences, operators, conventions, uncertainty, citations.</p><span class="reads">document, curriculum_node, edge, topic, expected_in, competence, convention</span></button>
+    <button class="tool" data-reads="curriculum_node node_fts node_vec edge topic"><span class="tname">topics_for <small>(context, query)</small></span><p>Search inside the applicable documents only (FTS5, optional embeddings), returning nodes with their backbone topics.</p><span class="reads">curriculum_node, node_fts, node_vec, edge, topic</span></button>
+    <button class="tool" data-reads="topic edge expected_in curriculum_node"><span class="tname">topic_detail <small>(topic_id, context)</small></span><p>Definition, <code>requires</code> edges, what follows, where it appears in every Land, and the nodes for this context.</p><span class="reads">topic, edge, expected_in, curriculum_node</span></button>
+    <button class="tool" data-reads="document curriculum_node edge topic expected_in competence convention"><span class="tname">exercise_brief <small>(context, topic or query)</small></span><p>Compact brief for the writer: goal phrased from the curriculum text, allowed prerequisites, concepts to avoid, Anforderungsbereich mix, operators, conventions.</p><span class="reads">same as curriculum_status, narrowed to one topic</span></button>
+    <button class="tool" data-reads="topic edge expected_in competence convention node_fts curriculum_node"><span class="tname">check_exercise <small>(context, text)</small></span><p>Mechanical and retrieval check of a draft: not-yet concepts, missing prerequisites, foreign operators, wrong notation. pass, warn or fail per finding, each citing a node.</p><span class="reads">topic, edge, expected_in, competence, convention, node_fts</span></button>
+    <button class="tool" data-reads="topic expected_in document context"><span class="tname">compare_lands <small>(topic_id)</small></span><p>Grade and track where a topic appears in each Land, for content that must work across L&auml;nder.</p><span class="reads">topic, expected_in, document, context</span></button>
+    <button class="tool" data-reads="expected_in assistant_coverage topic"><span class="tname">coverage_gap <small>(context)</small></span><p>Topics expected up to this grade that the assistant's own content does not cover yet.</p><span class="reads">expected_in, assistant_coverage, topic</span></button>
+    <button class="tool" data-reads="document fetch_log evidence"><span class="tname">sources <small>(document_id)</small></span><p>Provenance, licence and legal basis of a document, so outputs cite it correctly.</p><span class="reads">document, fetch_log, evidence</span></button>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head">
+    <h2>The exercise loop</h2>
+    <p class="note">The order the exercise-writer's system prompt enforces. Highlighted steps are the model's own work; the rest are MCP calls.</p>
+  </div>
+  <div class="loop">
+    <div class="step"><span class="n">1</span><span class="k">resolve_context</span><p>Which plan version binds this pupil today.</p></div>
+    <div class="step"><span class="n">2</span><span class="k">curriculum_status</span><p>Before, current, not yet, and what is uncertain.</p></div>
+    <div class="step"><span class="n">3</span><span class="k">exercise_brief</span><p>Goal, allowed concepts, operators, AFB mix.</p></div>
+    <div class="step model"><span class="n">4</span><span class="k">write the Aufgabe</span><p>Inside the frame from the brief.</p></div>
+    <div class="step"><span class="n">5</span><span class="k">check_exercise</span><p>Findings with pass, warn, fail.</p></div>
+    <div class="step model"><span class="n">6</span><span class="k">deliver</span><p>Metadata cites document version and evaluation date.</p></div>
+  </div>
+  <div class="backedge"><span class="tag fail">fail</span> any fail in step 5 sends the draft back to step 4; warn findings are reported with the exercise.</div>
+</section>
+
+<section class="two">
+  <div class="panel">
+    <h2>Which plan applies</h2>
+    <p>Validity in time is a first-class property. Real case from the inventory: MV <em>Rahmenplan Mathematik Sekundarbereich I Gymnasium 2026</em> is <code>upcoming</code>, "2027/28 aufwachsend (g&uuml;ltig ab 01.08.2027)", grades 7 to 10. Its predecessor, <em>Rahmenplan Mathematik 7-10 (AHR)</em>, is "g&uuml;ltig bis 31.07.2031, auslaufend".</p>
+    <div class="formula">school year &nbsp;<var>y</var> = year(<var>d</var>) if month(<var>d</var>) &ge; 8, else year(<var>d</var>) &minus; 1<br>rollout = ascending_from_grade:<var>N</var>, first year <var>Y</var><sub>0</sub><br>new plan binds &hArr; <var>y</var> &ge; <var>Y</var><sub>0</sub> and <var>g</var> &le; <var>N</var> + (<var>y</var> &minus; <var>Y</var><sub>0</sub>)<br>otherwise follow the <code>supersedes</code> edge back to the old plan</div>
+    <div class="scroll">
+      <table class="roll" id="roll" aria-label="Binding plan by school year and grade, MV Gymnasium Mathematik"></table>
+    </div>
+    <div class="legend"><span><i class="sw" style="background:var(--plan-new)"></i>2026 plan binds</span><span><i class="sw" style="background:var(--plan-old)"></i>old AHR plan binds</span></div>
+    <p class="note">The grid shows the old plan is no longer needed for grades 7 to 10 after 31.07.2030, one year before its stated end. S0b records this kind of mismatch, and <code>resolve_context</code> reports it as uncertainty instead of guessing. One plausible reason is repeaters.</p>
+  </div>
+
+  <div class="panel">
+    <h2>Before, current, not yet</h2>
+    <p>Plans give grade bands (5/6, 7/8, Einf&uuml;hrungsphase, Q1 to Q4). Bands are kept as intervals [<var>a</var>, <var>b</var>] on each node. For pupil grade <var>g</var>, within the binding documents of the same Land and track:</p>
+    <div class="buckets">
+      <div class="bucket"><b>taught_before</b><div class="formula"><var>b</var> &lt; <var>g</var></div><span>prerequisites the pupil should know, grouped by band</span></div>
+      <div class="bucket"><b>current</b><div class="formula"><var>a</var> &le; <var>g</var> &le; <var>b</var></div><span>with verbatim text, node id, page</span></div>
+      <div class="bucket"><b>not_yet</b><div class="formula"><var>a</var> &gt; <var>g</var></div><span>avoid in exercises; reports the grade where it appears</span></div>
+    </div>
+    <p class="note">If <var>a</var> &lt; <var>b</var> and the plan leaves the order inside the band to the school, the topic stays in <code>current</code>, and <code>uncertainty</code> says that the pupil may or may not have met it yet. The half-year is never invented. Bayern LehrplanPLUS gives single grades, so its bands collapse to <var>a</var> = <var>b</var>.</p>
+    <h3>Certify or decline</h3>
+    <div class="flow">
+      <div class="frow"><span class="fk">S5 proposer</span><span>LLM proposes <code>maps_to</code> (node to topic) and <code>requires</code> (topic to topic) with confidence.</span></div>
+      <div class="frow"><span class="fk">mechanical</span><span>Node id exists; subject of node equals subject of topic; grade span overlaps the topic's band (warn only).</span></div>
+      <div class="frow"><span class="fk">judge</span><span>A model from a different family reads the verbatim text and audits each edge independently.</span></div>
+      <div class="frow"><span class="fk">verdict</span><span class="verdicts"><span class="tag ok">certified = 1</span><span class="tag fail">declined, audit row kept</span></span></div>
+      <div class="frow"><span class="fk">gold set</span><span>Human-verified mappings that the proposer and judge never see. They measure precision and recall of the edges that are certified.</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="two">
+  <div class="panel">
+    <h2>Repository layout</h2>
+<pre class="tree">syllabus-de/
+  CLAUDE.md  README.md  STATUS.md
+  inventory/            <span class="c"># from the package, edited only here</span>
+  research_notes/  design/  scripts/  prompts/
+  builder/
+    run.py              <span class="c"># --list, --from, named stages</span>
+    <span class="nw">validity.py</span>         <span class="c"># S0b rollout normaliser</span>
+    fetch.py  extract.py  backbone.py
+    parse/              <span class="c"># one profile per Land</span>
+      mv.py  sh.py  ...
+    map_topics.py  certify.py  crosscheck.py
+  kb_api.py             <span class="c"># API and CLI, all tool logic</span>
+  mcp_server.py         <span class="c"># stdio twin</span>
+  examples/
+    exercise_agent.md   mcp_config/
+  tests/
+    fixture/            <span class="c"># 2 fictional Länder, 1 ascending rollout</span>
+  data/                 <span class="c"># gitignored: raw/, kb.sqlite</span>
+  <span class="nw">data/gold_mappings.csv</span>  <span class="c"># tracked, never fed to S5/S6</span></pre>
+  </div>
+  <div class="panel">
+    <h2>Proposed schema additions</h2>
+    <p class="note">The draft <code>schema.sql</code> cannot yet answer every field the brief asks for. These additions close the gap.</p>
+    <div class="flow">
+      <div class="frow"><span class="fk">document</span><span>add <code>doc_slug</code>, <code>rollout</code> (<code>all_grades</code> | <code>ascending_from_grade:N</code>), <code>school_year_start</code> (default 08-01), <code>validity_note</code> for raw text and mismatches.</span></div>
+      <div class="frow"><span class="fk">school_form_alias</span><span>Land, alias, official name. Feeds the normalisation that <code>resolve_context</code> returns.</span></div>
+      <div class="frow"><span class="fk">convention</span><span>Land, subject, school form, band, kind (notation, units, Merkhilfe, calculator WTR or CAS), text, source node or evidence id.</span></div>
+      <div class="frow"><span class="fk">competence</span><span>add <code>land</code> and <code>subject</code> so Land operator lists sit next to the KMK Anforderungsbereiche I to III.</span></div>
+      <div class="frow"><span class="fk">node_vec</span><span>optional embeddings for <code>topics_for</code>; the server works with FTS5 alone.</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="two">
+  <div class="panel">
+    <h2>Decisions taken from the brief</h2>
+    <ol class="dlist">
+      <li><span><b>Scope:</b> curricula of all 16 L&auml;nder for Mathematik, Chemie, Physik, Biologie, Politik/Wirtschaft, Arbeitslehre/WAT, integrated science and social-studies courses, Sachunterricht; all general-education school forms; no berufliche Schulen or F&ouml;rderschulen.</span></li>
+      <li><span><b>Format:</b> SQLite knowledge graph with FTS5 (design/schema.sql), not Markdown files. Python for builder, API and MCP server.</span></li>
+      <li><span><b>Sources:</b> the inventory only. Raw downloads cached by sha256 outside git; full text only where the licence policy allows it.</span></li>
+      <li><span><b>Language:</b> curriculum text verbatim in German, code and keys in English, <code>summary_de</code> in German, no em dashes in generated text.</span></li>
+      <li><span><b>Conventions:</b> the package's CLAUDE.md rules govern the repo; commits go straight to <code>main</code> and are pushed after every step.</span></li>
+      <li><span><b>First slice:</b> MV Mathematik (8 documents, including the 2026 plans in transition) through S6, shown to you before widening.</span></li>
+    </ol>
+  </div>
+  <div class="panel">
+    <h2>Open before the first fetch</h2>
+    <ol class="dlist open">
+      <li><span><b>Crawler contact address</b> for the User-Agent. The brief requires me to ask you before any network request.</span></li>
+      <li><span><b>Proposer and judge models.</b> They must come from different model families, and the judge needs an API key in this environment.</span></li>
+      <li><span><b>Network access</b> to bildung-mv.de and the other portal hosts may need to be allowed in this cloud environment.</span></li>
+      <li><span><b>Sachsen:</b> the Lehrplandatenbank index is closed to bots, so the link list has to come from you or from LaSuB.</span></li>
+    </ol>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head"><h2>Build order</h2></div>
+  <div class="miles">
+    <div class="mile"><span class="mk">M0 &middot; offline</span><h3>Skeleton and toy fixture</h3><p>Stage runner, schema, kb_api, MCP server, tests on 2 fictional L&auml;nder: rollout year, not_yet filter, citations resolve, licence filter never leaks.</p></div>
+    <div class="mile gate"><span class="mk">M1 &middot; review gate</span><h3>MV Mathematik to S6</h3><p>Graph counts, one curriculum_status, one check_exercise shown to you before anything widens.</p></div>
+    <div class="mile"><span class="mk">M2</span><h3>Second clean Land</h3><p>SH, then the three acceptance contexts: Grundschule Kl. 3 Mathematik, Gymnasium Kl. 8 Physik, Oberstufe Biologie.</p></div>
+    <div class="mile"><span class="mk">M3</span><h3>Widen Land by Land</h3><p>Plain-HTTP L&auml;nder, then headless BY RP ST SN, then the TH and SL inventory repair.</p></div>
+    <div class="mile"><span class="mk">M4</span><h3>Integration</h3><p>exercise_agent.md, MCP configs for Claude Code and Desktop, STATUS.md per Land and subject.</p></div>
+  </div>
+</section>
+
+<footer>Sources: curricula-kb handoff package (README.md, CLAUDE.md, design/knowledge_graph.md, design/schema.sql, design/pack.yaml, inventory/states/MV.yaml) and prompts/build_kg_and_mcp.md. Design patterns borrowed from Opening-Science/conjecture as ideas only (AGPL-3.0 applies to copied code).</footer>
+
+</div>
+
+<script>
+(function () {
+  // Rollout grid: MV Gymnasium Mathematik 2026, ascending from grade 7, first year 2027/28.
+  var Y0 = 2027, N = 7, years = [2026, 2027, 2028, 2029, 2030, 2031], grades = [7, 8, 9, 10];
+  var t = document.getElementById('roll');
+  var html = '<tr><th>grade</th>' + years.map(function (y) { return '<th>' + y + '/' + String(y + 1).slice(2) + '</th>'; }).join('') + '</tr>';
+  grades.forEach(function (g) {
+    html += '<tr><th>' + g + '</th>' + years.map(function (y) {
+      var isNew = y >= Y0 && g <= N + (y - Y0);
+      return isNew ? '<td class="n">2026</td>' : '<td class="o">alt</td>';
+    }).join('') + '</tr>';
+  });
+  t.innerHTML = html;
+
+  // Tool to table highlighting
+  var chips = document.querySelectorAll('#map .chip');
+  var tools = document.querySelectorAll('#tools .tool');
+  function select(btn) {
+    var on = !btn.classList.contains('on');
+    tools.forEach(function (b) { b.classList.remove('on'); b.setAttribute('aria-pressed', 'false'); });
+    var reads = on ? btn.getAttribute('data-reads').split(' ') : [];
+    if (on) { btn.classList.add('on'); btn.setAttribute('aria-pressed', 'true'); }
+    chips.forEach(function (c) { c.classList.toggle('hot', reads.indexOf(c.getAttribute('data-t')) !== -1); });
+  }
+  tools.forEach(function (b) {
+    b.setAttribute('aria-pressed', 'false');
+    b.addEventListener('click', function () { select(b); });
+  });
+  select(tools[1]);
+})();
+</script>

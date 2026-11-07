@@ -44,12 +44,26 @@ mapping:
     - cited node_id exists
     - subject of node equals subject of topic
     - node grade span overlaps topic grade band (warn, not fail)
-  held_out_gold: data/gold_mappings.csv   # never shown to proposer or judge
+  held_out_gold: ../data/gold_mappings.csv   # never shown to proposer or judge (path relative to this pack)
 
 licence_policy:
+  curriculum_default: "amtliches Werk (§ 5 UrhG)"   # curriculum texts; see README legal position
+  curriculum_by_land:
+    ST: "CC BY-SA 4.0 (Sachsen-Anhalt Lehrplan-PDFs) and amtliches Werk (§ 5 UrhG)"
   full_text: ["amtliches Werk (§ 5 UrhG)", "CC BY-SA 4.0", "CC BY 4.0", "CC0"]
   structure_only: [KMK, IQB, exam focus documents]
   cross_check_only: [textbook plans, LEIFIphysik, commercial platforms]
+
+# Curated inputs: human decisions, reloaded on every build, never overwritten by it.
+curated:
+  context_aliases: ../inventory/context_aliases.yaml      # school form aliases, pathways, grade aliases
+  validity_overrides: ../inventory/validity_overrides.yaml # manual fixes for S0b
+  backbone: []                                             # topic YAML files, filled in M1 (data/backbone/)
+  evidence: []
+  coverage: []
+
+parse:
+  profiles: {}          # Land code -> module in builder/parse/, e.g. MV: mv (M1)
 
 outputs:
   dir: outputs

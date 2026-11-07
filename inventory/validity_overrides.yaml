@@ -1,0 +1,9 @@
+# Manual corrections for S0b, keyed by document_id. Human decisions: they win
+# over the parser and survive every rebuild. Each entry needs a reason.
+#
+# Example:
+# MV:rahmenplan-mathematik-sekundarbereich-i-gymnasium-2026:
+#   rollout: ascending_from_grade:7
+#   supersedes: [MV:rahmenplan-mathematik-7-10-allgemeine-hochschulreife]
+#   reason: "bildung-mv.de link title 'gültig ab 01.08.2027, aufwachsend' (checked 2026-11-07)"
+{}

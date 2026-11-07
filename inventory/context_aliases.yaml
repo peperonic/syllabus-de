@@ -1,0 +1,33 @@
+# Curated context data per Land: how people name school forms, which school
+# form a pupil attends at each grade of their track, and stage labels.
+# Read by builder S0. Human decisions: a rebuild reloads them, never overwrites.
+#
+# Sources are the inventory's school_structure entries; anything not stated
+# there is marked as an assumption.
+
+MV:
+  school_form_aliases:
+    gym: Gymnasium
+    gymnasium: Gymnasium
+    regionale schule: Regionale Schule
+    regionalschule: Regionale Schule
+    gesamtschule: Gesamtschule
+    igs: Gesamtschule
+    kgs: Gesamtschule
+    grundschule: Grundschule
+    gs: Grundschule
+    orientierungsstufe: Orientierungsstufe
+  pathways:
+    # inventory/states/MV.yaml school_structure: Grundschule 1-4,
+    # Orientierungsstufe 5-6 (schulartunabhängig), then the Sek I school form.
+    - tracks: [Gymnasium, Regionale Schule, Gesamtschule]
+      grades: [1, 4]
+      attends: Grundschule
+    - tracks: [Gymnasium, Regionale Schule, Gesamtschule]
+      grades: [5, 6]
+      attends: Orientierungsstufe
+  grade_aliases:
+    # MV.yaml: grade 10 at Gymnasium is the Einführungsphase (G8, KontStTVO);
+    # Q1/Q2 = grade 11, Q3/Q4 = grade 12 (assumption from the G8 model, verify in M1).
+    - school_forms: [Gymnasium, Gesamtschule]
+      labels: {E: 10, EF: 10, Q1: 11, Q2: 11, Q3: 12, Q4: 12}

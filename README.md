@@ -1,4 +1,40 @@
-# German curricula knowledge base: handoff package
+# German curricula knowledge base
+
+A knowledge graph of the official school curricula of the 16 Länder, and a read-only MCP server on top of it. Its main user is a model that writes exercises (Aufgaben): before writing, it asks what the curriculum expects for this exact pupil (Land, school form, grade, subject, date) and writes inside that frame.
+
+Architecture: `docs/architecture-map.html`. Decisions: `docs/decisions.md`. Progress per Land and subject: `STATUS.md`.
+
+## Build and use
+
+```bash
+pip install -r requirements.txt
+python3 -m pytest -q                                   # offline, builds the toy fixture
+python3 -m builder.run --list                          # stages S0 to S7
+python3 -m builder.run S0 S0b                          # real inventory, no network
+python3 -m builder.run --land MV --subject Mathematik  # one slice end to end (needs network, from M1)
+python3 scripts/status_report.py                       # regenerate STATUS.md
+```
+
+Query the knowledge base from Python or the shell, or connect the MCP server (`examples/mcp_config/`):
+
+```bash
+python3 kb_api.py tools
+python3 kb_api.py curriculum_status --context '{"land":"MV","school_form":"Gymnasium","grade":8,"subject":"Mathematik","date":"2026-11-07"}'
+python3 mcp_server.py
+```
+
+Try everything on the offline fixture with `--pack tests/fixture/pack.yaml --data-dir /tmp/toykb` (fictional Länder ZA, ZB, ZC).
+
+| Path | What it is |
+|---|---|
+| `builder/` | Staged builder: `run.py` runner, one module per stage, parser profiles in `builder/parse/` |
+| `kb/` | Core library: validity rules, context resolution, the tool logic (`service.py`) |
+| `kb_api.py`, `mcp_server.py` | The same read-only tools as Python API and CLI, and as an MCP server |
+| `inventory/context_aliases.yaml`, `inventory/validity_overrides.yaml` | Curated corrections, kept across rebuilds |
+| `examples/exercise_agent.md` | System prompt for the exercise-writing model |
+| `tests/` | Offline tests and the toy fixture |
+
+## The handoff package
 
 Status: 2026-11-07. Source inventory complete for 16 Länder (Mathematik, Chemie, Physik, Biologie, Politik/Wirtschaft, Arbeitslehre/WAT, integrated science and social-studies courses, Sachunterricht). Nothing has been scraped yet. This package is the input for building (1) the scraper and (2) the knowledge graph.
 

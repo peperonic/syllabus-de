@@ -76,6 +76,15 @@ section { display: flex; flex-direction: column; gap: 20px; }
 .tag.ok { color: var(--ok); background: transparent; border: 1px solid var(--ok); }
 .tag.warn { color: var(--warn); background: transparent; border: 1px solid var(--warn); }
 .tag.fail { color: var(--fail); background: transparent; border: 1px solid var(--fail); }
+.tag.built { color: var(--ok); background: transparent; border: 1px solid var(--ok); }
+.tag.m1 { color: var(--warn); background: transparent; border: 1px dashed var(--warn); }
+.chip.planned { border-style: dotted; color: var(--muted); }
+.stages .st { grid-column: 2; justify-self: start; }
+.proof { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.proof .panel h3 { font-size: 1.05rem; }
+.nums { font-family: var(--f-mono); font-size: 0.82rem; font-variant-numeric: tabular-nums; display: grid; grid-template-columns: auto minmax(0,1fr); gap: 2px 12px; }
+.nums b { font-weight: 500; text-align: right; }
+@media (max-width: 980px) { .proof { grid-template-columns: minmax(0, 1fr); } }
 .stages { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
 .stages li { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 7px 10px; display: grid; grid-template-columns: 2.4em minmax(0, 1fr); gap: 2px 6px; font-size: 0.85rem; line-height: 1.4; }
 .stages .sid { font-family: var(--f-mono); font-weight: 500; color: var(--accent); grid-row: span 2; }
@@ -176,27 +185,30 @@ footer { font-size: 0.82rem; color: var(--muted); border-top: 1px solid var(--li
 <div class="wrap">
 
 <header>
-  <div class="eyebrow">peperonic/syllabus-de &middot; architecture map &middot; before the build &middot; 2026-11-07</div>
+  <div class="eyebrow">peperonic/syllabus-de &middot; architecture map &middot; built state after M0 &middot; 2026-11-08</div>
   <h1>Curricula Knowledge Graph</h1>
-  <p class="lede">What the curricula-kb handoff package turns into: a staged, cached builder that reads the official curriculum documents of all 16 L&auml;nder into a SQLite knowledge graph with verbatim text and page numbers, and a read-only MCP server that an exercise-writing model must ask before it writes any Aufgabe.</p>
+  <p class="lede">A staged, cached builder that reads the official curriculum documents of all 16 L&auml;nder into a SQLite knowledge graph with verbatim text and page numbers, and a read-only MCP server that an exercise-writing model must ask before it writes any Aufgabe. Milestone M0 is built and tested offline; real curriculum text arrives in M1.</p>
   <div class="facts">
     <span><b>16</b> L&auml;nder</span>
     <span><b>399</b> curriculum documents</span>
     <span><b>129</b> ancillary resources</span>
     <span><b>8</b> subject groups, Primar to Abitur</span>
-    <span><b>7</b> build stages</span>
-    <span><b>9</b> MCP tools</span>
+    <span><b>9</b> build stages</span>
+    <span><b>11</b> MCP tools</span>
+    <span><b>75</b> offline tests passing</span>
   </div>
 </header>
 
 <section>
   <div class="sec-head">
     <h2>System map</h2>
-    <p class="note">Data flows left to right. Nothing on the right reads a source directly; everything goes through the knowledge base and one shared API. Dashed outlines mark parts I propose to add to the package's draft design.</p>
+    <p class="note">Data flows left to right. Nothing on the right reads a source directly; everything goes through the knowledge base and one shared API. Dashed outlines mark parts added to the package's draft design. Tags show what is built now and what M1 adds.</p>
   </div>
   <div class="legend">
     <span><i class="sw"></i>from the package design</span>
-    <span><i class="sw dash"></i>proposed addition</span>
+    <span><i class="sw dash"></i>added to the design</span>
+    <span><span class="tag built">built</span> works offline now</span>
+    <span><span class="tag m1">M1</span> needs network or API key</span>
     <span><i class="chip hot" style="padding:0 8px">&nbsp;</i>table read by the selected MCP tool</span>
   </div>
 
@@ -228,30 +240,30 @@ footer { font-size: 0.82rem; color: var(--muted); border-top: 1px solid var(--li
 
     <div class="lane">
       <div class="lane-title">Builder</div>
-      <div class="lane-sub">builder/run.py --list | --from S3 | S5</div>
+      <div class="lane-sub">python -m builder.run --list | --from S3 | --land MV</div>
       <ol class="stages">
-        <li><span class="sid">S0</span><span class="sname">Inventory merge</span><span class="sout">merged YAML and seed CSV</span></li>
-        <li class="new"><span class="sid">S0b</span><span class="sname">Normalise validity</span><span class="sout">"2027/28 aufwachsend" to valid_from, rollout rule, supersedes</span></li>
-        <li><span class="sid">S1</span><span class="sname">Fetch</span><span class="sout">data/raw/&lt;sha256&gt;, fetch_log; robots.txt, 1 req/s</span></li>
-        <li><span class="sid">S2</span><span class="sname">Extract</span><span class="sout">page text with layout hints (PyMuPDF, selectolax)</span></li>
-        <li><span class="sid">S3</span><span class="sname">Parse, one profile per Land</span><span class="sout">curriculum_node: verbatim text, page, grade band</span></li>
-        <li><span class="sid">S4</span><span class="sname">Backbone</span><span class="sout">topic and competence vocabularies (curated)</span></li>
-        <li><span class="sid">S5</span><span class="sname">Map (proposer LLM)</span><span class="sout">proposed maps_to and requires edges</span></li>
-        <li><span class="sid">S6</span><span class="sname">Certify or decline</span><span class="sout">mechanical checks, independent judge, audit</span></li>
-        <li><span class="sid">S7</span><span class="sname">Cross-check</span><span class="sout">evidence rows, coverage flags</span></li>
+        <li><span class="sid">S0</span><span class="sname">Inventory load</span><span class="sout">builder/inventory.py: 399 documents, school forms split, aliases</span><span class="st tag built">built</span></li>
+        <li class="new"><span class="sid">S0b</span><span class="sname">Normalise validity</span><span class="sout">kb/validity.py: valid_from, rollout, confidence; successor links</span><span class="st tag built">built</span></li>
+        <li><span class="sid">S1</span><span class="sname">Fetch</span><span class="sout">builder/fetch.py: robots.txt, 1 req/s, sha256 cache</span><span class="st tag m1">file: built, HTTP in M1</span></li>
+        <li><span class="sid">S2</span><span class="sname">Extract</span><span class="sout">builder/extract.py: pages from PDF (PyMuPDF), HTML, text</span><span class="st tag built">built</span></li>
+        <li><span class="sid">S3</span><span class="sname">Parse, one profile per Land</span><span class="sout">builder/parse/: fixture profile now, MV profile in M1</span><span class="st tag m1">MV profile in M1</span></li>
+        <li><span class="sid">S4</span><span class="sname">Backbone</span><span class="sout">builder/backbone.py: curated YAML, prerequisite cycles rejected</span><span class="st tag m1">loader built, Mathematik topics in M1</span></li>
+        <li><span class="sid">S5</span><span class="sname">Map (proposer)</span><span class="sout">claude-sonnet-4-6; fixture provider offline</span><span class="st tag m1">API provider in M1</span></li>
+        <li><span class="sid">S6</span><span class="sname">Certify or decline</span><span class="sout">mechanical checks, judge claude-opus-5-5, audit, gold metrics</span><span class="st tag m1">API provider in M1</span></li>
+        <li><span class="sid">S7</span><span class="sname">Cross-check</span><span class="sout">builder/mapping.py: evidence rows, unmapped topics flagged</span><span class="st tag built">built</span></li>
       </ol>
     </div>
 
     <div class="lane">
       <div class="lane-title">Knowledge base</div>
-      <div class="lane-sub">data/kb.sqlite (design/schema.sql)</div>
+      <div class="lane-sub">data/kb.sqlite, schema in design/schema.sql</div>
       <div class="box tgroup">
         <span class="glabel">Provenance</span>
-        <div class="chips"><span class="chip" data-t="fetch_log">fetch_log</span><span class="chip" data-t="document">document</span></div>
+        <div class="chips"><span class="chip" data-t="fetch_log">fetch_log</span><span class="chip" data-t="document">document</span><span class="chip new" data-t="document_school_form">document_school_form</span><span class="chip new" data-t="build_run">build_run</span></div>
       </div>
       <div class="box tgroup">
         <span class="glabel">Curriculum text</span>
-        <div class="chips"><span class="chip" data-t="curriculum_node">curriculum_node</span><span class="chip" data-t="node_fts">node_fts</span><span class="chip new" data-t="node_vec">node_vec</span></div>
+        <div class="chips"><span class="chip" data-t="curriculum_node">curriculum_node</span><span class="chip" data-t="node_fts">node_fts</span><span class="chip new planned" data-t="node_vec">node_vec (later)</span></div>
       </div>
       <div class="box tgroup">
         <span class="glabel">Backbone (curated)</span>
@@ -263,7 +275,7 @@ footer { font-size: 0.82rem; color: var(--muted); border-top: 1px solid var(--li
       </div>
       <div class="box tgroup">
         <span class="glabel">Pupil context</span>
-        <div class="chips"><span class="chip new" data-t="school_form_alias">school_form_alias</span><span class="chip new" data-t="convention">convention</span></div>
+        <div class="chips"><span class="chip new" data-t="land">land</span><span class="chip new" data-t="school_form_alias">school_form_alias</span><span class="chip new" data-t="pathway">pathway</span><span class="chip new" data-t="grade_alias">grade_alias</span><span class="chip new" data-t="convention">convention</span></div>
       </div>
       <div class="box tgroup">
         <span class="glabel">Quality</span>
@@ -280,19 +292,19 @@ footer { font-size: 0.82rem; color: var(--muted); border-top: 1px solid var(--li
       <div class="lane-sub">one core, three faces</div>
       <div class="box">
         <h3>kb_api.py</h3>
-        <p>Python API and CLI. All tool logic lives here, so every client sees the same data.</p>
+        <p>Python API and CLI with the call log. The tool logic lives in <code>kb/service.py</code>, so every client sees the same data.</p>
       </div>
       <div class="box">
         <h3>mcp_server.py</h3>
-        <p>stdio, Python MCP SDK. Thin wrapper over kb_api. Every tool annotated read-only and closed-world.</p>
+        <p>stdio, Python MCP SDK 2.x. Thin wrapper over kb_api; tested over real stdio. Every tool annotated read-only and closed-world.</p>
       </div>
       <div class="box new">
         <h3>Context resolver</h3>
-        <p>Land code or name, school form alias, grade, course level, date to binding document versions.</p>
+        <p><code>kb/resolve.py</code>: Land code or name, school form alias, grade or stage label, date to binding versions, along the cohort trace.</p>
       </div>
       <div class="box new">
         <h3>Guards</h3>
-        <p>Licence filter (no full text for structure-only sources), citation validator (every claim has a node id that exists), <code>summary_de</code> writer.</p>
+        <p>Licence filter at storage and again at output, citation check (a missing node id fails the call), <code>summary_de</code> without em dashes.</p>
       </div>
       <div class="box">
         <h3>Call log</h3>
@@ -325,11 +337,11 @@ footer { font-size: 0.82rem; color: var(--muted); border-top: 1px solid var(--li
 
 <section>
   <div class="sec-head">
-    <h2>The nine MCP tools</h2>
-    <p class="note">Select a tool to light up the tables it reads in the map above. Most tools take the same context: <code>{"land": "MV", "school_form": "Gymnasium", "grade": 8, "subject": "Mathematik", "course_level": null, "date": "2026-11-07"}</code>. Every response states the curriculum version and the evaluation date, lists its node ids under <code>citations</code>, and carries a 2 to 4 sentence <code>summary_de</code>.</p>
+    <h2>The eleven MCP tools</h2>
+    <p class="note">The nine tools from the brief, plus get_node and neighbors from the package's CLAUDE.md. Select a tool to light up the tables it reads in the map above. Most tools take the same context: <code>{"land": "MV", "school_form": "Gymnasium", "grade": 8, "subject": "Mathematik", "course_level": null, "date": "2026-11-07"}</code>. Every response states the curriculum version and the evaluation date, lists its node ids under <code>citations</code>, and carries a 2 to 4 sentence <code>summary_de</code>.</p>
   </div>
   <div class="tools" id="tools">
-    <button class="tool" data-reads="document context school_form_alias"><span class="tname">resolve_context <small>(context)</small></span><p>Normalised context and the binding document versions for the date, with the reason each applies. In a transition year it returns both versions and names the one binding for this cohort.</p><span class="reads">document, context, school_form_alias</span></button>
+    <button class="tool" data-reads="document context school_form_alias pathway grade_alias land document_school_form"><span class="tname">resolve_context <small>(context)</small></span><p>Normalised context and the binding document versions for the date, with the reason each applies. In a transition year it returns both versions and names the one binding for this cohort.</p><span class="reads">document, school_form_alias, pathway, grade_alias, land</span></button>
     <button class="tool" data-reads="document curriculum_node edge topic expected_in competence convention"><span class="tname">curriculum_status <small>(context)</small></span><p>The core call. <code>taught_before</code>, <code>current</code> with verbatim Kompetenzerwartung and page, <code>not_yet</code>, process competences, operators, conventions, uncertainty, citations.</p><span class="reads">document, curriculum_node, edge, topic, expected_in, competence, convention</span></button>
     <button class="tool" data-reads="curriculum_node node_fts node_vec edge topic"><span class="tname">topics_for <small>(context, query)</small></span><p>Search inside the applicable documents only (FTS5, optional embeddings), returning nodes with their backbone topics.</p><span class="reads">curriculum_node, node_fts, node_vec, edge, topic</span></button>
     <button class="tool" data-reads="topic edge expected_in curriculum_node"><span class="tname">topic_detail <small>(topic_id, context)</small></span><p>Definition, <code>requires</code> edges, what follows, where it appears in every Land, and the nodes for this context.</p><span class="reads">topic, edge, expected_in, curriculum_node</span></button>
@@ -338,6 +350,8 @@ footer { font-size: 0.82rem; color: var(--muted); border-top: 1px solid var(--li
     <button class="tool" data-reads="topic expected_in document context"><span class="tname">compare_lands <small>(topic_id)</small></span><p>Grade and track where a topic appears in each Land, for content that must work across L&auml;nder.</p><span class="reads">topic, expected_in, document, context</span></button>
     <button class="tool" data-reads="expected_in assistant_coverage topic"><span class="tname">coverage_gap <small>(context)</small></span><p>Topics expected up to this grade that the assistant's own content does not cover yet.</p><span class="reads">expected_in, assistant_coverage, topic</span></button>
     <button class="tool" data-reads="document fetch_log evidence"><span class="tname">sources <small>(document_id)</small></span><p>Provenance, licence and legal basis of a document, so outputs cite it correctly.</p><span class="reads">document, fetch_log, evidence</span></button>
+    <button class="tool" data-reads="curriculum_node document edge"><span class="tname">get_node <small>(node_id)</small></span><p>One curriculum node with its path in the document, its page and its certified topics.</p><span class="reads">curriculum_node, document, edge</span></button>
+    <button class="tool" data-reads="topic edge"><span class="tname">neighbors <small>(topic_id)</small></span><p>Prerequisites, follow-up topics, parent and children of a backbone topic.</p><span class="reads">topic, edge</span></button>
   </div>
 </section>
 
@@ -366,7 +380,7 @@ footer { font-size: 0.82rem; color: var(--muted); border-top: 1px solid var(--li
       <table class="roll" id="roll" aria-label="Binding plan by school year and grade, MV Gymnasium Mathematik"></table>
     </div>
     <div class="legend"><span><i class="sw" style="background:var(--plan-new)"></i>2026 plan binds</span><span><i class="sw" style="background:var(--plan-old)"></i>old AHR plan binds</span></div>
-    <p class="note">The grid shows the old plan is no longer needed for grades 7 to 10 after 31.07.2030, one year before its stated end. S0b records this kind of mismatch, and <code>resolve_context</code> reports it as uncertainty instead of guessing. One plausible reason is repeaters.</p>
+    <p class="note">The grid shows the old plan is no longer needed for grades 7 to 10 after 31.07.2030, one year before its stated end. One plausible reason is repeaters. S0b now reads both entries from the real inventory: the 2026 plan as <code>ascending_from_grade:7</code> from 01.08.2027 (inferred), the AHR plan with end 31.07.2031 and unknown start (needs review), and links them with a <code>supersedes</code> edge.</p>
   </div>
 
   <div class="panel">
@@ -389,38 +403,82 @@ footer { font-size: 0.82rem; color: var(--muted); border-top: 1px solid var(--li
   </div>
 </section>
 
+<section>
+  <div class="sec-head">
+    <h2>What M0 has established</h2>
+    <p class="note">Results from the offline tests and from running S0 and S0b over the real inventory. No curriculum text has been fetched yet.</p>
+  </div>
+  <div class="proof">
+    <div class="panel">
+      <h3>A cohort changes plan at most once</h3>
+      <p>Along a cohort <var>g</var> &minus; <var>y</var> is constant, so <var>g</var> &le; <var>N</var> + (<var>y</var> &minus; <var>Y</var><sub>0</sub>) holds for every year of that cohort or none. The other condition, <var>y</var> &ge; <var>Y</var><sub>0</sub>, does not. So a cohort switches only in <var>Y</var><sub>0</sub>, and exactly the cohorts in grades <var>a</var> &lt; <var>g</var> &le; <var>N</var> then: <var>N</var> &minus; <var>a</var> cohorts.</p>
+      <p class="note">A property test disproved my first, stronger claim (no switching ever) on BW-style "Klassen 1 und 2" rollouts. For the switching cohorts, <code>curriculum_status</code> now names what the new plan assumes from earlier grades that the old plan never taught.</p>
+    </div>
+    <div class="panel">
+      <h3>Real inventory, S0 and S0b</h3>
+      <div class="nums">
+        <b>399</b><span>documents loaded, ids unique</span>
+        <b>131</b><span>validity stated in the text</span>
+        <b>168</b><span>validity inferred, with a note</span>
+        <b>100</b><span>validity sent to review, not guessed</span>
+        <b>68</b><span>successor links between plan versions</span>
+        <b>2</b><span>placeholder L&auml;nder: TH, SL</span>
+      </div>
+      <p class="note">Checked readings: SN staged dates give <var>N</var> = 8; BY G9 end point gives <var>N</var> = 13 &minus; (2025 &minus; 2018) = 6; BW end point checks out, 6 + (2032 &minus; 2025) = 13.</p>
+    </div>
+    <div class="panel">
+      <h3>Toy fixture, S0 to S7</h3>
+      <div class="nums">
+        <b>8</b><span>documents in 3 fictional L&auml;nder</span>
+        <b>3</b><span>bad proposals declined (2 mechanical, 1 judge)</span>
+        <b>1.0</b><span>gold-set precision of certified edges</span>
+        <b>0.75</b><span>gold-set recall (one mapping deliberately skipped)</span>
+        <b>0</b><span>leaks of structure-only text, even after injecting it into the database</span>
+      </div>
+      <p class="note">Every node id in every answer resolves and is listed under <code>citations</code>.</p>
+    </div>
+  </div>
+</section>
+
 <section class="two">
   <div class="panel">
     <h2>Repository layout</h2>
 <pre class="tree">syllabus-de/
-  CLAUDE.md  README.md  STATUS.md
-  inventory/            <span class="c"># from the package, edited only here</span>
-  research_notes/  design/  scripts/  prompts/
+  CLAUDE.md  README.md  STATUS.md   <span class="c"># STATUS.md generated</span>
+  inventory/            <span class="c"># from the package</span>
+    <span class="nw">context_aliases.yaml</span>       <span class="c"># curated: aliases, pathways</span>
+    <span class="nw">validity_overrides.yaml</span>    <span class="c"># curated: S0b fixes</span>
+  research_notes/  design/  prompts/
+  docs/                 <span class="c"># this map, decisions.md</span>
   builder/
-    run.py              <span class="c"># --list, --from, named stages</span>
-    <span class="nw">validity.py</span>         <span class="c"># S0b rollout normaliser</span>
-    fetch.py  extract.py  backbone.py
-    parse/              <span class="c"># one profile per Land</span>
-      mv.py  sh.py  ...
-    map_topics.py  certify.py  crosscheck.py
-  kb_api.py             <span class="c"># API and CLI, all tool logic</span>
-  mcp_server.py         <span class="c"># stdio twin</span>
+    run.py              <span class="c"># --list, --from, --land</span>
+    inventory.py        <span class="c"># S0, S0b</span>
+    fetch.py  extract.py  parse_stage.py
+    backbone.py  mapping.py  providers.py
+    parse/markup.py     <span class="c"># fixture profile; mv.py in M1</span>
+  kb/
+    validity.py  resolve.py  service.py
+    pack.py  db.py  text.py
+  kb_api.py  mcp_server.py
   examples/
     exercise_agent.md   mcp_config/
-  tests/
-    fixture/            <span class="c"># 2 fictional Länder, 1 ascending rollout</span>
-  data/                 <span class="c"># gitignored: raw/, kb.sqlite</span>
-  <span class="nw">data/gold_mappings.csv</span>  <span class="c"># tracked, never fed to S5/S6</span></pre>
+  scripts/
+    merge_inventory.py  status_report.py
+  tests/                <span class="c"># 75 tests, offline</span>
+    fixture/            <span class="c"># ZA, ZB, ZC</span>
+  data/                 <span class="c"># gitignored: raw/, kb.sqlite</span></pre>
   </div>
   <div class="panel">
-    <h2>Proposed schema additions</h2>
-    <p class="note">The draft <code>schema.sql</code> cannot yet answer every field the brief asks for. These additions close the gap.</p>
+    <h2>Schema additions, built</h2>
+    <p class="note">The draft <code>schema.sql</code> could not answer every field the brief asks for. These additions are now in <code>design/schema.sql</code>, which the code loads directly.</p>
     <div class="flow">
       <div class="frow"><span class="fk">document</span><span>add <code>doc_slug</code>, <code>rollout</code> (<code>all_grades</code> | <code>ascending_from_grade:N</code>), <code>school_year_start</code> (default 08-01), <code>validity_note</code> for raw text and mismatches.</span></div>
       <div class="frow"><span class="fk">school_form_alias</span><span>Land, alias, official name. Feeds the normalisation that <code>resolve_context</code> returns.</span></div>
+      <div class="frow"><span class="fk">pathway</span><span>Which school form a pupil on a track attends at each grade (MV: Grundschule 1 to 4, Orientierungsstufe 5 to 6).</span></div>
+      <div class="frow"><span class="fk">document_school_form</span><span>The inventory's composite strings split into official school forms.</span></div>
       <div class="frow"><span class="fk">convention</span><span>Land, subject, school form, band, kind (notation, units, Merkhilfe, calculator WTR or CAS), text, source node or evidence id.</span></div>
       <div class="frow"><span class="fk">competence</span><span>add <code>land</code> and <code>subject</code> so Land operator lists sit next to the KMK Anforderungsbereiche I to III.</span></div>
-      <div class="frow"><span class="fk">node_vec</span><span>optional embeddings for <code>topics_for</code>; the server works with FTS5 alone.</span></div>
+      <div class="frow"><span class="fk">node_vec</span><span>not built: optional embeddings for <code>topics_for</code>. The server works with FTS5 alone.</span></div>
     </div>
   </div>
 </section>
@@ -435,15 +493,16 @@ footer { font-size: 0.82rem; color: var(--muted); border-top: 1px solid var(--li
       <li><span><b>Language:</b> curriculum text verbatim in German, code and keys in English, <code>summary_de</code> in German, no em dashes in generated text.</span></li>
       <li><span><b>Conventions:</b> the package's CLAUDE.md rules govern the repo; commits go straight to <code>main</code> and are pushed after every step.</span></li>
       <li><span><b>First slice:</b> MV Mathematik (8 documents, including the 2026 plans in transition) through S6, shown to you before widening.</span></li>
+      <li><span><b>Models:</b> proposer <code>claude-sonnet-4-6</code>, judge <code>claude-opus-5-5</code>. Same vendor, so independence comes from separation: the judge never sees the proposer's reasoning, and the gold set measures the result.</span></li>
     </ol>
   </div>
   <div class="panel">
-    <h2>Open before the first fetch</h2>
+    <h2>Open before M1</h2>
     <ol class="dlist open">
-      <li><span><b>Crawler contact address</b> for the User-Agent. The brief requires me to ask you before any network request.</span></li>
-      <li><span><b>Proposer and judge models.</b> They must come from different model families, and the judge needs an API key in this environment.</span></li>
-      <li><span><b>Network access</b> to bildung-mv.de and the other portal hosts may need to be allowed in this cloud environment.</span></li>
-      <li><span><b>Sachsen:</b> the Lehrplandatenbank index is closed to bots, so the link list has to come from you or from LaSuB.</span></li>
+      <li><span><b>Crawler contact:</b> set to the address you gave, <code>chiaramariaperrrone@pm.me</code>. Please confirm the spelling (three r).</span></li>
+      <li><span><b>Network access</b> to <code>www.bildung-mv.de</code>, proposed when the first download is blocked.</span></li>
+      <li><span><b>Anthropic API key</b> for the proposer and the judge, requested through the secure form.</span></li>
+      <li><span><b>Sachsen:</b> the Lehrplandatenbank index is closed to bots, so the link list has to come from you or from LaSuB. Needed only when SN is widened.</span></li>
     </ol>
   </div>
 </section>
@@ -451,7 +510,7 @@ footer { font-size: 0.82rem; color: var(--muted); border-top: 1px solid var(--li
 <section>
   <div class="sec-head"><h2>Build order</h2></div>
   <div class="miles">
-    <div class="mile"><span class="mk">M0 &middot; offline</span><h3>Skeleton and toy fixture</h3><p>Stage runner, schema, kb_api, MCP server, tests on 2 fictional L&auml;nder: rollout year, not_yet filter, citations resolve, licence filter never leaks.</p></div>
+    <div class="mile"><span class="mk">M0 &middot; done</span><h3>Skeleton and toy fixture</h3><p>Stage runner, schema, kb_api, MCP server, 75 offline tests on 3 fictional L&auml;nder: rollout years, not_yet filter, citations resolve, licence filter never leaks.</p></div>
     <div class="mile gate"><span class="mk">M1 &middot; review gate</span><h3>MV Mathematik to S6</h3><p>Graph counts, one curriculum_status, one check_exercise shown to you before anything widens.</p></div>
     <div class="mile"><span class="mk">M2</span><h3>Second clean Land</h3><p>SH, then the three acceptance contexts: Grundschule Kl. 3 Mathematik, Gymnasium Kl. 8 Physik, Oberstufe Biologie.</p></div>
     <div class="mile"><span class="mk">M3</span><h3>Widen Land by Land</h3><p>Plain-HTTP L&auml;nder, then headless BY RP ST SN, then the TH and SL inventory repair.</p></div>
@@ -459,7 +518,7 @@ footer { font-size: 0.82rem; color: var(--muted); border-top: 1px solid var(--li
   </div>
 </section>
 
-<footer>Sources: curricula-kb handoff package (README.md, CLAUDE.md, design/knowledge_graph.md, design/schema.sql, design/pack.yaml, inventory/states/MV.yaml) and prompts/build_kg_and_mcp.md. Design patterns borrowed from Opening-Science/conjecture as ideas only (AGPL-3.0 applies to copied code).</footer>
+<footer>Updated 2026-11-08 to the state of main after M0. Sources: curricula-kb handoff package (README.md, CLAUDE.md, design/knowledge_graph.md, design/schema.sql, design/pack.yaml, inventory/states/MV.yaml) and prompts/build_kg_and_mcp.md. Design patterns borrowed from Opening-Science/conjecture as ideas only (AGPL-3.0 applies to copied code).</footer>
 
 </div>
 

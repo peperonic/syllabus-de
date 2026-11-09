@@ -4,7 +4,7 @@ Running log of design decisions. Newest first. Each entry says what was decided,
 
 ## 2026-11-07: owner answers before M0
 
-1. **Crawler contact.** `chiaramariaperrrone@pm.me`, set in `design/pack.yaml` (`fetch.contact`, `fetch.user_agent`). Used only in the User-Agent of the S1 fetcher.
+1. **Crawler contact.** `chiaramariaperrone@pm.me` (spelling corrected by the owner on 2026-11-09), set in `design/pack.yaml` (`fetch.contact`, `fetch.user_agent`). Used only in the User-Agent of the S1 fetcher.
 2. **Mapping models.** Proposer `claude-sonnet-4-6`, judge `claude-opus-5-5` (`mapping.proposer`, `mapping.judge` in `design/pack.yaml`).
    - The package design asked for a judge from a *different model family*. The owner chose two Anthropic models. They differ in size and generation, which gives some independence but not the vendor-level independence the design intended.
    - Mitigations kept in the design: the judge sees only the verbatim curriculum text and the proposed edge, never the proposer's reasoning; mechanical checks run first and can fail an edge on their own; the held-out gold set (`data/gold_mappings.csv`) measures how good the certified edges are, so a shared blind spot shows up as low precision there rather than staying invisible.

@@ -17,8 +17,8 @@ corpus:
   cache_ttl_days: 30
 
 fetch:
-  user_agent: "curricula-kb research crawler (+https://github.com/peperonic/syllabus-de; contact: chiaramariaperrrone@pm.me)"
-  contact: "chiaramariaperrrone@pm.me"   # given by the project owner 2026-11-07
+  user_agent: "curricula-kb research crawler (+https://github.com/peperonic/syllabus-de; contact: chiaramariaperrone@pm.me)"
+  contact: "chiaramariaperrone@pm.me"   # given by the project owner 2026-11-07, spelling corrected 2026-11-09
   rate_limit_per_second: 1
   respect_robots_txt: true
   headless_browser_for: [BY, RP, ST, SN, TH, SL]

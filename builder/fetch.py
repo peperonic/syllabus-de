@@ -20,7 +20,10 @@ from pathlib import Path
 
 from .common import StageContext, now
 
-EXT_BY_TYPE = {"application/pdf": ".pdf", "text/html": ".html", "text/plain": ".txt"}
+BUNDLE_TYPE = "application/x-curricula-html-bundle+json"
+
+EXT_BY_TYPE = {"application/pdf": ".pdf", "text/html": ".html", "text/plain": ".txt",
+               BUNDLE_TYPE: ".bundle.json"}
 
 
 class Fetcher:
@@ -58,6 +61,10 @@ class Fetcher:
                 rp = _allow_all()
             self._robots[base] = rp
         rp = self._robots[base]
+        if rp is not None:
+            cd = rp.crawl_delay(self.user_agent) or rp.crawl_delay("*")
+            if cd:
+                self.delay = max(self.delay, float(cd))  # the site's own request spacing wins
         return False if rp is None else rp.can_fetch(self.user_agent, url)
 
     def get(self, url: str) -> tuple[int, str, bytes]:
@@ -82,7 +89,8 @@ def s1_fetch(sc: StageContext) -> dict:
     docs = [dict(r) for r in conn.execute(f"SELECT d.* FROM document d WHERE {where}", params)]
     inv_dir = pack.inventory_path.parent
     fetcher = None
-    stats = {"fetched": 0, "cached": 0, "skipped": 0, "errors": 0, "robots_disallowed": 0}
+    bundles = set(pack.get("fetch.html_bundles", []) or [])
+    stats = {"fetched": 0, "cached": 0, "skipped": 0, "errors": 0, "robots_disallowed": 0, "subpages": 0}
     for d in docs:
         url = (d.get("source_url") or "").strip()
         if not url or url.lower().startswith(("unverified", "unknown", "none")) or " " in url:
@@ -108,6 +116,8 @@ def s1_fetch(sc: StageContext) -> dict:
                     conn.execute("INSERT INTO fetch_log(url, retrieved_at, error) VALUES (?,?,?)", (url, now(), "robots.txt disallows"))
                     continue
                 status, ctype, data = fetcher.get(url)
+                if d["land"] in bundles and ctype == "text/html":
+                    data, ctype = _fetch_bundle(sc, fetcher, url, data, stats)
         except Exception as e:  # noqa: BLE001 - every failure is logged, the run continues
             stats["errors"] += 1
             conn.execute("INSERT INTO fetch_log(url, retrieved_at, error) VALUES (?,?,?)", (url, now(), f"{type(e).__name__}: {e}"[:500]))
@@ -124,6 +134,46 @@ def s1_fetch(sc: StageContext) -> dict:
     conn.commit()
     sc.say(f"S1: {stats}")
     return stats
+
+
+def _fetch_bundle(sc: StageContext, fetcher: Fetcher, url: str, index_html: bytes, stats: dict) -> tuple[bytes, str]:
+    """A plan published as an index page plus sub-pages (BW Bildungsplanplattform).
+
+    Sub-pages are the links whose path starts with the index page's own id plus
+    an underscore, e.g. /,Lde/BP2016BW_ALLG_SEK1_M.V2 -> /,Lde/BP2016BW_ALLG_SEK1_M.V2_IK_7-8-9_01_00.
+    Each page is cached by its own sha256; the document's raw file is a JSON
+    manifest listing them in order, so the document hash changes when any page does.
+    A single-page plan (no such links) yields a manifest with one page."""
+    import json
+    import re
+    parts = urllib.parse.urlsplit(url)
+    base = f"{parts.scheme}://{parts.netloc}"
+    own = urllib.parse.unquote(parts.path)
+    pages = [(url, index_html)]
+    seen = {own}
+    for href in re.findall(r'href="(/,Lde/[^"#?]+)"', index_html.decode("utf-8", "replace")):
+        p = urllib.parse.unquote(href)
+        if p in seen or not p.startswith(own + "_"):
+            continue
+        seen.add(p)
+        sub = base + href
+        if not fetcher.allowed(sub):
+            stats["robots_disallowed"] += 1
+            continue
+        status, ctype, data = fetcher.get(sub)
+        sc.conn.execute("INSERT INTO fetch_log(url, sha256, http_status, content_type, bytes, retrieved_at) VALUES (?,?,?,?,?,?)",
+                        (sub, hashlib.sha256(data).hexdigest(), status, ctype, len(data), now()))
+        pages.append((sub, data))
+        stats["subpages"] += 1
+    manifest = []
+    for u, data in pages:
+        sha = hashlib.sha256(data).hexdigest()
+        target = sc.pack.raw_dir / f"{sha}.html"
+        if not target.exists():
+            target.write_bytes(data)
+        manifest.append({"url": u, "sha256": sha})
+    sc.conn.commit()
+    return json.dumps({"index": url, "pages": manifest}, ensure_ascii=False, indent=1).encode("utf-8"), BUNDLE_TYPE
 
 
 def _raw_path(pack, sha: str) -> Path | None:

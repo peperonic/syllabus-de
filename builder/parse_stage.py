@@ -40,9 +40,9 @@ def s3_parse(sc: StageContext) -> dict:
                 label = label or f"{n['kind']} {n['path']}"
             conn.execute(
                 """INSERT INTO curriculum_node(node_id, document_id, parent_id, kind, ordinal, label, text,
-                   grade_from, grade_to, course_level, page) VALUES (?,?,?,?,?,?,?,?,?,?,?)""",
+                   grade_from, grade_to, course_level, page, locator) VALUES (?,?,?,?,?,?,?,?,?,?,?,?)""",
                 (node_id, d["document_id"], parent_id, n["kind"], n["ordinal"], label, text,
-                 n.get("grade_from"), n.get("grade_to"), n.get("course_level"), n.get("page")))
+                 n.get("grade_from"), n.get("grade_to"), n.get("course_level"), n.get("page"), n.get("locator")))
             conn.execute("INSERT INTO node_fts(node_id, label, text) VALUES (?,?,?)", (node_id, label or "", text or ""))
             stats["nodes"] += 1
         stats["documents"] += 1

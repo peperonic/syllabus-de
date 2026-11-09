@@ -44,6 +44,17 @@ def extract_pages(path) -> list[dict]:
             raise RuntimeError("PDF extraction needs PyMuPDF: pip install -r requirements.txt") from e
         with fitz.open(path) as pdf:
             return [{"page": i + 1, "text": p.get_text("text")} for i, p in enumerate(pdf)]
+    if path.name.endswith(".bundle.json"):
+        manifest = json.loads(path.read_text(encoding="utf-8"))
+        out = []
+        for i, pg in enumerate(manifest["pages"], 1):
+            src = path.parent / f"{pg['sha256']}.html"
+            html_text = src.read_bytes().decode("utf-8", "replace")
+            p = _TextOnly()
+            p.feed(html_text)
+            # HTML plans keep their markup: the parser profile needs the structure.
+            out.append({"page": i, "url": pg["url"], "html": html_text, "text": "".join(p.out)})
+        return out
     raw = path.read_bytes().decode("utf-8", "replace")
     if suffix in (".html", ".htm"):
         p = _TextOnly()

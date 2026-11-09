@@ -31,3 +31,25 @@ MV:
     # Q1/Q2 = grade 11, Q3/Q4 = grade 12 (assumption from the G8 model, verify in M1).
     - school_forms: [Gymnasium, Gesamtschule]
       labels: {E: 10, EF: 10, Q1: 11, Q2: 11, Q3: 12, Q4: 12}
+
+BW:
+  school_form_aliases:
+    gym: Gymnasium
+    gymnasium: Gymnasium
+    g8: Gymnasium
+    g9: Gymnasium
+    rs: Realschule
+    realschule: Realschule
+    wrs: Werkrealschule
+    werkrealschule: Werkrealschule
+    hs: Hauptschule
+    hauptschule: Hauptschule
+    gms: Gemeinschaftsschule
+    gemeinschaftsschule: Gemeinschaftsschule
+    gs: Grundschule
+    grundschule: Grundschule
+  pathways:
+    # inventory/states/BW.yaml: Grundschule 1-4, then the secondary school form.
+    - tracks: [Gymnasium, Realschule, Werkrealschule, Hauptschule, Gemeinschaftsschule]
+      grades: [1, 4]
+      attends: Grundschule

@@ -18,12 +18,11 @@ def s4_backbone(sc: StageContext) -> dict:
     conn = sc.conn
     stats = {"topics": 0, "requires": 0, "competences": 0, "conventions": 0, "rejected": 0}
     files = sc.pack.files("backbone")
-    if not files:
-        sc.say("S4: no curated backbone files in the pack")
-        return stats
     conn.execute("DELETE FROM edge WHERE rel = 'requires' AND curated = 1")
     conn.execute("DELETE FROM convention")
     conn.execute("DELETE FROM competence")
+    if not files:
+        sc.say("S4: no curated backbone files in the pack")
     topics, requires = [], []
     for path in files:
         data = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
@@ -49,6 +48,7 @@ def s4_backbone(sc: StageContext) -> dict:
                          (v["id"], v["land"], v["subject"], v.get("school_form"), v.get("grade_from"), v.get("grade_to"),
                           v["kind"], v["text_de"], v.get("check_regex"), v.get("severity", "warn"), v["source_node"]))
             stats["conventions"] += 1
+    stats["operators_from_plans"] = _operators_from_nodes(conn) if sc.pack.get("backbone_auto.operators_from_plans") else 0
     known = {t["id"] for t in topics}
     for t in topics:
         conn.execute(
@@ -74,6 +74,26 @@ def s4_backbone(sc: StageContext) -> dict:
     conn.commit()
     sc.say(f"S4: {stats}")
     return stats
+
+
+def _operators_from_nodes(conn) -> int:
+    """Operator lists printed in the plans become competence rows, one per verb,
+    each resting on the node of its table row. Label format from the parser:
+    'begründen, nachweisen, zeigen [AFB III]'."""
+    import re
+    n = 0
+    for r in conn.execute("""SELECT c.node_id, c.label, d.land, d.subject FROM curriculum_node c
+                             JOIN document d ON d.document_id = c.document_id WHERE c.kind = 'Operator'""").fetchall():
+        m = re.match(r"^(.*?)\s*\[AFB ([IV\-– ]+)\]$", r["label"] or "")
+        if not m:
+            continue
+        afb = m.group(2).replace("–", "-").replace(" ", "")
+        for verb in [v.strip() for v in m.group(1).split(",") if v.strip()]:
+            cid = f"{r['node_id']}#{verb}"
+            conn.execute("INSERT OR REPLACE INTO competence VALUES (?,?,?,?,?,?,?,?,?)",
+                         (cid, "operator", verb, None, "operator table of the plan", r["land"], r["subject"], afb, r["node_id"]))
+            n += 1
+    return n
 
 
 def _node_exists(conn, node_id: str) -> bool:

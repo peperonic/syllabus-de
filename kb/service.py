@@ -83,6 +83,10 @@ class KnowledgeBase:
         out = {"node_id": n["node_id"], "kind": n["kind"], "label": n.get("label"),
                "grades": f"{gf}" if gf == gt else f"{gf}-{gt}", "page": n.get("page"),
                "document_id": n["document_id"]}
+        if n.get("course_level"):
+            out["course_level"] = n["course_level"]
+        if n.get("locator"):
+            out["locator"] = n["locator"]
         if self._full_text_allowed(doc):
             out["text"] = n.get("text")
         else:

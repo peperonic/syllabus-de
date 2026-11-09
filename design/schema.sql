@@ -114,7 +114,8 @@ CREATE TABLE IF NOT EXISTS curriculum_node (
   grade_from INTEGER,
   grade_to INTEGER,
   course_level TEXT,                     -- grundlegend, erhöht, GK, LK, Basisfach, Leistungsfach
-  page INTEGER
+  page INTEGER,
+  locator TEXT                           -- M1: where a reader finds it, e.g. a URL with #anchor for HTML plans
 );
 CREATE INDEX IF NOT EXISTS idx_node_doc ON curriculum_node(document_id);
 CREATE INDEX IF NOT EXISTS idx_node_parent ON curriculum_node(parent_id);

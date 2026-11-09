@@ -23,6 +23,7 @@ fetch:
   respect_robots_txt: true
   headless_browser_for: [BY, RP, ST, SN, TH, SL]
   reindex_each_run: [HE, NW]        # PDF URLs change on re-upload
+  html_bundles: [BW]                # plans published as an index page plus sub-pages
 
 backbone:
   mathematik:
@@ -62,11 +63,15 @@ curated:
   evidence: []
   coverage: []
 
+backbone_auto:
+  operators_from_plans: true   # S4 turns parsed operator tables into competence rows
+
 nodes:
-  content_kinds: [Kompetenzerwartung, Inhalt, Kompetenz, Standard]   # what counts as teachable content
+  content_kinds: [Kompetenzerwartung, Inhalt, Kompetenz, Standard, Teilkompetenz]   # what counts as teachable content
 
 parse:
-  profiles: {}          # Land code -> module in builder/parse/, e.g. MV: mv (M1)
+  profiles:             # Land code -> module in builder/parse/
+    BW: bw
 
 outputs:
   dir: outputs

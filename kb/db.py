@@ -23,8 +23,19 @@ def connect(path: str | Path, *, read_only: bool = False) -> sqlite3.Connection:
     return conn
 
 
+# Columns added after a table was first created. CREATE TABLE IF NOT EXISTS does
+# not add them to an existing database, so they are added here.
+MIGRATIONS = [
+    ("curriculum_node", "locator", "TEXT"),
+]
+
+
 def init_schema(conn: sqlite3.Connection) -> None:
     conn.executescript(SCHEMA_PATH.read_text(encoding="utf-8"))
+    for table, column, decl in MIGRATIONS:
+        cols = {r[1] for r in conn.execute(f"PRAGMA table_info({table})")}
+        if column not in cols:
+            conn.execute(f"ALTER TABLE {table} ADD COLUMN {column} {decl}")
     conn.commit()
 
 

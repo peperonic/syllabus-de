@@ -124,12 +124,15 @@ def _gold_report(sc: StageContext) -> dict | None:
     with path.open(encoding="utf-8") as fh:
         gold = [(r["node_id"], r["topic_id"], r["label"].strip() == "1") for r in csv.DictReader(fh)]
     certified = {(r[0], r[1]) for r in sc.conn.execute("SELECT src, dst FROM edge WHERE rel='maps_to' AND certified=1")}
-    labelled = {(a, b): lab for a, b, lab in gold}
+    labelled = {(a, b): lab for a, b, lab in gold if b}
     pos = {k for k, lab in labelled.items() if lab}
-    judged = certified & set(labelled)
+    # Every node in the gold file was labelled in full: a certified topic the gold
+    # set does not list for that node counts as a false positive.
+    sampled = {a for a, _, _ in gold}
+    judged = {e for e in certified if e[0] in sampled}
     tp = len(judged & pos)
     return {
-        "gold_pairs": len(labelled), "gold_positive": len(pos),
+        "gold_nodes": len(sampled), "gold_pairs": len(labelled), "gold_positive": len(pos),
         "certified_in_gold": len(judged), "true_positive": tp,
         "precision": round(tp / len(judged), 3) if judged else None,
         "recall": round(tp / len(pos), 3) if pos else None,

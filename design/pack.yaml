@@ -59,7 +59,7 @@ licence_policy:
 curated:
   context_aliases: ../inventory/context_aliases.yaml      # school form aliases, pathways, grade aliases
   validity_overrides: ../inventory/validity_overrides.yaml # manual fixes for S0b
-  backbone: []                                             # topic YAML files, filled in M1 (data/backbone/)
+  backbone: [../backbone/mathematik.yaml]                  # topic YAML files per subject
   evidence: []
   coverage: []
 

@@ -1,0 +1,1252 @@
+# Backbone topics for Mathematik (curated). Primar to Abitur.
+# Anchored on the KMK Leitideen (Sek I and II: L1 Zahl, L2 Messen, L3 Raum und Form,
+# L4 Funktionaler Zusammenhang, L5 Daten und Zufall; Primar adds Muster und Strukturen).
+# KMK documents are structure only: labels here are our own wording, not KMK text.
+# grade_band is a typical placement across Länder, used for a warn-level plausibility
+# check in S6, never as a fact about any one Land. requires must stay acyclic (S4 checks).
+# Keywords are folded German terms used by check_exercise and the S5 candidate ranking;
+# a trailing * matches any word with that prefix.
+topics:
+- id: math.p.numbers_to_20
+  subject: Mathematik
+  label_de: Zahlen bis 20
+  kmk_anchor: L1 Zahl und Operation
+  grade_band: '1'
+  keywords:
+  - Zahlenraum bis 20
+  - Zwanzigerfeld
+  - Zahlen bis 20
+- id: math.p.numbers_to_100
+  subject: Mathematik
+  label_de: Zahlen bis 100
+  kmk_anchor: L1 Zahl und Operation
+  grade_band: 1-2
+  keywords:
+  - Zahlenraum bis 100
+  - Hunderterfeld
+  - Hundertertafel
+  - Zahlen bis 100
+  requires:
+  - math.p.numbers_to_20
+- id: math.p.numbers_to_1000
+  subject: Mathematik
+  label_de: Zahlen bis 1000
+  kmk_anchor: L1 Zahl und Operation
+  grade_band: '3'
+  keywords:
+  - Zahlenraum bis 1000
+  - Zahlenraum bis 1.000
+  - Tausenderbuch
+  requires:
+  - math.p.numbers_to_100
+- id: math.p.numbers_to_million
+  subject: Mathematik
+  label_de: Zahlen bis 1 000 000
+  kmk_anchor: L1 Zahl und Operation
+  grade_band: '4'
+  keywords:
+  - Zahlenraum bis 1.000.000
+  - Million
+  - Zahlenraum bis 1 000 000
+  requires:
+  - math.p.numbers_to_1000
+- id: math.p.place_value
+  subject: Mathematik
+  label_de: Stellenwertsystem
+  kmk_anchor: L1 Zahl und Operation
+  grade_band: 1-4
+  keywords:
+  - Stellenwert*
+  - Stellenwerttafel
+  - Bündel*
+  - Einer
+  - Zehner
+  - Hunderter
+  - dezimale Stellenwertsystem
+  requires:
+  - math.p.numbers_to_20
+- id: math.p.add_sub
+  subject: Mathematik
+  label_de: Addition und Subtraktion
+  kmk_anchor: L1 Zahl und Operation
+  grade_band: 1-2
+  keywords:
+  - addieren
+  - subtrahieren
+  - Addition*
+  - Subtraktion*
+  - Plusaufgabe*
+  - Minusaufgabe*
+  - Ergänzen
+  - Tauschaufgabe*
+  - Umkehraufgabe*
+  requires:
+  - math.p.numbers_to_20
+- id: math.p.mult_div
+  subject: Mathematik
+  label_de: Multiplikation und Division, Einmaleins
+  kmk_anchor: L1 Zahl und Operation
+  grade_band: 2-3
+  keywords:
+  - multiplizieren
+  - dividieren
+  - Multiplikation*
+  - Division*
+  - Einmaleins
+  - Malaufgabe*
+  - Geteiltaufgabe*
+  - Kernaufgabe*
+  requires:
+  - math.p.add_sub
+- id: math.p.written_algorithms
+  subject: Mathematik
+  label_de: Schriftliche Rechenverfahren
+  kmk_anchor: L1 Zahl und Operation
+  grade_band: 3-4
+  keywords:
+  - schriftlich* Rechenverfahren
+  - schriftliche Addition
+  - schriftliche Subtraktion
+  - schriftliche Multiplikation
+  - schriftliche Division
+  - schriftlich addieren
+  - schriftlich subtrahieren
+  - schriftlich multiplizieren
+  requires:
+  - math.p.mult_div
+  - math.p.place_value
+- id: math.p.mental_strategies
+  subject: Mathematik
+  label_de: Rechenstrategien und Kopfrechnen
+  kmk_anchor: L1 Zahl und Operation
+  grade_band: 1-4
+  keywords:
+  - Rechenstrategie*
+  - Kopfrechnen
+  - halbschriftlich*
+  - vorteilhaft* rechnen
+  - Überschlag*
+  - überschlagen
+  requires:
+  - math.p.add_sub
+- id: math.p.patterns
+  subject: Mathematik
+  label_de: Muster und Strukturen
+  kmk_anchor: Muster und Strukturen
+  grade_band: 1-4
+  keywords:
+  - Muster
+  - Zahlenfolge*
+  - arithmetische Muster
+  - Strukturen
+  - Zahlenmauer*
+  - Rechendreieck*
+- id: math.p.plane_figures
+  subject: Mathematik
+  label_de: Ebene Figuren
+  kmk_anchor: L3 Raum und Form
+  grade_band: 1-4
+  keywords:
+  - Kreis
+  - Dreieck
+  - Viereck
+  - Rechteck
+  - Quadrat
+  - geometrische Figur*
+  - ebene Figur*
+- id: math.p.solids
+  subject: Mathematik
+  label_de: Geometrische Körper
+  kmk_anchor: L3 Raum und Form
+  grade_band: 1-4
+  keywords:
+  - Würfel
+  - Quader
+  - Kugel
+  - Zylinder
+  - Pyramide
+  - Kegel
+  - Körper
+  - Würfelgebäude
+  - Körpernetz*
+- id: math.p.spatial_orientation
+  subject: Mathematik
+  label_de: Räumliche Orientierung und Lagebeziehungen
+  kmk_anchor: L3 Raum und Form
+  grade_band: 1-4
+  keywords:
+  - räumliche* Vorstellung*
+  - Lagebeziehung*
+  - rechts
+  - links
+  - oben
+  - unten
+  - Orientierung
+  - Wege
+  - Pläne
+  - Lageplan*
+- id: math.p.symmetry
+  subject: Mathematik
+  label_de: Symmetrie (Grundschule)
+  kmk_anchor: L3 Raum und Form
+  grade_band: 2-4
+  keywords:
+  - Achsensymmetrie
+  - achsensymmetrisch*
+  - Spiegelachse
+  - spiegeln
+  - Symmetrieachse*
+  requires:
+  - math.p.plane_figures
+- id: math.p.money
+  subject: Mathematik
+  label_de: Geld
+  kmk_anchor: L2 Messen
+  grade_band: 1-2
+  keywords:
+  - Geld
+  - Euro
+  - Cent
+  - Geldbetr*
+- id: math.p.time
+  subject: Mathematik
+  label_de: Zeit
+  kmk_anchor: L2 Messen
+  grade_band: 1-4
+  keywords:
+  - Uhrzeit*
+  - Zeitspanne*
+  - Zeitpunkt*
+  - Uhr
+  - Kalender
+  - Stunde*
+  - Minute*
+  - Sekunde*
+- id: math.p.length_weight_capacity
+  subject: Mathematik
+  label_de: Längen, Gewichte und Rauminhalte
+  kmk_anchor: L2 Messen
+  grade_band: 2-4
+  keywords:
+  - Länge*
+  - Gewicht*
+  - Masse
+  - Rauminhalt*
+  - Liter
+  - Milliliter
+  - Kilogramm
+  - Gramm
+  - Meter
+  - Zentimeter
+  - Millimeter
+  - Kilometer
+  - Tonne*
+- id: math.p.measuring
+  subject: Mathematik
+  label_de: 'Größen und Messen: Einheiten umrechnen'
+  kmk_anchor: L2 Messen
+  grade_band: 2-4
+  keywords:
+  - Maßeinheit*
+  - Einheit*
+  - umrechnen
+  - Größenangabe*
+  - Stützpunktvorstellung*
+  - schätzen
+  - messen
+  requires:
+  - math.p.length_weight_capacity
+- id: math.p.area_perimeter_intro
+  subject: Mathematik
+  label_de: Flächen und Umfang (Grundvorstellung)
+  kmk_anchor: L2 Messen
+  grade_band: 3-4
+  keywords:
+  - Flächeninhalt*
+  - Umfang
+  - Flächen legen
+  - auslegen
+  - Einheitsquadrat*
+  requires:
+  - math.p.plane_figures
+- id: math.p.data
+  subject: Mathematik
+  label_de: Daten erfassen und darstellen
+  kmk_anchor: L5 Daten und Zufall
+  grade_band: 1-4
+  keywords:
+  - Daten
+  - Strichliste*
+  - Tabelle*
+  - Diagramm*
+  - Schaubild*
+  - Säulendiagramm*
+- id: math.p.chance
+  subject: Mathematik
+  label_de: Wahrscheinlichkeit (Grundschule)
+  kmk_anchor: L5 Daten und Zufall
+  grade_band: 2-4
+  keywords:
+  - Zufall*
+  - wahrscheinlich
+  - unmöglich
+  - sicher
+  - Zufallsexperiment*
+  - Wahrscheinlichkeit*
+  requires:
+  - math.p.data
+- id: math.p.word_problems
+  subject: Mathematik
+  label_de: Sachaufgaben und Sachsituationen
+  kmk_anchor: L1 Zahl und Operation
+  grade_band: 1-4
+  keywords:
+  - Sachaufgabe*
+  - Sachsituation*
+  - Sachtext*
+  - Kontext*
+  - Rechengeschichte*
+  requires:
+  - math.p.add_sub
+- id: math.s1.natural_numbers
+  subject: Mathematik
+  label_de: Natürliche Zahlen, große Zahlen, Runden
+  kmk_anchor: L1 Zahl und Operation
+  grade_band: '5'
+  keywords:
+  - natürliche Zahl*
+  - große Zahl*
+  - runden
+  - Zehnerpotenz*
+  - Billion*
+  - Milliarde*
+  requires:
+  - math.p.numbers_to_million
+- id: math.s1.divisibility
+  subject: Mathematik
+  label_de: Teilbarkeit und Primzahlen
+  kmk_anchor: L1 Zahl und Operation
+  grade_band: 5-6
+  keywords:
+  - Teilbarkeit*
+  - Teiler
+  - Vielfache*
+  - Primzahl*
+  - Primfaktor*
+  - ggT
+  - kgV
+  - Teilbarkeitsregel*
+  requires:
+  - math.p.mult_div
+- id: math.s1.fractions
+  subject: Mathematik
+  label_de: Brüche und Bruchteile
+  kmk_anchor: L1 Zahl und Operation
+  grade_band: 5-6
+  keywords:
+  - Bruch
+  - Brüche
+  - Bruchzahl*
+  - Bruchteil*
+  - Nenner
+  - Zähler
+  - erweitern
+  - kürzen
+  - Anteil*
+  requires:
+  - math.p.mult_div
+- id: math.s1.fraction_operations
+  subject: Mathematik
+  label_de: Rechnen mit Brüchen
+  kmk_anchor: L1 Zahl und Operation
+  grade_band: '6'
+  keywords:
+  - Brüche addieren
+  - Brüche multiplizieren
+  - Brüche dividieren
+  - Bruchrechnung
+  - mit Brüchen rechnen
+  - Kehrbruch*
+  - Hauptnenner
+  requires:
+  - math.s1.fractions
+- id: math.s1.decimals
+  subject: Mathematik
+  label_de: Dezimalzahlen
+  kmk_anchor: L1 Zahl und Operation
+  grade_band: 5-6
+  keywords:
+  - Dezimalzahl*
+  - Dezimalbr*
+  - Kommazahl*
+  - periodisch*
+  - Dezimalschreibweise
+  requires:
+  - math.s1.fractions
+  - math.p.place_value
+- id: math.s1.negative_numbers
+  subject: Mathematik
+  label_de: Negative und rationale Zahlen
+  kmk_anchor: L1 Zahl und Operation
+  grade_band: 6-7
+  keywords:
+  - negative Zahl*
+  - ganze Zahl*
+  - rationale Zahl*
+  - Betrag
+  - Gegenzahl*
+  - Vorzeichen*
+  requires:
+  - math.p.add_sub
+- id: math.s1.terms
+  subject: Mathematik
+  label_de: Terme und Variablen
+  kmk_anchor: L1 Zahl und Operation
+  grade_band: 5-8
+  keywords:
+  - Term
+  - Terme
+  - Variable*
+  - Zahlterm*
+  - Termwert*
+  - Rechenausdr*
+  requires:
+  - math.p.written_algorithms
+- id: math.s1.term_transformations
+  subject: Mathematik
+  label_de: Termumformungen und binomische Formeln
+  kmk_anchor: L1 Zahl und Operation
+  grade_band: 7-8
+  keywords:
+  - Termumformung*
+  - umformen
+  - ausmultiplizieren
+  - ausklammern
+  - binomische Formel*
+  - faktorisieren
+  - zusammenfassen
+  requires:
+  - math.s1.terms
+  - math.s1.negative_numbers
+- id: math.s1.linear_equations
+  subject: Mathematik
+  label_de: Lineare Gleichungen
+  kmk_anchor: L1 Zahl und Operation
+  grade_band: 7-8
+  keywords:
+  - lineare Gleichung*
+  - Gleichung*
+  - Äquivalenzumformung*
+  - Lösungsmenge*
+  - Ungleichung*
+  requires:
+  - math.s1.terms
+- id: math.s1.linear_systems
+  subject: Mathematik
+  label_de: Lineare Gleichungssysteme
+  kmk_anchor: L1 Zahl und Operation
+  grade_band: 8-9
+  keywords:
+  - lineare Gleichungssystem*
+  - Gleichungssystem*
+  - Additionsverfahren
+  - Einsetzungsverfahren
+  - Gleichsetzungsverfahren
+  requires:
+  - math.s1.linear_equations
+  - math.s1.linear_functions
+- id: math.s1.percent
+  subject: Mathematik
+  label_de: Prozentrechnung
+  kmk_anchor: L1 Zahl und Operation
+  grade_band: 6-7
+  keywords:
+  - Prozent*
+  - Grundwert
+  - Prozentwert
+  - Prozentsatz
+  - Prozentstreifen
+  requires:
+  - math.s1.fractions
+  - math.s1.decimals
+- id: math.s1.interest
+  subject: Mathematik
+  label_de: Zinsrechnung
+  kmk_anchor: L1 Zahl und Operation
+  grade_band: 7-8
+  keywords:
+  - Zins*
+  - Zinseszins*
+  - Kapital
+  - Zinssatz
+  requires:
+  - math.s1.percent
+- id: math.s1.proportionality
+  subject: Mathematik
+  label_de: Proportionale und antiproportionale Zuordnungen
+  kmk_anchor: L4 Funktionaler Zusammenhang
+  grade_band: 6-7
+  keywords:
+  - proportional*
+  - antiproportional*
+  - Zuordnung*
+  - Dreisatz
+  - Proportionalitätsfaktor
+  requires:
+  - math.s1.fractions
+- id: math.s1.roots
+  subject: Mathematik
+  label_de: Quadratwurzeln und reelle Zahlen
+  kmk_anchor: L1 Zahl und Operation
+  grade_band: 8-9
+  keywords:
+  - Quadratwurzel*
+  - Wurzel*
+  - irrationale Zahl*
+  - reelle Zahl*
+  - Heron*
+  - Intervallschachtelung
+  requires:
+  - math.p.mult_div
+- id: math.s1.powers
+  subject: Mathematik
+  label_de: Potenzen und Potenzgesetze
+  kmk_anchor: L1 Zahl und Operation
+  grade_band: 9-10
+  keywords:
+  - Potenz*
+  - Potenzgesetz*
+  - Exponent*
+  - wissenschaftliche Schreibweise
+  - Hochzahl*
+  requires:
+  - math.s1.terms
+- id: math.s1.logarithm
+  subject: Mathematik
+  label_de: Logarithmus
+  kmk_anchor: L1 Zahl und Operation
+  grade_band: '10'
+  keywords:
+  - Logarithm*
+  - log
+  requires:
+  - math.s1.powers
+- id: math.s1.quadratic_equations
+  subject: Mathematik
+  label_de: Quadratische Gleichungen
+  kmk_anchor: L1 Zahl und Operation
+  grade_band: '9'
+  keywords:
+  - quadratische Gleichung*
+  - Lösungsformel
+  - pq-Formel
+  - Mitternachtsformel
+  - quadratische Ergänzung
+  - Satz von Vieta
+  requires:
+  - math.s1.term_transformations
+  - math.s1.roots
+- id: math.s1.fraction_equations
+  subject: Mathematik
+  label_de: Bruchgleichungen und Wurzelgleichungen
+  kmk_anchor: L1 Zahl und Operation
+  grade_band: 9-10
+  keywords:
+  - Bruchgleichung*
+  - Wurzelgleichung*
+  - Definitionsmenge*
+  requires:
+  - math.s1.fraction_operations
+  - math.s1.linear_equations
+- id: math.s1.combinatorics
+  subject: Mathematik
+  label_de: Zählprinzipien und Kombinatorik
+  kmk_anchor: L5 Daten und Zufall
+  grade_band: 6-9
+  keywords:
+  - Zählprinzip*
+  - Kombinatorik
+  - Anordnung*
+  - Permutation*
+  - Möglichkeiten abzählen
+  requires:
+  - math.p.mult_div
+- id: math.s1.units
+  subject: Mathematik
+  label_de: Größen und Einheiten
+  kmk_anchor: L2 Messen
+  grade_band: '5'
+  keywords:
+  - Größe*
+  - Einheit*
+  - Maßstab*
+  - umrechnen
+  - Längeneinheit*
+  - Flächeneinheit*
+  - Volumeneinheit*
+  requires:
+  - math.p.measuring
+- id: math.s1.angles
+  subject: Mathematik
+  label_de: Winkel
+  kmk_anchor: L2 Messen
+  grade_band: 5-6
+  keywords:
+  - Winkel*
+  - Geodreieck
+  - Winkelmaß*
+  - Scheitelwinkel*
+  - Nebenwinkel*
+  - Stufenwinkel*
+  - Wechselwinkel*
+  - Innenwinkel*
+  requires:
+  - math.s1.geometry_basics
+- id: math.s1.area_perimeter
+  subject: Mathematik
+  label_de: Flächeninhalt und Umfang von Vielecken
+  kmk_anchor: L2 Messen
+  grade_band: 5-7
+  keywords:
+  - Flächeninhalt*
+  - Umfang
+  - Parallelogramm*
+  - Trapez*
+  - Vieleck*
+  - zerlegen
+  - ergänzen
+  requires:
+  - math.s1.triangles_quadrilaterals
+  - math.p.area_perimeter_intro
+- id: math.s1.volume_surface
+  subject: Mathematik
+  label_de: Volumen und Oberfläche von Prismen und Zylindern
+  kmk_anchor: L2 Messen
+  grade_band: 7-9
+  keywords:
+  - Volumen
+  - Oberfläche*
+  - Oberflächeninhalt*
+  - Prisma*
+  - Prismen
+  - Zylinder*
+  - Rauminhalt*
+  - Quader
+  requires:
+  - math.s1.area_perimeter
+- id: math.s1.circle
+  subject: Mathematik
+  label_de: 'Kreis: Umfang und Flächeninhalt'
+  kmk_anchor: L2 Messen
+  grade_band: 8-9
+  keywords:
+  - Kreisumfang
+  - Kreisfläche*
+  - Kreiszahl
+  - Kreisbogen*
+  - Kreisausschnitt*
+  - pi
+  - Radius
+  - Durchmesser
+  requires:
+  - math.s1.area_perimeter
+- id: math.s1.pyramid_cone_sphere
+  subject: Mathematik
+  label_de: Pyramide, Kegel und Kugel
+  kmk_anchor: L2 Messen
+  grade_band: 9-10
+  keywords:
+  - Pyramide*
+  - Kegel*
+  - Kugel*
+  - Mantelfläche*
+  - Kegelstumpf*
+  requires:
+  - math.s1.volume_surface
+  - math.s1.circle
+- id: math.s1.geometry_basics
+  subject: Mathematik
+  label_de: Geometrische Grundbegriffe
+  kmk_anchor: L3 Raum und Form
+  grade_band: '5'
+  keywords:
+  - Gerade*
+  - Strecke*
+  - Strahl*
+  - senkrecht*
+  - parallel*
+  - Abstand
+  - orthogonal*
+  - Halbgerade*
+  requires:
+  - math.p.plane_figures
+- id: math.s1.coordinates
+  subject: Mathematik
+  label_de: Koordinatensystem
+  kmk_anchor: L3 Raum und Form
+  grade_band: 5-6
+  keywords:
+  - Koordinatensystem*
+  - Koordinate*
+  - Achse*
+  - Quadrant*
+  requires:
+  - math.s1.geometry_basics
+- id: math.s1.symmetry_maps
+  subject: Mathematik
+  label_de: Symmetrie und Kongruenzabbildungen
+  kmk_anchor: L3 Raum und Form
+  grade_band: 5-7
+  keywords:
+  - Achsensymmetrie
+  - Punktsymmetrie
+  - Drehsymmetrie
+  - Spiegelung*
+  - Drehung*
+  - Verschiebung*
+  - Symmetriezentrum
+  - Symmetrieachse*
+  - Kongruenzabbildung*
+  requires:
+  - math.p.symmetry
+  - math.s1.coordinates
+- id: math.s1.triangles_quadrilaterals
+  subject: Mathematik
+  label_de: Dreiecke und Vierecke
+  kmk_anchor: L3 Raum und Form
+  grade_band: 5-7
+  keywords:
+  - Dreieck*
+  - Viereck*
+  - Raute*
+  - Drachen*
+  - rechtwinklig*
+  - gleichschenklig*
+  - gleichseitig*
+  - Haus der Vierecke
+  requires:
+  - math.p.plane_figures
+- id: math.s1.constructions
+  subject: Mathematik
+  label_de: Konstruktionen und Kongruenz
+  kmk_anchor: L3 Raum und Form
+  grade_band: 7-8
+  keywords:
+  - konstruieren
+  - Konstruktion*
+  - Kongruenzsatz
+  - Kongruenzsätze
+  - kongruent*
+  - Mittelsenkrechte*
+  - Winkelhalbierende*
+  - Inkreis*
+  - Umkreis*
+  - Thales*
+  - Zirkel
+  requires:
+  - math.s1.triangles_quadrilaterals
+  - math.s1.angles
+- id: math.s1.solids_nets
+  subject: Mathematik
+  label_de: Körper, Netze und Schrägbilder
+  kmk_anchor: L3 Raum und Form
+  grade_band: 5-7
+  keywords:
+  - Netz
+  - Netze
+  - Schrägbild*
+  - Körpernetz*
+  - Würfel
+  - Quader
+  - Ecken
+  - Kanten
+  - Flächen
+  requires:
+  - math.p.solids
+- id: math.s1.similarity
+  subject: Mathematik
+  label_de: Ähnlichkeit, zentrische Streckung und Strahlensätze
+  kmk_anchor: L3 Raum und Form
+  grade_band: 8-9
+  keywords:
+  - ähnlich*
+  - Ähnlichkeit*
+  - zentrische Streckung
+  - Streckfaktor*
+  - Strahlensatz
+  - Strahlensätze
+  - Vergrößerung*
+  - Verkleinerung*
+  requires:
+  - math.s1.proportionality
+  - math.s1.triangles_quadrilaterals
+- id: math.s1.pythagoras
+  subject: Mathematik
+  label_de: Satz des Pythagoras
+  kmk_anchor: L3 Raum und Form
+  grade_band: 8-9
+  keywords:
+  - Pythagoras
+  - Hypotenuse*
+  - Kathete*
+  - Kathetensatz
+  - Höhensatz
+  requires:
+  - math.s1.roots
+  - math.s1.triangles_quadrilaterals
+- id: math.s1.trigonometry
+  subject: Mathematik
+  label_de: Trigonometrie im Dreieck
+  kmk_anchor: L3 Raum und Form
+  grade_band: 9-10
+  keywords:
+  - Sinus
+  - Kosinus
+  - Tangens
+  - Sinussatz
+  - Kosinussatz
+  - trigonometrisch*
+  - Gegenkathete
+  - Ankathete
+  requires:
+  - math.s1.similarity
+  - math.s1.pythagoras
+- id: math.s1.functions_concept
+  subject: Mathematik
+  label_de: Funktionsbegriff
+  kmk_anchor: L4 Funktionaler Zusammenhang
+  grade_band: 7-8
+  keywords:
+  - Funktion*
+  - Funktionsterm*
+  - Funktionsgleichung*
+  - Wertetabelle*
+  - Graph*
+  - Definitionsmenge
+  - Wertemenge
+  requires:
+  - math.s1.proportionality
+  - math.s1.coordinates
+- id: math.s1.linear_functions
+  subject: Mathematik
+  label_de: Lineare Funktionen
+  kmk_anchor: L4 Funktionaler Zusammenhang
+  grade_band: 7-8
+  keywords:
+  - lineare Funktion*
+  - Steigung*
+  - Steigungsdreieck*
+  - y-Achsenabschnitt
+  - Geradengleichung*
+  - Nullstelle*
+  requires:
+  - math.s1.functions_concept
+  - math.s1.linear_equations
+- id: math.s1.quadratic_functions
+  subject: Mathematik
+  label_de: Quadratische Funktionen
+  kmk_anchor: L4 Funktionaler Zusammenhang
+  grade_band: 8-9
+  keywords:
+  - quadratische Funktion*
+  - Parabel*
+  - Scheitel*
+  - Normalparabel
+  - Scheitelform
+  - Scheitelpunkt*
+  requires:
+  - math.s1.linear_functions
+  - math.s1.quadratic_equations
+- id: math.s1.exponential
+  subject: Mathematik
+  label_de: Exponentielles Wachstum und Exponentialfunktionen
+  kmk_anchor: L4 Funktionaler Zusammenhang
+  grade_band: 9-10
+  keywords:
+  - exponentiell*
+  - Exponentialfunktion*
+  - Wachstumsfaktor*
+  - Halbwertszeit*
+  - Verdopplungszeit*
+  - Wachstum
+  - Zerfall
+  requires:
+  - math.s1.powers
+  - math.s1.percent
+- id: math.s1.power_functions
+  subject: Mathematik
+  label_de: Potenzfunktionen
+  kmk_anchor: L4 Funktionaler Zusammenhang
+  grade_band: '10'
+  keywords:
+  - Potenzfunktion*
+  - Hyperbel*
+  requires:
+  - math.s1.powers
+  - math.s1.functions_concept
+- id: math.s1.trig_functions
+  subject: Mathematik
+  label_de: Trigonometrische Funktionen
+  kmk_anchor: L4 Funktionaler Zusammenhang
+  grade_band: '10'
+  keywords:
+  - Sinusfunktion*
+  - Kosinusfunktion*
+  - Periode*
+  - Amplitude*
+  - Bogenmaß
+  - Einheitskreis
+  requires:
+  - math.s1.trigonometry
+  - math.s1.functions_concept
+- id: math.s1.statistics
+  subject: Mathematik
+  label_de: Daten, Diagramme und Kenngrößen
+  kmk_anchor: L5 Daten und Zufall
+  grade_band: 5-8
+  keywords:
+  - Daten
+  - Diagramm*
+  - Häufigkeit*
+  - Mittelwert*
+  - arithmetisches Mittel
+  - Median
+  - Modalwert
+  - Spannweite
+  - Umfrage*
+  - relative Häufigkeit*
+  - absolute Häufigkeit*
+  requires:
+  - math.p.data
+- id: math.s1.boxplot
+  subject: Mathematik
+  label_de: Boxplot und Streumaße
+  kmk_anchor: L5 Daten und Zufall
+  grade_band: 8-10
+  keywords:
+  - Boxplot*
+  - Quartil*
+  - Streumaß*
+  - Standardabweichung
+  - Streuung
+  requires:
+  - math.s1.statistics
+- id: math.s1.probability
+  subject: Mathematik
+  label_de: Zufallsexperimente und Wahrscheinlichkeit
+  kmk_anchor: L5 Daten und Zufall
+  grade_band: 6-8
+  keywords:
+  - Zufallsexperiment*
+  - Wahrscheinlichkeit*
+  - Ergebnis*
+  - Ereignis*
+  - Laplace*
+  - Gegenereignis*
+  - Gesetz der großen Zahlen
+  requires:
+  - math.s1.fractions
+  - math.p.chance
+- id: math.s1.multistage
+  subject: Mathematik
+  label_de: Mehrstufige Zufallsexperimente und Baumdiagramme
+  kmk_anchor: L5 Daten und Zufall
+  grade_band: 8-10
+  keywords:
+  - mehrstufig*
+  - Baumdiagramm*
+  - Pfadregel*
+  - Produktregel
+  - Summenregel
+  requires:
+  - math.s1.probability
+- id: math.s2.function_classes
+  subject: Mathematik
+  label_de: Funktionenklassen und Transformationen
+  kmk_anchor: L4 Funktionaler Zusammenhang
+  grade_band: 10-11
+  keywords:
+  - ganzrational*
+  - Polynom*
+  - Verschiebung des Graphen
+  - Streckung des Graphen
+  - Transformation*
+  - Symmetrie des Graphen
+  - Verhalten im Unendlichen
+  requires:
+  - math.s1.power_functions
+  - math.s1.quadratic_functions
+- id: math.s2.rate_of_change
+  subject: Mathematik
+  label_de: Änderungsrate und Ableitungsbegriff
+  kmk_anchor: L4 Funktionaler Zusammenhang
+  grade_band: 10-11
+  keywords:
+  - Änderungsrate*
+  - Differenzenquotient*
+  - Differentialquotient*
+  - Ableitung*
+  - Tangente*
+  - momentane Änderungsrate
+  - mittlere Änderungsrate
+  - Sekante*
+  requires:
+  - math.s1.linear_functions
+  - math.s2.function_classes
+- id: math.s2.derivative_rules
+  subject: Mathematik
+  label_de: Ableitungsregeln
+  kmk_anchor: L4 Funktionaler Zusammenhang
+  grade_band: '11'
+  keywords:
+  - Ableitungsregel*
+  - Kettenregel
+  - Produktregel
+  - Quotientenregel
+  - Faktorregel
+  - Summenregel
+  - ableiten
+  requires:
+  - math.s2.rate_of_change
+- id: math.s2.curve_analysis
+  subject: Mathematik
+  label_de: Funktionsuntersuchung
+  kmk_anchor: L4 Funktionaler Zusammenhang
+  grade_band: 11-12
+  keywords:
+  - Extremstelle*
+  - Extrempunkt*
+  - Hochpunkt*
+  - Tiefpunkt*
+  - Wendepunkt*
+  - Wendestelle*
+  - Monotonie*
+  - Krümmung*
+  - Kurvendiskussion
+  - notwendige Bedingung
+  - hinreichende Bedingung
+  requires:
+  - math.s2.derivative_rules
+  - math.s1.quadratic_equations
+- id: math.s2.optimisation
+  subject: Mathematik
+  label_de: Extremwertprobleme
+  kmk_anchor: L4 Funktionaler Zusammenhang
+  grade_band: 11-12
+  keywords:
+  - Extremwertproblem*
+  - Optimierung*
+  - optimal*
+  - maximal*
+  - minimal*
+  requires:
+  - math.s2.curve_analysis
+- id: math.s2.exp_ln
+  subject: Mathematik
+  label_de: e-Funktion und natürlicher Logarithmus
+  kmk_anchor: L4 Funktionaler Zusammenhang
+  grade_band: 11-12
+  keywords:
+  - e-Funktion*
+  - eulersche Zahl
+  - natürliche* Logarithm*
+  - ln
+  requires:
+  - math.s1.exponential
+  - math.s1.logarithm
+  - math.s2.derivative_rules
+- id: math.s2.integral
+  subject: Mathematik
+  label_de: Integral und Stammfunktion
+  kmk_anchor: L4 Funktionaler Zusammenhang
+  grade_band: 11-12
+  keywords:
+  - Integral*
+  - Stammfunktion*
+  - Hauptsatz
+  - integrieren
+  - Integralfunktion*
+  - Ober- und Untersumme*
+  requires:
+  - math.s2.derivative_rules
+- id: math.s2.integral_applications
+  subject: Mathematik
+  label_de: Anwendungen der Integralrechnung
+  kmk_anchor: L4 Funktionaler Zusammenhang
+  grade_band: 12-13
+  keywords:
+  - Flächeninhalt zwischen
+  - Rekonstruktion*
+  - Bestand*
+  - Rotationskörper*
+  - Mittelwert einer Funktion
+  requires:
+  - math.s2.integral
+- id: math.s2.differential_growth
+  subject: Mathematik
+  label_de: Wachstumsmodelle und Differentialgleichungen
+  kmk_anchor: L4 Funktionaler Zusammenhang
+  grade_band: 12-13
+  keywords:
+  - beschränktes Wachstum
+  - logistisches Wachstum
+  - Differentialgleichung*
+  requires:
+  - math.s2.exp_ln
+- id: math.s2.gauss
+  subject: Mathematik
+  label_de: Lineare Gleichungssysteme und Gauß-Verfahren
+  kmk_anchor: L1 Zahl und Operation
+  grade_band: 11-12
+  keywords:
+  - Gauß*
+  - Gaußverfahren
+  - Gauß-Verfahren
+  - Stufenform
+  - lineare Gleichungssystem*
+  requires:
+  - math.s1.linear_systems
+- id: math.s2.vectors
+  subject: Mathematik
+  label_de: Vektoren
+  kmk_anchor: L3 Raum und Form
+  grade_band: 11-12
+  keywords:
+  - Vektor*
+  - Ortsvektor*
+  - Richtungsvektor*
+  - Linearkombination*
+  - Skalarprodukt
+  - Vektorprodukt
+  - Kreuzprodukt
+  - linear abhängig*
+  - linear unabhängig*
+  requires:
+  - math.s1.coordinates
+  - math.s1.pythagoras
+- id: math.s2.lines_planes
+  subject: Mathematik
+  label_de: Geraden und Ebenen im Raum
+  kmk_anchor: L3 Raum und Form
+  grade_band: '12'
+  keywords:
+  - Geradengleichung im Raum
+  - Parametergleichung*
+  - Ebenengleichung*
+  - Koordinatengleichung*
+  - Normalenvektor*
+  - Ebene*
+  - Lagebeziehung*
+  - Spurpunkt*
+  requires:
+  - math.s2.vectors
+  - math.s2.gauss
+- id: math.s2.distances_angles
+  subject: Mathematik
+  label_de: Abstände und Winkel im Raum
+  kmk_anchor: L3 Raum und Form
+  grade_band: 12-13
+  keywords:
+  - Abstand
+  - Abstände
+  - Schnittwinkel*
+  - Lotfußpunkt*
+  - Spiegelung an einer Ebene
+  requires:
+  - math.s2.lines_planes
+  - math.s1.trigonometry
+- id: math.s2.matrices
+  subject: Mathematik
+  label_de: Matrizen und Übergangsprozesse
+  kmk_anchor: L1 Zahl und Operation
+  grade_band: 12-13
+  keywords:
+  - Matri*
+  - Übergangsmatri*
+  - Übergangsprozess*
+  - Austauschprozess*
+  - Populationsmodell*
+  requires:
+  - math.s2.gauss
+- id: math.s2.conditional_probability
+  subject: Mathematik
+  label_de: Bedingte Wahrscheinlichkeit und Unabhängigkeit
+  kmk_anchor: L5 Daten und Zufall
+  grade_band: 10-11
+  keywords:
+  - bedingte Wahrscheinlichkeit*
+  - Vierfeldertafel*
+  - stochastisch unabhängig*
+  - Unabhängigkeit
+  - Satz von Bayes
+  requires:
+  - math.s1.multistage
+- id: math.s2.random_variables
+  subject: Mathematik
+  label_de: Zufallsgrößen und Erwartungswert
+  kmk_anchor: L5 Daten und Zufall
+  grade_band: 11-12
+  keywords:
+  - Zufallsgröße*
+  - Zufallsvariable*
+  - Erwartungswert*
+  - Wahrscheinlichkeitsverteilung*
+  - Varianz
+  - Standardabweichung
+  requires:
+  - math.s1.multistage
+- id: math.s2.binomial
+  subject: Mathematik
+  label_de: Binomialverteilung
+  kmk_anchor: L5 Daten und Zufall
+  grade_band: '12'
+  keywords:
+  - Binomialverteilung*
+  - Bernoulli*
+  - binomialverteilt*
+  - Binomialkoeffizient*
+  requires:
+  - math.s2.random_variables
+  - math.s1.combinatorics
+- id: math.s2.normal
+  subject: Mathematik
+  label_de: Normalverteilung
+  kmk_anchor: L5 Daten und Zufall
+  grade_band: 12-13
+  keywords:
+  - Normalverteilung*
+  - normalverteilt*
+  - Gauß'sche Glockenkurve
+  - Glockenkurve
+  - stetige Zufallsgröße*
+  - Dichtefunktion*
+  requires:
+  - math.s2.binomial
+  - math.s2.integral
+- id: math.s2.hypothesis_test
+  subject: Mathematik
+  label_de: Hypothesentest
+  kmk_anchor: L5 Daten und Zufall
+  grade_band: 12-13
+  keywords:
+  - Hypothese*
+  - Hypothesentest*
+  - Signifikanz*
+  - Fehler erster Art
+  - Fehler zweiter Art
+  - Ablehnungsbereich*
+  - Nullhypothese*
+  requires:
+  - math.s2.binomial
+- id: math.s2.confidence
+  subject: Mathematik
+  label_de: Konfidenzintervalle und Schätzen
+  kmk_anchor: L5 Daten und Zufall
+  grade_band: 12-13
+  keywords:
+  - Konfidenzintervall*
+  - Vertrauensintervall*
+  - Sigma-Regel*
+  - Prognoseintervall*
+  requires:
+  - math.s2.binomial

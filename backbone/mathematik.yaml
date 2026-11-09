@@ -6,6 +6,8 @@
 # check in S6, never as a fact about any one Land. requires must stay acyclic (S4 checks).
 # Keywords are folded German terms used by check_exercise and the S5 candidate ranking;
 # a trailing * matches any word with that prefix.
+# competences: a lexicon of common task verbs (our own list). check_exercise uses it only to
+# notice a verb that is missing from the Land's operator list; allowed verbs come from the plan.
 topics:
 - id: math.p.numbers_to_20
   subject: Mathematik
@@ -1311,3 +1313,214 @@ topics:
   - näherungsweise
   requires:
   - math.s2.derivative_rules
+competences:
+- id: LEX.OP.ableiten
+  kind: operator
+  subject: Mathematik
+  label_de: ableiten
+  source: 'generic task-verb lexicon, detection only: never an allowed list'
+- id: LEX.OP.abschätzen
+  kind: operator
+  subject: Mathematik
+  label_de: abschätzen
+  source: 'generic task-verb lexicon, detection only: never an allowed list'
+- id: LEX.OP.angeben
+  kind: operator
+  subject: Mathematik
+  label_de: angeben
+  source: 'generic task-verb lexicon, detection only: never an allowed list'
+- id: LEX.OP.anwenden
+  kind: operator
+  subject: Mathematik
+  label_de: anwenden
+  source: 'generic task-verb lexicon, detection only: never an allowed list'
+- id: LEX.OP.aufstellen
+  kind: operator
+  subject: Mathematik
+  label_de: aufstellen
+  source: 'generic task-verb lexicon, detection only: never an allowed list'
+- id: LEX.OP.auswerten
+  kind: operator
+  subject: Mathematik
+  label_de: auswerten
+  source: 'generic task-verb lexicon, detection only: never an allowed list'
+- id: LEX.OP.begründen
+  kind: operator
+  subject: Mathematik
+  label_de: begründen
+  source: 'generic task-verb lexicon, detection only: never an allowed list'
+- id: LEX.OP.berechnen
+  kind: operator
+  subject: Mathematik
+  label_de: berechnen
+  source: 'generic task-verb lexicon, detection only: never an allowed list'
+- id: LEX.OP.beschreiben
+  kind: operator
+  subject: Mathematik
+  label_de: beschreiben
+  source: 'generic task-verb lexicon, detection only: never an allowed list'
+- id: LEX.OP.bestimmen
+  kind: operator
+  subject: Mathematik
+  label_de: bestimmen
+  source: 'generic task-verb lexicon, detection only: never an allowed list'
+- id: LEX.OP.beurteilen
+  kind: operator
+  subject: Mathematik
+  label_de: beurteilen
+  source: 'generic task-verb lexicon, detection only: never an allowed list'
+- id: LEX.OP.beweisen
+  kind: operator
+  subject: Mathematik
+  label_de: beweisen
+  source: 'generic task-verb lexicon, detection only: never an allowed list'
+- id: LEX.OP.bewerten
+  kind: operator
+  subject: Mathematik
+  label_de: bewerten
+  source: 'generic task-verb lexicon, detection only: never an allowed list'
+- id: LEX.OP.darstellen
+  kind: operator
+  subject: Mathematik
+  label_de: darstellen
+  source: 'generic task-verb lexicon, detection only: never an allowed list'
+- id: LEX.OP.deuten
+  kind: operator
+  subject: Mathematik
+  label_de: deuten
+  source: 'generic task-verb lexicon, detection only: never an allowed list'
+- id: LEX.OP.diskutieren
+  kind: operator
+  subject: Mathematik
+  label_de: diskutieren
+  source: 'generic task-verb lexicon, detection only: never an allowed list'
+- id: LEX.OP.entscheiden
+  kind: operator
+  subject: Mathematik
+  label_de: entscheiden
+  source: 'generic task-verb lexicon, detection only: never an allowed list'
+- id: LEX.OP.entwickeln
+  kind: operator
+  subject: Mathematik
+  label_de: entwickeln
+  source: 'generic task-verb lexicon, detection only: never an allowed list'
+- id: LEX.OP.erklären
+  kind: operator
+  subject: Mathematik
+  label_de: erklären
+  source: 'generic task-verb lexicon, detection only: never an allowed list'
+- id: LEX.OP.erläutern
+  kind: operator
+  subject: Mathematik
+  label_de: erläutern
+  source: 'generic task-verb lexicon, detection only: never an allowed list'
+- id: LEX.OP.ermitteln
+  kind: operator
+  subject: Mathematik
+  label_de: ermitteln
+  source: 'generic task-verb lexicon, detection only: never an allowed list'
+- id: LEX.OP.herleiten
+  kind: operator
+  subject: Mathematik
+  label_de: herleiten
+  source: 'generic task-verb lexicon, detection only: never an allowed list'
+- id: LEX.OP.interpretieren
+  kind: operator
+  subject: Mathematik
+  label_de: interpretieren
+  source: 'generic task-verb lexicon, detection only: never an allowed list'
+- id: LEX.OP.konstruieren
+  kind: operator
+  subject: Mathematik
+  label_de: konstruieren
+  source: 'generic task-verb lexicon, detection only: never an allowed list'
+- id: LEX.OP.lösen
+  kind: operator
+  subject: Mathematik
+  label_de: lösen
+  source: 'generic task-verb lexicon, detection only: never an allowed list'
+- id: LEX.OP.modellieren
+  kind: operator
+  subject: Mathematik
+  label_de: modellieren
+  source: 'generic task-verb lexicon, detection only: never an allowed list'
+- id: LEX.OP.nennen
+  kind: operator
+  subject: Mathematik
+  label_de: nennen
+  source: 'generic task-verb lexicon, detection only: never an allowed list'
+- id: LEX.OP.ordnen
+  kind: operator
+  subject: Mathematik
+  label_de: ordnen
+  source: 'generic task-verb lexicon, detection only: never an allowed list'
+- id: LEX.OP.prüfen
+  kind: operator
+  subject: Mathematik
+  label_de: prüfen
+  source: 'generic task-verb lexicon, detection only: never an allowed list'
+- id: LEX.OP.schätzen
+  kind: operator
+  subject: Mathematik
+  label_de: schätzen
+  source: 'generic task-verb lexicon, detection only: never an allowed list'
+- id: LEX.OP.skizzieren
+  kind: operator
+  subject: Mathematik
+  label_de: skizzieren
+  source: 'generic task-verb lexicon, detection only: never an allowed list'
+- id: LEX.OP.überprüfen
+  kind: operator
+  subject: Mathematik
+  label_de: überprüfen
+  source: 'generic task-verb lexicon, detection only: never an allowed list'
+- id: LEX.OP.untersuchen
+  kind: operator
+  subject: Mathematik
+  label_de: untersuchen
+  source: 'generic task-verb lexicon, detection only: never an allowed list'
+- id: LEX.OP.vergleichen
+  kind: operator
+  subject: Mathematik
+  label_de: vergleichen
+  source: 'generic task-verb lexicon, detection only: never an allowed list'
+- id: LEX.OP.vereinfachen
+  kind: operator
+  subject: Mathematik
+  label_de: vereinfachen
+  source: 'generic task-verb lexicon, detection only: never an allowed list'
+- id: LEX.OP.zeichnen
+  kind: operator
+  subject: Mathematik
+  label_de: zeichnen
+  source: 'generic task-verb lexicon, detection only: never an allowed list'
+- id: LEX.OP.zeigen
+  kind: operator
+  subject: Mathematik
+  label_de: zeigen
+  source: 'generic task-verb lexicon, detection only: never an allowed list'
+- id: LEX.OP.zuordnen
+  kind: operator
+  subject: Mathematik
+  label_de: zuordnen
+  source: 'generic task-verb lexicon, detection only: never an allowed list'
+- id: LEX.OP.beschriften
+  kind: operator
+  subject: Mathematik
+  label_de: beschriften
+  source: 'generic task-verb lexicon, detection only: never an allowed list'
+- id: LEX.OP.ergänzen
+  kind: operator
+  subject: Mathematik
+  label_de: ergänzen
+  source: 'generic task-verb lexicon, detection only: never an allowed list'
+- id: LEX.OP.vervollständigen
+  kind: operator
+  subject: Mathematik
+  label_de: vervollständigen
+  source: 'generic task-verb lexicon, detection only: never an allowed list'
+- id: LEX.OP.übertragen
+  kind: operator
+  subject: Mathematik
+  label_de: übertragen
+  source: 'generic task-verb lexicon, detection only: never an allowed list'

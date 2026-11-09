@@ -103,7 +103,7 @@ class KnowledgeBase:
         for n in ns:
             if self.content_kinds and n["kind"] not in self.content_kinds:
                 continue
-            if course_level and n.get("course_level") and fold(n["course_level"]) != fold(course_level):
+            if course_level and n.get("course_level") and _level(n["course_level"]) != _level(course_level):
                 continue
             n["_a"] = n["grade_from"] if n["grade_from"] is not None else doc["grade_from"]
             n["_b"] = n["grade_to"] if n["grade_to"] is not None else doc["grade_to"]
@@ -163,7 +163,19 @@ class KnowledgeBase:
         st = Status(ctx=c, trace=trace, current_docs=current_docs)
         if c.land_status == "placeholder":
             st.uncertainty.append(f"Das Inventar für {c.land_name} ist ein Platzhalter; keine Angabe ist geprüft.")
+        # Where the cohort's own plan ends (G8 ends after grade 12 even though the track,
+        # through G9, has a grade 13), later grades are not a gap in the data.
+        bound = [g for g, b in trace.items() if b.binding]
+        last = max(bound) if bound else None
+        ends_here = last is not None and all((d["grade_to"] or 0) <= last for d in trace[last].binding)
+        if ends_here and last < max(trace):
+            st.uncertainty.append(f"Laut dem Plan dieser Kohorte endet der Bildungsgang nach Klasse {last}.")
+        if ends_here and any((d.get("level") or "") == "Primar" for d in trace[last].binding):
+            st.uncertainty.append(f"not_yet reicht nur bis Klasse {last}: was danach kommt, hängt von der weiterführenden "
+                                  f"Schulform ab. Für eine Vorschau den Kontext mit der künftigen Schulform abfragen.")
         for g, b in sorted(trace.items()):
+            if ends_here and g > last:
+                continue
             for note in b.notes:
                 if g == c.grade:
                     st.uncertainty.append(note)
@@ -208,6 +220,12 @@ class KnowledgeBase:
                         lst = bucket.setdefault(t, [])
                         if all(x["node_id"] != n["node_id"] for x in lst):
                             lst.append(n)
+        if not c.course_level:
+            levels = sorted({n["course_level"] for d in current_docs for n in self._nodes_of(d["document_id"], None)
+                             if n.get("course_level") and n["_a"] <= c.grade <= n["_b"]})
+            if levels:
+                st.uncertainty.append(f"Der Plan unterscheidet Niveaus ({', '.join(levels)}); ohne Angabe von course_level "
+                                      f"sind alle berücksichtigt.")
         if st.unmapped_current:
             st.uncertainty.append(f"{len(st.unmapped_current)} Inhalte der aktuellen Klasse sind noch keinem Thema zugeordnet; sie stehen unter current_unmapped.")
         self._switch_gap(c, st)
@@ -752,6 +770,16 @@ class KnowledgeBase:
 # ----------------------------------------------------------------------
 # formatting helpers
 # ----------------------------------------------------------------------
+
+LEVEL_ALIASES = {"lf": "leistungsfach", "lk": "leistungsfach", "leistungskurs": "leistungsfach", "erhoht": "leistungsfach",
+                 "erhoeht": "leistungsfach", "bf": "basisfach", "gk": "basisfach", "grundkurs": "basisfach",
+                 "grundlegend": "g", "mittel": "m", "mittleres": "m", "erweitert": "e"}
+
+
+def _level(x: str) -> str:
+    f = fold(x)
+    return LEVEL_ALIASES.get(f, f)
+
 
 def _dedup(xs):
     out = []

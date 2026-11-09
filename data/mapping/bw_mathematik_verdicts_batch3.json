@@ -1,0 +1,1530 @@
+{
+ "judge": "independent agent, batch 3",
+ "verdicts": [
+  {
+   "id": "3af3ffbc9d426a9b|math.s2.gauss",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Lineare Gleichungssysteme und Gauß-Verfahren."
+  },
+  {
+   "id": "890f5f5b4f945d83|math.s2.gauss",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Lineare Gleichungssysteme und Gauß-Verfahren."
+  },
+  {
+   "id": "bce688903eb5a880|math.s2.distances_angles",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Abstände und Winkel im Raum."
+  },
+  {
+   "id": "bce688903eb5a880|math.s2.vectors",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Vektoren."
+  },
+  {
+   "id": "c651793b57d38fcf|math.s2.distances_angles",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Abstände und Winkel im Raum."
+  },
+  {
+   "id": "c651793b57d38fcf|math.s2.vectors",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Vektoren."
+  },
+  {
+   "id": "418b79f2c442fb79|math.s2.distances_angles",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Abstände und Winkel im Raum."
+  },
+  {
+   "id": "273e7c59597864a0|math.s2.distances_angles",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Abstände und Winkel im Raum."
+  },
+  {
+   "id": "910502e3f461a766|math.s2.distances_angles",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Abstände und Winkel im Raum."
+  },
+  {
+   "id": "81613d56f900b6f6|math.s2.vectors",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Vektoren."
+  },
+  {
+   "id": "752c03925715552c|math.s2.integral",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Integral und Stammfunktion."
+  },
+  {
+   "id": "9914b78a7e45fc9c|math.s2.integral_applications",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Anwendungen der Integralrechnung."
+  },
+  {
+   "id": "167feb393a829725|math.s2.integral_applications",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Anwendungen der Integralrechnung."
+  },
+  {
+   "id": "93e6fe4bb22a0fc6|math.s2.integral_applications",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Anwendungen der Integralrechnung."
+  },
+  {
+   "id": "9681feac30bbcd7d|math.s2.vectors",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Vektoren."
+  },
+  {
+   "id": "e2379554ffcd6524|math.s2.vectors",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Vektoren."
+  },
+  {
+   "id": "5153ab759674caad|math.s2.lines_planes",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Geraden und Ebenen im Raum."
+  },
+  {
+   "id": "7c21462ae2ba3516|math.s2.lines_planes",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Geraden und Ebenen im Raum."
+  },
+  {
+   "id": "9611fea502e4d3c7|math.s2.lines_planes",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Geraden und Ebenen im Raum."
+  },
+  {
+   "id": "89da0455bc19af57|math.s2.lines_planes",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Geraden und Ebenen im Raum."
+  },
+  {
+   "id": "f18921d4dab68d59|math.s2.distances_angles",
+   "verdict": "decline",
+   "reason": "Reflections, area/volume and motion problems; distances and angles are not the substance."
+  },
+  {
+   "id": "f18921d4dab68d59|math.s2.lines_planes",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Geraden und Ebenen im Raum."
+  },
+  {
+   "id": "4f892d57c731e931|math.s2.vectors",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Vektoren."
+  },
+  {
+   "id": "016860d003df6fc1|math.s2.exp_ln",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses e-Funktion und natürlicher Logarithmus."
+  },
+  {
+   "id": "0d1553a89c43e684|math.s2.exp_ln",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses e-Funktion und natürlicher Logarithmus."
+  },
+  {
+   "id": "12820366b52f02d0|math.s2.exp_ln",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses e-Funktion und natürlicher Logarithmus."
+  },
+  {
+   "id": "5fbdb0b842b9da20|math.s2.derivative_rules",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Ableitungsregeln."
+  },
+  {
+   "id": "5fbdb0b842b9da20|math.s2.exp_ln",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses e-Funktion und natürlicher Logarithmus."
+  },
+  {
+   "id": "4a7ee1dd8fde08c5|math.s2.derivative_rules",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Ableitungsregeln."
+  },
+  {
+   "id": "4a7ee1dd8fde08c5|math.s2.exp_ln",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses e-Funktion und natürlicher Logarithmus."
+  },
+  {
+   "id": "77f030976a83ce0c|math.s2.derivative_rules",
+   "verdict": "decline",
+   "reason": "Recognising compositions of functions; no differentiation involved."
+  },
+  {
+   "id": "77f030976a83ce0c|math.s2.function_classes",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Funktionenklassen und Transformationen."
+  },
+  {
+   "id": "7b80bb531e72cb50|math.s2.function_classes",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Funktionenklassen und Transformationen."
+  },
+  {
+   "id": "43eca07d191f2ff0|math.s2.function_classes",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Funktionenklassen und Transformationen."
+  },
+  {
+   "id": "f419cc4a120ac4c5|math.s2.optimisation",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Extremwertprobleme."
+  },
+  {
+   "id": "aa30193dfed9c5eb|math.s2.curve_analysis",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Funktionsuntersuchung."
+  },
+  {
+   "id": "950a3b19d182369f|math.s2.curve_analysis",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Funktionsuntersuchung."
+  },
+  {
+   "id": "558619f8dc1ee6fa|math.s2.integral",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Integral und Stammfunktion."
+  },
+  {
+   "id": "558619f8dc1ee6fa|math.s2.integral_applications",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Anwendungen der Integralrechnung."
+  },
+  {
+   "id": "850c8d5fd2bcbec3|math.s2.integral_applications",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Anwendungen der Integralrechnung."
+  },
+  {
+   "id": "f4046640814a3214|math.s2.integral_applications",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Anwendungen der Integralrechnung."
+  },
+  {
+   "id": "3dad1bdcf07f31dc|math.s2.integral",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Integral und Stammfunktion."
+  },
+  {
+   "id": "f99bb0cc22ab1439|math.s2.integral",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Integral und Stammfunktion."
+  },
+  {
+   "id": "4ade15443bfbcde1|math.s2.integral",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Integral und Stammfunktion."
+  },
+  {
+   "id": "0e26fdea965527a8|math.s2.integral",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Integral und Stammfunktion."
+  },
+  {
+   "id": "548be7419e76ebe7|math.s2.integral",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Integral und Stammfunktion."
+  },
+  {
+   "id": "c5244870d3009505|math.s2.hypothesis_test",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Hypothesentest."
+  },
+  {
+   "id": "0f01f593e128209d|math.s2.hypothesis_test",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Hypothesentest."
+  },
+  {
+   "id": "e4046f0aecec0f3b|math.s2.hypothesis_test",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Hypothesentest."
+  },
+  {
+   "id": "0328a3749ee8d099|math.s2.hypothesis_test",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Hypothesentest."
+  },
+  {
+   "id": "f5829d6846c9a545|math.s2.hypothesis_test",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Hypothesentest."
+  },
+  {
+   "id": "3039f215e4724111|math.s2.hypothesis_test",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Hypothesentest."
+  },
+  {
+   "id": "1c7ffecb3415a094|math.s2.hypothesis_test",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Hypothesentest."
+  },
+  {
+   "id": "b92e9116c4014c63|math.s2.normal",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Normalverteilung."
+  },
+  {
+   "id": "31f3b2486662ea44|math.s2.normal",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Normalverteilung."
+  },
+  {
+   "id": "8c43db998817442a|math.s2.normal",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Normalverteilung."
+  },
+  {
+   "id": "20909d3aba641296|math.s2.exp_ln",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses e-Funktion und natürlicher Logarithmus."
+  },
+  {
+   "id": "6a00a6a604aa4445|math.s2.derivative_rules",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Ableitungsregeln."
+  },
+  {
+   "id": "61c08585c07e948d|math.s2.derivative_rules",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Ableitungsregeln."
+  },
+  {
+   "id": "5f08ad6f7ff807e7|math.s2.integral",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Integral und Stammfunktion."
+  },
+  {
+   "id": "0decb2f9d0ff6144|math.s2.vectors",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Vektoren."
+  },
+  {
+   "id": "34a73830b0e8fdf2|math.s2.vectors",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Vektoren."
+  },
+  {
+   "id": "f98e1ad2ff6ccfc7|math.s2.gauss",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Lineare Gleichungssysteme und Gauß-Verfahren."
+  },
+  {
+   "id": "2dbbb7d5921ccc95|math.s2.gauss",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Lineare Gleichungssysteme und Gauß-Verfahren."
+  },
+  {
+   "id": "baf05e634627d70b|math.s2.distances_angles",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Abstände und Winkel im Raum."
+  },
+  {
+   "id": "a19c76630fe61dde|math.s2.integral",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Integral und Stammfunktion."
+  },
+  {
+   "id": "45fd0ae68a313f9b|math.s2.lines_planes",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Geraden und Ebenen im Raum."
+  },
+  {
+   "id": "a367ac33ebbb5044|math.s2.lines_planes",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Geraden und Ebenen im Raum."
+  },
+  {
+   "id": "b06c72aa7d0b5092|math.s2.lines_planes",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Geraden und Ebenen im Raum."
+  },
+  {
+   "id": "eccc8a915aaf598f|math.s2.lines_planes",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Geraden und Ebenen im Raum."
+  },
+  {
+   "id": "fce449950aea73b5|math.s2.distances_angles",
+   "verdict": "decline",
+   "reason": "Reflection and area/volume problems; not substantially about distances or angles."
+  },
+  {
+   "id": "fce449950aea73b5|math.s2.lines_planes",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Geraden und Ebenen im Raum."
+  },
+  {
+   "id": "9b91f16de7ca5fff|math.s2.exp_ln",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses e-Funktion und natürlicher Logarithmus."
+  },
+  {
+   "id": "d9b0f025eff30bf2|math.s2.exp_ln",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses e-Funktion und natürlicher Logarithmus."
+  },
+  {
+   "id": "34fff5070f102abf|math.s2.function_classes",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Funktionenklassen und Transformationen."
+  },
+  {
+   "id": "792b426d88a99c43|math.s2.function_classes",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Funktionenklassen und Transformationen."
+  },
+  {
+   "id": "eed299f8c95e5f00|math.s2.optimisation",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Extremwertprobleme."
+  },
+  {
+   "id": "63cf57db788e8c1f|math.s2.curve_analysis",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Funktionsuntersuchung."
+  },
+  {
+   "id": "a82d2bd95097c166|math.s2.integral",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Integral und Stammfunktion."
+  },
+  {
+   "id": "a82d2bd95097c166|math.s2.integral_applications",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Anwendungen der Integralrechnung."
+  },
+  {
+   "id": "269b1a8493cd1f73|math.s2.integral",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Integral und Stammfunktion."
+  },
+  {
+   "id": "09f4ceca61390e6a|math.s2.normal",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Normalverteilung."
+  },
+  {
+   "id": "8f96dd120d3f36df|math.s2.normal",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Normalverteilung."
+  },
+  {
+   "id": "aca79294d03a0023|math.s1.functions_concept",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Funktionsbegriff."
+  },
+  {
+   "id": "aca79294d03a0023|math.s1.power_functions",
+   "verdict": "decline",
+   "reason": "About the function concept and domain/range; x^2 and sqrt(x) are only examples."
+  },
+  {
+   "id": "46692e5ef8e2723a|math.s1.quadratic_equations",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Quadratische Gleichungen."
+  },
+  {
+   "id": "46692e5ef8e2723a|math.s2.function_classes",
+   "verdict": "decline",
+   "reason": "Substitution to solve equations is an algebra technique, not function classes or transformations."
+  },
+  {
+   "id": "972c5e35a1cdfab1|math.s1.pythagoras",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Satz des Pythagoras."
+  },
+  {
+   "id": "ba84b4c59ecb3124|math.s1.trigonometry",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Trigonometrie im Dreieck."
+  },
+  {
+   "id": "eaf0f3fb2c774a28|math.s1.power_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Potenzfunktionen."
+  },
+  {
+   "id": "25ea2f15e32f5f5e|math.s2.inverse_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Umkehrfunktionen."
+  },
+  {
+   "id": "9265f69a76457a7d|math.s1.exponential",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Exponentielles Wachstum und Exponentialfunktionen."
+  },
+  {
+   "id": "0bb8b1c1dc745aa2|math.s1.trig_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Trigonometrische Funktionen."
+  },
+  {
+   "id": "caf418dc0ea3b5d6|math.s1.trig_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Trigonometrische Funktionen."
+  },
+  {
+   "id": "78629ef68d5158de|math.s2.random_variables",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Zufallsgrößen und Erwartungswert."
+  },
+  {
+   "id": "c6c8358c08b1dca2|math.s2.random_variables",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Zufallsgrößen und Erwartungswert."
+  },
+  {
+   "id": "3088df0ae8b0b209|math.s2.random_variables",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Zufallsgrößen und Erwartungswert."
+  },
+  {
+   "id": "9f4dd6dee9f0b518|math.s2.binomial",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Binomialverteilung."
+  },
+  {
+   "id": "ff721207f2b1ef4c|math.s2.binomial",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Binomialverteilung."
+  },
+  {
+   "id": "4a9f6ce7fbb6dbb6|math.s2.distances_angles",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Abstände und Winkel im Raum."
+  },
+  {
+   "id": "4a9f6ce7fbb6dbb6|math.s2.lines_planes",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Geraden und Ebenen im Raum."
+  },
+  {
+   "id": "c4be36ca2703dcdd|math.s2.exp_ln",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses e-Funktion und natürlicher Logarithmus."
+  },
+  {
+   "id": "d4c1d3e2ed8c25c7|math.s2.inverse_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Umkehrfunktionen."
+  },
+  {
+   "id": "6bed8721743d450d|math.s2.inverse_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Umkehrfunktionen."
+  },
+  {
+   "id": "f8d15da24242a962|math.s2.inverse_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Umkehrfunktionen."
+  },
+  {
+   "id": "2b15b24d6b03e753|math.s2.normal",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Normalverteilung."
+  },
+  {
+   "id": "33685e9381a75c75|math.s2.distances_angles",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Abstände und Winkel im Raum."
+  },
+  {
+   "id": "8cfeae687c3c859b|math.s2.distances_angles",
+   "verdict": "decline",
+   "reason": "Reflection, area/volume and motion problems; no distance or angle work named."
+  },
+  {
+   "id": "8cfeae687c3c859b|math.s2.lines_planes",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Geraden und Ebenen im Raum."
+  },
+  {
+   "id": "396fee25f6aa6e9a|math.s1.fractions",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Brüche und Bruchteile."
+  },
+  {
+   "id": "e52826ca262299cd|math.s1.fractions",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Brüche und Bruchteile."
+  },
+  {
+   "id": "aa9610fcca1a82a8|math.p.written_algorithms",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Schriftliche Rechenverfahren."
+  },
+  {
+   "id": "aa9610fcca1a82a8|math.s1.decimals",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Dezimalzahlen."
+  },
+  {
+   "id": "673ced80825423f8|math.s1.powers",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Potenzen und Potenzgesetze."
+  },
+  {
+   "id": "599c7a947ed0d113|math.s1.units",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Größen und Einheiten."
+  },
+  {
+   "id": "c8e909d75392f797|math.s1.units",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Größen und Einheiten."
+  },
+  {
+   "id": "99d4f3084b19ffee|math.s1.functions_concept",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Funktionsbegriff."
+  },
+  {
+   "id": "72db0d0cce81230b|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "96ebe803d355d2b5|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "c25e0e938cea546e|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "a7726928f988a9b4|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "39b51c7eaf88bcbe|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "3de07dd347e7c4bc|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "cdf07fd0d6bc2816|math.s1.percent",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Prozentrechnung."
+  },
+  {
+   "id": "9e1b52a8a5835c29|math.s1.terms",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Terme und Variablen."
+  },
+  {
+   "id": "e90fb31fae5787e1|math.s1.terms",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Terme und Variablen."
+  },
+  {
+   "id": "1ecd1d79f4d8f05b|math.s1.roots",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Quadratwurzeln und reelle Zahlen."
+  },
+  {
+   "id": "b9f694a4bb8591bc|math.s1.roots",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Quadratwurzeln und reelle Zahlen."
+  },
+  {
+   "id": "ea99ddb95fa64f40|math.s1.linear_equations",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Lineare Gleichungen."
+  },
+  {
+   "id": "d66a4c6b11345410|math.s1.linear_equations",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Lineare Gleichungen."
+  },
+  {
+   "id": "d66a4c6b11345410|math.s1.linear_systems",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Lineare Gleichungssysteme."
+  },
+  {
+   "id": "22f11caf8c18e136|math.s1.linear_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Lineare Funktionen."
+  },
+  {
+   "id": "22f11caf8c18e136|math.s1.linear_systems",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Lineare Gleichungssysteme."
+  },
+  {
+   "id": "9bd76f5d8f5e736e|math.s1.functions_concept",
+   "verdict": "decline",
+   "reason": "Solving linear inequalities; the general function concept is too broad."
+  },
+  {
+   "id": "9bd76f5d8f5e736e|math.s1.linear_equations",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Lineare Gleichungen."
+  },
+  {
+   "id": "9986918c980de7da|math.s1.functions_concept",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Funktionsbegriff."
+  },
+  {
+   "id": "300ee59a0971c2f9|math.s1.proportionality",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Proportionale und antiproportionale Zuordnungen."
+  },
+  {
+   "id": "1cfa053a2174c22f|math.s1.linear_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Lineare Funktionen."
+  },
+  {
+   "id": "6360bc0a56b45acd|math.s1.probability",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Zufallsexperimente und Wahrscheinlichkeit."
+  },
+  {
+   "id": "50ff4a685f57620c|math.s1.combinatorics",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Zählprinzipien und Kombinatorik."
+  },
+  {
+   "id": "50ff4a685f57620c|math.s1.probability",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Zufallsexperimente und Wahrscheinlichkeit."
+  },
+  {
+   "id": "2f3b374895c84eb1|math.s1.quadratic_equations",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Quadratische Gleichungen."
+  },
+  {
+   "id": "92b085a58364aa57|math.s1.quadratic_equations",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Quadratische Gleichungen."
+  },
+  {
+   "id": "92b085a58364aa57|math.s1.quadratic_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Quadratische Funktionen."
+  },
+  {
+   "id": "d81d674e2ff9e168|math.s1.quadratic_equations",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Quadratische Gleichungen."
+  },
+  {
+   "id": "ad519b2938b9f590|math.s1.exponential",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Exponentielles Wachstum und Exponentialfunktionen."
+  },
+  {
+   "id": "ad519b2938b9f590|math.s1.interest",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Zinsrechnung."
+  },
+  {
+   "id": "94c5db06fd973009|math.s1.trigonometry",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Trigonometrie im Dreieck."
+  },
+  {
+   "id": "edfc9b304c54f3e8|math.s1.quadratic_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Quadratische Funktionen."
+  },
+  {
+   "id": "94bb1ed32e259ca0|math.s1.quadratic_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Quadratische Funktionen."
+  },
+  {
+   "id": "b53293226f46f5dc|math.s1.quadratic_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Quadratische Funktionen."
+  },
+  {
+   "id": "9a7c6dd480ce16aa|math.s1.power_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Potenzfunktionen."
+  },
+  {
+   "id": "ccabf91b93674d31|math.s1.functions_concept",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Funktionsbegriff."
+  },
+  {
+   "id": "ccabf91b93674d31|math.s1.power_functions",
+   "verdict": "decline",
+   "reason": "About the function concept and domain/range; power functions only serve as examples."
+  },
+  {
+   "id": "56a11ce8e07560d5|math.s2.inverse_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Umkehrfunktionen."
+  },
+  {
+   "id": "89314fecb9033d91|math.s1.exponential",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Exponentielles Wachstum und Exponentialfunktionen."
+  },
+  {
+   "id": "b3d4025e20ddcad7|math.s1.exponential",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Exponentielles Wachstum und Exponentialfunktionen."
+  },
+  {
+   "id": "b3d4025e20ddcad7|math.s1.power_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Potenzfunktionen."
+  },
+  {
+   "id": "b3d4025e20ddcad7|math.s2.function_classes",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Funktionenklassen und Transformationen."
+  },
+  {
+   "id": "256ac36fabb2a12a|math.s1.trig_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Trigonometrische Funktionen."
+  },
+  {
+   "id": "28fe6020c05a7718|math.s1.trig_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Trigonometrische Funktionen."
+  },
+  {
+   "id": "6bd5fa560345f7f7|math.s1.trig_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Trigonometrische Funktionen."
+  },
+  {
+   "id": "f430c68436a7c54c|math.s2.function_classes",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Funktionenklassen und Transformationen."
+  },
+  {
+   "id": "1cb9236b0609461d|math.s2.random_variables",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Zufallsgrößen und Erwartungswert."
+  },
+  {
+   "id": "0a7b2e3b42753713|math.s1.trig_functions",
+   "verdict": "decline",
+   "reason": "Derivatives of sin and cos belong to differentiation, not to trigonometric functions as such."
+  },
+  {
+   "id": "0a7b2e3b42753713|math.s2.derivative_rules",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Ableitungsregeln."
+  },
+  {
+   "id": "3909f9dea5493059|math.s1.trig_functions",
+   "verdict": "decline",
+   "reason": "Graphical differentiation of sin; differential calculus rather than trigonometric functions."
+  },
+  {
+   "id": "3909f9dea5493059|math.s2.derivative_rules",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Ableitungsregeln."
+  },
+  {
+   "id": "f3df0784f8ad8c16|math.s2.binomial",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Binomialverteilung."
+  },
+  {
+   "id": "d6f0b0376263dbc1|math.s2.binomial",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Binomialverteilung."
+  },
+  {
+   "id": "a39153146a6e40fe|math.s2.binomial",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Binomialverteilung."
+  },
+  {
+   "id": "4149211428220443|math.s2.binomial",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Binomialverteilung."
+  },
+  {
+   "id": "5054f9c389d2a3c1|math.s2.derivative_rules",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Ableitungsregeln."
+  },
+  {
+   "id": "9226e39d73752fa0|math.s2.integral",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Integral und Stammfunktion."
+  },
+  {
+   "id": "618942ffe3e27a04|math.s2.distances_angles",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Abstände und Winkel im Raum."
+  },
+  {
+   "id": "618942ffe3e27a04|math.s2.lines_planes",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Geraden und Ebenen im Raum."
+  },
+  {
+   "id": "e3fd700cdf908e69|math.s2.exp_ln",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses e-Funktion und natürlicher Logarithmus."
+  },
+  {
+   "id": "3ee24c3e5d4a91bd|math.s2.derivative_rules",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Ableitungsregeln."
+  },
+  {
+   "id": "3ee24c3e5d4a91bd|math.s2.exp_ln",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses e-Funktion und natürlicher Logarithmus."
+  },
+  {
+   "id": "7dc1cf5df8510b24|math.s2.derivative_rules",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Ableitungsregeln."
+  },
+  {
+   "id": "7dc1cf5df8510b24|math.s2.exp_ln",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses e-Funktion und natürlicher Logarithmus."
+  },
+  {
+   "id": "0f6a4e82104bff89|math.s2.hypothesis_test",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Hypothesentest."
+  },
+  {
+   "id": "31c25ebd768a3a34|math.s2.integral",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Integral und Stammfunktion."
+  },
+  {
+   "id": "ef190f3ca35d2f5a|math.s2.distances_angles",
+   "verdict": "decline",
+   "reason": "Reflection, area/volume and motion problems; no distance or angle work named."
+  },
+  {
+   "id": "ef190f3ca35d2f5a|math.s2.lines_planes",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Geraden und Ebenen im Raum."
+  },
+  {
+   "id": "96d459a2a6a9d54c|math.s2.exp_ln",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses e-Funktion und natürlicher Logarithmus."
+  },
+  {
+   "id": "08190611d2156e09|math.s1.fractions",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Brüche und Bruchteile."
+  },
+  {
+   "id": "2522febd84307cb3|math.s1.fractions",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Brüche und Bruchteile."
+  },
+  {
+   "id": "791a913fa584136b|math.s1.fractions",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Brüche und Bruchteile."
+  },
+  {
+   "id": "24aa723e4f98c26e|math.s1.fractions",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Brüche und Bruchteile."
+  },
+  {
+   "id": "1d2d4206a8d7621e|math.s1.terms",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Terme und Variablen."
+  },
+  {
+   "id": "e5f131a1ee1359f7|math.s1.terms",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Terme und Variablen."
+  },
+  {
+   "id": "7f0831839785df97|math.s1.terms",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Terme und Variablen."
+  },
+  {
+   "id": "0959d5c553b2e6b6|math.s1.terms",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Terme und Variablen."
+  },
+  {
+   "id": "b2f75a8411d105c8|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "aafb3ffd9c04d662|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "1b2d33b1b6195c00|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "b5c982247411a3d7|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "587f2fe8feae1940|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "9bcadcd658fc83aa|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "7ce9980b571dfa29|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "1ce90ded08304d5d|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "4e449bb7cb13f458|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "a5e7a3b05e2160c8|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "24425e6d2309c09d|math.s1.percent",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Prozentrechnung."
+  },
+  {
+   "id": "40549292c17ce67b|math.s1.terms",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Terme und Variablen."
+  },
+  {
+   "id": "175638e23ef3197d|math.s1.terms",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Terme und Variablen."
+  },
+  {
+   "id": "116ccd701d5248a3|math.s1.term_transformations",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Termumformungen und binomische Formeln."
+  },
+  {
+   "id": "6715415be34a5bc2|math.s1.roots",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Quadratwurzeln und reelle Zahlen."
+  },
+  {
+   "id": "546924741a613681|math.s1.roots",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Quadratwurzeln und reelle Zahlen."
+  },
+  {
+   "id": "58e62b8ec58dce88|math.s1.roots",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Quadratwurzeln und reelle Zahlen."
+  },
+  {
+   "id": "af22cd14401e6026|math.s1.roots",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Quadratwurzeln und reelle Zahlen."
+  },
+  {
+   "id": "bb50193c4d3a47a4|math.s1.roots",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Quadratwurzeln und reelle Zahlen."
+  },
+  {
+   "id": "b9a91493ac040613|math.s1.linear_systems",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Lineare Gleichungssysteme."
+  },
+  {
+   "id": "85570f477de17eef|math.s1.linear_equations",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Lineare Gleichungen."
+  },
+  {
+   "id": "85570f477de17eef|math.s1.linear_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Lineare Funktionen."
+  },
+  {
+   "id": "6ca3188d19f11467|math.s1.pythagoras",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Satz des Pythagoras."
+  },
+  {
+   "id": "5428759b811242f6|math.s1.linear_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Lineare Funktionen."
+  },
+  {
+   "id": "a4f7048803d1f5c7|math.s1.linear_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Lineare Funktionen."
+  },
+  {
+   "id": "2bfe1bf08f49490a|math.s1.functions_concept",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Funktionsbegriff."
+  },
+  {
+   "id": "7b4d8b18390ff7b2|math.s1.linear_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Lineare Funktionen."
+  },
+  {
+   "id": "1f75375883d40245|math.s1.linear_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Lineare Funktionen."
+  },
+  {
+   "id": "b1a7f7e0e52f7b33|math.s1.quadratic_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Quadratische Funktionen."
+  },
+  {
+   "id": "1b6318f748520b25|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "3050c7f30ed34296|math.s1.boxplot",
+   "verdict": "decline",
+   "reason": "Median is a measure of centre; boxplot and spread measures not addressed."
+  },
+  {
+   "id": "bb0a9473ca81044c|math.s1.boxplot",
+   "verdict": "decline",
+   "reason": "Median is a measure of centre; boxplot and spread measures not addressed."
+  },
+  {
+   "id": "5806e327c5b3570f|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "21ff13bd30dae689|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "32b7cbaf39773922|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "89952c01cb41a581|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "fe663e1524cad207|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "b4803085cd843f45|math.s1.combinatorics",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Zählprinzipien und Kombinatorik."
+  },
+  {
+   "id": "b4803085cd843f45|math.s1.probability",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Zufallsexperimente und Wahrscheinlichkeit."
+  },
+  {
+   "id": "4d2820823053f939|math.s1.probability",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Zufallsexperimente und Wahrscheinlichkeit."
+  },
+  {
+   "id": "c0eed255ab35dec8|math.s1.exponential",
+   "verdict": "decline",
+   "reason": "Defining interest vocabulary; exponential functions not substantially involved."
+  },
+  {
+   "id": "c0eed255ab35dec8|math.s1.interest",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Zinsrechnung."
+  },
+  {
+   "id": "afd9bccfe917e3ca|math.s1.exponential",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Exponentielles Wachstum und Exponentialfunktionen."
+  },
+  {
+   "id": "afd9bccfe917e3ca|math.s1.interest",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Zinsrechnung."
+  },
+  {
+   "id": "28211bdc61dfcc0f|math.s1.pyramid_cone_sphere",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Pyramide, Kegel und Kugel."
+  },
+  {
+   "id": "210f2b55aa5f5be0|math.s1.pyramid_cone_sphere",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Pyramide, Kegel und Kugel."
+  },
+  {
+   "id": "210f2b55aa5f5be0|math.s1.volume_surface",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Volumen und Oberfläche von Prismen und Zylindern."
+  },
+  {
+   "id": "d06614a338b80f66|math.s1.trigonometry",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Trigonometrie im Dreieck."
+  },
+  {
+   "id": "97be6398dec03943|math.s1.functions_concept",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Funktionsbegriff."
+  },
+  {
+   "id": "8c2eac255a0eb1b0|math.s1.power_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Potenzfunktionen."
+  },
+  {
+   "id": "cf974e3a0e25a4d3|math.s1.functions_concept",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Funktionsbegriff."
+  },
+  {
+   "id": "cf974e3a0e25a4d3|math.s1.power_functions",
+   "verdict": "decline",
+   "reason": "About the function concept and domain/range; power functions only serve as examples."
+  },
+  {
+   "id": "9382bb8afc7b52cb|math.s2.inverse_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Umkehrfunktionen."
+  },
+  {
+   "id": "3bace366bbe8af03|math.s1.exponential",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Exponentielles Wachstum und Exponentialfunktionen."
+  },
+  {
+   "id": "761313ceb83fd31a|math.s1.exponential",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Exponentielles Wachstum und Exponentialfunktionen."
+  },
+  {
+   "id": "51490ee79a030fb8|math.s1.trig_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Trigonometrische Funktionen."
+  },
+  {
+   "id": "913b437a518ae751|math.s1.trig_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Trigonometrische Funktionen."
+  },
+  {
+   "id": "b863a1198e90d7ea|math.s1.trig_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Trigonometrische Funktionen."
+  },
+  {
+   "id": "a07a1c9729a636bc|math.s1.exponential",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Exponentielles Wachstum und Exponentialfunktionen."
+  },
+  {
+   "id": "fdfd91a9c578e9d7|math.s1.exponential",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Exponentielles Wachstum und Exponentialfunktionen."
+  },
+  {
+   "id": "94e4093525cf96a1|math.s1.multistage",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Mehrstufige Zufallsexperimente und Baumdiagramme."
+  },
+  {
+   "id": "2d0d661a9afd0cb5|math.s1.multistage",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Mehrstufige Zufallsexperimente und Baumdiagramme."
+  },
+  {
+   "id": "9389505d495e0682|math.s2.conditional_probability",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Bedingte Wahrscheinlichkeit und Unabhängigkeit."
+  },
+  {
+   "id": "5941417ceadf18b8|math.s2.conditional_probability",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Bedingte Wahrscheinlichkeit und Unabhängigkeit."
+  },
+  {
+   "id": "a4dfacf8add89683|math.s2.conditional_probability",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Bedingte Wahrscheinlichkeit und Unabhängigkeit."
+  },
+  {
+   "id": "a7e1ac7e8bbfb62c|math.s2.random_variables",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Zufallsgrößen und Erwartungswert."
+  },
+  {
+   "id": "01d396c09bc33242|math.p.numbers_to_100",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Zahlen bis 100."
+  },
+  {
+   "id": "01d396c09bc33242|math.p.numbers_to_20",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Zahlen bis 20."
+  },
+  {
+   "id": "e33f7d74e85cb05f|math.p.add_sub",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Addition und Subtraktion."
+  },
+  {
+   "id": "e33f7d74e85cb05f|math.p.mult_div",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Multiplikation und Division, Einmaleins."
+  },
+  {
+   "id": "bc4fe29f1b527800|math.p.add_sub",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Addition und Subtraktion."
+  },
+  {
+   "id": "bc4fe29f1b527800|math.p.mult_div",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Multiplikation und Division, Einmaleins."
+  },
+  {
+   "id": "3020653dc050acfd|math.p.functional_relations",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Einfache funktionale Beziehungen (Grundschule)."
+  },
+  {
+   "id": "e171ff46c5c2cda9|math.p.place_value",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Stellenwertsystem."
+  },
+  {
+   "id": "3699bad6365e5ee0|math.p.numbers_to_million",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Zahlen bis 1 000 000."
+  },
+  {
+   "id": "74aa3ff14f8f23d0|math.p.numbers_to_million",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Zahlen bis 1 000 000."
+  },
+  {
+   "id": "fd31f9647ae923a3|math.p.numbers_to_million",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Zahlen bis 1 000 000."
+  },
+  {
+   "id": "c8468b7dd9e3db18|math.p.add_sub",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Addition und Subtraktion."
+  },
+  {
+   "id": "c8468b7dd9e3db18|math.p.mult_div",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Multiplikation und Division, Einmaleins."
+  },
+  {
+   "id": "81d3d7a588f9151a|math.p.add_sub",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Addition und Subtraktion."
+  },
+  {
+   "id": "81d3d7a588f9151a|math.p.mult_div",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Multiplikation und Division, Einmaleins."
+  },
+  {
+   "id": "71af7568e104af7c|math.p.mental_strategies",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Rechenstrategien und Kopfrechnen."
+  },
+  {
+   "id": "a9deb8a1d929c024|math.p.mental_strategies",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Rechenstrategien und Kopfrechnen."
+  },
+  {
+   "id": "e8ee8708e18b2851|math.s1.terms",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Terme und Variablen."
+  },
+  {
+   "id": "a25333829d67d946|math.p.mental_strategies",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Rechenstrategien und Kopfrechnen."
+  },
+  {
+   "id": "17ef7cead557b379|math.p.mental_strategies",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Rechenstrategien und Kopfrechnen."
+  },
+  {
+   "id": "95d3d81197a9d6a4|math.p.written_algorithms",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Schriftliche Rechenverfahren."
+  },
+  {
+   "id": "16e2cb65465b26d5|math.p.add_sub",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Addition und Subtraktion."
+  },
+  {
+   "id": "16e2cb65465b26d5|math.p.mult_div",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Multiplikation und Division, Einmaleins."
+  },
+  {
+   "id": "3b220eac9fb4e139|math.p.word_problems",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Sachaufgaben und Sachsituationen."
+  },
+  {
+   "id": "842ec1c92509bc90|math.p.word_problems",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Sachaufgaben und Sachsituationen."
+  },
+  {
+   "id": "1bd03102644a3d3a|math.p.mental_strategies",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Rechenstrategien und Kopfrechnen."
+  },
+  {
+   "id": "977dfa8189b6b2f1|math.p.word_problems",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Sachaufgaben und Sachsituationen."
+  },
+  {
+   "id": "67d18eaadce7f2a5|math.p.spatial_orientation",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Räumliche Orientierung und Lagebeziehungen."
+  },
+  {
+   "id": "402aef5e5fc06fa2|math.p.spatial_orientation",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Räumliche Orientierung und Lagebeziehungen."
+  },
+  {
+   "id": "b371f4cace297a66|math.p.plane_figures",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Ebene Figuren."
+  },
+  {
+   "id": "022f8fc46f21492f|math.p.plane_figures",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Ebene Figuren."
+  },
+  {
+   "id": "b24fc68bf0855856|math.p.symmetry",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Symmetrie (Grundschule)."
+  },
+  {
+   "id": "e9390a1146f0f0ce|math.p.plane_figures",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Ebene Figuren."
+  },
+  {
+   "id": "573e14e36a13e066|math.p.measuring",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Größen und Messen: Einheiten umrechnen."
+  },
+  {
+   "id": "10ddb78c88729ca8|math.p.measuring",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Größen und Messen: Einheiten umrechnen."
+  },
+  {
+   "id": "99b6e05a5d5f58ee|math.p.word_problems",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Sachaufgaben und Sachsituationen."
+  },
+  {
+   "id": "3599e85868261a8d|math.p.data",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Daten erfassen und darstellen."
+  },
+  {
+   "id": "79962d21a5cd7b71|math.p.data",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Daten erfassen und darstellen."
+  },
+  {
+   "id": "8098b48f07fb1361|math.p.data",
+   "verdict": "decline",
+   "reason": "Heuristic representations for problem solving, not collecting or displaying data."
+  },
+  {
+   "id": "f4681d4de105cc6a|math.p.chance",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Wahrscheinlichkeit (Grundschule)."
+  },
+  {
+   "id": "3306356e1ee301df|math.p.chance",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Wahrscheinlichkeit (Grundschule)."
+  },
+  {
+   "id": "aead18f08713990a|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "479477aad21b5279|math.s1.terms",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Terme und Variablen."
+  },
+  {
+   "id": "0406336ff687833e|math.s1.quadratic_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Quadratische Funktionen."
+  },
+  {
+   "id": "dd4473609d84ded7|math.s1.power_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially addresses Potenzfunktionen."
+  }
+ ]
+}

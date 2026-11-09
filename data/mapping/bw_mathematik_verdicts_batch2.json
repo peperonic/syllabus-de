@@ -1,0 +1,1535 @@
+{
+ "judge": "independent agent, batch 2",
+ "verdicts": [
+  {
+   "id": "42e652aa2a23bda9|math.s1.probability",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Zufallsexperimente und Wahrscheinlichkeit."
+  },
+  {
+   "id": "511a98f1009bf634|math.s1.probability",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Zufallsexperimente und Wahrscheinlichkeit."
+  },
+  {
+   "id": "1dca2a9958bdf970|math.s1.combinatorics",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Zählprinzipien und Kombinatorik."
+  },
+  {
+   "id": "1dca2a9958bdf970|math.s1.probability",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Zufallsexperimente und Wahrscheinlichkeit."
+  },
+  {
+   "id": "4d5b03ad915e4dd7|math.s1.probability",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Zufallsexperimente und Wahrscheinlichkeit."
+  },
+  {
+   "id": "7a5e1b0927c7d38c|math.s1.probability",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Zufallsexperimente und Wahrscheinlichkeit."
+  },
+  {
+   "id": "05458f4407f34c53|math.s1.probability",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Zufallsexperimente und Wahrscheinlichkeit."
+  },
+  {
+   "id": "78f39cc74a890879|math.s1.probability",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Zufallsexperimente und Wahrscheinlichkeit."
+  },
+  {
+   "id": "d87431786a2cb0f4|math.s1.powers",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Potenzen und Potenzgesetze."
+  },
+  {
+   "id": "d545cf96a50dc3f5|math.s1.powers",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Potenzen und Potenzgesetze."
+  },
+  {
+   "id": "dd9177bc32172807|math.s1.powers",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Potenzen und Potenzgesetze."
+  },
+  {
+   "id": "9e08df503f91b355|math.s1.powers",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Potenzen und Potenzgesetze."
+  },
+  {
+   "id": "23f12c1702a8bcb5|math.s1.exponential",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Exponentielles Wachstum und Exponentialfunktionen."
+  },
+  {
+   "id": "23f12c1702a8bcb5|math.s1.logarithm",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Logarithmus."
+  },
+  {
+   "id": "8f4c475faf9b9d9d|math.s1.logarithm",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Logarithmus."
+  },
+  {
+   "id": "462584b70a86a412|math.s1.exponential",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Exponentielles Wachstum und Exponentialfunktionen."
+  },
+  {
+   "id": "462584b70a86a412|math.s1.interest",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Zinsrechnung."
+  },
+  {
+   "id": "3ac26a826730b98f|math.s1.exponential",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Exponentielles Wachstum und Exponentialfunktionen."
+  },
+  {
+   "id": "3ac26a826730b98f|math.s1.interest",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Zinsrechnung."
+  },
+  {
+   "id": "4496010722403cd0|math.s1.exponential",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Exponentielles Wachstum und Exponentialfunktionen."
+  },
+  {
+   "id": "4496010722403cd0|math.s1.interest",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Zinsrechnung."
+  },
+  {
+   "id": "f21d2d096a096333|math.s1.exponential",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Exponentielles Wachstum und Exponentialfunktionen."
+  },
+  {
+   "id": "f21d2d096a096333|math.s1.interest",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Zinsrechnung."
+  },
+  {
+   "id": "b9450ec43d37f676|math.s1.exponential",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Exponentielles Wachstum und Exponentialfunktionen."
+  },
+  {
+   "id": "b9450ec43d37f676|math.s1.interest",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Zinsrechnung."
+  },
+  {
+   "id": "05bbcc768b24c562|math.s1.trig_functions",
+   "verdict": "decline",
+   "reason": "Standard is about angle measurement units (degree/radian), not trigonometric functions themselves."
+  },
+  {
+   "id": "7dd6c4aaa8f466b3|math.s1.pyramid_cone_sphere",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Pyramide, Kegel und Kugel."
+  },
+  {
+   "id": "8e86f8e2892cdee2|math.s1.pyramid_cone_sphere",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Pyramide, Kegel und Kugel."
+  },
+  {
+   "id": "221a074cd5ce48ed|math.s1.pyramid_cone_sphere",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Pyramide, Kegel und Kugel."
+  },
+  {
+   "id": "221a074cd5ce48ed|math.s1.volume_surface",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Volumen und Oberfläche von Prismen und Zylindern."
+  },
+  {
+   "id": "e3511c90fd5fdd55|math.s1.pyramid_cone_sphere",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Pyramide, Kegel und Kugel."
+  },
+  {
+   "id": "81d26aa66f8c8174|math.s1.pyramid_cone_sphere",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Pyramide, Kegel und Kugel."
+  },
+  {
+   "id": "d72eb0266d8b6926|math.s1.pyramid_cone_sphere",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Pyramide, Kegel und Kugel."
+  },
+  {
+   "id": "d72eb0266d8b6926|math.s1.volume_surface",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Volumen und Oberfläche von Prismen und Zylindern."
+  },
+  {
+   "id": "bb82a94dff68e7cf|math.s1.trigonometry",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Trigonometrie im Dreieck."
+  },
+  {
+   "id": "b25b7601fa81cb5d|math.s1.trigonometry",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Trigonometrie im Dreieck."
+  },
+  {
+   "id": "5d7f4d0c65d82d25|math.s1.trigonometry",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Trigonometrie im Dreieck."
+  },
+  {
+   "id": "524d554fb387be92|math.s1.functions_concept",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Funktionsbegriff."
+  },
+  {
+   "id": "e13032ac99be7877|math.s1.power_functions",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Potenzfunktionen."
+  },
+  {
+   "id": "4254b07fae07c3fe|math.s1.functions_concept",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Funktionsbegriff."
+  },
+  {
+   "id": "4254b07fae07c3fe|math.s1.power_functions",
+   "verdict": "decline",
+   "reason": "x^2 and the square root function serve only as examples for the function concept; power functions are not the subject."
+  },
+  {
+   "id": "e843217a5ebcf6e6|math.s1.exponential",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Exponentielles Wachstum und Exponentialfunktionen."
+  },
+  {
+   "id": "40530aab1eeb686f|math.s1.exponential",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Exponentielles Wachstum und Exponentialfunktionen."
+  },
+  {
+   "id": "40530aab1eeb686f|math.s1.power_functions",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Potenzfunktionen."
+  },
+  {
+   "id": "40530aab1eeb686f|math.s2.function_classes",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Funktionenklassen und Transformationen."
+  },
+  {
+   "id": "5b025fe30826ed4a|math.s1.trig_functions",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Trigonometrische Funktionen."
+  },
+  {
+   "id": "6cd70b45c055b829|math.s1.trig_functions",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Trigonometrische Funktionen."
+  },
+  {
+   "id": "c3b39b75417a3731|math.s1.trig_functions",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Trigonometrische Funktionen."
+  },
+  {
+   "id": "9a5d4cf7c684380d|math.s1.exponential",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Exponentielles Wachstum und Exponentialfunktionen."
+  },
+  {
+   "id": "f2a24b3d257cf03c|math.s1.multistage",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Mehrstufige Zufallsexperimente und Baumdiagramme."
+  },
+  {
+   "id": "3597919519980ad5|math.s1.multistage",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Mehrstufige Zufallsexperimente und Baumdiagramme."
+  },
+  {
+   "id": "fc53372c7f052811|math.s1.multistage",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Mehrstufige Zufallsexperimente und Baumdiagramme."
+  },
+  {
+   "id": "bada9e316dd14944|math.s1.multistage",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Mehrstufige Zufallsexperimente und Baumdiagramme."
+  },
+  {
+   "id": "c30f0c62a9eb67b9|math.s2.conditional_probability",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Bedingte Wahrscheinlichkeit und Unabhängigkeit."
+  },
+  {
+   "id": "839b67b66caddf55|math.s2.conditional_probability",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Bedingte Wahrscheinlichkeit und Unabhängigkeit."
+  },
+  {
+   "id": "cc21396b9b1681ab|math.s2.conditional_probability",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Bedingte Wahrscheinlichkeit und Unabhängigkeit."
+  },
+  {
+   "id": "d97a153c09a41dec|math.s2.random_variables",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Zufallsgrößen und Erwartungswert."
+  },
+  {
+   "id": "f82250f929166f0a|math.s2.random_variables",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Zufallsgrößen und Erwartungswert."
+  },
+  {
+   "id": "64028b114ccf6fc4|math.s2.random_variables",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Zufallsgrößen und Erwartungswert."
+  },
+  {
+   "id": "cc3d685a321f7a1d|math.s2.random_variables",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Zufallsgrößen und Erwartungswert."
+  },
+  {
+   "id": "f13c6c9eaeb3bac4|math.p.numbers_to_100",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Zahlen bis 100."
+  },
+  {
+   "id": "09bcee672b71f532|math.p.numbers_to_100",
+   "verdict": "decline",
+   "reason": "Subitizing small quantities concerns the number range up to 20, not numbers up to 100."
+  },
+  {
+   "id": "09bcee672b71f532|math.p.numbers_to_20",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Zahlen bis 20."
+  },
+  {
+   "id": "1d44efab52c772a7|math.p.numbers_to_100",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Zahlen bis 100."
+  },
+  {
+   "id": "6785c49343dfa127|math.p.numbers_to_100",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Zahlen bis 100."
+  },
+  {
+   "id": "a44f68ff9ade568f|math.p.place_value",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Stellenwertsystem."
+  },
+  {
+   "id": "6721b2929b2eec54|math.p.numbers_to_100",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Zahlen bis 100."
+  },
+  {
+   "id": "7f936c596dbb30c7|math.p.patterns",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Muster und Strukturen."
+  },
+  {
+   "id": "26da1b6f36844b27|math.p.patterns",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Muster und Strukturen."
+  },
+  {
+   "id": "89efcd05301adb06|math.p.add_sub",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Addition und Subtraktion."
+  },
+  {
+   "id": "89efcd05301adb06|math.p.mult_div",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Multiplikation und Division, Einmaleins."
+  },
+  {
+   "id": "79d13befbf83a138|math.p.add_sub",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Addition und Subtraktion."
+  },
+  {
+   "id": "79d13befbf83a138|math.p.mult_div",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Multiplikation und Division, Einmaleins."
+  },
+  {
+   "id": "d84153f3347e70ea|math.p.add_sub",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Addition und Subtraktion."
+  },
+  {
+   "id": "d84153f3347e70ea|math.p.mult_div",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Multiplikation und Division, Einmaleins."
+  },
+  {
+   "id": "13f017083486a722|math.p.add_sub",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Addition und Subtraktion."
+  },
+  {
+   "id": "13f017083486a722|math.p.mult_div",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Multiplikation und Division, Einmaleins."
+  },
+  {
+   "id": "088b759f1830c248|math.p.mental_strategies",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Rechenstrategien und Kopfrechnen."
+  },
+  {
+   "id": "484ea8821f347991|math.p.mental_strategies",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Rechenstrategien und Kopfrechnen."
+  },
+  {
+   "id": "9d542797ff3d4119|math.p.mental_strategies",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Rechenstrategien und Kopfrechnen."
+  },
+  {
+   "id": "89ef2161b442ad95|math.p.mental_strategies",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Rechenstrategien und Kopfrechnen."
+  },
+  {
+   "id": "bc861466a4af770e|math.p.add_sub",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Addition und Subtraktion."
+  },
+  {
+   "id": "bc861466a4af770e|math.p.mult_div",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Multiplikation und Division, Einmaleins."
+  },
+  {
+   "id": "51a152cf619d42b3|math.p.add_sub",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Addition und Subtraktion."
+  },
+  {
+   "id": "2873d8f6bd4e1ba3|math.p.mult_div",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Multiplikation und Division, Einmaleins."
+  },
+  {
+   "id": "cd0d2b5c7e9cd7c9|math.p.mental_strategies",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Rechenstrategien und Kopfrechnen."
+  },
+  {
+   "id": "ffc34394f94c61fe|math.p.patterns",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Muster und Strukturen."
+  },
+  {
+   "id": "2e89dafaa7b70400|math.p.patterns",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Muster und Strukturen."
+  },
+  {
+   "id": "9106354eac893607|math.p.functional_relations",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Einfache funktionale Beziehungen (Grundschule)."
+  },
+  {
+   "id": "1e18579ab2f7863f|math.p.word_problems",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Sachaufgaben und Sachsituationen."
+  },
+  {
+   "id": "ce875a121c6137f8|math.p.word_problems",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Sachaufgaben und Sachsituationen."
+  },
+  {
+   "id": "623f11735863fc5d|math.p.word_problems",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Sachaufgaben und Sachsituationen."
+  },
+  {
+   "id": "eb939e163b8aae03|math.p.data",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Daten erfassen und darstellen."
+  },
+  {
+   "id": "48c41c92fc38e1cc|math.p.data",
+   "verdict": "decline",
+   "reason": "Generic translation of mathematical representations into context, not specifically data collection or display."
+  },
+  {
+   "id": "b6c66413920efaf0|math.p.data",
+   "verdict": "decline",
+   "reason": "Generic switching between representations, not specifically about data."
+  },
+  {
+   "id": "f1acaf0609a976c3|math.p.functional_relations",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Einfache funktionale Beziehungen (Grundschule)."
+  },
+  {
+   "id": "75196eaee0897994|math.p.combinatorics",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Einfache Kombinatorik (Grundschule)."
+  },
+  {
+   "id": "0b92b39da71e55bb|math.p.spatial_orientation",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Räumliche Orientierung und Lagebeziehungen."
+  },
+  {
+   "id": "91f7b84ac3703539|math.p.spatial_orientation",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Räumliche Orientierung und Lagebeziehungen."
+  },
+  {
+   "id": "c247d03f903a3f0e|math.p.solids",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Geometrische Körper."
+  },
+  {
+   "id": "c247d03f903a3f0e|math.p.spatial_orientation",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Räumliche Orientierung und Lagebeziehungen."
+  },
+  {
+   "id": "a68ca1bbc931a0de|math.p.solids",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Geometrische Körper."
+  },
+  {
+   "id": "a68ca1bbc931a0de|math.p.spatial_orientation",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Räumliche Orientierung und Lagebeziehungen."
+  },
+  {
+   "id": "685c134ec8e89bc6|math.p.plane_figures",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Ebene Figuren."
+  },
+  {
+   "id": "7a663bfa3ac85056|math.p.plane_figures",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Ebene Figuren."
+  },
+  {
+   "id": "8711999721cc7548|math.p.plane_figures",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Ebene Figuren."
+  },
+  {
+   "id": "6340c8317018ba9e|math.p.solids",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Geometrische Körper."
+  },
+  {
+   "id": "8a8487cfa796a74d|math.p.solids",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Geometrische Körper."
+  },
+  {
+   "id": "8a9ff017d3bd8717|math.p.solids",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Geometrische Körper."
+  },
+  {
+   "id": "b6d34d219524711d|math.p.symmetry",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Symmetrie (Grundschule)."
+  },
+  {
+   "id": "1fc7545994ff6122|math.p.symmetry",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Symmetrie (Grundschule)."
+  },
+  {
+   "id": "7613fc29419e5596|math.p.patterns",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Muster und Strukturen."
+  },
+  {
+   "id": "7613fc29419e5596|math.p.plane_figures",
+   "verdict": "decline",
+   "reason": "Focus is on continuing geometric patterns, plane figures only in passing."
+  },
+  {
+   "id": "cf333224b669eecb|math.p.area_perimeter_intro",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Flächen und Umfang (Grundvorstellung)."
+  },
+  {
+   "id": "f023fc44b1194215|math.p.area_perimeter_intro",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Flächen und Umfang (Grundvorstellung)."
+  },
+  {
+   "id": "46c26d3aadae5961|math.p.length_weight_capacity",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Längen, Gewichte und Rauminhalte."
+  },
+  {
+   "id": "46c26d3aadae5961|math.p.money",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Geld."
+  },
+  {
+   "id": "46c26d3aadae5961|math.p.time",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Zeit."
+  },
+  {
+   "id": "2e4ffef661f65a28|math.p.measuring",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Größen und Messen: Einheiten umrechnen."
+  },
+  {
+   "id": "f86f6d3a9328fa7c|math.p.money",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Geld."
+  },
+  {
+   "id": "4abcf91222359e77|math.p.length_weight_capacity",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Längen, Gewichte und Rauminhalte."
+  },
+  {
+   "id": "bcca6b90dbae9c06|math.p.time",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Zeit."
+  },
+  {
+   "id": "efe08eb10d088ac2|math.p.measuring",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Größen und Messen: Einheiten umrechnen."
+  },
+  {
+   "id": "f84f9bd2afa8c76c|math.p.measuring",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Größen und Messen: Einheiten umrechnen."
+  },
+  {
+   "id": "b05e0d3957db8e23|math.p.measuring",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Größen und Messen: Einheiten umrechnen."
+  },
+  {
+   "id": "1d41fdb13c78890f|math.p.measuring",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Größen und Messen: Einheiten umrechnen."
+  },
+  {
+   "id": "6209a8a8c620e517|math.p.word_problems",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Sachaufgaben und Sachsituationen."
+  },
+  {
+   "id": "1c4d68f3ffb255f2|math.p.word_problems",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Sachaufgaben und Sachsituationen."
+  },
+  {
+   "id": "bafacc91be2464cd|math.p.data",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Daten erfassen und darstellen."
+  },
+  {
+   "id": "03331f0fcc1f6574|math.p.data",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Daten erfassen und darstellen."
+  },
+  {
+   "id": "5d39533ce7e9bed4|math.p.chance",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Wahrscheinlichkeit (Grundschule)."
+  },
+  {
+   "id": "ece11e0cf25fab83|math.p.place_value",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Stellenwertsystem."
+  },
+  {
+   "id": "c2f48d83fa2e409a|math.p.numbers_to_million",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Zahlen bis 1 000 000."
+  },
+  {
+   "id": "ccd68e216ed265f3|math.p.numbers_to_million",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Zahlen bis 1 000 000."
+  },
+  {
+   "id": "1fbdbd8d35c11cfa|math.p.numbers_to_million",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Zahlen bis 1 000 000."
+  },
+  {
+   "id": "ba244f4b18d593ca|math.p.numbers_to_million",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Zahlen bis 1 000 000."
+  },
+  {
+   "id": "47efad08b5c0f35f|math.p.numbers_to_million",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Zahlen bis 1 000 000."
+  },
+  {
+   "id": "8e96e2569c5d4ad1|math.p.add_sub",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Addition und Subtraktion."
+  },
+  {
+   "id": "8e96e2569c5d4ad1|math.p.mult_div",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Multiplikation und Division, Einmaleins."
+  },
+  {
+   "id": "b7ab1a57ce979f4d|math.p.add_sub",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Addition und Subtraktion."
+  },
+  {
+   "id": "b7ab1a57ce979f4d|math.p.mult_div",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Multiplikation und Division, Einmaleins."
+  },
+  {
+   "id": "decdf2f6814b7f42|math.p.add_sub",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Addition und Subtraktion."
+  },
+  {
+   "id": "decdf2f6814b7f42|math.p.mult_div",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Multiplikation und Division, Einmaleins."
+  },
+  {
+   "id": "d507d26822c35c16|math.p.mental_strategies",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Rechenstrategien und Kopfrechnen."
+  },
+  {
+   "id": "f4592b90f0c68ed5|math.p.mental_strategies",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Rechenstrategien und Kopfrechnen."
+  },
+  {
+   "id": "5eb24d250282ecd2|math.p.mental_strategies",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Rechenstrategien und Kopfrechnen."
+  },
+  {
+   "id": "0e7abad6797f7be8|math.p.written_algorithms",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Schriftliche Rechenverfahren."
+  },
+  {
+   "id": "651af7be8b500a63|math.p.written_algorithms",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Schriftliche Rechenverfahren."
+  },
+  {
+   "id": "431cc6bbe21c265f|math.p.mult_div",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Multiplikation und Division, Einmaleins."
+  },
+  {
+   "id": "66d51c3a818806b9|math.p.mental_strategies",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Rechenstrategien und Kopfrechnen."
+  },
+  {
+   "id": "d5360f8d61db9029|math.p.patterns",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Muster und Strukturen."
+  },
+  {
+   "id": "3fbd9f42a74b0bff|math.p.word_problems",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Sachaufgaben und Sachsituationen."
+  },
+  {
+   "id": "9f4e0ea24d8b697c|math.p.word_problems",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Sachaufgaben und Sachsituationen."
+  },
+  {
+   "id": "efac73c5acbefaeb|math.p.word_problems",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Sachaufgaben und Sachsituationen."
+  },
+  {
+   "id": "6e8fc235ebac0bc1|math.p.data",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Daten erfassen und darstellen."
+  },
+  {
+   "id": "565423b88713d0be|math.p.data",
+   "verdict": "decline",
+   "reason": "Generic translation of representations into contexts, not specifically about data."
+  },
+  {
+   "id": "e4d4a11f55d07f4a|math.p.data",
+   "verdict": "decline",
+   "reason": "Generic transfer between representations, not specifically about data."
+  },
+  {
+   "id": "99967a1831822725|math.p.functional_relations",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Einfache funktionale Beziehungen (Grundschule)."
+  },
+  {
+   "id": "f99d2ab001f4362e|math.p.functional_relations",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Einfache funktionale Beziehungen (Grundschule)."
+  },
+  {
+   "id": "3e0b24451a8ef7b3|math.p.combinatorics",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Einfache Kombinatorik (Grundschule)."
+  },
+  {
+   "id": "3a629959d96d3d38|math.p.spatial_orientation",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Räumliche Orientierung und Lagebeziehungen."
+  },
+  {
+   "id": "578c6066cf44c4d7|math.p.spatial_orientation",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Räumliche Orientierung und Lagebeziehungen."
+  },
+  {
+   "id": "0f13e85bdc74394c|math.p.spatial_orientation",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Räumliche Orientierung und Lagebeziehungen."
+  },
+  {
+   "id": "c1637aacc145ad06|math.p.spatial_orientation",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Räumliche Orientierung und Lagebeziehungen."
+  },
+  {
+   "id": "b62ea51f037c0fff|math.p.plane_figures",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Ebene Figuren."
+  },
+  {
+   "id": "f57e9f63d0b07f08|math.p.plane_figures",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Ebene Figuren."
+  },
+  {
+   "id": "430c8c13cecdc1ce|math.p.plane_figures",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Ebene Figuren."
+  },
+  {
+   "id": "9bf4851b0d2215ba|math.p.plane_figures",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Ebene Figuren."
+  },
+  {
+   "id": "d2d1a6a91baed6d5|math.p.solids",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Geometrische Körper."
+  },
+  {
+   "id": "65a2e05a5524786b|math.p.solids",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Geometrische Körper."
+  },
+  {
+   "id": "56fe8274e697b0b9|math.p.solids",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Geometrische Körper."
+  },
+  {
+   "id": "0bcd32b6698ba057|math.p.solids",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Geometrische Körper."
+  },
+  {
+   "id": "4f3158ab00ae35f8|math.p.symmetry",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Symmetrie (Grundschule)."
+  },
+  {
+   "id": "6fcd5d37bb022e9e|math.p.symmetry",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Symmetrie (Grundschule)."
+  },
+  {
+   "id": "02cd400801e79ac2|math.p.symmetry",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Symmetrie (Grundschule)."
+  },
+  {
+   "id": "59493be85b8e56f6|math.p.plane_figures",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Ebene Figuren."
+  },
+  {
+   "id": "0481f28d3a6c9475|math.p.patterns",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Muster und Strukturen."
+  },
+  {
+   "id": "0481f28d3a6c9475|math.p.plane_figures",
+   "verdict": "decline",
+   "reason": "Focus is on geometric patterns and ornaments, plane figure properties only in passing."
+  },
+  {
+   "id": "dfaf878eba8c4da4|math.p.area_perimeter_intro",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Flächen und Umfang (Grundvorstellung)."
+  },
+  {
+   "id": "7cda918636db0ca7|math.p.area_perimeter_intro",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Flächen und Umfang (Grundvorstellung)."
+  },
+  {
+   "id": "521f855742a34e42|math.p.length_weight_capacity",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Längen, Gewichte und Rauminhalte."
+  },
+  {
+   "id": "55940a44a46d73f9|math.p.measuring",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Größen und Messen: Einheiten umrechnen."
+  },
+  {
+   "id": "0e38da533c446bb9|math.p.measuring",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Größen und Messen: Einheiten umrechnen."
+  },
+  {
+   "id": "2ffacd76f29a69d2|math.p.measuring",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Größen und Messen: Einheiten umrechnen."
+  },
+  {
+   "id": "4bdcd13a0913b3f7|math.p.measuring",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Größen und Messen: Einheiten umrechnen."
+  },
+  {
+   "id": "384c1220a575a692|math.p.measuring",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Größen und Messen: Einheiten umrechnen."
+  },
+  {
+   "id": "06956413e62857bf|math.p.measuring",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Größen und Messen: Einheiten umrechnen."
+  },
+  {
+   "id": "90d934e713d88f8d|math.p.measuring",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Größen und Messen: Einheiten umrechnen."
+  },
+  {
+   "id": "61b8993ef168360d|math.p.word_problems",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Sachaufgaben und Sachsituationen."
+  },
+  {
+   "id": "a63f9efba5fffac2|math.p.word_problems",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Sachaufgaben und Sachsituationen."
+  },
+  {
+   "id": "3204c0ed2e7a8829|math.p.word_problems",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Sachaufgaben und Sachsituationen."
+  },
+  {
+   "id": "d7da9b9d1b1f0778|math.p.functional_relations",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Einfache funktionale Beziehungen (Grundschule)."
+  },
+  {
+   "id": "6d937c6757b34ca4|math.p.functional_relations",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Einfache funktionale Beziehungen (Grundschule)."
+  },
+  {
+   "id": "64bc6b6b08d9eaac|math.p.word_problems",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Sachaufgaben und Sachsituationen."
+  },
+  {
+   "id": "3a5e83490b186099|math.p.data",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Daten erfassen und darstellen."
+  },
+  {
+   "id": "b01b05b4cf3b78f7|math.p.data",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Daten erfassen und darstellen."
+  },
+  {
+   "id": "6131d48a32045dca|math.p.data",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Daten erfassen und darstellen."
+  },
+  {
+   "id": "e44f9d76d58650d0|math.p.data",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Daten erfassen und darstellen."
+  },
+  {
+   "id": "ab8212244b951c24|math.p.chance",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Wahrscheinlichkeit (Grundschule)."
+  },
+  {
+   "id": "7df7af0119c4479b|math.p.chance",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Wahrscheinlichkeit (Grundschule)."
+  },
+  {
+   "id": "83d86bb2672e7e81|math.p.mental_strategies",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Rechenstrategien und Kopfrechnen."
+  },
+  {
+   "id": "e18722211c4036e3|math.s1.decimals",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Dezimalzahlen."
+  },
+  {
+   "id": "e18722211c4036e3|math.s1.fraction_operations",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Rechnen mit Brüchen."
+  },
+  {
+   "id": "55b929687adefa2b|math.s1.terms",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Terme und Variablen."
+  },
+  {
+   "id": "aab501adf1e1ff4e|math.s1.units",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Größen und Einheiten."
+  },
+  {
+   "id": "e1253aa1ca07f9b6|math.s1.units",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Größen und Einheiten."
+  },
+  {
+   "id": "2ee5c64bcbc6d1b4|math.s1.area_perimeter",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Flächeninhalt und Umfang von Vielecken."
+  },
+  {
+   "id": "2ee5c64bcbc6d1b4|math.s1.circle",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Kreis: Umfang und Flächeninhalt."
+  },
+  {
+   "id": "d7c499cfae4216de|math.s1.volume_surface",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Volumen und Oberfläche von Prismen und Zylindern."
+  },
+  {
+   "id": "77086901e201fe91|math.p.patterns",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Muster und Strukturen."
+  },
+  {
+   "id": "8c30815879c264cd|math.s1.functions_concept",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Funktionsbegriff."
+  },
+  {
+   "id": "7640a0990737526a|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "333c9dd4dd9d8e26|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "236ce1acf77d6843|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "eacf3040eb2ade35|math.s1.negative_numbers",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Negative und rationale Zahlen."
+  },
+  {
+   "id": "eacf3040eb2ade35|math.s1.terms",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Terme und Variablen."
+  },
+  {
+   "id": "a0692c1ec43c88a0|math.s1.interest",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Zinsrechnung."
+  },
+  {
+   "id": "7410a25936accd0a|math.s1.terms",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Terme und Variablen."
+  },
+  {
+   "id": "213121674f9532c8|math.s1.constructions",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Konstruktionen und Kongruenz."
+  },
+  {
+   "id": "213121674f9532c8|math.s1.scale",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Maßstab und maßstäbliches Zeichnen."
+  },
+  {
+   "id": "6605f911e0d1aff6|math.s1.similarity",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Ähnlichkeit, zentrische Streckung und Strahlensätze."
+  },
+  {
+   "id": "d330618132f410ad|math.s1.functions_concept",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Funktionsbegriff."
+  },
+  {
+   "id": "cdde0d8372ff72e4|math.s1.functions_concept",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Funktionsbegriff."
+  },
+  {
+   "id": "82bf918c1d667515|math.s1.functions_concept",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Funktionsbegriff."
+  },
+  {
+   "id": "8bfeab080adde113|math.s1.linear_functions",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Lineare Funktionen."
+  },
+  {
+   "id": "a7c203413be6e18c|math.s1.quadratic_functions",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Quadratische Funktionen."
+  },
+  {
+   "id": "483fa3a681ef28d1|math.s1.quadratic_functions",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Quadratische Funktionen."
+  },
+  {
+   "id": "acb480908b644bb6|math.s1.quadratic_functions",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Quadratische Funktionen."
+  },
+  {
+   "id": "057da2615cac7c44|math.s1.probability",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Zufallsexperimente und Wahrscheinlichkeit."
+  },
+  {
+   "id": "c059489494f2a1ea|math.s1.combinatorics",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Zählprinzipien und Kombinatorik."
+  },
+  {
+   "id": "c059489494f2a1ea|math.s1.probability",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Zufallsexperimente und Wahrscheinlichkeit."
+  },
+  {
+   "id": "f7d7ac6d81a3949e|math.s1.powers",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Potenzen und Potenzgesetze."
+  },
+  {
+   "id": "7f49dc0318436fe4|math.s1.exponential",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Exponentielles Wachstum und Exponentialfunktionen."
+  },
+  {
+   "id": "7f49dc0318436fe4|math.s1.logarithm",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Logarithmus."
+  },
+  {
+   "id": "2a5bfead813b7127|math.s1.quadratic_equations",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Quadratische Gleichungen."
+  },
+  {
+   "id": "2a5bfead813b7127|math.s2.function_classes",
+   "verdict": "decline",
+   "reason": "Substitution is an equation-solving technique, not about function classes or transformations."
+  },
+  {
+   "id": "7290c87e3f5445dc|math.s1.exponential",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Exponentielles Wachstum und Exponentialfunktionen."
+  },
+  {
+   "id": "7290c87e3f5445dc|math.s1.interest",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Zinsrechnung."
+  },
+  {
+   "id": "1b1ee93969c6bb0e|math.s2.vectors",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Vektoren."
+  },
+  {
+   "id": "a544ecd12e54f817|math.s2.derivative_rules",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Ableitungsregeln."
+  },
+  {
+   "id": "71ead8c49c3e43a8|math.s2.derivative_rules",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Ableitungsregeln."
+  },
+  {
+   "id": "511141b556c79f6d|math.s1.circle",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Kreis: Umfang und Flächeninhalt."
+  },
+  {
+   "id": "411775a67eba55ab|math.s1.pyramid_cone_sphere",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Pyramide, Kegel und Kugel."
+  },
+  {
+   "id": "411775a67eba55ab|math.s1.volume_surface",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Volumen und Oberfläche von Prismen und Zylindern."
+  },
+  {
+   "id": "d60d9d5a18333b5c|math.s1.pyramid_cone_sphere",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Pyramide, Kegel und Kugel."
+  },
+  {
+   "id": "d60d9d5a18333b5c|math.s1.volume_surface",
+   "verdict": "decline",
+   "reason": "Pyramid, cone and sphere are not prisms or cylinders; topic is wrong."
+  },
+  {
+   "id": "d3526cb695f2a115|math.s1.pyramid_cone_sphere",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Pyramide, Kegel und Kugel."
+  },
+  {
+   "id": "d3526cb695f2a115|math.s1.volume_surface",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Volumen und Oberfläche von Prismen und Zylindern."
+  },
+  {
+   "id": "5a20273846d9b717|math.s1.pythagoras",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Satz des Pythagoras."
+  },
+  {
+   "id": "5a20273846d9b717|math.s2.vectors",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Vektoren."
+  },
+  {
+   "id": "853d8f6e26e88116|math.s2.vectors",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Vektoren."
+  },
+  {
+   "id": "f6231405b2761240|math.s1.constructions",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Konstruktionen und Kongruenz."
+  },
+  {
+   "id": "f6231405b2761240|math.s1.similarity",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Ähnlichkeit, zentrische Streckung und Strahlensätze."
+  },
+  {
+   "id": "29cf6375ad6f8fc5|math.s1.constructions",
+   "verdict": "decline",
+   "reason": "Standard is about similarity theorems only, not congruence or constructions."
+  },
+  {
+   "id": "29cf6375ad6f8fc5|math.s1.similarity",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Ähnlichkeit, zentrische Streckung und Strahlensätze."
+  },
+  {
+   "id": "cd8ca67ec7db697a|math.s1.constructions",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Konstruktionen und Kongruenz."
+  },
+  {
+   "id": "cd8ca67ec7db697a|math.s1.similarity",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Ähnlichkeit, zentrische Streckung und Strahlensätze."
+  },
+  {
+   "id": "4630f4c6ba64a965|math.s1.trigonometry",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Trigonometrie im Dreieck."
+  },
+  {
+   "id": "30282adfd96363b4|math.s2.vectors",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Vektoren."
+  },
+  {
+   "id": "7e1b7dabef822d9e|math.s2.vectors",
+   "verdict": "decline",
+   "reason": "Plotting points in a 3D coordinate system is not substantially about vectors."
+  },
+  {
+   "id": "76dd52dbe330e89f|math.s2.vectors",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Vektoren."
+  },
+  {
+   "id": "5eed888d80ac842c|math.s2.vectors",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Vektoren."
+  },
+  {
+   "id": "c800ef8741cc2b7d|math.s2.lines_planes",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Geraden und Ebenen im Raum."
+  },
+  {
+   "id": "fc76a2d62feffe55|math.s2.lines_planes",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Geraden und Ebenen im Raum."
+  },
+  {
+   "id": "b0b828887e383ebe|math.s2.lines_planes",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Geraden und Ebenen im Raum."
+  },
+  {
+   "id": "8b8b0d752c2f0038|math.s2.lines_planes",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Geraden und Ebenen im Raum."
+  },
+  {
+   "id": "75b102dda45af2c6|math.s1.power_functions",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Potenzfunktionen."
+  },
+  {
+   "id": "309bd5f51d404529|math.s2.function_classes",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Funktionenklassen und Transformationen."
+  },
+  {
+   "id": "aca82039eac10dfa|math.s2.function_classes",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Funktionenklassen und Transformationen."
+  },
+  {
+   "id": "c356daed80e11047|math.s2.function_classes",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Funktionenklassen und Transformationen."
+  },
+  {
+   "id": "59c37c313e346dee|math.s1.trig_functions",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Trigonometrische Funktionen."
+  },
+  {
+   "id": "b82c2e01764f097f|math.s1.trig_functions",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Trigonometrische Funktionen."
+  },
+  {
+   "id": "eba2b2a78f06e965|math.s2.function_classes",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Funktionenklassen und Transformationen."
+  },
+  {
+   "id": "05f90d10c2b1135b|math.s2.curve_analysis",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Funktionsuntersuchung."
+  },
+  {
+   "id": "d2fd8fcdb2efeafc|math.s2.curve_analysis",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Funktionsuntersuchung."
+  },
+  {
+   "id": "c2b4b9f98e11829b|math.s2.rate_of_change",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Änderungsrate und Ableitungsbegriff."
+  },
+  {
+   "id": "3207e53c91845b36|math.s2.rate_of_change",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Änderungsrate und Ableitungsbegriff."
+  },
+  {
+   "id": "a05ef6145c217724|math.s2.rate_of_change",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Änderungsrate und Ableitungsbegriff."
+  },
+  {
+   "id": "e608fd99fd685b90|math.s2.rate_of_change",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Änderungsrate und Ableitungsbegriff."
+  },
+  {
+   "id": "f9abeae4e3a3159b|math.s2.rate_of_change",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Änderungsrate und Ableitungsbegriff."
+  },
+  {
+   "id": "72f6e288cda3ae82|math.s2.rate_of_change",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Änderungsrate und Ableitungsbegriff."
+  },
+  {
+   "id": "54c2a6e71ef35f1d|math.s2.rate_of_change",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Änderungsrate und Ableitungsbegriff."
+  },
+  {
+   "id": "18fa85bef4314f94|math.s2.derivative_rules",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Ableitungsregeln."
+  },
+  {
+   "id": "17eed8467417ba51|math.s2.curve_analysis",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Funktionsuntersuchung."
+  },
+  {
+   "id": "50688b7d1a446c88|math.s2.curve_analysis",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Funktionsuntersuchung."
+  },
+  {
+   "id": "8b544ad5913613c3|math.s2.curve_analysis",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Funktionsuntersuchung."
+  },
+  {
+   "id": "e6215b19c2f6cb98|math.s1.trig_functions",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Trigonometrische Funktionen."
+  },
+  {
+   "id": "e6215b19c2f6cb98|math.s2.derivative_rules",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Ableitungsregeln."
+  },
+  {
+   "id": "91e4effd86c6aa08|math.s2.binomial",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Binomialverteilung."
+  },
+  {
+   "id": "2624d8fda7c7fc6f|math.s2.binomial",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Binomialverteilung."
+  },
+  {
+   "id": "0ff62bd7db264a02|math.s2.binomial",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Binomialverteilung."
+  },
+  {
+   "id": "f66a5ef0041c38fb|math.s2.binomial",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Binomialverteilung."
+  },
+  {
+   "id": "174c1ba9ddf5b331|math.s2.binomial",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Binomialverteilung."
+  },
+  {
+   "id": "1c8d65fe93c00f4a|math.s2.binomial",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Binomialverteilung."
+  },
+  {
+   "id": "9cebb4398e44ceff|math.s2.binomial",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Binomialverteilung."
+  },
+  {
+   "id": "5cde5cef5974541f|math.s2.exp_ln",
+   "verdict": "pass",
+   "reason": "The standard substantially covers e-Funktion und natürlicher Logarithmus."
+  },
+  {
+   "id": "77bcfd503e480162|math.s2.numerics",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Numerische Näherungsverfahren."
+  },
+  {
+   "id": "ba5655c85b3c24aa|math.s2.derivative_rules",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Ableitungsregeln."
+  },
+  {
+   "id": "3fbd732b49aa2f24|math.s2.derivative_rules",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Ableitungsregeln."
+  },
+  {
+   "id": "b52e72aee6c1213e|math.s2.integral",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Integral und Stammfunktion."
+  },
+  {
+   "id": "2d0e3ce22074f2a3|math.s2.integral",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Integral und Stammfunktion."
+  },
+  {
+   "id": "35c47535f6f008f0|math.s2.integral",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Integral und Stammfunktion."
+  },
+  {
+   "id": "b670c3c7a2055403|math.s2.integral",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Integral und Stammfunktion."
+  },
+  {
+   "id": "a3baece1bb989b71|math.s2.vectors",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Vektoren."
+  },
+  {
+   "id": "59afcb8d29150e63|math.s2.vectors",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Vektoren."
+  },
+  {
+   "id": "70ba2b5e3de1e785|math.s2.gauss",
+   "verdict": "pass",
+   "reason": "The standard substantially covers Lineare Gleichungssysteme und Gauß-Verfahren."
+  }
+ ]
+}

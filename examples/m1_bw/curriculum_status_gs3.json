@@ -1,0 +1,1341 @@
+{
+  "tool": "curriculum_status",
+  "context": {
+    "land": "BW",
+    "land_name": "Baden-Württemberg",
+    "school_form": "Grundschule",
+    "grade": 3,
+    "subject": "Mathematik",
+    "course_level": null,
+    "date": "2026-11-09",
+    "school_year": "2026/27"
+  },
+  "context_mapping": {
+    "land": {
+      "input": "BW",
+      "used": "BW"
+    },
+    "subject": {
+      "input": "Mathematik",
+      "used": "Mathematik"
+    },
+    "school_form": {
+      "input": "Grundschule",
+      "used": "Grundschule",
+      "source": "school_form_alias"
+    }
+  },
+  "evaluated_for": {
+    "date": "2026-11-09",
+    "school_year": "2026/27"
+  },
+  "curriculum_version": [
+    {
+      "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+      "title": "Überarbeiteter Bildungsplan 2016 Grundschule, Mathematik, Fassung vom 29. Februar 2024 (V2)",
+      "version": "2016",
+      "school_form": "Grundschule",
+      "grades": "1-4",
+      "valid_from": "2024-08-01",
+      "valid_to": null,
+      "rollout": "ascending_from_grade:2",
+      "status_inventory": "current",
+      "status_on_date": "current",
+      "validity_confidence": "inferred",
+      "source_url": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2",
+      "why": "aufsteigend ab 2024/25, gilt 2026/27 bis Klasse 4"
+    }
+  ],
+  "taught_before": [
+    {
+      "grades": "1-2",
+      "topics": [
+        {
+          "topic_id": "math.p.numbers_to_100",
+          "label_de": "Zahlen bis 100",
+          "kmk_anchor": "L1 Zahl und Operation",
+          "node_ids": [
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_01/01",
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_01/02",
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_01/03",
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_01/04",
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_01/06"
+          ]
+        },
+        {
+          "topic_id": "math.p.numbers_to_20",
+          "label_de": "Zahlen bis 20",
+          "kmk_anchor": "L1 Zahl und Operation",
+          "node_ids": [
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_01/02"
+          ]
+        },
+        {
+          "topic_id": "math.p.place_value",
+          "label_de": "Stellenwertsystem",
+          "kmk_anchor": "L1 Zahl und Operation",
+          "node_ids": [
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_01/05"
+          ]
+        },
+        {
+          "topic_id": "math.p.patterns",
+          "label_de": "Muster und Strukturen",
+          "kmk_anchor": "Muster und Strukturen",
+          "node_ids": [
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_01/07",
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_01/08",
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_02/13",
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_02_03/03"
+          ]
+        },
+        {
+          "topic_id": "math.p.add_sub",
+          "label_de": "Addition und Subtraktion",
+          "kmk_anchor": "L1 Zahl und Operation",
+          "node_ids": [
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_02/01",
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_02/02",
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_02/03",
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_02/04",
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_02/09",
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_02/10"
+          ]
+        },
+        {
+          "topic_id": "math.p.mult_div",
+          "label_de": "Multiplikation und Division, Einmaleins",
+          "kmk_anchor": "L1 Zahl und Operation",
+          "node_ids": [
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_02/01",
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_02/02",
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_02/03",
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_02/04",
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_02/09",
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_02/11"
+          ]
+        },
+        {
+          "topic_id": "math.p.mental_strategies",
+          "label_de": "Rechenstrategien und Kopfrechnen",
+          "kmk_anchor": "L1 Zahl und Operation",
+          "node_ids": [
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_02/05",
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_02/06",
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_02/07",
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_02/08",
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_02/12"
+          ]
+        },
+        {
+          "topic_id": "math.p.functional_relations",
+          "label_de": "Einfache funktionale Beziehungen (Grundschule)",
+          "kmk_anchor": "Muster und Strukturen",
+          "node_ids": [
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_02/14",
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_03/07"
+          ]
+        },
+        {
+          "topic_id": "math.p.word_problems",
+          "label_de": "Sachaufgaben und Sachsituationen",
+          "kmk_anchor": "L1 Zahl und Operation",
+          "node_ids": [
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_03/01",
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_03/02",
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_03/03",
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_03_02/03",
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_03_02/04"
+          ]
+        },
+        {
+          "topic_id": "math.p.data",
+          "label_de": "Daten erfassen und darstellen",
+          "kmk_anchor": "L5 Daten und Zufall",
+          "node_ids": [
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_03/04",
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_04_01/01",
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_04_01/02"
+          ]
+        },
+        {
+          "topic_id": "math.p.combinatorics",
+          "label_de": "Einfache Kombinatorik (Grundschule)",
+          "kmk_anchor": "L5 Daten und Zufall",
+          "node_ids": [
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_03/08"
+          ]
+        },
+        {
+          "topic_id": "math.p.spatial_orientation",
+          "label_de": "Räumliche Orientierung und Lagebeziehungen",
+          "kmk_anchor": "L3 Raum und Form",
+          "node_ids": [
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_02_01/01",
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_02_01/02",
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_02_01/03",
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_02_01/04"
+          ]
+        },
+        {
+          "topic_id": "math.p.solids",
+          "label_de": "Geometrische Körper",
+          "kmk_anchor": "L3 Raum und Form",
+          "node_ids": [
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_02_01/03",
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_02_01/04",
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_02_02/04",
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_02_02/05",
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_02_02/06"
+          ]
+        },
+        {
+          "topic_id": "math.p.plane_figures",
+          "label_de": "Ebene Figuren",
+          "kmk_anchor": "L3 Raum und Form",
+          "node_ids": [
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_02_02/01",
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_02_02/02",
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_02_02/03"
+          ]
+        },
+        {
+          "topic_id": "math.p.symmetry",
+          "label_de": "Symmetrie (Grundschule)",
+          "kmk_anchor": "L3 Raum und Form",
+          "node_ids": [
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_02_03/01",
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_02_03/02"
+          ]
+        },
+        {
+          "topic_id": "math.p.area_perimeter_intro",
+          "label_de": "Flächen und Umfang (Grundvorstellung)",
+          "kmk_anchor": "L2 Messen",
+          "node_ids": [
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_02_04/01",
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_02_04/02"
+          ]
+        },
+        {
+          "topic_id": "math.p.length_weight_capacity",
+          "label_de": "Längen, Gewichte und Rauminhalte",
+          "kmk_anchor": "L2 Messen",
+          "node_ids": [
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_03_01/01",
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_03_01/04"
+          ]
+        },
+        {
+          "topic_id": "math.p.money",
+          "label_de": "Geld",
+          "kmk_anchor": "L2 Messen",
+          "node_ids": [
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_03_01/01",
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_03_01/03"
+          ]
+        },
+        {
+          "topic_id": "math.p.time",
+          "label_de": "Zeit",
+          "kmk_anchor": "L2 Messen",
+          "node_ids": [
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_03_01/01",
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_03_01/05"
+          ]
+        },
+        {
+          "topic_id": "math.p.measuring",
+          "label_de": "Größen und Messen: Einheiten umrechnen",
+          "kmk_anchor": "L2 Messen",
+          "node_ids": [
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_03_01/02",
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_03_01/06",
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_03_01/07",
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_03_02/01",
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_03_02/02"
+          ]
+        },
+        {
+          "topic_id": "math.p.chance",
+          "label_de": "Wahrscheinlichkeit (Grundschule)",
+          "kmk_anchor": "L5 Daten und Zufall",
+          "node_ids": [
+            "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_04_02/01"
+          ]
+        }
+      ]
+    }
+  ],
+  "current": [
+    {
+      "topic_id": "math.p.place_value",
+      "label_de": "Stellenwertsystem",
+      "kmk_anchor": "L1 Zahl und Operation",
+      "nodes": [
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_01/01",
+          "kind": "Teilkompetenz",
+          "label": "(1)",
+          "grades": "3-4",
+          "page": 21,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_01_01#BP2016BW_ALLG_GS_M.V2_IK_3-4_01_01_01",
+          "text": "den Aufbau des dezimalen Stellenwertsystems nutzen und seine Struktur erkennen, verstehen und erklären (Einer, Zehner, Hunderter – als Dreier-Gruppierung, Tausender, Zehntausender, Hunderttausender, Million; Bündeln, Entbündeln)"
+        }
+      ]
+    },
+    {
+      "topic_id": "math.p.numbers_to_million",
+      "label_de": "Zahlen bis 1 000 000",
+      "kmk_anchor": "L1 Zahl und Operation",
+      "nodes": [
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_01/02",
+          "kind": "Teilkompetenz",
+          "label": "(2)",
+          "grades": "3-4",
+          "page": 21,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_01_01#BP2016BW_ALLG_GS_M.V2_IK_3-4_01_01_02",
+          "text": "Zahlen bis 1.000.000 auf verschiedene Weise darstellen (zum Beispiel Stellenwerttafel, Zahlenstrahl, Mehrsystemblöcke)"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_01/03",
+          "kind": "Teilkompetenz",
+          "label": "(3)",
+          "grades": "3-4",
+          "page": 21,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_01_01#BP2016BW_ALLG_GS_M.V2_IK_3-4_01_01_03",
+          "text": "Zahlen bis 1.000.000 sprechen, lesen und in Ziffern schreiben"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_01/04",
+          "kind": "Teilkompetenz",
+          "label": "(4)",
+          "grades": "3-4",
+          "page": 21,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_01_01#BP2016BW_ALLG_GS_M.V2_IK_3-4_01_01_04",
+          "text": "sich sicher im Zahlenraum bis 1.000.000 bewegen und orientieren (zum Beispiel Zählen in Schritten, Zahlen der Größe nach ordnen, Zahlen verorten, Nachbarzahlen bestimmen)"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_01/05",
+          "kind": "Teilkompetenz",
+          "label": "(5)",
+          "grades": "3-4",
+          "page": 21,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_01_01#BP2016BW_ALLG_GS_M.V2_IK_3-4_01_01_05",
+          "text": "Zahleigenschaften und Zahlbeziehungen erkennen, beschreiben und darstellen (gerade – ungerade Zahlen, Vorgänger – Nachfolger, Nachbarzahlen, die Hälfte, das Doppelte, größer als, kleiner als, gleich, liegt näher bei, liegt zwischen, ist gerundet)"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_01/06",
+          "kind": "Teilkompetenz",
+          "label": "(6)",
+          "grades": "3-4",
+          "page": 21,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_01_01#BP2016BW_ALLG_GS_M.V2_IK_3-4_01_01_06",
+          "text": "Bedeutungen von großen Zahlen in unterschiedlichen Kontexten erkennen, Zahlen dokumentieren und in unterschiedlichen Kontexten anwenden"
+        }
+      ]
+    },
+    {
+      "topic_id": "math.p.add_sub",
+      "label_de": "Addition und Subtraktion",
+      "kmk_anchor": "L1 Zahl und Operation",
+      "nodes": [
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_02/01",
+          "kind": "Teilkompetenz",
+          "label": "(1)",
+          "grades": "3-4",
+          "page": 22,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_01_02#BP2016BW_ALLG_GS_M.V2_IK_3-4_01_02_01",
+          "text": "auf der Grundlage eines Operationenverständnisses zu den vier Grundrechenarten die Zusammenhänge zwischen den Operationen erkennen und nutzen"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_02/02",
+          "kind": "Teilkompetenz",
+          "label": "(2)",
+          "grades": "3-4",
+          "page": 22,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_01_02#BP2016BW_ALLG_GS_M.V2_IK_3-4_01_02_02",
+          "text": "in den vier Grundrechenarten zwischen den Darstellungsebenen wechselseitig übersetzen (Zahlensatz, Handlung, Sprache, Zeichnung)"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_02/03",
+          "kind": "Teilkompetenz",
+          "label": "(3)",
+          "grades": "3-4",
+          "page": 22,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_01_02#BP2016BW_ALLG_GS_M.V2_IK_3-4_01_02_03",
+          "text": "Aufgaben der vier Grundrechenarten lösen"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_02/04",
+          "kind": "Teilkompetenz",
+          "label": "(4)",
+          "grades": "3-4",
+          "page": 22,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_01_02#BP2016BW_ALLG_GS_M.V2_IK_3-4_01_02_04",
+          "text": "Zusammenhänge zwischen Rechenoperationen und Umkehroperationen (Umkehraufgabe) verstehen und diese Operationen beim Kontrollieren von Lösungen anwenden"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_02/13",
+          "kind": "Teilkompetenz",
+          "label": "(13)",
+          "grades": "3-4",
+          "page": 22,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_01_02#BP2016BW_ALLG_GS_M.V2_IK_3-4_01_02_13",
+          "text": "die Grundaufgaben des Kopfrechnens (unter anderem Zahlzerlegungen, Eins plus eins, Einmaleins) aus dem Gedächtnis abrufen, deren Umkehrungen sicher ableiten und diese Grundkenntnisse auf analoge Aufgaben in größeren Zahlenräumen übertragen und nutzen"
+        }
+      ]
+    },
+    {
+      "topic_id": "math.p.mult_div",
+      "label_de": "Multiplikation und Division, Einmaleins",
+      "kmk_anchor": "L1 Zahl und Operation",
+      "nodes": [
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_02/01",
+          "kind": "Teilkompetenz",
+          "label": "(1)",
+          "grades": "3-4",
+          "page": 22,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_01_02#BP2016BW_ALLG_GS_M.V2_IK_3-4_01_02_01",
+          "text": "auf der Grundlage eines Operationenverständnisses zu den vier Grundrechenarten die Zusammenhänge zwischen den Operationen erkennen und nutzen"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_02/02",
+          "kind": "Teilkompetenz",
+          "label": "(2)",
+          "grades": "3-4",
+          "page": 22,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_01_02#BP2016BW_ALLG_GS_M.V2_IK_3-4_01_02_02",
+          "text": "in den vier Grundrechenarten zwischen den Darstellungsebenen wechselseitig übersetzen (Zahlensatz, Handlung, Sprache, Zeichnung)"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_02/03",
+          "kind": "Teilkompetenz",
+          "label": "(3)",
+          "grades": "3-4",
+          "page": 22,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_01_02#BP2016BW_ALLG_GS_M.V2_IK_3-4_01_02_03",
+          "text": "Aufgaben der vier Grundrechenarten lösen"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_02/04",
+          "kind": "Teilkompetenz",
+          "label": "(4)",
+          "grades": "3-4",
+          "page": 22,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_01_02#BP2016BW_ALLG_GS_M.V2_IK_3-4_01_02_04",
+          "text": "Zusammenhänge zwischen Rechenoperationen und Umkehroperationen (Umkehraufgabe) verstehen und diese Operationen beim Kontrollieren von Lösungen anwenden"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_02/13",
+          "kind": "Teilkompetenz",
+          "label": "(13)",
+          "grades": "3-4",
+          "page": 22,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_01_02#BP2016BW_ALLG_GS_M.V2_IK_3-4_01_02_13",
+          "text": "die Grundaufgaben des Kopfrechnens (unter anderem Zahlzerlegungen, Eins plus eins, Einmaleins) aus dem Gedächtnis abrufen, deren Umkehrungen sicher ableiten und diese Grundkenntnisse auf analoge Aufgaben in größeren Zahlenräumen übertragen und nutzen"
+        }
+      ]
+    },
+    {
+      "topic_id": "math.p.mental_strategies",
+      "label_de": "Rechenstrategien und Kopfrechnen",
+      "kmk_anchor": "L1 Zahl und Operation",
+      "nodes": [
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_02/05",
+          "kind": "Teilkompetenz",
+          "label": "(5)",
+          "grades": "3-4",
+          "page": 22,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_01_02#BP2016BW_ALLG_GS_M.V2_IK_3-4_01_02_05",
+          "text": "strategische Werkzeuge des Zahlenrechnens im erweiterten Zahlenraum anwenden und aufgabenadäquat (auch mündlich) nutzen sowie eigene halbschriftliche Lösungswege im erweiterten Zahlenraum entwickeln, notieren und flexibel einsetzen: zerlegen und zusammensetzen Analogien bilden von Hilfsaufgaben ableiten Aufgaben verändern"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_02/06",
+          "kind": "Teilkompetenz",
+          "label": "(6)",
+          "grades": "3-4",
+          "page": 22,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_01_02#BP2016BW_ALLG_GS_M.V2_IK_3-4_01_02_06",
+          "text": "Rechengesetze erkennen, erklären und nutzen (zum Beispiel Kommutativgesetz/Tauschaufgaben, Distributivgesetz/Verteilungsgesetz)"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_02/08",
+          "kind": "Teilkompetenz",
+          "label": "(8)",
+          "grades": "3-4",
+          "page": 22,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_01_02#BP2016BW_ALLG_GS_M.V2_IK_3-4_01_02_08",
+          "text": "eigene Rechenwege beschreiben und begründen sowie Lösungen durch geeignete Vorgehensweisen kontrollieren (zum Beispiel Überschlagsrechnung, Umkehroperation)"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_02/09",
+          "kind": "Teilkompetenz",
+          "label": "(9)",
+          "grades": "3-4",
+          "page": 22,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_01_02#BP2016BW_ALLG_GS_M.V2_IK_3-4_01_02_09",
+          "text": "verschiedene Rechenwege untersuchen, vergleichen und bewerten"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_02/10",
+          "kind": "Teilkompetenz",
+          "label": "(10)",
+          "grades": "3-4",
+          "page": 22,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_01_02#BP2016BW_ALLG_GS_M.V2_IK_3-4_01_02_10",
+          "text": "fehlerhafte Strategien bei Rechenfehlern aufspüren (Rechenfehler finden, erklären und korrigieren)"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_02/11",
+          "kind": "Teilkompetenz",
+          "label": "(11)",
+          "grades": "3-4",
+          "page": 22,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_01_02#BP2016BW_ALLG_GS_M.V2_IK_3-4_01_02_11",
+          "text": "verschiedene Rechenwege der Addition, Subtraktion (Abziehen oder Ergänzen), Multiplikation und Division verstehen, beschreiben, vergleichen und bewerten; Rechenfehler finden, erklären und berichtigen"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_02/14",
+          "kind": "Teilkompetenz",
+          "label": "(14)",
+          "grades": "3-4",
+          "page": 22,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_01_02#BP2016BW_ALLG_GS_M.V2_IK_3-4_01_02_14",
+          "text": "die ungefähre Größenordnung von Ergebnissen vorhersagen und in der Umkehrung die Plausibilität von Ergebnissen durch Abschätzen überprüfen (Runden, Überschlag)"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_02/18",
+          "kind": "Teilkompetenz",
+          "label": "(18)",
+          "grades": "3-4",
+          "page": 22,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_01_02#BP2016BW_ALLG_GS_M.V2_IK_3-4_01_02_18",
+          "text": "verschiedene Rechenwege untersuchen, vergleichen und bewerten"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_03/04",
+          "kind": "Teilkompetenz",
+          "label": "(4)",
+          "grades": "3-4",
+          "page": 23,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_01_03#BP2016BW_ALLG_GS_M.V2_IK_3-4_01_03_04",
+          "text": "Die ungefähre Größenordnung von Ergebnissen vorhersagen und in der Umkehrung die Plausibilität von Ergebnissen durch Abschätzen überprüfen (sachadäquat runden und überschlagen)"
+        }
+      ]
+    },
+    {
+      "topic_id": "math.s1.terms",
+      "label_de": "Terme und Variablen",
+      "kmk_anchor": "L1 Zahl und Operation",
+      "nodes": [
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_02/07",
+          "kind": "Teilkompetenz",
+          "label": "(7)",
+          "grades": "3-4",
+          "page": 22,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_01_02#BP2016BW_ALLG_GS_M.V2_IK_3-4_01_02_07",
+          "text": "Terme erkennen, Gleichheit von mathematischen Ausdrücken darstellen und diese nutzen (zum Beispiel Zahlen durch verschiedene Terme ausdrücken, Terme vergleichen)"
+        }
+      ]
+    },
+    {
+      "topic_id": "math.p.written_algorithms",
+      "label_de": "Schriftliche Rechenverfahren",
+      "kmk_anchor": "L1 Zahl und Operation",
+      "nodes": [
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_02/12",
+          "kind": "Teilkompetenz",
+          "label": "(12)",
+          "grades": "3-4",
+          "page": 22,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_01_02#BP2016BW_ALLG_GS_M.V2_IK_3-4_01_02_12",
+          "text": "schriftliche Verfahren der Addition, der Subtraktion, der Multiplikation wie auch der Division und der Division mit Rest anwenden, den Algorithmus beschreiben, und bei geeigneten Aufgaben gebrauchen"
+        }
+      ]
+    },
+    {
+      "topic_id": "math.p.patterns",
+      "label_de": "Muster und Strukturen",
+      "kmk_anchor": "Muster und Strukturen",
+      "nodes": [
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_02/15",
+          "kind": "Teilkompetenz",
+          "label": "(15)",
+          "grades": "3-4",
+          "page": 22,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_01_02#BP2016BW_ALLG_GS_M.V2_IK_3-4_01_02_15",
+          "text": "Gesetzmäßigkeiten in arithmetischen Mustern erkennen, beschreiben und fortsetzen: Zahlenfolgen, strukturierte Aufgabenfolgen"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_02/16",
+          "kind": "Teilkompetenz",
+          "label": "(16)",
+          "grades": "3-4",
+          "page": 22,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_01_02#BP2016BW_ALLG_GS_M.V2_IK_3-4_01_02_16",
+          "text": "arithmetische Muster selbst entwickeln, systematisch verändern und beschreiben"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_02_03/05",
+          "kind": "Teilkompetenz",
+          "label": "(5)",
+          "grades": "3-4",
+          "page": 26,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_02_03#BP2016BW_ALLG_GS_M.V2_IK_3-4_02_03_05",
+          "text": "geometrische Muster erkennen, beschreiben und fortsetzen sowie systematisch verändern und selbst entwickeln (zum Beispiel Bandornamente, Parkettierungen)"
+        }
+      ]
+    },
+    {
+      "topic_id": "math.p.functional_relations",
+      "label_de": "Einfache funktionale Beziehungen (Grundschule)",
+      "kmk_anchor": "Muster und Strukturen",
+      "nodes": [
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_02/17",
+          "kind": "Teilkompetenz",
+          "label": "(17)",
+          "grades": "3-4",
+          "page": 22,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_01_02#BP2016BW_ALLG_GS_M.V2_IK_3-4_01_02_17",
+          "text": "einfache funktionale Zusammenhänge (zum Beispiel Anzahl – Preis) mithilfe von Material veranschaulichen und beschreiben"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_03/09",
+          "kind": "Teilkompetenz",
+          "label": "(9)",
+          "grades": "3-4",
+          "page": 23,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_01_03#BP2016BW_ALLG_GS_M.V2_IK_3-4_01_03_09",
+          "text": "funktionale Beziehungen in Sachsituationen erkennen, beschreiben und entsprechende Aufgaben lösen"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_03_02/04",
+          "kind": "Teilkompetenz",
+          "label": "(4)",
+          "grades": "3-4",
+          "page": 29,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_03_02#BP2016BW_ALLG_GS_M.V2_IK_3-4_03_02_04",
+          "text": "in Sachsituationen funktionale Beziehungen erkennen, auf angemessene Weise darstellen (zum Beispiel Tabelle, Diagramm) und untersuchen"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_03_02/05",
+          "kind": "Teilkompetenz",
+          "label": "(5)",
+          "grades": "3-4",
+          "page": 29,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_03_02#BP2016BW_ALLG_GS_M.V2_IK_3-4_03_02_05",
+          "text": "proportionale Beziehungen zur Lösung einfacher Sachprobleme einsetzen"
+        }
+      ]
+    },
+    {
+      "topic_id": "math.p.word_problems",
+      "label_de": "Sachaufgaben und Sachsituationen",
+      "kmk_anchor": "L1 Zahl und Operation",
+      "nodes": [
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_03/01",
+          "kind": "Teilkompetenz",
+          "label": "(1)",
+          "grades": "3-4",
+          "page": 23,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_01_03#BP2016BW_ALLG_GS_M.V2_IK_3-4_01_03_01",
+          "text": "Sachaufgaben strukturieren, systematisch variieren und lösen sowie Ergebnisse auf Plausibilität prüfen"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_03/02",
+          "kind": "Teilkompetenz",
+          "label": "(2)",
+          "grades": "3-4",
+          "page": 23,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_01_03#BP2016BW_ALLG_GS_M.V2_IK_3-4_01_03_02",
+          "text": "Aufgaben zu Sachsituationen finden, erstellen und mit mathematischen Mitteln lösen"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_03/03",
+          "kind": "Teilkompetenz",
+          "label": "(3)",
+          "grades": "3-4",
+          "page": 23,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_01_03#BP2016BW_ALLG_GS_M.V2_IK_3-4_01_03_03",
+          "text": "die Beziehung zwischen der Sache und den einzelnen Lösungsschritten beschreiben"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_03/05",
+          "kind": "Teilkompetenz",
+          "label": "(5)",
+          "grades": "3-4",
+          "page": 23,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_01_03#BP2016BW_ALLG_GS_M.V2_IK_3-4_01_03_05",
+          "text": "bei Sachaufgaben entscheiden, ob eine Überschlagsrechnung hinreicht oder ein genaues Ergebnis nötig ist"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_03/06",
+          "kind": "Teilkompetenz",
+          "label": "(6)",
+          "grades": "3-4",
+          "page": 23,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_01_03#BP2016BW_ALLG_GS_M.V2_IK_3-4_01_03_06",
+          "text": "heuristische Hilfsmittel (Zeichnungen, Diagramme, Tabellen, Skalen) zur Lösung nutzen und präsentieren (zum Beispiel Tafel, Plakat, Computer,...)"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_03_02/01",
+          "kind": "Teilkompetenz",
+          "label": "(1)",
+          "grades": "3-4",
+          "page": 29,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_03_02#BP2016BW_ALLG_GS_M.V2_IK_3-4_03_02_01",
+          "text": "wichtige Bezugsgrößen aus ihrer Erfahrungswelt zum Lösen von Sachproblemen heranziehen"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_03_02/02",
+          "kind": "Teilkompetenz",
+          "label": "(2)",
+          "grades": "3-4",
+          "page": 29,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_03_02#BP2016BW_ALLG_GS_M.V2_IK_3-4_03_02_02",
+          "text": "Größenangaben aus Darstellungen der realen Welt entnehmen, dokumentieren und deuten (Tabelle, Bilder, Texte)"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_03_02/03",
+          "kind": "Teilkompetenz",
+          "label": "(3)",
+          "grades": "3-4",
+          "page": 29,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_03_02#BP2016BW_ALLG_GS_M.V2_IK_3-4_03_02_03",
+          "text": "Sachprobleme aus ihrer Erfahrungswelt lösen und dabei auch passende Näherungswerte verwenden, Größen begründet schätzen, Ergebnisse auf Plausibilität überprüfen"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_03_02/06",
+          "kind": "Teilkompetenz",
+          "label": "(6)",
+          "grades": "3-4",
+          "page": 29,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_03_02#BP2016BW_ALLG_GS_M.V2_IK_3-4_03_02_06",
+          "text": "eigene Sachaufgaben erfinden"
+        }
+      ]
+    },
+    {
+      "topic_id": "math.p.combinatorics",
+      "label_de": "Einfache Kombinatorik (Grundschule)",
+      "kmk_anchor": "L5 Daten und Zufall",
+      "nodes": [
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_03/10",
+          "kind": "Teilkompetenz",
+          "label": "(10)",
+          "grades": "3-4",
+          "page": 23,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_01_03#BP2016BW_ALLG_GS_M.V2_IK_3-4_01_03_10",
+          "text": "einfache kombinatorische Aufgaben handelnd, zeichnerisch oder rechnerisch lösen (zum Beispiel mit und ohne Zurücklegen, mit und ohne Beachtung der Reihenfolge)"
+        }
+      ]
+    },
+    {
+      "topic_id": "math.p.spatial_orientation",
+      "label_de": "Räumliche Orientierung und Lagebeziehungen",
+      "kmk_anchor": "L3 Raum und Form",
+      "nodes": [
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_02_01/01",
+          "kind": "Teilkompetenz",
+          "label": "(1)",
+          "grades": "3-4",
+          "page": 24,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_02_01#BP2016BW_ALLG_GS_M.V2_IK_3-4_02_01_01",
+          "text": "räumliche Beziehungen erkennen, beschreiben und nutzen (Anordnungen, Wege, Pläne, Ansichten)"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_02_01/02",
+          "kind": "Teilkompetenz",
+          "label": "(2)",
+          "grades": "3-4",
+          "page": 24,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_02_01#BP2016BW_ALLG_GS_M.V2_IK_3-4_02_01_02",
+          "text": "räumliche Konfigurationen in verschiedenen Positionen beschreiben, Zusammenhänge erkennen und Perspektivwechsel durchführen"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_02_01/03",
+          "kind": "Teilkompetenz",
+          "label": "(3)",
+          "grades": "3-4",
+          "page": 24,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_02_01#BP2016BW_ALLG_GS_M.V2_IK_3-4_02_01_03",
+          "text": "sich räumliche Konfigurationen (zum Beispiel Abbildungen von ebenen Figuren, Würfelbauten, Kantenmodelle, Schrägbilder) vorstellen und in Gedanken damit operieren (zum Beispiel zerlegen, falten, drehen, spiegeln, bauen)"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_02_01/04",
+          "kind": "Teilkompetenz",
+          "label": "(4)",
+          "grades": "3-4",
+          "page": 24,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_02_01#BP2016BW_ALLG_GS_M.V2_IK_3-4_02_01_04",
+          "text": "geometrische Probleme mithilfe ihres räumlichen Vorstellungsvermögens lösen (zwei- und dreidimensionale Darstellungen von Bauwerken in Beziehung setzen (zum Beispiel Bauplan und Bauwerk, Netz und Körper), nach Vorlage bauen, Baupläne erstellen)"
+        }
+      ]
+    },
+    {
+      "topic_id": "math.p.plane_figures",
+      "label_de": "Ebene Figuren",
+      "kmk_anchor": "L3 Raum und Form",
+      "nodes": [
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_02_02/01",
+          "kind": "Teilkompetenz",
+          "label": "(1)",
+          "grades": "3-4",
+          "page": 25,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_02_02#BP2016BW_ALLG_GS_M.V2_IK_3-4_02_02_01",
+          "text": "Linien, ebene Figuren und Muster frei Hand und mit Hilfsmitteln zeichnen (zum Beispiel Lineal, Schablone, Geodreieck, Zirkel, digitale Werkzeuge – sobald vorhanden)"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_02_02/02",
+          "kind": "Teilkompetenz",
+          "label": "(2)",
+          "grades": "3-4",
+          "page": 25,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_02_02#BP2016BW_ALLG_GS_M.V2_IK_3-4_02_02_02",
+          "text": "ebene Figuren erkennen und benennen, auch in ihrer Erfahrungswelt (Rechteck, Quadrat, Dreieck, Kreis)"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_02_02/03",
+          "kind": "Teilkompetenz",
+          "label": "(3)",
+          "grades": "3-4",
+          "page": 25,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_02_02#BP2016BW_ALLG_GS_M.V2_IK_3-4_02_02_03",
+          "text": "ebene Figuren beschreiben, untersuchen und nach Eigenschaften sortieren (Ecke, Seite, parallel, senkrecht)"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_02_02/04",
+          "kind": "Teilkompetenz",
+          "label": "(4)",
+          "grades": "3-4",
+          "page": 25,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_02_02#BP2016BW_ALLG_GS_M.V2_IK_3-4_02_02_04",
+          "text": "ebene Figuren herstellen und zeichnen (zum Beispiel frei Hand, mit Lineal, Geodreieck, Zirkel, kariertes und unliniertes Papier, digitale Werkzeuge – sobald vorhanden)"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_02_03/04",
+          "kind": "Teilkompetenz",
+          "label": "(4)",
+          "grades": "3-4",
+          "page": 26,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_02_03#BP2016BW_ALLG_GS_M.V2_IK_3-4_02_03_04",
+          "text": "ebene Figuren zeichnen sowie vergrößern und verkleinern"
+        }
+      ]
+    },
+    {
+      "topic_id": "math.p.solids",
+      "label_de": "Geometrische Körper",
+      "kmk_anchor": "L3 Raum und Form",
+      "nodes": [
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_02_02/05",
+          "kind": "Teilkompetenz",
+          "label": "(5)",
+          "grades": "3-4",
+          "page": 25,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_02_02#BP2016BW_ALLG_GS_M.V2_IK_3-4_02_02_05",
+          "text": "Körper erkennen und benennen, auch in ihrer Erfahrungswelt (Quader, Würfel, Kugel, Zylinder)"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_02_02/06",
+          "kind": "Teilkompetenz",
+          "label": "(6)",
+          "grades": "3-4",
+          "page": 25,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_02_02#BP2016BW_ALLG_GS_M.V2_IK_3-4_02_02_06",
+          "text": "Körper beschreiben, untersuchen und nach Eigenschaften sortieren (Ecke, Kante, Fläche)"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_02_02/07",
+          "kind": "Teilkompetenz",
+          "label": "(7)",
+          "grades": "3-4",
+          "page": 25,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_02_02#BP2016BW_ALLG_GS_M.V2_IK_3-4_02_02_07",
+          "text": "Körper herstellen (zum Beispiel Kantenmodell, Vollmodell, Flächenmodell)"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_02_02/08",
+          "kind": "Teilkompetenz",
+          "label": "(8)",
+          "grades": "3-4",
+          "page": 25,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_02_02#BP2016BW_ALLG_GS_M.V2_IK_3-4_02_02_08",
+          "text": "Quader- und Würfelnetze (zum Beispiel durch Abwickeln) herstellen, zeichnen und untersuchen"
+        }
+      ]
+    },
+    {
+      "topic_id": "math.p.symmetry",
+      "label_de": "Symmetrie (Grundschule)",
+      "kmk_anchor": "L3 Raum und Form",
+      "nodes": [
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_02_03/01",
+          "kind": "Teilkompetenz",
+          "label": "(1)",
+          "grades": "3-4",
+          "page": 26,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_02_03#BP2016BW_ALLG_GS_M.V2_IK_3-4_02_03_01",
+          "text": "achsensymmetrische Figuren herstellen (zum Beispiel falten, schneiden und zeichnen, auch unter Verwendung digitaler Werkzeuge – sobald vorhanden)"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_02_03/02",
+          "kind": "Teilkompetenz",
+          "label": "(2)",
+          "grades": "3-4",
+          "page": 26,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_02_03#BP2016BW_ALLG_GS_M.V2_IK_3-4_02_03_02",
+          "text": "die Achsensymmetrie ebener Figuren erkennen, beschreiben und nutzen, auch aus ihrer Erfahrungswelt (Spiegelachse, symmetrisch)"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_02_03/03",
+          "kind": "Teilkompetenz",
+          "label": "(3)",
+          "grades": "3-4",
+          "page": 26,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_02_03#BP2016BW_ALLG_GS_M.V2_IK_3-4_02_03_03",
+          "text": "vorgegebene geometrische Figuren zu achsensymmetrischen Figuren vervollständigen"
+        }
+      ]
+    },
+    {
+      "topic_id": "math.p.area_perimeter_intro",
+      "label_de": "Flächen und Umfang (Grundvorstellung)",
+      "kmk_anchor": "L2 Messen",
+      "nodes": [
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_02_04/01",
+          "kind": "Teilkompetenz",
+          "label": "(1)",
+          "grades": "3-4",
+          "page": 27,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_02_04#BP2016BW_ALLG_GS_M.V2_IK_3-4_02_04_01",
+          "text": "den Umfang ebener Figuren handelnd bestimmen und untersuchen (zum Beispiel mit Faden, Lineal, durch Abzählen)"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_02_04/02",
+          "kind": "Teilkompetenz",
+          "label": "(2)",
+          "grades": "3-4",
+          "page": 27,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_02_04#BP2016BW_ALLG_GS_M.V2_IK_3-4_02_04_02",
+          "text": "den Flächeninhalt ebener Figuren durch Auslegen messen, bestimmen und durch Zerlegen vergleichen"
+        }
+      ]
+    },
+    {
+      "topic_id": "math.p.length_weight_capacity",
+      "label_de": "Längen, Gewichte und Rauminhalte",
+      "kmk_anchor": "L2 Messen",
+      "nodes": [
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_02_04/03",
+          "kind": "Teilkompetenz",
+          "label": "(3)",
+          "grades": "3-4",
+          "page": 27,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_02_04#BP2016BW_ALLG_GS_M.V2_IK_3-4_02_04_03",
+          "text": "den Rauminhalt von Körpern vergleichen (zum Beispiel durch Umfüllen) oder mittels Einheitswürfeln bestimmen"
+        }
+      ]
+    },
+    {
+      "topic_id": "math.p.measuring",
+      "label_de": "Größen und Messen: Einheiten umrechnen",
+      "kmk_anchor": "L2 Messen",
+      "nodes": [
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_03_01/01",
+          "kind": "Teilkompetenz",
+          "label": "(1)",
+          "grades": "3-4",
+          "page": 28,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_03_01#BP2016BW_ALLG_GS_M.V2_IK_3-4_03_01_01",
+          "text": "Größen handelnd vergleichen (zum Beispiel Kleiderbügelwaage, Umfüllen)"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_03_01/02",
+          "kind": "Teilkompetenz",
+          "label": "(2)",
+          "grades": "3-4",
+          "page": 28,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_03_01#BP2016BW_ALLG_GS_M.V2_IK_3-4_03_01_02",
+          "text": "mit geeigneten Einheiten in allen relevanten Größenbereichen messen: nichtstandardisiert und standardisiert Längen (km, m, cm, mm) Geldwerte (€, Cent) Zeit (Jahr, Monat, Woche, Tag, h, min, s) Massen (t, kg, g) Rauminhalt (l, ml)"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_03_01/03",
+          "kind": "Teilkompetenz",
+          "label": "(3)",
+          "grades": "3-4",
+          "page": 28,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_03_01#BP2016BW_ALLG_GS_M.V2_IK_3-4_03_01_03",
+          "text": "Größenangaben in unterschiedlichen Schreibweisen darstellen und Größenangaben in benachbarte Einheiten umwandeln"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_03_01/04",
+          "kind": "Teilkompetenz",
+          "label": "(4)",
+          "grades": "3-4",
+          "page": 28,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_03_01#BP2016BW_ALLG_GS_M.V2_IK_3-4_03_01_04",
+          "text": "im Alltag vorkommende einfache Bruchzahlen \\(\\left(\\frac{ 1 }{ 4 }, \\frac{ 1 }{ 2 }, \\frac{ 3 }{ 4 }, 1 \\frac{ 1 }{ 4 } \\right) \\) in Verbindung mit Größenangaben nutzen"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_03_01/05",
+          "kind": "Teilkompetenz",
+          "label": "(5)",
+          "grades": "3-4",
+          "page": 28,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_03_01#BP2016BW_ALLG_GS_M.V2_IK_3-4_03_01_05",
+          "text": "zu Repräsentanten aus ihrer Erfahrungswelt passende Größenangaben nennen und Größenangaben passende Repräsentanten zuordnen (zum Beispiel Massen: 1 g – Reißnagel, 100 g – Tafel Schokolade, 250 g – Päckchen Butter, 1 kg – Päckchen Mehl, 1 t – Kleinwagen)"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_03_01/06",
+          "kind": "Teilkompetenz",
+          "label": "(6)",
+          "grades": "3-4",
+          "page": 28,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_03_01#BP2016BW_ALLG_GS_M.V2_IK_3-4_03_01_06",
+          "text": "unterschiedliche Messgeräte sachgerecht nutzen (zum Beispiel Meterstab, Bandmaß, Lineal, Uhren, Messbecher)"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_03_01/07",
+          "kind": "Teilkompetenz",
+          "label": "(7)",
+          "grades": "3-4",
+          "page": 28,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_03_01#BP2016BW_ALLG_GS_M.V2_IK_3-4_03_01_07",
+          "text": "ihre Größenvorstellungen beim Schätzen anwenden"
+        }
+      ]
+    },
+    {
+      "topic_id": "math.p.data",
+      "label_de": "Daten erfassen und darstellen",
+      "kmk_anchor": "L5 Daten und Zufall",
+      "nodes": [
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_04_01/01",
+          "kind": "Teilkompetenz",
+          "label": "(1)",
+          "grades": "3-4",
+          "page": 30,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_04_01#BP2016BW_ALLG_GS_M.V2_IK_3-4_04_01_01",
+          "text": "einfache Befragungen planen und bei Beobachtungen, Untersuchungen und einfachen Experimenten Daten erfassen und strukturieren sowie in Tabellen, Schaubildern und Diagrammen darstellen (Tabelle, Zeile, Spalte, Balken- oder Säulendiagramm)"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_04_01/03",
+          "kind": "Teilkompetenz",
+          "label": "(3)",
+          "grades": "3-4",
+          "page": 30,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_04_01#BP2016BW_ALLG_GS_M.V2_IK_3-4_04_01_03",
+          "text": "Daten in Tabellen, Schaubildern und Diagrammen darstellen, auch unter Nutzung digitaler Werkzeuge, sobald vorhanden sowie Informationen aus Tabellen, Schaubildern und Diagrammen entnehmen und diese Informationen deuten"
+        }
+      ]
+    },
+    {
+      "topic_id": "math.p.chance",
+      "label_de": "Wahrscheinlichkeit (Grundschule)",
+      "kmk_anchor": "L5 Daten und Zufall",
+      "nodes": [
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_04_02/01",
+          "kind": "Teilkompetenz",
+          "label": "(1)",
+          "grades": "3-4",
+          "page": 31,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_04_02#BP2016BW_ALLG_GS_M.V2_IK_3-4_04_02_01",
+          "text": "Chancen für das Eintreten von Ereignissen bei alltäglichen Phänomenen oder einfachen Zufallsexperimenten (zum Beispiel Kugeln ziehen, würfeln, Glücksrad drehen) einschätzen, auswerten (zum Beispiel Tabelle, Säulen- oder Balkendiagramm) und diese datenbasiert vergleichen (zum Beispiel \"ist wahrscheinlicher als\", „hat größere Chancen als“)"
+        },
+        {
+          "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_04_02/02",
+          "kind": "Teilkompetenz",
+          "label": "(2)",
+          "grades": "3-4",
+          "page": 31,
+          "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+          "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_04_02#BP2016BW_ALLG_GS_M.V2_IK_3-4_04_02_02",
+          "text": "Grundbegriffe zur Beschreibung von Zufallsereignissen (sicher, möglich, unmöglich) beschreiben und anwenden"
+        }
+      ]
+    }
+  ],
+  "current_unmapped": [
+    {
+      "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_03/07",
+      "kind": "Teilkompetenz",
+      "label": "(7)",
+      "grades": "3-4",
+      "page": 23,
+      "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+      "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_01_03#BP2016BW_ALLG_GS_M.V2_IK_3-4_01_03_07",
+      "text": "mathematische Darstellungen in Sachkontexte übersetzen"
+    },
+    {
+      "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_03/08",
+      "kind": "Teilkompetenz",
+      "label": "(8)",
+      "grades": "3-4",
+      "page": 23,
+      "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+      "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_01_03#BP2016BW_ALLG_GS_M.V2_IK_3-4_01_03_08",
+      "text": "mathematische Darstellungen in andere Darstellungen übertragen und miteinander vergleichen"
+    },
+    {
+      "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_03/11",
+      "kind": "Teilkompetenz",
+      "label": "(11)",
+      "grades": "3-4",
+      "page": 23,
+      "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+      "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_01_03#BP2016BW_ALLG_GS_M.V2_IK_3-4_01_03_11",
+      "text": "Knobelaufgaben durch Probieren lösen (zum Beispiel ungeordnetes und systematisches Probieren)"
+    },
+    {
+      "node_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_04_01/04",
+      "kind": "Teilkompetenz",
+      "label": "(4)",
+      "grades": "3-4",
+      "page": 30,
+      "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas",
+      "locator": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GS_M.V2_IK_3-4_04_01#BP2016BW_ALLG_GS_M.V2_IK_3-4_04_01_04",
+      "text": "heuristische Darstellungen (Zeichnungen, Diagramme, Tabellen, Skalen) zur Lösung nutzen"
+    }
+  ],
+  "not_yet": [],
+  "process_competences": [],
+  "anforderungsbereiche": [],
+  "operators": [],
+  "conventions": [],
+  "plan_switch_gap": [],
+  "uncertainty": [
+    "not_yet reicht nur bis Klasse 4: was danach kommt, hängt von der weiterführenden Schulform ab. Für eine Vorschau den Kontext mit der künftigen Schulform abfragen.",
+    "Gültigkeit von BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas erschlossen, nicht wörtlich belegt: Schuljahr ohne Tagesdatum, Beginn am Schuljahresanfang angenommen",
+    "Klassen 3-4 sind im Plan ein Doppeljahrgang: ob ein Inhalt in Klasse 3 oder 4 behandelt wird, legt die Schule fest.",
+    "4 Inhalte der aktuellen Klasse sind noch keinem Thema zugeordnet; sie stehen unter current_unmapped.",
+    "Für BW Mathematik liegt im Bestand keine Operatorenliste des geltenden Plans vor.",
+    "Zu Notation, Einheiten, Merkhilfe oder Taschenrechner liegt für diesen Kontext keine Vorgabe im Bestand vor."
+  ],
+  "citations": [
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_01/01",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_01/02",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_01/03",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_01/04",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_01/05",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_01/06",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_01/07",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_01/08",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_02/01",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_02/02",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_02/03",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_02/04",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_02/05",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_02/06",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_02/07",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_02/08",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_02/09",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_02/10",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_02/11",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_02/12",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_02/13",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_02/14",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_03/01",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_03/02",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_03/03",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_03/04",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_03/07",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_01_03/08",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_02_01/01",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_02_01/02",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_02_01/03",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_02_01/04",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_02_02/01",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_02_02/02",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_02_02/03",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_02_02/04",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_02_02/05",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_02_02/06",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_02_03/01",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_02_03/02",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_02_03/03",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_02_04/01",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_02_04/02",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_03_01/01",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_03_01/02",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_03_01/03",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_03_01/04",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_03_01/05",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_03_01/06",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_03_01/07",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_03_02/01",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_03_02/02",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_03_02/03",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_03_02/04",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_04_01/01",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_04_01/02",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_1-2_04_02/01",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_01/01",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_01/02",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_01/03",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_01/04",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_01/05",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_01/06",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_02/01",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_02/02",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_02/03",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_02/04",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_02/05",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_02/06",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_02/07",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_02/08",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_02/09",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_02/10",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_02/11",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_02/12",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_02/13",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_02/14",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_02/15",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_02/16",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_02/17",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_02/18",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_03/01",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_03/02",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_03/03",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_03/04",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_03/05",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_03/06",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_03/07",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_03/08",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_03/09",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_03/10",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_01_03/11",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_02_01/01",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_02_01/02",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_02_01/03",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_02_01/04",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_02_02/01",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_02_02/02",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_02_02/03",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_02_02/04",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_02_02/05",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_02_02/06",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_02_02/07",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_02_02/08",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_02_03/01",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_02_03/02",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_02_03/03",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_02_03/04",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_02_03/05",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_02_04/01",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_02_04/02",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_02_04/03",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_03_01/01",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_03_01/02",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_03_01/03",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_03_01/04",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_03_01/05",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_03_01/06",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_03_01/07",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_03_02/01",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_03_02/02",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_03_02/03",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_03_02/04",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_03_02/05",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_03_02/06",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_04_01/01",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_04_01/03",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_04_01/04",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_04_02/01",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-grundschule-mathematik-fas:IK_3-4_04_02/02"
+  ],
+  "summary_de": "Mathematik, Grundschule Klasse 3 in Baden-Württemberg, Stand 09.11.2026 (Schuljahr 2026/27): bindend ist Überarbeiteter Bildungsplan 2016 Grundschule, Mathematik, Fassung vom 29. Februar 2024 (V2). Aktuell: Stellenwertsystem, Zahlen bis 1 000 000, Addition und Subtraktion, Multiplikation und Division, Einmaleins. Noch nicht behandelt: nichts. 4 Hinweise zu Unsicherheiten beachten."
+}

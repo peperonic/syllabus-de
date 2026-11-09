@@ -39,8 +39,13 @@ backbone:
   vocabularies: [OpenEduHub oeh-metadata-vocabs (CC0)]
 
 mapping:
-  proposer: anthropic:claude-sonnet-4-6   # proposes maps_to and requires edges
-  judge: anthropic:claude-opus-5-5        # owner decision 2026-11-07: same vendor, different model and generation (see docs/decisions.md)
+  # Without an API key (owner decision 2026-11-09) proposals and verdicts are files:
+  # the proposer is the model in the build session, the judge an independent agent
+  # that sees only text and topic (scripts/mapping_worksheet.py). With a key, use
+  #   proposer: anthropic:claude-sonnet-4-6
+  #   judge: anthropic:claude-opus-5-5
+  proposer: file:../data/mapping/bw_mathematik_proposals.yaml
+  judge: file:../data/mapping/bw_mathematik_verdicts.json
   mechanical_checks:
     - cited node_id exists
     - subject of node equals subject of topic

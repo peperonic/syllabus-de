@@ -1,0 +1,153 @@
+{
+  "tool": "check_exercise",
+  "context": {
+    "land": "BW",
+    "land_name": "Baden-Württemberg",
+    "school_form": "Gymnasium",
+    "grade": 8,
+    "subject": "Mathematik",
+    "course_level": null,
+    "date": "2026-11-09",
+    "school_year": "2026/27"
+  },
+  "context_mapping": {
+    "land": {
+      "input": "BW",
+      "used": "BW"
+    },
+    "subject": {
+      "input": "Mathematik",
+      "used": "Mathematik"
+    },
+    "school_form": {
+      "input": "Gymnasium",
+      "used": "Gymnasium",
+      "source": "school_form_alias"
+    }
+  },
+  "evaluated_for": {
+    "date": "2026-11-09",
+    "school_year": "2026/27"
+  },
+  "curriculum_version": [
+    {
+      "document_id": "BW:mathematik-ueberarbeiteter-bildungsplan-2016-gymnasium-mathematik-fassu",
+      "title": "Überarbeiteter Bildungsplan 2016 Gymnasium, Mathematik, Fassung vom 29. Februar 2024 (V2)",
+      "version": "2016",
+      "school_form": "Gymnasium (G8)",
+      "grades": "5-12",
+      "valid_from": "2024-08-01",
+      "valid_to": null,
+      "rollout": "ascending_from_grade:6",
+      "status_inventory": "phasing_out",
+      "status_on_date": "phasing_out",
+      "validity_confidence": "inferred",
+      "source_url": "https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GYM_M.V2",
+      "why": "aufsteigend ab 2024/25, gilt 2026/27 bis Klasse 8"
+    }
+  ],
+  "result": "fail",
+  "findings": [
+    {
+      "check": "concept",
+      "verdict": "pass",
+      "message_de": "Ebene Figuren ('Dreieck') ist Vorwissen aus früheren Klassen.",
+      "node_ids": [
+        "BW:mathematik-bildungsplan-2016-grundschule-mathematik-v1:IK_1-2_02_02/01",
+        "BW:mathematik-bildungsplan-2016-grundschule-mathematik-v1:IK_1-2_02_02/02"
+      ]
+    },
+    {
+      "check": "concept",
+      "verdict": "pass",
+      "message_de": "Geld ('Euro') ist Vorwissen aus früheren Klassen.",
+      "node_ids": [
+        "BW:mathematik-bildungsplan-2016-grundschule-mathematik-v1:IK_1-2_03_01/01",
+        "BW:mathematik-bildungsplan-2016-grundschule-mathematik-v1:IK_1-2_03_01/03"
+      ]
+    },
+    {
+      "check": "concept",
+      "verdict": "pass",
+      "message_de": "Lineare Gleichungen ('lineare Gleichung*') ist Stoff der Klasse 8.",
+      "node_ids": [
+        "BW:mathematik-ueberarbeiteter-bildungsplan-2016-gymnasium-mathematik-fassu:IK_7-8_01/20",
+        "BW:mathematik-ueberarbeiteter-bildungsplan-2016-gymnasium-mathematik-fassu:IK_7-8_01/26"
+      ]
+    },
+    {
+      "check": "concept",
+      "verdict": "pass",
+      "message_de": "Prozentrechnung ('Prozent*') ist Stoff der Klasse 8.",
+      "node_ids": [
+        "BW:mathematik-ueberarbeiteter-bildungsplan-2016-gymnasium-mathematik-fassu:IK_7-8_01/02"
+      ]
+    },
+    {
+      "check": "concept",
+      "verdict": "pass",
+      "message_de": "Dreiecke und Vierecke ('Dreieck*') ist Stoff der Klasse 8.",
+      "node_ids": [
+        "BW:mathematik-ueberarbeiteter-bildungsplan-2016-gymnasium-mathematik-fassu:IK_7-8_03/02",
+        "BW:mathematik-ueberarbeiteter-bildungsplan-2016-gymnasium-mathematik-fassu:IK_7-8_03/03"
+      ]
+    },
+    {
+      "check": "concept",
+      "verdict": "fail",
+      "message_de": "Satz des Pythagoras ('Pythagoras') kommt in diesem Bildungsgang erst ab Klasse 9.",
+      "node_ids": [
+        "BW:mathematik-ueberarbeiteter-bildungsplan-2016-gymnasium-mathematik-fassu:IK_9-10_02/09",
+        "BW:mathematik-ueberarbeiteter-bildungsplan-2016-gymnasium-mathematik-fassu:IK_9-10_03/04"
+      ]
+    },
+    {
+      "check": "operator",
+      "verdict": "pass",
+      "message_de": "Operator 'berechnen' steht in der Operatorenliste.",
+      "node_ids": [
+        "BW:mathematik-ueberarbeiteter-bildungsplan-2016-gymnasium-mathematik-fassu:OP/05"
+      ]
+    },
+    {
+      "check": "operator",
+      "verdict": "warn",
+      "message_de": "Operator 'diskutieren' steht nicht in der Operatorenliste des geltenden Plans.",
+      "node_ids": [
+        "BW:mathematik-ueberarbeiteter-bildungsplan-2016-gymnasium-mathematik-fassu:OP/01"
+      ]
+    },
+    {
+      "check": "operator",
+      "verdict": "warn",
+      "message_de": "Operator 'lösen' steht nicht in der Operatorenliste des geltenden Plans.",
+      "node_ids": [
+        "BW:mathematik-ueberarbeiteter-bildungsplan-2016-gymnasium-mathematik-fassu:OP/01"
+      ]
+    }
+  ],
+  "uncertainty": [
+    "Laut dem Plan dieser Kohorte endet der Bildungsgang nach Klasse 12.",
+    "Gültigkeit von BW:mathematik-ueberarbeiteter-bildungsplan-2016-gymnasium-mathematik-fassu erschlossen, nicht wörtlich belegt: Schuljahr ohne Tagesdatum, Beginn am Schuljahresanfang angenommen",
+    "Klassen 7-8 sind im Plan ein Doppeljahrgang: ob ein Inhalt in Klasse 7 oder 8 behandelt wird, legt die Schule fest.",
+    "3 Inhalte der aktuellen Klasse sind noch keinem Thema zugeordnet; sie stehen unter current_unmapped.",
+    "Planwechsel in dieser Kohorte: frühere Klassen liefen nach dem Vorgängerplan.",
+    "Mechanische Prüfung über Schlüsselwörter: sie erkennt Begriffe, nicht jede Idee einer Aufgabe."
+  ],
+  "citations": [
+    "BW:mathematik-bildungsplan-2016-grundschule-mathematik-v1:IK_1-2_02_02/01",
+    "BW:mathematik-bildungsplan-2016-grundschule-mathematik-v1:IK_1-2_02_02/02",
+    "BW:mathematik-bildungsplan-2016-grundschule-mathematik-v1:IK_1-2_03_01/01",
+    "BW:mathematik-bildungsplan-2016-grundschule-mathematik-v1:IK_1-2_03_01/03",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-gymnasium-mathematik-fassu:IK_7-8_01/02",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-gymnasium-mathematik-fassu:IK_7-8_01/20",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-gymnasium-mathematik-fassu:IK_7-8_01/26",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-gymnasium-mathematik-fassu:IK_7-8_03/02",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-gymnasium-mathematik-fassu:IK_7-8_03/03",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-gymnasium-mathematik-fassu:IK_9-10_02/09",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-gymnasium-mathematik-fassu:IK_9-10_03/04",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-gymnasium-mathematik-fassu:OP/01",
+    "BW:mathematik-ueberarbeiteter-bildungsplan-2016-gymnasium-mathematik-fassu:OP/05"
+  ],
+  "summary_de": "Prüfung für Mathematik, Gymnasium Klasse 8 (Baden-Württemberg, Stand 09.11.2026): Ergebnis fail, 1 Fehler und 2 Warnungen bei 9 Befunden. Satz des Pythagoras ('Pythagoras') kommt in diesem Bildungsgang erst ab Klasse 9."
+}

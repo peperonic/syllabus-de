@@ -2,6 +2,13 @@
 
 Running log of design decisions. Newest first. Each entry says what was decided, by whom, and why.
 
+## 2026-11-09: M1 on Baden-Württemberg, mapping without an API key
+
+1. **First real slice is BW Mathematik**, not MV (owner's choice). BW publishes HTML only and forbids PDF downloads, so citations use web anchors (`curriculum_node.locator`). Results: `docs/m1_bw_results.md`.
+2. **No API key, no extra network beyond the portals** (owner). Proposals come from the build session's model and verdicts from independent agents through `file:` providers. A file judge declines anything it did not explicitly pass. The pack keeps the API configuration as a comment for later.
+3. **Gold set by a blind agent**, not a person: 60 seeded texts, labelled without seeing proposals. Agreement with certified mappings: precision 0.87 and recall 0.83 per distinct text. A human spot check is recommended before these numbers are used as a bar.
+4. **Network:** personal environment "Curricula KB (syllabus-de)" allows www.bildung-mv.de and www.bildungsplaene-bw.de only.
+
 ## 2026-11-07: owner answers before M0
 
 1. **Crawler contact.** `chiaramariaperrone@pm.me` (spelling corrected by the owner on 2026-11-09), set in `design/pack.yaml` (`fetch.contact`, `fetch.user_agent`). Used only in the User-Agent of the S1 fetcher.

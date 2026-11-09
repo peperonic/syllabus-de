@@ -1,0 +1,3065 @@
+{
+"instructions": "You audit proposed links between a curriculum standard (verbatim text from an official\nGerman school curriculum) and a backbone topic. For each item decide independently:\npass = the standard's text is substantially about this topic, so a pupil meeting the standard is\n       learning this topic; decline = it is not, or only in passing, or the link is too broad or wrong.\nJudge only from the text, section and subheading given. Do not guess what the proposer intended.\nGrade bands of topics are typical placements, not rules: a standard outside the band can still pass.\nWrite {\"verdicts\": [{\"text_key\": ..., \"dst\": ..., \"verdict\": \"pass\" | \"decline\", \"reason\": \"<one short sentence, German or English>\"}]}\ncovering every item.",
+"items": [
+{
+"id": "8509dbd04f805af4|math.p.place_value",
+"text": "die Prinzipien des dezimalen Stellenwertsystems beschreiben",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Zahlbereiche erkunden",
+"topic": "math.p.place_value",
+"topic_label": "Stellenwertsystem",
+"topic_band": "1-4"
+},
+{
+"id": "c60fe539fcdbd7a2|math.p.place_value",
+"text": "die Prinzipien des dezimalen Stellenwertsystems im Vergleich zum römischen Zahlensystem beschreiben",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Zahlbereiche erkunden",
+"topic": "math.p.place_value",
+"topic_label": "Stellenwertsystem",
+"topic_band": "1-4"
+},
+{
+"id": "83f275286feb9774|math.p.place_value",
+"text": "die Prinzipien des dezimalen Stellenwertsystems im Vergleich zu einem anderen Zahlensystem beschreiben",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Zahlbereiche erkunden",
+"topic": "math.p.place_value",
+"topic_label": "Stellenwertsystem",
+"topic_band": "1-4"
+},
+{
+"id": "7e87df6410396615|math.s1.natural_numbers",
+"text": "natürliche Zahlen bis zur Größenordnung Billion lesen und nach Hören in Ziffern schreiben",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Zahlbereiche erkunden",
+"topic": "math.s1.natural_numbers",
+"topic_label": "Natürliche Zahlen, große Zahlen, Runden",
+"topic_band": "5"
+},
+{
+"id": "3944370fff2477b6|math.s1.divisibility",
+"text": "Eigenschaften natürlicher Zahlen untersuchen (einfache Primzahlen erkennen, die Teilbarkeitsregeln für 2, 3, 5, 10 anwenden)",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Zahlbereiche erkunden",
+"topic": "math.s1.divisibility",
+"topic_label": "Teilbarkeit und Primzahlen",
+"topic_band": "5-6"
+},
+{
+"id": "22ce7dfe8a2f372e|math.s1.divisibility",
+"text": "Eigenschaften natürlicher Zahlen untersuchen (einfache Primzahlen erkennen, Primfaktoren bestimmen, die Teilbarkeitsregeln für 2, 3, 5, 9, 10 anwenden)",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Zahlbereiche erkunden",
+"topic": "math.s1.divisibility",
+"topic_label": "Teilbarkeit und Primzahlen",
+"topic_band": "5-6"
+},
+{
+"id": "02781f55401ad33e|math.s1.divisibility",
+"text": "Eigenschaften natürlicher Zahlen untersuchen (einfache Primzahlen erkennen, Primfaktoren bestimmen, die Teilbarkeitsregeln für 2, 3, 5, 6, 9, 10 anwenden)",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Zahlbereiche erkunden",
+"topic": "math.s1.divisibility",
+"topic_label": "Teilbarkeit und Primzahlen",
+"topic_band": "5-6"
+},
+{
+"id": "f9f6d319f491280d|math.s1.negative_numbers",
+"text": "ganze Zahlen zur Beschreibung von Realsituationen verwenden, insbesondere unter den Aspekten Skala und Änderung",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Zahlbereiche erkunden",
+"topic": "math.s1.negative_numbers",
+"topic_label": "Negative und rationale Zahlen",
+"topic_band": "6-7"
+},
+{
+"id": "4f0e9c528c68ea5c|math.s1.fractions",
+"text": "Brüche zur Beschreibung von Realsituationen verwenden, insbesondere unter den Aspekten Anteil, Maßzahl einer Größe",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Zahlbereiche erkunden",
+"topic": "math.s1.fractions",
+"topic_label": "Brüche und Bruchteile",
+"topic_band": "5-6"
+},
+{
+"id": "dea421ba2f587430|math.s1.fractions",
+"text": "Brüche zur Beschreibung von Realsituationen verwenden, insbesondere unter den Aspekten Anteil, Operator, Maßzahl einer Größe",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Zahlbereiche erkunden",
+"topic": "math.s1.fractions",
+"topic_label": "Brüche und Bruchteile",
+"topic_band": "5-6"
+},
+{
+"id": "8675b548f641662f|math.s1.fractions",
+"text": "Brüche zur Beschreibung von Realsituationen verwenden, insbesondere unter den Aspekten Anteil, Verhältnis, Operator, Maßzahl einer Größe",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Zahlbereiche erkunden",
+"topic": "math.s1.fractions",
+"topic_label": "Brüche und Bruchteile",
+"topic_band": "5-6"
+},
+{
+"id": "bda7216ea9be00b3|math.s1.negative_numbers",
+"text": "rationale Zahlen und Punkte auf der Zahlengeraden einander zuordnen und rationale Zahlen vergleichen und anordnen",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Zahlbereiche erkunden",
+"topic": "math.s1.negative_numbers",
+"topic_label": "Negative und rationale Zahlen",
+"topic_band": "6-7"
+},
+{
+"id": "6344247e58af4ae3|math.s1.negative_numbers",
+"text": "den Betrag einer Zahl angeben",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Zahlbereiche erkunden",
+"topic": "math.s1.negative_numbers",
+"topic_label": "Negative und rationale Zahlen",
+"topic_band": "6-7"
+},
+{
+"id": "4fe80d787d90df04|math.s1.negative_numbers",
+"text": "erläutern, dass zwischen zwei verschiedenen rationalen Zahlen stets beliebig viele weitere rationale Zahlen liegen",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Zahlbereiche erkunden",
+"topic": "math.s1.negative_numbers",
+"topic_label": "Negative und rationale Zahlen",
+"topic_band": "6-7"
+},
+{
+"id": "d8c0513c169c0045|math.s1.decimals",
+"text": "in einfachen Fällen Brüche in Dezimalzahlen und abbrechende Dezimalzahlen in Brüche umwandeln",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Zahlbereiche erkunden",
+"topic": "math.s1.decimals",
+"topic_label": "Dezimalzahlen",
+"topic_band": "5-6"
+},
+{
+"id": "d8c0513c169c0045|math.s1.fractions",
+"text": "in einfachen Fällen Brüche in Dezimalzahlen und abbrechende Dezimalzahlen in Brüche umwandeln",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Zahlbereiche erkunden",
+"topic": "math.s1.fractions",
+"topic_label": "Brüche und Bruchteile",
+"topic_band": "5-6"
+},
+{
+"id": "4a1e8ba246ae8055|math.s1.decimals",
+"text": "Brüche in Dezimalzahlen (abbrechend oder periodisch) und abbrechende Dezimalzahlen in Brüche umwandeln",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Zahlbereiche erkunden",
+"topic": "math.s1.decimals",
+"topic_label": "Dezimalzahlen",
+"topic_band": "5-6"
+},
+{
+"id": "4a1e8ba246ae8055|math.s1.fractions",
+"text": "Brüche in Dezimalzahlen (abbrechend oder periodisch) und abbrechende Dezimalzahlen in Brüche umwandeln",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Zahlbereiche erkunden",
+"topic": "math.s1.fractions",
+"topic_label": "Brüche und Bruchteile",
+"topic_band": "5-6"
+},
+{
+"id": "a7402b112b3dc061|math.s1.decimals",
+"text": "Brüche, Dezimalzahlen und Prozentangaben in einfachen Fällen ineinander umwandeln",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Zahlbereiche erkunden",
+"topic": "math.s1.decimals",
+"topic_label": "Dezimalzahlen",
+"topic_band": "5-6"
+},
+{
+"id": "a7402b112b3dc061|math.s1.percent",
+"text": "Brüche, Dezimalzahlen und Prozentangaben in einfachen Fällen ineinander umwandeln",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Zahlbereiche erkunden",
+"topic": "math.s1.percent",
+"topic_label": "Prozentrechnung",
+"topic_band": "6-7"
+},
+{
+"id": "caeb7b6f88851a5e|math.s1.decimals",
+"text": "Brüche, Dezimalzahlen und Prozentangaben ineinander umwandeln",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Zahlbereiche erkunden",
+"topic": "math.s1.decimals",
+"topic_label": "Dezimalzahlen",
+"topic_band": "5-6"
+},
+{
+"id": "caeb7b6f88851a5e|math.s1.percent",
+"text": "Brüche, Dezimalzahlen und Prozentangaben ineinander umwandeln",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Zahlbereiche erkunden",
+"topic": "math.s1.percent",
+"topic_label": "Prozentrechnung",
+"topic_band": "6-7"
+},
+{
+"id": "12fe5d7cf5a20e8f|math.p.mental_strategies",
+"text": "einfache Rechnungen sicher im Kopf durchführen, u. a. um Ergebnisse überschlägig zu überprüfen",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Mit Zahlen rechnen; mit Zahlen rechnen",
+"topic": "math.p.mental_strategies",
+"topic_label": "Rechenstrategien und Kopfrechnen",
+"topic_band": "1-4"
+},
+{
+"id": "fd0ae28b095c4a8a|math.p.written_algorithms",
+"text": "natürliche Zahlen und positive Dezimalzahlen schriftlich addieren, subtrahieren, multiplizieren (dabei ein Faktor maximal 2-stellig) und dividieren (Divisor 1-stellig)",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Mit Zahlen rechnen; mit Zahlen rechnen",
+"topic": "math.p.written_algorithms",
+"topic_label": "Schriftliche Rechenverfahren",
+"topic_band": "3-4"
+},
+{
+"id": "fd0ae28b095c4a8a|math.s1.decimals",
+"text": "natürliche Zahlen und positive Dezimalzahlen schriftlich addieren, subtrahieren, multiplizieren (dabei ein Faktor maximal 2-stellig) und dividieren (Divisor 1-stellig)",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Mit Zahlen rechnen; mit Zahlen rechnen",
+"topic": "math.s1.decimals",
+"topic_label": "Dezimalzahlen",
+"topic_band": "5-6"
+},
+{
+"id": "15a52e6fbdc49776|math.p.written_algorithms",
+"text": "natürliche Zahlen und positive Dezimalzahlen schriftlich addieren, subtrahieren, multiplizieren (dabei ein Faktor maximal 3-stellig) und dividieren (Divisor maximal 2-stellig)",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Mit Zahlen rechnen; mit Zahlen rechnen",
+"topic": "math.p.written_algorithms",
+"topic_label": "Schriftliche Rechenverfahren",
+"topic_band": "3-4"
+},
+{
+"id": "15a52e6fbdc49776|math.s1.decimals",
+"text": "natürliche Zahlen und positive Dezimalzahlen schriftlich addieren, subtrahieren, multiplizieren (dabei ein Faktor maximal 3-stellig) und dividieren (Divisor maximal 2-stellig)",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Mit Zahlen rechnen; mit Zahlen rechnen",
+"topic": "math.s1.decimals",
+"topic_label": "Dezimalzahlen",
+"topic_band": "5-6"
+},
+{
+"id": "b408db91a7b725da|math.s1.decimals",
+"text": "Division und Multiplikation von positiven Dezimalzahlen mit Zehnerstufenzahlen sicher durchführen",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Mit Zahlen rechnen; mit Zahlen rechnen",
+"topic": "math.s1.decimals",
+"topic_label": "Dezimalzahlen",
+"topic_band": "5-6"
+},
+{
+"id": "64523f38dba0e70d|math.s1.decimals",
+"text": "bei Division und Multiplikation von positiven Dezimalzahlen Kommaverschiebungen anwenden und das Verfahren begründen",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Mit Zahlen rechnen; mit Zahlen rechnen",
+"topic": "math.s1.decimals",
+"topic_label": "Dezimalzahlen",
+"topic_band": "5-6"
+},
+{
+"id": "bb771acf980ddfb4|math.s1.powers",
+"text": "die Quadratzahlen von \\(1^2\\) bis \\(15^2\\) wiedergeben und erkennen",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Mit Zahlen rechnen",
+"topic": "math.s1.powers",
+"topic_label": "Potenzen und Potenzgesetze",
+"topic_band": "9-10"
+},
+{
+"id": "c5f752218c65e961|math.s1.powers",
+"text": "Potenzen als Kurzschreibweise eines Produkts erklären und verwenden sowie die Quadratzahlen von \\(1^2\\) bis \\(15^2\\) wiedergeben und erkennen",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Mit Zahlen rechnen; mit Zahlen rechnen",
+"topic": "math.s1.powers",
+"topic_label": "Potenzen und Potenzgesetze",
+"topic_band": "9-10"
+},
+{
+"id": "49e22f5b2c379391|math.s1.powers",
+"text": "Potenzen als Kurzschreibweise eines Produkts erklären und verwenden sowie die Quadratzahlen von \\(1^2\\) bis \\(20^2\\) wiedergeben und erkennen",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Mit Zahlen rechnen; mit Zahlen rechnen",
+"topic": "math.s1.powers",
+"topic_label": "Potenzen und Potenzgesetze",
+"topic_band": "9-10"
+},
+{
+"id": "be5974140ff01cbf|math.s1.fractions",
+"text": "Brüche erweitern und kürzen",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Mit Zahlen rechnen; mit Zahlen rechnen",
+"topic": "math.s1.fractions",
+"topic_label": "Brüche und Bruchteile",
+"topic_band": "5-6"
+},
+{
+"id": "e35d0e741f79fb26|math.s1.fraction_operations",
+"text": "Brüche mit natürlichen Zahlen multiplizieren und Brüche durch natürliche Zahlen dividieren",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Mit Zahlen rechnen; mit Zahlen rechnen",
+"topic": "math.s1.fraction_operations",
+"topic_label": "Rechnen mit Brüchen",
+"topic_band": "6"
+},
+{
+"id": "96b5909d9d2d1ccb|math.s1.fraction_operations",
+"text": "einfache positive rationale Zahlen in Bruch- und in Dezimaldarstellung addieren, subtrahieren und multiplizieren",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Mit Zahlen rechnen; mit Zahlen rechnen",
+"topic": "math.s1.fraction_operations",
+"topic_label": "Rechnen mit Brüchen",
+"topic_band": "6"
+},
+{
+"id": "0a34100e8b17a4d7|math.s1.fraction_operations",
+"text": "positive rationale Zahlen in Bruch- und in Dezimaldarstellung addieren, subtrahieren, multiplizieren und dividieren",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Mit Zahlen rechnen; mit Zahlen rechnen",
+"topic": "math.s1.fraction_operations",
+"topic_label": "Rechnen mit Brüchen",
+"topic_band": "6"
+},
+{
+"id": "de1aa2200e178fc7|math.s1.fraction_operations",
+"text": "rationale Zahlen in Bruch- und in Dezimaldarstellung addieren, subtrahieren, multiplizieren und dividieren",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Mit Zahlen rechnen; mit Zahlen rechnen",
+"topic": "math.s1.fraction_operations",
+"topic_label": "Rechnen mit Brüchen",
+"topic_band": "6"
+},
+{
+"id": "80c869693ba2e5f2|math.s1.natural_numbers",
+"text": "Zahlenwerte und Größenangaben runden und gerundete Angaben interpretieren",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Mit Zahlen rechnen; mit Zahlen rechnen",
+"topic": "math.s1.natural_numbers",
+"topic_label": "Natürliche Zahlen, große Zahlen, Runden",
+"topic_band": "5"
+},
+{
+"id": "2542b0faf4e50050|math.s1.natural_numbers",
+"text": "Zahlenwerte und Größenangaben situationsgerecht runden und gerundete Angaben interpretieren",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Mit Zahlen rechnen; mit Zahlen rechnen",
+"topic": "math.s1.natural_numbers",
+"topic_label": "Natürliche Zahlen, große Zahlen, Runden",
+"topic_band": "5"
+},
+{
+"id": "63d07f76fb1a577b|math.s1.natural_numbers",
+"text": "die Genauigkeit von Ergebnissen, die durch Rechnen mit gerundeten Werten gewonnen wurden, bewerten",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Mit Zahlen rechnen; mit Zahlen rechnen",
+"topic": "math.s1.natural_numbers",
+"topic_label": "Natürliche Zahlen, große Zahlen, Runden",
+"topic_band": "5"
+},
+{
+"id": "59f9b968ce38948f|math.s1.powers",
+"text": "natürliche Zahlen in Zehnerpotenzschreibweise angeben",
+"grades": "5-6/7-9",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation; 3.2.1 Leitidee Zahl – Variable – Ope",
+"sub": "Mit Zahlen rechnen; Zahlterme berechnen; mit Zahlen rechnen",
+"topic": "math.s1.powers",
+"topic_label": "Potenzen und Potenzgesetze",
+"topic_band": "9-10"
+},
+{
+"id": "8200e5d65c8e8506|math.p.mental_strategies",
+"text": "Rechnungen unter Verwendung der Umkehroperation überprüfen",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Mit Zahlen rechnen; mit Zahlen rechnen",
+"topic": "math.p.mental_strategies",
+"topic_label": "Rechenstrategien und Kopfrechnen",
+"topic_band": "1-4"
+},
+{
+"id": "4052ad846272ddfc|math.s1.terms",
+"text": "Sachsituationen aus der eigenen Erfahrungswelt durch einfache Zahlterme beschreiben",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Mit Zahltermen arbeiten",
+"topic": "math.s1.terms",
+"topic_label": "Terme und Variablen",
+"topic_band": "5-8"
+},
+{
+"id": "ede1c9ae4cb6848a|math.s1.terms",
+"text": "Sachsituationen (auch aus der Geometrie) durch Zahlterme beschreiben",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Mit Zahltermen arbeiten",
+"topic": "math.s1.terms",
+"topic_label": "Terme und Variablen",
+"topic_band": "5-8"
+},
+{
+"id": "85e36bd305299d4d|math.s1.terms",
+"text": "Sachsituationen (auch aus der Geometrie und bei Zahlenmustern) durch Zahlterme beschreiben",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Mit Zahltermen arbeiten; mit Zahltermen arbeiten",
+"topic": "math.s1.terms",
+"topic_label": "Terme und Variablen",
+"topic_band": "5-8"
+},
+{
+"id": "b0c429d530dab25b|math.s1.terms",
+"text": "Fachbegriffe für Rechenarten (Addition, Subtraktion, Multiplikation, Division), Rechenoperationen (addieren, subtrahieren, multiplizieren, dividieren) und Rechenoperanden (nur Summand und Faktor) verwenden",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Mit Zahltermen arbeiten; mit Zahltermen arbeiten",
+"topic": "math.s1.terms",
+"topic_label": "Terme und Variablen",
+"topic_band": "5-8"
+},
+{
+"id": "4e61e0633cb69f09|math.s1.terms",
+"text": "Fachbegriffe für Rechenarten (Addition, Subtraktion, Multiplikation, Division), Rechenoperationen (addieren, subtrahieren, multiplizieren, dividieren, potenzieren) und Rechenoperanden (Summand, Faktor, Minuend, Subtrahend, Dividend, Divisor, Basis, Exponent) verwenden",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Mit Zahltermen arbeiten; mit Zahltermen arbeiten",
+"topic": "math.s1.terms",
+"topic_label": "Terme und Variablen",
+"topic_band": "5-8"
+},
+{
+"id": "4cf0db821028bd87|math.s1.terms",
+"text": "bei der Berechnung von Zahltermen Rechenvorteile nutzen",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Mit Zahltermen arbeiten; mit Zahltermen arbeiten",
+"topic": "math.s1.terms",
+"topic_label": "Terme und Variablen",
+"topic_band": "5-8"
+},
+{
+"id": "10b2d5e3ebd9407a|math.s1.terms",
+"text": "bei der Berechnung von Zahltermen Rechengesetze für Rechenvorteile nutzen",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Mit Zahltermen arbeiten; mit Zahltermen arbeiten",
+"topic": "math.s1.terms",
+"topic_label": "Terme und Variablen",
+"topic_band": "5-8"
+},
+{
+"id": "0fe64007b0e074ce|math.s1.terms",
+"text": "den Wert von Zahltermen mit Klammern (eine Klammerebene) in einfachen Fällen berechnen, z. B. rationale Zahlen treten nur in gleicher Darstellung auf",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Mit Zahltermen arbeiten",
+"topic": "math.s1.terms",
+"topic_label": "Terme und Variablen",
+"topic_band": "5-8"
+},
+{
+"id": "930d0ac2e7090908|math.s1.terms",
+"text": "den Wert von Zahltermen mit Klammern in einfachen Fällen berechnen, z. B. rationale Zahlen treten nur in gleicher Darstellung auf",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Mit Zahltermen arbeiten",
+"topic": "math.s1.terms",
+"topic_label": "Terme und Variablen",
+"topic_band": "5-8"
+},
+{
+"id": "b5b6e3f2c59335fe|math.s1.terms",
+"text": "einfache Zahlterme mit den Fachbegriffen Summe, Differenz, Produkt, Quotient beschreiben",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Mit Zahltermen arbeiten; mit Zahltermen arbeiten",
+"topic": "math.s1.terms",
+"topic_label": "Terme und Variablen",
+"topic_band": "5-8"
+},
+{
+"id": "a2292d3522a847f4|math.s1.terms",
+"text": "einfache Zahlterme mit den Fachbegriffen Summe, Differenz, Produkt, Quotient, Potenz beschreiben",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Mit Zahltermen arbeiten; mit Zahltermen arbeiten",
+"topic": "math.s1.terms",
+"topic_label": "Terme und Variablen",
+"topic_band": "5-8"
+},
+{
+"id": "49e6bf263c157262|math.s1.terms",
+"text": "einfache und zusammengesetzte Zahlterme mit den Fachbegriffen Summe, Differenz, Produkt, Quotient, Potenz beschreiben",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Mit Zahltermen arbeiten; mit Zahltermen arbeiten",
+"topic": "math.s1.terms",
+"topic_label": "Terme und Variablen",
+"topic_band": "5-8"
+},
+{
+"id": "1bd19318e8aecef6|math.s1.terms",
+"text": "einfache Aufgaben mit Unbekannten durch Ausprobieren oder Rückwärtsrechnen lösen",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Mit Zahltermen arbeiten; mit Zahltermen arbeiten",
+"topic": "math.s1.terms",
+"topic_label": "Terme und Variablen",
+"topic_band": "5-8"
+},
+{
+"id": "ecb006cebbb7843d|math.s1.units",
+"text": "Messvorgänge und die Verwendung von Einheiten erläutern",
+"grades": "5-6",
+"section": "3.1.2 Leitidee Messen",
+"sub": "Mit Größen umgehen; mit Größen umgehen",
+"topic": "math.s1.units",
+"topic_label": "Größen und Einheiten",
+"topic_band": "5"
+},
+{
+"id": "d3ee1d15f4716ce9|math.s1.units",
+"text": "in ihrem Umfeld Längen, Flächeninhalte, Volumina, Massen, Zeitspannen messen",
+"grades": "5-6",
+"section": "3.1.2 Leitidee Messen",
+"sub": "Mit Größen umgehen; mit Größen umgehen",
+"topic": "math.s1.units",
+"topic_label": "Größen und Einheiten",
+"topic_band": "5"
+},
+{
+"id": "43f3db2c759df595|math.s1.units",
+"text": "Größenangaben durch Maßzahl und Einheit darstellen",
+"grades": "5-6",
+"section": "3.1.2 Leitidee Messen",
+"sub": "Mit Größen umgehen; mit Größen umgehen",
+"topic": "math.s1.units",
+"topic_label": "Größen und Einheiten",
+"topic_band": "5"
+},
+{
+"id": "d8f0340a87553da1|math.s1.units",
+"text": "die Bedeutung gängiger Vorsilben wie u. a. milli, centi, dezi, kilo, Mega erklären",
+"grades": "5-6",
+"section": "3.1.2 Leitidee Messen",
+"sub": "Mit Größen umgehen; mit Größen umgehen",
+"topic": "math.s1.units",
+"topic_label": "Größen und Einheiten",
+"topic_band": "5"
+},
+{
+"id": "5d65cf6df1d52891|math.s1.units",
+"text": "Einheiten für Masse, Zeit(spanne), Geld, Länge, Flächeninhalt und Volumen verwenden und in benachbarte Einheiten umwandeln",
+"grades": "5-6",
+"section": "3.1.2 Leitidee Messen",
+"sub": "Mit Größen umgehen; mit Größen umgehen",
+"topic": "math.s1.units",
+"topic_label": "Größen und Einheiten",
+"topic_band": "5"
+},
+{
+"id": "68e6b27555c35f74|math.s1.units",
+"text": "Einheiten für Masse, Zeit(spanne), Geld, Länge, Flächeninhalt und Volumen verwenden und umwandeln",
+"grades": "5-6",
+"section": "3.1.2 Leitidee Messen",
+"sub": "Mit Größen umgehen; mit Größen umgehen",
+"topic": "math.s1.units",
+"topic_label": "Größen und Einheiten",
+"topic_band": "5"
+},
+{
+"id": "e959672b72fe444a|math.s1.units",
+"text": "alltagsbezogene Repräsentanten als Schätzhilfe für Größenangaben verwenden",
+"grades": "5-6",
+"section": "3.1.2 Leitidee Messen",
+"sub": "Mit Größen umgehen",
+"topic": "math.s1.units",
+"topic_label": "Größen und Einheiten",
+"topic_band": "5"
+},
+{
+"id": "87fd07a33d210b12|math.s1.angles",
+"text": "Winkelweiten bis \\(180^\\circ\\) messen und schätzen",
+"grades": "5-6",
+"section": "3.1.2 Leitidee Messen",
+"sub": "Mit Größen umgehen; mit Größen umgehen",
+"topic": "math.s1.angles",
+"topic_label": "Winkel",
+"topic_band": "5-6"
+},
+{
+"id": "1762906929b2f73b|math.s1.angles",
+"text": "Winkelweiten messen und schätzen",
+"grades": "5-6",
+"section": "3.1.2 Leitidee Messen",
+"sub": "Mit Größen umgehen; mit Größen umgehen",
+"topic": "math.s1.angles",
+"topic_label": "Winkel",
+"topic_band": "5-6"
+},
+{
+"id": "8fdb7409fc878c2c|math.s1.units",
+"text": "mit Größenangaben rechnen und dabei Einheiten korrekt anwenden",
+"grades": "5-6",
+"section": "3.1.2 Leitidee Messen",
+"sub": "Mit Größen umgehen; mit Größen umgehen",
+"topic": "math.s1.units",
+"topic_label": "Größen und Einheiten",
+"topic_band": "5"
+},
+{
+"id": "a84e68464811071e|math.s1.area_perimeter",
+"text": "den Umfang von Rechteck und Quadrat bestimmen",
+"grades": "5-6",
+"section": "3.1.2 Leitidee Messen",
+"sub": "Bei Figuren und Körpern Größen berechnen; bei Figuren und Kö",
+"topic": "math.s1.area_perimeter",
+"topic_label": "Flächeninhalt und Umfang von Vielecken",
+"topic_band": "5-7"
+},
+{
+"id": "00cdffa7f117a87d|math.s1.area_perimeter",
+"text": "den Umfang von Rechteck, Quadrat, Dreieck, Trapez, Parallelogramm bestimmen und beim Kreis mithilfe der Formel berechnen sowie den Umfang zusammengesetzter Figuren bestimmen",
+"grades": "5-6",
+"section": "3.1.2 Leitidee Messen",
+"sub": "Bei Figuren und Körpern Größen berechnen; bei Figuren und Kö",
+"topic": "math.s1.area_perimeter",
+"topic_label": "Flächeninhalt und Umfang von Vielecken",
+"topic_band": "5-7"
+},
+{
+"id": "00cdffa7f117a87d|math.s1.circle",
+"text": "den Umfang von Rechteck, Quadrat, Dreieck, Trapez, Parallelogramm bestimmen und beim Kreis mithilfe der Formel berechnen sowie den Umfang zusammengesetzter Figuren bestimmen",
+"grades": "5-6",
+"section": "3.1.2 Leitidee Messen",
+"sub": "Bei Figuren und Körpern Größen berechnen; bei Figuren und Kö",
+"topic": "math.s1.circle",
+"topic_label": "Kreis: Umfang und Flächeninhalt",
+"topic_band": "8-9"
+},
+{
+"id": "56d254897e867fb1|math.s1.circle",
+"text": "die Zahl \\(\\pi\\) als Verhältnis von Umfang und Durchmesser eines Kreises erklären",
+"grades": "5-6/7-9",
+"section": "3.1.2 Leitidee Messen; 3.2.2 Leitidee Messen",
+"sub": "Bei Figuren und Körpern Größen berechnen; bei Figuren und Kö",
+"topic": "math.s1.circle",
+"topic_label": "Kreis: Umfang und Flächeninhalt",
+"topic_band": "8-9"
+},
+{
+"id": "7eeb93c1ffcddd78|math.s1.area_perimeter",
+"text": "die Formel für den Flächeninhalt eines Rechtecks mit dem Grundprinzip des Messens erklären",
+"grades": "5-6",
+"section": "3.1.2 Leitidee Messen",
+"sub": "Bei Figuren und Körpern Größen berechnen; bei Figuren und Kö",
+"topic": "math.s1.area_perimeter",
+"topic_label": "Flächeninhalt und Umfang von Vielecken",
+"topic_band": "5-7"
+},
+{
+"id": "9dd78c971c63b65d|math.s1.area_perimeter",
+"text": "die Formeln für den Flächeninhalt eines Parallelogramms und eines Dreiecks geometrisch erklären und die Formel für den Flächeninhalt eines Kreises durch einfache anschauliche Überlegungen erläutern",
+"grades": "5-6",
+"section": "3.1.2 Leitidee Messen",
+"sub": "Bei Figuren und Körpern Größen berechnen; bei Figuren und Kö",
+"topic": "math.s1.area_perimeter",
+"topic_label": "Flächeninhalt und Umfang von Vielecken",
+"topic_band": "5-7"
+},
+{
+"id": "9dd78c971c63b65d|math.s1.circle",
+"text": "die Formeln für den Flächeninhalt eines Parallelogramms und eines Dreiecks geometrisch erklären und die Formel für den Flächeninhalt eines Kreises durch einfache anschauliche Überlegungen erläutern",
+"grades": "5-6",
+"section": "3.1.2 Leitidee Messen",
+"sub": "Bei Figuren und Körpern Größen berechnen; bei Figuren und Kö",
+"topic": "math.s1.circle",
+"topic_label": "Kreis: Umfang und Flächeninhalt",
+"topic_band": "8-9"
+},
+{
+"id": "c3923d63d2dfe321|math.s1.area_perimeter",
+"text": "den Flächeninhalt von Quadrat und Rechteck berechnen und den Flächeninhalt von daraus zusammengesetzten Figuren bestimmen",
+"grades": "5-6",
+"section": "3.1.2 Leitidee Messen",
+"sub": "Bei Figuren und Körpern Größen berechnen; bei Figuren und Kö",
+"topic": "math.s1.area_perimeter",
+"topic_label": "Flächeninhalt und Umfang von Vielecken",
+"topic_band": "5-7"
+},
+{
+"id": "37a2455f311ca7fa|math.s1.area_perimeter",
+"text": "den Flächeninhalt von Quadrat, Rechteck, Parallelogramm, Trapez, Dreieck und Kreis berechnen und den Flächeninhalt von daraus zusammengesetzten Figuren bestimmen",
+"grades": "5-6",
+"section": "3.1.2 Leitidee Messen",
+"sub": "Bei Figuren und Körpern Größen berechnen; bei Figuren und Kö",
+"topic": "math.s1.area_perimeter",
+"topic_label": "Flächeninhalt und Umfang von Vielecken",
+"topic_band": "5-7"
+},
+{
+"id": "37a2455f311ca7fa|math.s1.circle",
+"text": "den Flächeninhalt von Quadrat, Rechteck, Parallelogramm, Trapez, Dreieck und Kreis berechnen und den Flächeninhalt von daraus zusammengesetzten Figuren bestimmen",
+"grades": "5-6",
+"section": "3.1.2 Leitidee Messen",
+"sub": "Bei Figuren und Körpern Größen berechnen; bei Figuren und Kö",
+"topic": "math.s1.circle",
+"topic_label": "Kreis: Umfang und Flächeninhalt",
+"topic_band": "8-9"
+},
+{
+"id": "06821520a2b4c3f4|math.s1.volume_surface",
+"text": "die Formel für das Volumen eines Quaders mit dem Grundprinzip des Messens erklären",
+"grades": "5-6",
+"section": "3.1.2 Leitidee Messen",
+"sub": "Bei Figuren und Körpern Größen berechnen; bei Figuren und Kö",
+"topic": "math.s1.volume_surface",
+"topic_label": "Volumen und Oberfläche von Prismen und Zylindern",
+"topic_band": "7-9"
+},
+{
+"id": "5c4939100672db4d|math.s1.volume_surface",
+"text": "den Oberflächeninhalt und das Volumen von Würfeln und Quadern und bei einfachen daraus zusammengesetzten Körpern das Volumen bestimmen",
+"grades": "5-6",
+"section": "3.1.2 Leitidee Messen",
+"sub": "Bei Figuren und Körpern Größen berechnen; bei Figuren und Kö",
+"topic": "math.s1.volume_surface",
+"topic_label": "Volumen und Oberfläche von Prismen und Zylindern",
+"topic_band": "7-9"
+},
+{
+"id": "09bcf769d819f365|math.s1.volume_surface",
+"text": "den Oberflächeninhalt und das Volumen von Würfeln und Quadern und einfachen daraus zusammengesetzten Körpern bestimmen",
+"grades": "5-6",
+"section": "3.1.2 Leitidee Messen",
+"sub": "Bei Figuren und Körpern Größen berechnen; bei Figuren und Kö",
+"topic": "math.s1.volume_surface",
+"topic_label": "Volumen und Oberfläche von Prismen und Zylindern",
+"topic_band": "7-9"
+},
+{
+"id": "04b48793137f5595|math.s1.geometry_basics",
+"text": "Lagebeziehungen von Strecken und Geraden (parallel, senkrecht) mithilfe eines Geodreiecks untersuchen",
+"grades": "5-6",
+"section": "3.1.3 Leitidee Raum und Form",
+"sub": "Geometrische Objekte und Beziehungen identifizieren und besc",
+"topic": "math.s1.geometry_basics",
+"topic_label": "Geometrische Grundbegriffe",
+"topic_band": "5"
+},
+{
+"id": "84098f228bb2c6ee|math.s1.angles",
+"text": "Winkel unter Verwendung der Begriffe Scheitel und Schenkel beschreiben",
+"grades": "5-6",
+"section": "3.1.3 Leitidee Raum und Form",
+"sub": "Geometrische Objekte und Beziehungen identifizieren und besc",
+"topic": "math.s1.angles",
+"topic_label": "Winkel",
+"topic_band": "5-6"
+},
+{
+"id": "236507119fbb5e54|math.s1.angles",
+"text": "rechte, spitze und stumpfe Winkel identifizieren",
+"grades": "5-6",
+"section": "3.1.3 Leitidee Raum und Form",
+"sub": "Geometrische Objekte und Beziehungen identifizieren und besc",
+"topic": "math.s1.angles",
+"topic_label": "Winkel",
+"topic_band": "5-6"
+},
+{
+"id": "fb387f9b5bf921cb|math.s1.symmetry_maps",
+"text": "Achsensymmetrie bei Figuren erkennen und die Symmetrieachse identifizieren",
+"grades": "5-6",
+"section": "3.1.3 Leitidee Raum und Form",
+"sub": "Geometrische Objekte und Beziehungen identifizieren und besc",
+"topic": "math.s1.symmetry_maps",
+"topic_label": "Symmetrie und Kongruenzabbildungen",
+"topic_band": "5-7"
+},
+{
+"id": "9c63e7b453c0ae9d|math.s1.symmetry_maps",
+"text": "Achsensymmetrie und Punktsymmetrie bei Figuren erkennen und die Symmetrieachse beziehungsweise das Symmetriezentrum identifizieren",
+"grades": "5-6",
+"section": "3.1.3 Leitidee Raum und Form",
+"sub": "Geometrische Objekte und Beziehungen identifizieren und besc",
+"topic": "math.s1.symmetry_maps",
+"topic_label": "Symmetrie und Kongruenzabbildungen",
+"topic_band": "5-7"
+},
+{
+"id": "32a3425696f02447|math.s1.triangles_quadrilaterals",
+"text": "rechtwinklige, spitzwinklige, stumpfwinklige, gleichschenklige und gleichseitige Dreiecke identifizieren",
+"grades": "5-6/7-9",
+"section": "3.1.3 Leitidee Raum und Form; 3.2.3 Leitidee Raum und Form",
+"sub": "Geometrische Figuren untersuchen; Geometrische Objekte und B",
+"topic": "math.s1.triangles_quadrilaterals",
+"topic_label": "Dreiecke und Vierecke",
+"topic_band": "5-7"
+},
+{
+"id": "4e6a1d62bfc2ea6a|math.s1.triangles_quadrilaterals",
+"text": "Kreise und Vierecke (Quadrat, Rechteck) identifizieren und deren spezielle Eigenschaften beschreiben",
+"grades": "5-6",
+"section": "3.1.3 Leitidee Raum und Form",
+"sub": "Geometrische Objekte und Beziehungen identifizieren und besc",
+"topic": "math.s1.triangles_quadrilaterals",
+"topic_label": "Dreiecke und Vierecke",
+"topic_band": "5-7"
+},
+{
+"id": "26aa42df9709efa1|math.s1.triangles_quadrilaterals",
+"text": "Kreise und Vierecke (Quadrat, Rechteck, Raute, Drachenviereck, Parallelogramm, Trapez) identifizieren und deren spezielle Eigenschaften beschreiben",
+"grades": "5-6",
+"section": "3.1.3 Leitidee Raum und Form",
+"sub": "Geometrische Objekte und Beziehungen identifizieren und besc",
+"topic": "math.s1.triangles_quadrilaterals",
+"topic_label": "Dreiecke und Vierecke",
+"topic_band": "5-7"
+},
+{
+"id": "444ded1e1c427ddb|math.s1.solids_nets",
+"text": "vorgegebene Körper (Quader, Würfel, Prisma, Zylinder, Pyramide, Kegel und Kugel) erkennen und benennen",
+"grades": "5-6",
+"section": "3.1.3 Leitidee Raum und Form",
+"sub": "Geometrische Objekte und Beziehungen identifizieren und besc",
+"topic": "math.s1.solids_nets",
+"topic_label": "Körper, Netze und Schrägbilder",
+"topic_band": "5-7"
+},
+{
+"id": "01824c76730ba509|math.s1.constructions",
+"text": "sicher mit Geodreieck, Lineal und Zirkel umgehen und damit geometrische Objekte zeichnen",
+"grades": "5-6",
+"section": "3.1.3 Leitidee Raum und Form",
+"sub": "Geometrische Objekte zeichnen und konstruieren; geometrische",
+"topic": "math.s1.constructions",
+"topic_label": "Konstruktionen und Kongruenz",
+"topic_band": "7-8"
+},
+{
+"id": "10e776c26e3d4019|math.s1.constructions",
+"text": "Kreise bei vorgegebenem Radius oder Durchmesser mithilfe eines Zirkels zeichnen",
+"grades": "5-6",
+"section": "3.1.3 Leitidee Raum und Form",
+"sub": "Geometrische Objekte zeichnen und konstruieren; geometrische",
+"topic": "math.s1.constructions",
+"topic_label": "Konstruktionen und Kongruenz",
+"topic_band": "7-8"
+},
+{
+"id": "857a1966da647159|math.s1.angles",
+"text": "zueinander parallele beziehungsweise senkrechte Linien und Winkel vorgegebener Winkelweite \\(\\leq180^\\circ\\) mithilfe eines Geodreiecks zeichnen",
+"grades": "5-6",
+"section": "3.1.3 Leitidee Raum und Form",
+"sub": "Geometrische Objekte zeichnen und konstruieren; geometrische",
+"topic": "math.s1.angles",
+"topic_label": "Winkel",
+"topic_band": "5-6"
+},
+{
+"id": "857a1966da647159|math.s1.geometry_basics",
+"text": "zueinander parallele beziehungsweise senkrechte Linien und Winkel vorgegebener Winkelweite \\(\\leq180^\\circ\\) mithilfe eines Geodreiecks zeichnen",
+"grades": "5-6",
+"section": "3.1.3 Leitidee Raum und Form",
+"sub": "Geometrische Objekte zeichnen und konstruieren; geometrische",
+"topic": "math.s1.geometry_basics",
+"topic_label": "Geometrische Grundbegriffe",
+"topic_band": "5"
+},
+{
+"id": "31ffad9ab727807a|math.s1.angles",
+"text": "Senkrechten, Parallelen und Winkel vorgegebener Winkelweite mithilfe eines Geodreiecks zeichnen",
+"grades": "5-6",
+"section": "3.1.3 Leitidee Raum und Form",
+"sub": "Geometrische Objekte zeichnen und konstruieren; geometrische",
+"topic": "math.s1.angles",
+"topic_label": "Winkel",
+"topic_band": "5-6"
+},
+{
+"id": "31ffad9ab727807a|math.s1.geometry_basics",
+"text": "Senkrechten, Parallelen und Winkel vorgegebener Winkelweite mithilfe eines Geodreiecks zeichnen",
+"grades": "5-6",
+"section": "3.1.3 Leitidee Raum und Form",
+"sub": "Geometrische Objekte zeichnen und konstruieren; geometrische",
+"topic": "math.s1.geometry_basics",
+"topic_label": "Geometrische Grundbegriffe",
+"topic_band": "5"
+},
+{
+"id": "f0ea59b1d5c3c2a4|math.s1.angles",
+"text": "Orthogonalen, Parallelen und Winkel vorgegebener Winkelweite mithilfe eines Geodreiecks zeichnen",
+"grades": "5-6",
+"section": "3.1.3 Leitidee Raum und Form",
+"sub": "Geometrische Objekte zeichnen und konstruieren; geometrische",
+"topic": "math.s1.angles",
+"topic_label": "Winkel",
+"topic_band": "5-6"
+},
+{
+"id": "f0ea59b1d5c3c2a4|math.s1.geometry_basics",
+"text": "Orthogonalen, Parallelen und Winkel vorgegebener Winkelweite mithilfe eines Geodreiecks zeichnen",
+"grades": "5-6",
+"section": "3.1.3 Leitidee Raum und Form",
+"sub": "Geometrische Objekte zeichnen und konstruieren; geometrische",
+"topic": "math.s1.geometry_basics",
+"topic_label": "Geometrische Grundbegriffe",
+"topic_band": "5"
+},
+{
+"id": "0569b06703dc7497|math.s1.geometry_basics",
+"text": "den Abstand zwischen Punkt und Gerade bestimmen",
+"grades": "5-6",
+"section": "3.1.3 Leitidee Raum und Form",
+"sub": "Geometrische Objekte zeichnen und konstruieren; geometrische",
+"topic": "math.s1.geometry_basics",
+"topic_label": "Geometrische Grundbegriffe",
+"topic_band": "5"
+},
+{
+"id": "5ed3ca02c2592677|math.s1.geometry_basics",
+"text": "den Abstand zwischen Punkt und Gerade bestimmen sowie den Abstand zwischen Parallelen bestimmen",
+"grades": "5-6",
+"section": "3.1.3 Leitidee Raum und Form",
+"sub": "Geometrische Objekte zeichnen und konstruieren; geometrische",
+"topic": "math.s1.geometry_basics",
+"topic_label": "Geometrische Grundbegriffe",
+"topic_band": "5"
+},
+{
+"id": "2703c464a6ca3b91|math.s1.geometry_basics",
+"text": "den Abstand zwischen Punkt und Gerade bestimmen, bei Dreiecken Höhen einzeichnen sowie den Abstand zwischen Parallelen bestimmen",
+"grades": "5-6",
+"section": "3.1.3 Leitidee Raum und Form",
+"sub": "Geometrische Objekte zeichnen und konstruieren; geometrische",
+"topic": "math.s1.geometry_basics",
+"topic_label": "Geometrische Grundbegriffe",
+"topic_band": "5"
+},
+{
+"id": "0356b7098a8d0417|math.s1.coordinates",
+"text": "Punkte, Strecken, Figuren in vorgegebenen zweidimensionalen kartesischen Koordinatensystemen darstellen",
+"grades": "5-6",
+"section": "3.1.3 Leitidee Raum und Form",
+"sub": "Geometrische Objekte zeichnen und konstruieren; geometrische",
+"topic": "math.s1.coordinates",
+"topic_label": "Koordinatensystem",
+"topic_band": "5-6"
+},
+{
+"id": "2f28d9135d29d7cb|math.s1.coordinates",
+"text": "Punkte, Strecken, Figuren in selbstständig skalierten zweidimensionalen kartesischen Koordinatensystemen darstellen",
+"grades": "5-6",
+"section": "3.1.3 Leitidee Raum und Form",
+"sub": "Geometrische Objekte zeichnen und konstruieren; geometrische",
+"topic": "math.s1.coordinates",
+"topic_label": "Koordinatensystem",
+"topic_band": "5-6"
+},
+{
+"id": "7c7e350da76f3190|math.s1.coordinates",
+"text": "geometrische Objekte in selbstständig skalierten zweidimensionalen kartesischen Koordinatensystemen darstellen",
+"grades": "5-6",
+"section": "3.1.3 Leitidee Raum und Form",
+"sub": "Geometrische Objekte zeichnen und konstruieren; geometrische",
+"topic": "math.s1.coordinates",
+"topic_label": "Koordinatensystem",
+"topic_band": "5-6"
+},
+{
+"id": "15d52ce5e52ed83c|math.s1.symmetry_maps",
+"text": "Achsenspiegelungen durchführen, auch mit Geometriesoftware",
+"grades": "5-6",
+"section": "3.1.3 Leitidee Raum und Form",
+"sub": "Geometrische Objekte zeichnen und konstruieren; geometrische",
+"topic": "math.s1.symmetry_maps",
+"topic_label": "Symmetrie und Kongruenzabbildungen",
+"topic_band": "5-7"
+},
+{
+"id": "73c29f3c51ec5b52|math.s1.symmetry_maps",
+"text": "Achsenspiegelungen und Punktspiegelungen durchführen",
+"grades": "5-6",
+"section": "3.1.3 Leitidee Raum und Form",
+"sub": "Geometrische Objekte zeichnen und konstruieren; geometrische",
+"topic": "math.s1.symmetry_maps",
+"topic_label": "Symmetrie und Kongruenzabbildungen",
+"topic_band": "5-7"
+},
+{
+"id": "be3efe3f107f88cc|math.s1.solids_nets",
+"text": "Netze, Schrägbilder, Grund- und Aufrisse von Quadern und Würfeln zeichnen",
+"grades": "5-6",
+"section": "3.1.3 Leitidee Raum und Form",
+"sub": "Geometrische Objekte zeichnen und konstruieren; geometrische",
+"topic": "math.s1.solids_nets",
+"topic_label": "Körper, Netze und Schrägbilder",
+"topic_band": "5-7"
+},
+{
+"id": "8ee1eba16b246256|math.s1.solids_nets",
+"text": "einem vorgegebenen Netz (von Quader, Würfel, Zylinder, Pyramide oder Kegel) den geraden Körper zuordnen",
+"grades": "5-6",
+"section": "3.1.3 Leitidee Raum und Form",
+"sub": "Geometrische Objekte zeichnen und konstruieren; geometrische",
+"topic": "math.s1.solids_nets",
+"topic_label": "Körper, Netze und Schrägbilder",
+"topic_band": "5-7"
+},
+{
+"id": "39cd0a380703c613|math.s1.solids_nets",
+"text": "Zusammenhänge zwischen den Darstellungsformen Netz, Schrägbild und Modell bei geraden Körpern (Quader, Würfel, Prisma, Zylinder, Pyramide und Kegel) herstellen",
+"grades": "5-6",
+"section": "3.1.3 Leitidee Raum und Form",
+"sub": "Geometrische Objekte zeichnen und konstruieren; geometrische",
+"topic": "math.s1.solids_nets",
+"topic_label": "Körper, Netze und Schrägbilder",
+"topic_band": "5-7"
+},
+{
+"id": "3265fc5ccc4e0653|math.s1.proportionality",
+"text": "einfache Zusammenhänge zwischen Größen bei Alltagssituationen erkennen und beschreiben",
+"grades": "5-6",
+"section": "3.1.4 Leitidee Funktionaler Zusammenhang",
+"sub": "Zusammenhänge beschreiben",
+"topic": "math.s1.proportionality",
+"topic_label": "Proportionale und antiproportionale Zuordnungen",
+"topic_band": "6-7"
+},
+{
+"id": "34b5c9277691b261|math.s1.proportionality",
+"text": "einfache Zusammenhänge zwischen Zahlen oder Größen erkennen und beschreiben",
+"grades": "5-6",
+"section": "3.1.4 Leitidee Funktionaler Zusammenhang",
+"sub": "Zusammenhänge beschreiben",
+"topic": "math.s1.proportionality",
+"topic_label": "Proportionale und antiproportionale Zuordnungen",
+"topic_band": "6-7"
+},
+{
+"id": "78b96df4784bd469|math.p.patterns",
+"text": "einfache Muster (z. B. Zahlenfolgen) erkennen, verbal beschreiben und diese fortsetzen",
+"grades": "5-6",
+"section": "3.1.4 Leitidee Funktionaler Zusammenhang",
+"sub": "Zusammenhänge beschreiben",
+"topic": "math.p.patterns",
+"topic_label": "Muster und Strukturen",
+"topic_band": "1-4"
+},
+{
+"id": "4346ea10e98126a6|math.p.patterns",
+"text": "Muster (z. B. Zahlenfolgen) erkennen, verbal beschreiben und diese fortsetzen",
+"grades": "5-6",
+"section": "3.1.4 Leitidee Funktionaler Zusammenhang",
+"sub": "Zusammenhänge beschreiben",
+"topic": "math.p.patterns",
+"topic_label": "Muster und Strukturen",
+"topic_band": "1-4"
+},
+{
+"id": "1a5c3d66fc76e573|math.s1.coordinates",
+"text": "Punkte in ein Koordinatensystem eintragen und die Koordinaten von Punkten ablesen",
+"grades": "5-6",
+"section": "3.1.4 Leitidee Funktionaler Zusammenhang",
+"sub": "Zusammenhänge beschreiben",
+"topic": "math.s1.coordinates",
+"topic_label": "Koordinatensystem",
+"topic_band": "5-6"
+},
+{
+"id": "6326d5cf039fef9f|math.s1.functions_concept",
+"text": "einfache funktionale Zusammenhänge in verbaler, tabellarischer und graphischer Form (auch im Koordinatensystem) darstellen und zwischen den Darstellungsformen wechseln",
+"grades": "5-6",
+"section": "3.1.4 Leitidee Funktionaler Zusammenhang",
+"sub": "Zusammenhänge beschreiben",
+"topic": "math.s1.functions_concept",
+"topic_label": "Funktionsbegriff",
+"topic_band": "7-8"
+},
+{
+"id": "c55b5aa05ed5fe75|math.s1.proportionality",
+"text": "proportionale Zusammenhänge in konkreten Situationen erkennen und Sachprobleme durch proportionales Rechnen lösen, auch in der Darstellungsform Dreisatz",
+"grades": "5-6",
+"section": "3.1.4 Leitidee Funktionaler Zusammenhang",
+"sub": "Zusammenhänge beschreiben",
+"topic": "math.s1.proportionality",
+"topic_label": "Proportionale und antiproportionale Zuordnungen",
+"topic_band": "6-7"
+},
+{
+"id": "bdebe84aa167ccc0|math.s1.proportionality",
+"text": "proportionale und antiproportionale Zusammenhänge in konkreten Situationen erkennen und Sachprobleme durch proportionales oder antiproportionales Rechnen lösen, auch in der Darstellungsform Dreisatz",
+"grades": "5-6",
+"section": "3.1.4 Leitidee Funktionaler Zusammenhang",
+"sub": "Zusammenhänge beschreiben",
+"topic": "math.s1.proportionality",
+"topic_label": "Proportionale und antiproportionale Zuordnungen",
+"topic_band": "6-7"
+},
+{
+"id": "99101dcc632119a6|math.s1.functions_concept",
+"text": "den dynamischen Zusammenhang zwischen Größen in einfachen Situationen (Länge – Umfang – Flächeninhalt – Volumen) anschaulich erläutern",
+"grades": "5-6",
+"section": "3.1.4 Leitidee Funktionaler Zusammenhang",
+"sub": "Zusammenhänge beschreiben",
+"topic": "math.s1.functions_concept",
+"topic_label": "Funktionsbegriff",
+"topic_band": "7-8"
+},
+{
+"id": "602195dba4e6f76c|math.s1.scale",
+"text": "aus maßstäblichen Darstellungen Originallängen erschließen",
+"grades": "5-6",
+"section": "3.1.4 Leitidee Funktionaler Zusammenhang",
+"sub": "Zusammenhänge beschreiben",
+"topic": "math.s1.scale",
+"topic_label": "Maßstab und maßstäbliches Zeichnen",
+"topic_band": "5-7"
+},
+{
+"id": "f4efe4e6cea7f270|math.s1.scale",
+"text": "Originallängen, Bildlängen oder Maßstäbe im Zusammenhang mit maßstäblichen Angaben berechnen",
+"grades": "5-6",
+"section": "3.1.4 Leitidee Funktionaler Zusammenhang",
+"sub": "Zusammenhänge beschreiben",
+"topic": "math.s1.scale",
+"topic_label": "Maßstab und maßstäbliches Zeichnen",
+"topic_band": "5-7"
+},
+{
+"id": "0ac13aa000d1378b|math.s1.scale",
+"text": "bei einfachem, vorgegebenem Maßstab Zeichnungen anfertigen",
+"grades": "5-6",
+"section": "3.1.4 Leitidee Funktionaler Zusammenhang",
+"sub": "Zusammenhänge beschreiben",
+"topic": "math.s1.scale",
+"topic_label": "Maßstab und maßstäbliches Zeichnen",
+"topic_band": "5-7"
+},
+{
+"id": "7239336d2439d654|math.s1.scale",
+"text": "maßstäbliche Zeichnungen nach Vorgaben anfertigen",
+"grades": "5-6",
+"section": "3.1.4 Leitidee Funktionaler Zusammenhang",
+"sub": "Zusammenhänge beschreiben",
+"topic": "math.s1.scale",
+"topic_label": "Maßstab und maßstäbliches Zeichnen",
+"topic_band": "5-7"
+},
+{
+"id": "c394dec99eb437ed|math.s1.scale",
+"text": "maßstäbliche Zeichnungen anfertigen, auch mit selbstgewähltem, geeignetem Maßstab",
+"grades": "5-6",
+"section": "3.1.4 Leitidee Funktionaler Zusammenhang",
+"sub": "Zusammenhänge beschreiben",
+"topic": "math.s1.scale",
+"topic_label": "Maßstab und maßstäbliches Zeichnen",
+"topic_band": "5-7"
+},
+{
+"id": "6f45e3a0ed1cfd1e|math.s1.statistics",
+"text": "eine Datenerhebung bei vorgegebenen Merkmalen und Merkmalsausprägungen mit Anleitung durchführen",
+"grades": "5-6",
+"section": "3.1.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen und auswerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "a1097e6bb10b712d|math.s1.statistics",
+"text": "eine Datenerhebung bei vorgegebenen Merkmalen und Merkmalsausprägungen mit Hilfe planen und selbstständig durchführen",
+"grades": "5-6",
+"section": "3.1.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen und auswerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "be02847fcb9d492e|math.s1.statistics",
+"text": "zu einer statistischen Fragestellung eine Datenerhebung selbstständig planen und durchführen",
+"grades": "5-6",
+"section": "3.1.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen und auswerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "c159d619adee2a75|math.s1.statistics",
+"text": "Urlisten, Strichlisten, Häufigkeitstabellen anfertigen",
+"grades": "5-6",
+"section": "3.1.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen und auswerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "bd059585d6367a47|math.s1.statistics",
+"text": "absolute und relative Häufigkeiten (auch in Prozent) bestimmen",
+"grades": "5-6",
+"section": "3.1.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen und auswerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "07dc4d93126ac356|math.s1.statistics",
+"text": "die Kenngrößen Maximum, Minimum und Mittelwert (arithmetisches Mittel) bestimmen",
+"grades": "5-6",
+"section": "3.1.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen und auswerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "1f583be93d13ef33|math.s1.statistics",
+"text": "aus Diagrammen (Balken‑, Säulen‑, Kreis- und Streifendiagramm) Zahlenwerte entnehmen",
+"grades": "5-6",
+"section": "3.1.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen und auswerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "7b0d92a43961fccc|math.s1.statistics",
+"text": "aus Diagrammen (Balken-, Säulen‑, Kreis- und Streifendiagramm) Zahlenwerte entnehmen",
+"grades": "5-6",
+"section": "3.1.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen und auswerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "edcaef1aa69fc190|math.s1.statistics",
+"text": "Daten aus vorgegebenen Sekundärquellen (z. B. Texten, Diagrammen, bildlichen Darstellungen) entnehmen",
+"grades": "5-6",
+"section": "3.1.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen und auswerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "73c9385b4f8de0e1|math.s1.statistics",
+"text": "Daten graphisch darstellen (Balken- und Säulendiagramm)",
+"grades": "5-6",
+"section": "3.1.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen und auswerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "150efdd4d7f025a0|math.s1.statistics",
+"text": "Daten graphisch darstellen (Balken‑, Säulen‑, Kreis- und Streifendiagramm)",
+"grades": "5-6",
+"section": "3.1.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen und auswerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "afba62fc3a348dbe|math.s1.statistics",
+"text": "Daten graphisch darstellen (Balken‑, Säulen‑, Kreis- und Streifendiagramm), gegebenenfalls auch unter Verwendung von Tabellenkalkulation",
+"grades": "5-6",
+"section": "3.1.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen und auswerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "92964e9fa2904e51|math.s1.statistics",
+"text": "einfache statistische Aussagen auf der Grundlage einer Auswertung von Daten formulieren",
+"grades": "5-6",
+"section": "3.1.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen und auswerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "c80b58e97d9b18a9|math.s1.statistics",
+"text": "statistische Aussagen mithilfe der Kenngrößen von Daten formulieren",
+"grades": "5-6",
+"section": "3.1.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen und auswerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "086e7a62869e9cb3|math.s1.statistics",
+"text": "Daten aus ihrer Erfahrungswelt bei übereinstimmender Darstellungsform vergleichen",
+"grades": "5-6",
+"section": "3.1.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen und auswerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "ab69cddd6d4febd0|math.s1.statistics",
+"text": "Daten aus ihrer Erfahrungswelt bei übereinstimmender Darstellungsform vergleichen und deuten",
+"grades": "5-6",
+"section": "3.1.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen und auswerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "955ef5de298b77dc|math.s1.statistics",
+"text": "Daten aus ihrer Erfahrungswelt auch bei unterschiedlichen Darstellungsformen auswerten, vergleichen und deuten",
+"grades": "5-6",
+"section": "3.1.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen und auswerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "4e16ee46e7bc1a52|math.s1.statistics",
+"text": "statistische Darstellungen hinsichtlich ihrer Eignung und hinsichtlich möglicher Irreführung beurteilen",
+"grades": "5-6",
+"section": "3.1.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen und auswerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "970fa42cd87ed293|math.s1.negative_numbers",
+"text": "mit natürlichen, gebrochenen und negativen Zahlen rechnen, die im täglichen Leben vorkommen",
+"grades": "7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Zahlterme berechnen",
+"topic": "math.s1.negative_numbers",
+"topic_label": "Negative und rationale Zahlen",
+"topic_band": "6-7"
+},
+{
+"id": "970fa42cd87ed293|math.s1.terms",
+"text": "mit natürlichen, gebrochenen und negativen Zahlen rechnen, die im täglichen Leben vorkommen",
+"grades": "7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Zahlterme berechnen",
+"topic": "math.s1.terms",
+"topic_label": "Terme und Variablen",
+"topic_band": "5-8"
+},
+{
+"id": "4f79a6dfe1c66ca1|math.s1.negative_numbers",
+"text": "mit rationalen Zahlen rechnen",
+"grades": "7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Zahlterme berechnen",
+"topic": "math.s1.negative_numbers",
+"topic_label": "Negative und rationale Zahlen",
+"topic_band": "6-7"
+},
+{
+"id": "4f79a6dfe1c66ca1|math.s1.terms",
+"text": "mit rationalen Zahlen rechnen",
+"grades": "7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Zahlterme berechnen",
+"topic": "math.s1.terms",
+"topic_label": "Terme und Variablen",
+"topic_band": "5-8"
+},
+{
+"id": "d56c2807e4c30985|math.s1.negative_numbers",
+"text": "einfache Zahlterme mit rationalen Zahlen – auch solche, die Klammern und Zahlen in unterschiedlichen Darstellungen enthalten – vereinfachen und deren Wert berechnen",
+"grades": "7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Zahlterme berechnen",
+"topic": "math.s1.negative_numbers",
+"topic_label": "Negative und rationale Zahlen",
+"topic_band": "6-7"
+},
+{
+"id": "d56c2807e4c30985|math.s1.terms",
+"text": "einfache Zahlterme mit rationalen Zahlen – auch solche, die Klammern und Zahlen in unterschiedlichen Darstellungen enthalten – vereinfachen und deren Wert berechnen",
+"grades": "7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Zahlterme berechnen",
+"topic": "math.s1.terms",
+"topic_label": "Terme und Variablen",
+"topic_band": "5-8"
+},
+{
+"id": "24b4753a8208d0d4|math.s1.negative_numbers",
+"text": "Zahlterme mit rationalen Zahlen – auch solche, die Klammern und Zahlen in unterschiedlichen Darstellungen enthalten – vereinfachen und deren Wert berechnen",
+"grades": "7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Zahlterme berechnen",
+"topic": "math.s1.negative_numbers",
+"topic_label": "Negative und rationale Zahlen",
+"topic_band": "6-7"
+},
+{
+"id": "24b4753a8208d0d4|math.s1.terms",
+"text": "Zahlterme mit rationalen Zahlen – auch solche, die Klammern und Zahlen in unterschiedlichen Darstellungen enthalten – vereinfachen und deren Wert berechnen",
+"grades": "7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Zahlterme berechnen",
+"topic": "math.s1.terms",
+"topic_label": "Terme und Variablen",
+"topic_band": "5-8"
+},
+{
+"id": "7e502992e22f55e1|math.s1.percent",
+"text": "Prozentwert, Grundwert und Prozentsatz identifizieren und berechnen",
+"grades": "7-8/7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Mit Prozenten und Zinsen umgehen",
+"topic": "math.s1.percent",
+"topic_label": "Prozentrechnung",
+"topic_band": "6-7"
+},
+{
+"id": "500f5a01a3cfd51d|math.s1.interest",
+"text": "Zins und iterativ Zinseszins berechnen",
+"grades": "7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Mit Prozenten und Zinsen umgehen; mit Prozenten und Zinsen u",
+"topic": "math.s1.interest",
+"topic_label": "Zinsrechnung",
+"topic_band": "7-8"
+},
+{
+"id": "a53d5fb114787749|math.s1.interest",
+"text": "eine Tabellenkalkulation verwenden, um Zinssatz, Tilgung/Sparrate und Laufzeit näherungsweise zu bestimmen",
+"grades": "7-8/7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Mit Prozenten und Zinsen umgehen; mit Prozenten und Zinsen u",
+"topic": "math.s1.interest",
+"topic_label": "Zinsrechnung",
+"topic_band": "7-8"
+},
+{
+"id": "4e8109f40c6b16da|math.s1.terms",
+"text": "einfache Sachsituationen und Terme mit Variablen einander zuordnen",
+"grades": "7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Mit Termen umgehen, die auch Variablen enthalten; mit Termen",
+"topic": "math.s1.terms",
+"topic_label": "Terme und Variablen",
+"topic_band": "5-8"
+},
+{
+"id": "9120119543df7a9f|math.s1.terms",
+"text": "Situationen unter Verwendung von Variablen und Termen beschreiben",
+"grades": "7-8/7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Mit Termen umgehen, die auch Variablen enthalten; mit Termen",
+"topic": "math.s1.terms",
+"topic_label": "Terme und Variablen",
+"topic_band": "5-8"
+},
+{
+"id": "84435df540809998|math.s1.terms",
+"text": "den Wert von vorgegebenen Termen, die eine Variable enthalten, durch Einsetzen berechnen",
+"grades": "7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Mit Termen umgehen, die auch Variablen enthalten; mit Termen",
+"topic": "math.s1.terms",
+"topic_label": "Terme und Variablen",
+"topic_band": "5-8"
+},
+{
+"id": "901c53b6cb6e867e|math.s1.terms",
+"text": "den Wert von Termen, die Variablen enthalten, durch Einsetzen berechnen",
+"grades": "7-8/7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Mit Termen umgehen, die auch Variablen enthalten; mit Termen",
+"topic": "math.s1.terms",
+"topic_label": "Terme und Variablen",
+"topic_band": "5-8"
+},
+{
+"id": "d7a9fbb15d220564|math.s1.terms",
+"text": "die Assoziativgesetze, die Kommutativgesetze sowie das Distributivgesetz angeben und an Beispielen erläutern",
+"grades": "7-8/7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Mit Termen umgehen, die auch Variablen enthalten; mit Termen",
+"topic": "math.s1.terms",
+"topic_label": "Terme und Variablen",
+"topic_band": "5-8"
+},
+{
+"id": "b5894dfe18812ad2|math.s1.terms",
+"text": "Klammern zum Aufstellen und zur Gliederung von Termen verwenden",
+"grades": "7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Mit Termen umgehen, die auch Variablen enthalten",
+"topic": "math.s1.terms",
+"topic_label": "Terme und Variablen",
+"topic_band": "5-8"
+},
+{
+"id": "2574e7c8876df319|math.s1.term_transformations",
+"text": "die Rechengesetze zum Gliedern, Umformen oder Berechnen von Termen anwenden, auch Ausmultiplizieren von Summen und Ausklammern von einfachen Faktoren",
+"grades": "7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Mit Termen umgehen, die auch Variablen enthalten; mit Termen",
+"topic": "math.s1.term_transformations",
+"topic_label": "Termumformungen und binomische Formeln",
+"topic_band": "7-8"
+},
+{
+"id": "79db80f0f7cfb5e6|math.s1.term_transformations",
+"text": "die Rechengesetze zum Gliedern, Umformen oder Berechnen von Termen anwenden, auch Ausmultiplizieren von Summen und Ausklammern",
+"grades": "7-8/7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Mit Termen umgehen, die auch Variablen enthalten; mit Termen",
+"topic": "math.s1.term_transformations",
+"topic_label": "Termumformungen und binomische Formeln",
+"topic_band": "7-8"
+},
+{
+"id": "7a29ce7815d7b2c8|math.s1.term_transformations",
+"text": "die binomischen Formeln bei Termen, die nur eine Variable enthalten, auch zum Faktorisieren anwenden",
+"grades": "7-8/7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Mit Termen umgehen, die auch Variablen enthalten; mit Termen",
+"topic": "math.s1.term_transformations",
+"topic_label": "Termumformungen und binomische Formeln",
+"topic_band": "7-8"
+},
+{
+"id": "40c53495006ed1e2|math.s1.terms",
+"text": "in konkreten Situationen bei einfachen Formeln, u. a. \\(v=\\frac{s}{t}\\), die fehlende Größe bestimmen",
+"grades": "7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Mit Termen umgehen, die auch Variablen enthalten; mit Termen",
+"topic": "math.s1.terms",
+"topic_label": "Terme und Variablen",
+"topic_band": "5-8"
+},
+{
+"id": "22f8e753e39943e4|math.s1.terms",
+"text": "einfache Formeln, u. a. \\(v=\\frac{s}{t}\\), nach jeder Variablen auflösen",
+"grades": "7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Mit Termen umgehen, die auch Variablen enthalten; mit Termen",
+"topic": "math.s1.terms",
+"topic_label": "Terme und Variablen",
+"topic_band": "5-8"
+},
+{
+"id": "3951e7f5a55e38fb|math.s1.roots",
+"text": "den Zusammenhang zwischen Wurzelziehen und Quadrieren erklären",
+"grades": "7-8/7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Mit Wurzeln umgehen; mit Wurzeln umgehen",
+"topic": "math.s1.roots",
+"topic_label": "Quadratwurzeln und reelle Zahlen",
+"topic_band": "8-9"
+},
+{
+"id": "230064597c0f2af9|math.s1.roots",
+"text": "den Wert der Quadratwurzel einer Zahl in einfachen Fällen unter Verwendung bekannter Quadratzahlen abschätzen",
+"grades": "7-8/7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Mit Wurzeln umgehen; mit Wurzeln umgehen",
+"topic": "math.s1.roots",
+"topic_label": "Quadratwurzeln und reelle Zahlen",
+"topic_band": "8-9"
+},
+{
+"id": "97ddf6369f7d2b79|math.s1.roots",
+"text": "Quadratwurzeln im Sachzusammenhang verwenden",
+"grades": "7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Mit Wurzeln umgehen; mit Wurzeln umgehen",
+"topic": "math.s1.roots",
+"topic_label": "Quadratwurzeln und reelle Zahlen",
+"topic_band": "8-9"
+},
+{
+"id": "b51a81eccdb74b70|math.s1.roots",
+"text": "Zahlterme mit Quadratwurzeln vereinfachen, auch durch teilweises Wurzelziehen",
+"grades": "7-8/7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Mit Wurzeln umgehen; mit Wurzeln umgehen",
+"topic": "math.s1.roots",
+"topic_label": "Quadratwurzeln und reelle Zahlen",
+"topic_band": "8-9"
+},
+{
+"id": "6af2b42851f008cf|math.s1.roots",
+"text": "anhand eines Beispiels erklären, dass im Allgemeinen \\(\\sqrt{a}+\\sqrt{b}\\neq\\sqrt{a+b}\\) ist, aber \\(\\sqrt{ab}=\\sqrt{a}\\sqrt{b}\\) ist",
+"grades": "7-8/7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Mit Wurzeln umgehen",
+"topic": "math.s1.roots",
+"topic_label": "Quadratwurzeln und reelle Zahlen",
+"topic_band": "8-9"
+},
+{
+"id": "26dbff9c69809b14|math.s1.roots",
+"text": "die Kubikwurzel einer Zahl mit dem Taschenrechner näherungsweise berechnen",
+"grades": "7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Mit Wurzeln umgehen; mit Wurzeln umgehen",
+"topic": "math.s1.roots",
+"topic_label": "Quadratwurzeln und reelle Zahlen",
+"topic_band": "8-9"
+},
+{
+"id": "55fd0d1f019938a2|math.s1.roots",
+"text": "die Definition der Wurzel auch zur Bestimmung von Kubikwurzeln anwenden",
+"grades": "7-8/7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Mit Wurzeln umgehen; mit Wurzeln umgehen",
+"topic": "math.s1.roots",
+"topic_label": "Quadratwurzeln und reelle Zahlen",
+"topic_band": "8-9"
+},
+{
+"id": "8f40de48b4913cf4|math.s1.roots",
+"text": "die Notwendigkeit der Zahlbereichserweiterung auf reelle Zahlen anhand geeigneter Beispiele beschreiben",
+"grades": "7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Zahlbereichserweiterungen untersuchen",
+"topic": "math.s1.roots",
+"topic_label": "Quadratwurzeln und reelle Zahlen",
+"topic_band": "8-9"
+},
+{
+"id": "9a414b3db961d7ee|math.s1.roots",
+"text": "anhand geeigneter Beispiele die Unvollständigkeit der rationalen Zahlen beschreiben und die Notwendigkeit der Zahlbereichserweiterung auf reelle Zahlen begründen",
+"grades": "7-8/7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Zahlbereichserweiterungen untersuchen",
+"topic": "math.s1.roots",
+"topic_label": "Quadratwurzeln und reelle Zahlen",
+"topic_band": "8-9"
+},
+{
+"id": "3fb9401802d2f8af|math.s1.roots",
+"text": "Beispiele für irrationale Zahlen angeben",
+"grades": "7-8/7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Zahlbereichserweiterungen untersuchen",
+"topic": "math.s1.roots",
+"topic_label": "Quadratwurzeln und reelle Zahlen",
+"topic_band": "8-9"
+},
+{
+"id": "c76462cb90692158|math.s1.roots",
+"text": "ein iteratives Verfahren zur Bestimmung einer Wurzel durchführen",
+"grades": "7-8/7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Zahlbereichserweiterungen untersuchen",
+"topic": "math.s1.roots",
+"topic_label": "Quadratwurzeln und reelle Zahlen",
+"topic_band": "8-9"
+},
+{
+"id": "1e842bdffb20fd24|math.s1.linear_equations",
+"text": "lineare Gleichungen durch Äquivalenzumformungen lösen",
+"grades": "7-8/7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Gleichungen lösen",
+"topic": "math.s1.linear_equations",
+"topic_label": "Lineare Gleichungen",
+"topic_band": "7-8"
+},
+{
+"id": "b5d227eb468de128|math.s1.linear_systems",
+"text": "[MSA] die Lösung eines linearen Gleichungssystems mit zwei Variablen mithilfe des Einsetzungsverfahrens bestimmen",
+"grades": "7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Gleichungen lösen",
+"topic": "math.s1.linear_systems",
+"topic_label": "Lineare Gleichungssysteme",
+"topic_band": "8-9"
+},
+{
+"id": "75070fb10fffcded|math.s1.linear_systems",
+"text": "die Lösung eines linearen Gleichungssystems mit zwei Variablen mithilfe eines Verfahrens bestimmen",
+"grades": "7-8/7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Gleichungen lösen",
+"topic": "math.s1.linear_systems",
+"topic_label": "Lineare Gleichungssysteme",
+"topic_band": "8-9"
+},
+{
+"id": "652595f0d2134898|math.s1.linear_systems",
+"text": "die Lösung eines linearen Gleichungssystems mit zwei Variablen mithilfe des Einsetzungsverfahrens bestimmen",
+"grades": "7-8/7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Gleichungen lösen",
+"topic": "math.s1.linear_systems",
+"topic_label": "Lineare Gleichungssysteme",
+"topic_band": "8-9"
+},
+{
+"id": "8d7d70385446fc83|math.s1.quadratic_equations",
+"text": "[MSA] die Lösungen einer quadratischen Gleichung mithilfe einer Formel bestimmen",
+"grades": "7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Gleichungen lösen",
+"topic": "math.s1.quadratic_equations",
+"topic_label": "Quadratische Gleichungen",
+"topic_band": "9"
+},
+{
+"id": "86ad1fff6b493438|math.s1.quadratic_equations",
+"text": "die Lösungen einer quadratischen Gleichung mithilfe einer Formel bestimmen",
+"grades": "7-8/7-9/9-10",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation; 3.3.1 Leitidee Zahl – Variable – Ope",
+"sub": "Gleichungen lösen",
+"topic": "math.s1.quadratic_equations",
+"topic_label": "Quadratische Gleichungen",
+"topic_band": "9"
+},
+{
+"id": "f579622011f265d1|math.s1.quadratic_equations",
+"text": "den Satz vom Nullprodukt zum Lösen von Gleichungen verwenden",
+"grades": "7-8/7-9/9-10",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation; 3.3.1 Leitidee Zahl – Variable – Ope",
+"sub": "Gleichungen lösen",
+"topic": "math.s1.quadratic_equations",
+"topic_label": "Quadratische Gleichungen",
+"topic_band": "9"
+},
+{
+"id": "e4f9c341b1e8d045|math.s1.quadratic_equations",
+"text": "eine quadratische Gleichung zu vorgegebenen Lösungen bestimmen",
+"grades": "7-8/7-9/9-10",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation; 3.3.1 Leitidee Zahl – Variable – Ope",
+"sub": "Gleichungen lösen",
+"topic": "math.s1.quadratic_equations",
+"topic_label": "Quadratische Gleichungen",
+"topic_band": "9"
+},
+{
+"id": "b016edc61d99faca|math.s1.linear_equations",
+"text": "[MSA] einfache Verhältnisgleichungen lösen, bei denen die einmalige Multiplikation mit einer Variablen zielführend ist",
+"grades": "7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Gleichungen lösen",
+"topic": "math.s1.linear_equations",
+"topic_label": "Lineare Gleichungen",
+"topic_band": "7-8"
+},
+{
+"id": "b016edc61d99faca|math.s1.proportionality",
+"text": "[MSA] einfache Verhältnisgleichungen lösen, bei denen die einmalige Multiplikation mit einer Variablen zielführend ist",
+"grades": "7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Gleichungen lösen",
+"topic": "math.s1.proportionality",
+"topic_label": "Proportionale und antiproportionale Zuordnungen",
+"topic_band": "6-7"
+},
+{
+"id": "7f694818a6b3bbfd|math.s1.fraction_equations",
+"text": "einfache Bruchgleichungen lösen, bei denen die einmalige Multiplikation mit einer Variablen zielführend ist",
+"grades": "7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Gleichungen lösen",
+"topic": "math.s1.fraction_equations",
+"topic_label": "Bruchgleichungen und Wurzelgleichungen",
+"topic_band": "9-10"
+},
+{
+"id": "ca68483517aae6e8|math.s1.fraction_equations",
+"text": "Bruchgleichungen lösen, bei denen die einmalige Multiplikation mit \\(x^n\\) oder mit genau einem Linearfaktor zielführend ist",
+"grades": "7-8/7-9/9-10",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation; 3.3.1 Leitidee Zahl – Variable – Ope",
+"sub": "Gleichungen lösen",
+"topic": "math.s1.fraction_equations",
+"topic_label": "Bruchgleichungen und Wurzelgleichungen",
+"topic_band": "9-10"
+},
+{
+"id": "8b44aa2197f7ac60|math.s1.fraction_equations",
+"text": "Wurzelgleichungen lösen, bei denen einmaliges Quadrieren zielführend ist",
+"grades": "11/7-9/9-10",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation; 3.3.1 Leitidee Zahl – Variable – Ope",
+"sub": "Gleichungen lösen",
+"topic": "math.s1.fraction_equations",
+"topic_label": "Bruchgleichungen und Wurzelgleichungen",
+"topic_band": "9-10"
+},
+{
+"id": "1976c6659612a8d8|math.s1.linear_equations",
+"text": "[MSA] die Lösbarkeit und Lösungsvielfalt von linearen und quadratischen Gleichungen sowie linearen Gleichungssystemen untersuchen",
+"grades": "7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Gleichungen lösen",
+"topic": "math.s1.linear_equations",
+"topic_label": "Lineare Gleichungen",
+"topic_band": "7-8"
+},
+{
+"id": "1976c6659612a8d8|math.s1.linear_systems",
+"text": "[MSA] die Lösbarkeit und Lösungsvielfalt von linearen und quadratischen Gleichungen sowie linearen Gleichungssystemen untersuchen",
+"grades": "7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Gleichungen lösen",
+"topic": "math.s1.linear_systems",
+"topic_label": "Lineare Gleichungssysteme",
+"topic_band": "8-9"
+},
+{
+"id": "1976c6659612a8d8|math.s1.quadratic_equations",
+"text": "[MSA] die Lösbarkeit und Lösungsvielfalt von linearen und quadratischen Gleichungen sowie linearen Gleichungssystemen untersuchen",
+"grades": "7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Gleichungen lösen",
+"topic": "math.s1.quadratic_equations",
+"topic_label": "Quadratische Gleichungen",
+"topic_band": "9"
+},
+{
+"id": "6dd163d5a9ecc18d|math.s1.linear_equations",
+"text": "die Lösbarkeit und Lösungsvielfalt von linearen und quadratischen Gleichungen sowie linearen Gleichungssystemen untersuchen",
+"grades": "7-8/7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Gleichungen lösen",
+"topic": "math.s1.linear_equations",
+"topic_label": "Lineare Gleichungen",
+"topic_band": "7-8"
+},
+{
+"id": "6dd163d5a9ecc18d|math.s1.linear_systems",
+"text": "die Lösbarkeit und Lösungsvielfalt von linearen und quadratischen Gleichungen sowie linearen Gleichungssystemen untersuchen",
+"grades": "7-8/7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Gleichungen lösen",
+"topic": "math.s1.linear_systems",
+"topic_label": "Lineare Gleichungssysteme",
+"topic_band": "8-9"
+},
+{
+"id": "6dd163d5a9ecc18d|math.s1.quadratic_equations",
+"text": "die Lösbarkeit und Lösungsvielfalt von linearen und quadratischen Gleichungen sowie linearen Gleichungssystemen untersuchen",
+"grades": "7-8/7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Gleichungen lösen",
+"topic": "math.s1.quadratic_equations",
+"topic_label": "Quadratische Gleichungen",
+"topic_band": "9"
+},
+{
+"id": "b10a768a96716bb8|math.s1.linear_systems",
+"text": "lineare und quadratische Gleichungen sowie lineare Gleichungssysteme geometrisch als Schnittproblem von Graphen interpretieren und so näherungsweise lösen",
+"grades": "7-8/7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Gleichungen lösen",
+"topic": "math.s1.linear_systems",
+"topic_label": "Lineare Gleichungssysteme",
+"topic_band": "8-9"
+},
+{
+"id": "b10a768a96716bb8|math.s1.quadratic_equations",
+"text": "lineare und quadratische Gleichungen sowie lineare Gleichungssysteme geometrisch als Schnittproblem von Graphen interpretieren und so näherungsweise lösen",
+"grades": "7-8/7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Gleichungen lösen",
+"topic": "math.s1.quadratic_equations",
+"topic_label": "Quadratische Gleichungen",
+"topic_band": "9"
+},
+{
+"id": "b5e6e6d07faaa00d|math.s1.functions_concept",
+"text": "einfache lineare und quadratische Ungleichungen geometrisch interpretieren und mithilfe funktionaler Überlegungen lösen",
+"grades": "7-8/7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Gleichungen lösen",
+"topic": "math.s1.functions_concept",
+"topic_label": "Funktionsbegriff",
+"topic_band": "7-8"
+},
+{
+"id": "b5e6e6d07faaa00d|math.s1.linear_equations",
+"text": "einfache lineare und quadratische Ungleichungen geometrisch interpretieren und mithilfe funktionaler Überlegungen lösen",
+"grades": "7-8/7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Gleichungen lösen",
+"topic": "math.s1.linear_equations",
+"topic_label": "Lineare Gleichungen",
+"topic_band": "7-8"
+},
+{
+"id": "54975ee938e3bdca|math.s1.functions_concept",
+"text": "Nullstellen von Funktionen näherungsweise mithilfe digitaler Hilfsmittel bestimmen",
+"grades": "11/7-9/9-10",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation; 3.3.1 Leitidee Zahl – Variable – Ope",
+"sub": "Gleichungen lösen",
+"topic": "math.s1.functions_concept",
+"topic_label": "Funktionsbegriff",
+"topic_band": "7-8"
+},
+{
+"id": "bcc427e62bc53179|math.s1.area_perimeter",
+"text": "den Umfang von Dreieck, Trapez und Parallelogramm bestimmen",
+"grades": "7-9",
+"section": "3.2.2 Leitidee Messen",
+"sub": "Bei Figuren und Körpern Größen berechnen; bei Figuren und Kö",
+"topic": "math.s1.area_perimeter",
+"topic_label": "Flächeninhalt und Umfang von Vielecken",
+"topic_band": "5-7"
+},
+{
+"id": "86a8e710d1bab885|math.s1.area_perimeter",
+"text": "den Umfang von Dreieck, Trapez, Parallelogramm und Kreis bestimmen",
+"grades": "7-9",
+"section": "3.2.2 Leitidee Messen",
+"sub": "Bei Figuren und Körpern Größen berechnen; bei Figuren und Kö",
+"topic": "math.s1.area_perimeter",
+"topic_label": "Flächeninhalt und Umfang von Vielecken",
+"topic_band": "5-7"
+},
+{
+"id": "86a8e710d1bab885|math.s1.circle",
+"text": "den Umfang von Dreieck, Trapez, Parallelogramm und Kreis bestimmen",
+"grades": "7-9",
+"section": "3.2.2 Leitidee Messen",
+"sub": "Bei Figuren und Körpern Größen berechnen; bei Figuren und Kö",
+"topic": "math.s1.circle",
+"topic_label": "Kreis: Umfang und Flächeninhalt",
+"topic_band": "8-9"
+},
+{
+"id": "f28ca5957d72b56a|math.s1.circle",
+"text": "den Umfang von Kreisen mithilfe der Formel berechnen",
+"grades": "7-9",
+"section": "3.2.2 Leitidee Messen",
+"sub": "Bei Figuren und Körpern Größen berechnen; bei Figuren und Kö",
+"topic": "math.s1.circle",
+"topic_label": "Kreis: Umfang und Flächeninhalt",
+"topic_band": "8-9"
+},
+{
+"id": "3e4c16cc2440fab8|math.s1.circle",
+"text": "die Länge von Kreisbögen mithilfe von Proportionalität bestimmen",
+"grades": "7-9",
+"section": "3.2.2 Leitidee Messen",
+"sub": "Bei Figuren und Körpern Größen berechnen; bei Figuren und Kö",
+"topic": "math.s1.circle",
+"topic_label": "Kreis: Umfang und Flächeninhalt",
+"topic_band": "8-9"
+},
+{
+"id": "86629578e2b84e21|math.s1.circle",
+"text": "die Länge von Kreisbögen bestimmen",
+"grades": "7-9",
+"section": "3.2.2 Leitidee Messen",
+"sub": "Bei Figuren und Körpern Größen berechnen; bei Figuren und Kö",
+"topic": "math.s1.circle",
+"topic_label": "Kreis: Umfang und Flächeninhalt",
+"topic_band": "8-9"
+},
+{
+"id": "4e7411d920bf969e|math.s1.area_perimeter",
+"text": "den Umfang von zusammengesetzten Figuren bestimmen",
+"grades": "7-9",
+"section": "3.2.2 Leitidee Messen",
+"sub": "Bei Figuren und Körpern Größen berechnen; bei Figuren und Kö",
+"topic": "math.s1.area_perimeter",
+"topic_label": "Flächeninhalt und Umfang von Vielecken",
+"topic_band": "5-7"
+},
+{
+"id": "71d02ef0647be64d|math.s1.area_perimeter",
+"text": "den Flächeninhalt von Dreieck, Parallelogramm, Trapez, Kreis berechnen und den Flächeninhalt von daraus zusammengesetzten Figuren bestimmen",
+"grades": "7-9",
+"section": "3.2.2 Leitidee Messen",
+"sub": "Bei Figuren und Körpern Größen berechnen; bei Figuren und Kö",
+"topic": "math.s1.area_perimeter",
+"topic_label": "Flächeninhalt und Umfang von Vielecken",
+"topic_band": "5-7"
+},
+{
+"id": "71d02ef0647be64d|math.s1.circle",
+"text": "den Flächeninhalt von Dreieck, Parallelogramm, Trapez, Kreis berechnen und den Flächeninhalt von daraus zusammengesetzten Figuren bestimmen",
+"grades": "7-9",
+"section": "3.2.2 Leitidee Messen",
+"sub": "Bei Figuren und Körpern Größen berechnen; bei Figuren und Kö",
+"topic": "math.s1.circle",
+"topic_label": "Kreis: Umfang und Flächeninhalt",
+"topic_band": "8-9"
+},
+{
+"id": "cc7e892ac025f7f8|math.s1.area_perimeter",
+"text": "den Flächeninhalt von Dreieck, Parallelogramm, Trapez, Kreis und Kreisausschnitt berechnen und den Flächeninhalt von daraus zusammengesetzten Figuren bestimmen",
+"grades": "7-9",
+"section": "3.2.2 Leitidee Messen",
+"sub": "Bei Figuren und Körpern Größen berechnen; bei Figuren und Kö",
+"topic": "math.s1.area_perimeter",
+"topic_label": "Flächeninhalt und Umfang von Vielecken",
+"topic_band": "5-7"
+},
+{
+"id": "cc7e892ac025f7f8|math.s1.circle",
+"text": "den Flächeninhalt von Dreieck, Parallelogramm, Trapez, Kreis und Kreisausschnitt berechnen und den Flächeninhalt von daraus zusammengesetzten Figuren bestimmen",
+"grades": "7-9",
+"section": "3.2.2 Leitidee Messen",
+"sub": "Bei Figuren und Körpern Größen berechnen; bei Figuren und Kö",
+"topic": "math.s1.circle",
+"topic_label": "Kreis: Umfang und Flächeninhalt",
+"topic_band": "8-9"
+},
+{
+"id": "96fea41f9be4cae5|math.s1.circle",
+"text": "mithilfe anschaulicher Überlegungen unter Einbeziehung von Grenzprozessen erklären, wie die Formeln für den Flächeninhalt und den Umfang eines Kreises entstehen",
+"grades": "7-9",
+"section": "3.2.2 Leitidee Messen",
+"sub": "Bei Figuren und Körpern Größen berechnen; bei Figuren und Kö",
+"topic": "math.s1.circle",
+"topic_label": "Kreis: Umfang und Flächeninhalt",
+"topic_band": "8-9"
+},
+{
+"id": "0492748cfbd3af8d|math.s1.circle",
+"text": "erklären, wie Flächeninhalt und Umfang eines Kreises mithilfe eines Grenzprozesses bestimmt werden",
+"grades": "11/7-9/9-10",
+"section": "3.2.2 Leitidee Messen; 3.3.2 Leitidee Messen",
+"sub": "Bei Figuren und Körpern Größen berechnen; Größen bei Figuren",
+"topic": "math.s1.circle",
+"topic_label": "Kreis: Umfang und Flächeninhalt",
+"topic_band": "8-9"
+},
+{
+"id": "0aefe51b07fede03|math.s1.volume_surface",
+"text": "die Formel zur Berechnung des Mantelflächeninhalts beim Zylinder herleiten",
+"grades": "7-9",
+"section": "3.2.2 Leitidee Messen",
+"sub": "Bei Figuren und Körpern Größen berechnen; bei Figuren und Kö",
+"topic": "math.s1.volume_surface",
+"topic_label": "Volumen und Oberfläche von Prismen und Zylindern",
+"topic_band": "7-9"
+},
+{
+"id": "80b3f810c8980f4d|math.s1.pyramid_cone_sphere",
+"text": "die Formel für das Volumen der Pyramide durch Plausibilitätsbetrachtung erläutern",
+"grades": "7-9",
+"section": "3.2.2 Leitidee Messen",
+"sub": "Bei Figuren und Körpern Größen berechnen; bei Figuren und Kö",
+"topic": "math.s1.pyramid_cone_sphere",
+"topic_label": "Pyramide, Kegel und Kugel",
+"topic_band": "9-10"
+},
+{
+"id": "a0bea90c49d1508d|math.s1.pyramid_cone_sphere",
+"text": "den Oberflächeninhalt und das Volumen von Prisma, Pyramide, Zylinder berechnen und von daraus zusammengesetzten Körpern bestimmen",
+"grades": "7-9",
+"section": "3.2.2 Leitidee Messen",
+"sub": "Bei Figuren und Körpern Größen berechnen; bei Figuren und Kö",
+"topic": "math.s1.pyramid_cone_sphere",
+"topic_label": "Pyramide, Kegel und Kugel",
+"topic_band": "9-10"
+},
+{
+"id": "a0bea90c49d1508d|math.s1.volume_surface",
+"text": "den Oberflächeninhalt und das Volumen von Prisma, Pyramide, Zylinder berechnen und von daraus zusammengesetzten Körpern bestimmen",
+"grades": "7-9",
+"section": "3.2.2 Leitidee Messen",
+"sub": "Bei Figuren und Körpern Größen berechnen; bei Figuren und Kö",
+"topic": "math.s1.volume_surface",
+"topic_label": "Volumen und Oberfläche von Prismen und Zylindern",
+"topic_band": "7-9"
+},
+{
+"id": "06fc406ef9d717a0|math.s1.triangles_quadrilaterals",
+"text": "spezielle Eigenschaften von Vierecken (Quadrat, Rechteck, Raute, Drachenviereck, Parallelogramm, Trapez) angeben",
+"grades": "7-9",
+"section": "3.2.3 Leitidee Raum und Form",
+"sub": "Geometrische Figuren untersuchen; geometrische Figuren unter",
+"topic": "math.s1.triangles_quadrilaterals",
+"topic_label": "Dreiecke und Vierecke",
+"topic_band": "5-7"
+},
+{
+"id": "59cd697d90cdc9db|math.s1.triangles_quadrilaterals",
+"text": "Vierecke (Quadrat, Rechteck, Raute, Drachenviereck, Parallelogramm, Trapez) identifizieren und deren spezielle Eigenschaften beschreiben",
+"grades": "7-9",
+"section": "3.2.3 Leitidee Raum und Form",
+"sub": "Geometrische Figuren untersuchen; geometrische Figuren unter",
+"topic": "math.s1.triangles_quadrilaterals",
+"topic_label": "Dreiecke und Vierecke",
+"topic_band": "5-7"
+},
+{
+"id": "fec5b1e6fec01332|math.s1.angles",
+"text": "[MSA] Winkelweiten unter Verwendung von Scheitel- und Nebenwinkeln sowie Stufen- und Wechselwinkeln erschließen",
+"grades": "7-9",
+"section": "3.2.3 Leitidee Raum und Form",
+"sub": "Geometrische Figuren untersuchen; geometrische Figuren unter",
+"topic": "math.s1.angles",
+"topic_label": "Winkel",
+"topic_band": "5-6"
+},
+{
+"id": "5f6a7141d964b27b|math.s1.angles",
+"text": "Winkelweiten unter Verwendung von Scheitel- und Nebenwinkeln sowie Stufen- und Wechselwinkeln erschließen",
+"grades": "7-8/7-9",
+"section": "3.2.3 Leitidee Raum und Form",
+"sub": "Geometrische Figuren untersuchen; geometrische Figuren unter",
+"topic": "math.s1.angles",
+"topic_label": "Winkel",
+"topic_band": "5-6"
+},
+{
+"id": "76dd6c6fda6a7600|math.s1.angles",
+"text": "den Winkelsummensatz für Dreiecke angeben",
+"grades": "7-9",
+"section": "3.2.3 Leitidee Raum und Form",
+"sub": "Geometrische Figuren untersuchen; geometrische Figuren unter",
+"topic": "math.s1.angles",
+"topic_label": "Winkel",
+"topic_band": "5-6"
+},
+{
+"id": "76dd6c6fda6a7600|math.s1.triangles_quadrilaterals",
+"text": "den Winkelsummensatz für Dreiecke angeben",
+"grades": "7-9",
+"section": "3.2.3 Leitidee Raum und Form",
+"sub": "Geometrische Figuren untersuchen; geometrische Figuren unter",
+"topic": "math.s1.triangles_quadrilaterals",
+"topic_label": "Dreiecke und Vierecke",
+"topic_band": "5-7"
+},
+{
+"id": "e5f71e477b8dfebc|math.s1.angles",
+"text": "den Winkelsummensatz für Dreiecke begründen",
+"grades": "7-8/7-9",
+"section": "3.2.3 Leitidee Raum und Form",
+"sub": "Geometrische Figuren untersuchen; geometrische Figuren unter",
+"topic": "math.s1.angles",
+"topic_label": "Winkel",
+"topic_band": "5-6"
+},
+{
+"id": "e5f71e477b8dfebc|math.s1.triangles_quadrilaterals",
+"text": "den Winkelsummensatz für Dreiecke begründen",
+"grades": "7-8/7-9",
+"section": "3.2.3 Leitidee Raum und Form",
+"sub": "Geometrische Figuren untersuchen; geometrische Figuren unter",
+"topic": "math.s1.triangles_quadrilaterals",
+"topic_label": "Dreiecke und Vierecke",
+"topic_band": "5-7"
+},
+{
+"id": "03b813241eed0322|math.s1.angles",
+"text": "Winkelweiten durch Anwenden des Winkelsummensatzes erschließen",
+"grades": "7-9",
+"section": "3.2.3 Leitidee Raum und Form",
+"sub": "Geometrische Figuren untersuchen; geometrische Figuren unter",
+"topic": "math.s1.angles",
+"topic_label": "Winkel",
+"topic_band": "5-6"
+},
+{
+"id": "03b813241eed0322|math.s1.triangles_quadrilaterals",
+"text": "Winkelweiten durch Anwenden des Winkelsummensatzes erschließen",
+"grades": "7-9",
+"section": "3.2.3 Leitidee Raum und Form",
+"sub": "Geometrische Figuren untersuchen; geometrische Figuren unter",
+"topic": "math.s1.triangles_quadrilaterals",
+"topic_label": "Dreiecke und Vierecke",
+"topic_band": "5-7"
+},
+{
+"id": "77cebb1e72121832|math.s1.angles",
+"text": "Winkelweiten und Streckenlängen durch Anwenden des Winkelsummensatzes oder des Basiswinkelsatzes beziehungsweise dessen Kehrsatz erschließen",
+"grades": "7-8/7-9",
+"section": "3.2.3 Leitidee Raum und Form",
+"sub": "Geometrische Figuren untersuchen; geometrische Figuren unter",
+"topic": "math.s1.angles",
+"topic_label": "Winkel",
+"topic_band": "5-6"
+},
+{
+"id": "77cebb1e72121832|math.s1.triangles_quadrilaterals",
+"text": "Winkelweiten und Streckenlängen durch Anwenden des Winkelsummensatzes oder des Basiswinkelsatzes beziehungsweise dessen Kehrsatz erschließen",
+"grades": "7-8/7-9",
+"section": "3.2.3 Leitidee Raum und Form",
+"sub": "Geometrische Figuren untersuchen; geometrische Figuren unter",
+"topic": "math.s1.triangles_quadrilaterals",
+"topic_label": "Dreiecke und Vierecke",
+"topic_band": "5-7"
+},
+{
+"id": "c561bdd8aa09e82c|math.s1.constructions",
+"text": "[MSA] mithilfe des Satzes des Thales auf Orthogonalität schließen",
+"grades": "7-9",
+"section": "3.2.3 Leitidee Raum und Form",
+"sub": "Geometrische Figuren untersuchen; geometrische Figuren unter",
+"topic": "math.s1.constructions",
+"topic_label": "Konstruktionen und Kongruenz",
+"topic_band": "7-8"
+},
+{
+"id": "5cac513cf5092454|math.s1.constructions",
+"text": "mithilfe des Satzes des Thales auf Orthogonalität schließen",
+"grades": "7-9",
+"section": "3.2.3 Leitidee Raum und Form",
+"sub": "Geometrische Figuren untersuchen; geometrische Figuren unter",
+"topic": "math.s1.constructions",
+"topic_label": "Konstruktionen und Kongruenz",
+"topic_band": "7-8"
+},
+{
+"id": "8bfbbf407dc62f4c|math.s1.constructions",
+"text": "den Satz des Thales begründen und anwenden, insbesondere auf Orthogonalität schließen",
+"grades": "7-8/7-9",
+"section": "3.2.3 Leitidee Raum und Form",
+"sub": "Geometrische Figuren untersuchen; geometrische Figuren unter",
+"topic": "math.s1.constructions",
+"topic_label": "Konstruktionen und Kongruenz",
+"topic_band": "7-8"
+},
+{
+"id": "a7add7e8eeac33be|math.s1.constructions",
+"text": "die Konstruierbarkeit von Dreiecken und die Lösungsvielfalt bei Dreieckskonstruktionen durch Betrachtung von Seitenlängen und Winkelweiten untersuchen",
+"grades": "7-9",
+"section": "3.2.3 Leitidee Raum und Form",
+"sub": "Geometrische Figuren untersuchen; geometrische Figuren unter",
+"topic": "math.s1.constructions",
+"topic_label": "Konstruktionen und Kongruenz",
+"topic_band": "7-8"
+},
+{
+"id": "837757d9c1873759|math.s1.constructions",
+"text": "die Konstruierbarkeit von Dreiecken unter Verwendung der Dreiecksungleichung und des Winkelsummensatzes beurteilen sowie die Lösungsvielfalt bei Dreieckskonstruktionen untersuchen",
+"grades": "7-8/7-9",
+"section": "3.2.3 Leitidee Raum und Form",
+"sub": "Geometrische Figuren untersuchen; geometrische Figuren unter",
+"topic": "math.s1.constructions",
+"topic_label": "Konstruktionen und Kongruenz",
+"topic_band": "7-8"
+},
+{
+"id": "1bca5b74c20a4999|math.s1.constructions",
+"text": "Streckenlängen und Winkelweiten in ebenen Figuren und in Körpern durch maßstäbliches Zeichnen erschließen",
+"grades": "7-9",
+"section": "3.2.3 Leitidee Raum und Form",
+"sub": "Geometrische Figuren untersuchen; geometrische Figuren unter",
+"topic": "math.s1.constructions",
+"topic_label": "Konstruktionen und Kongruenz",
+"topic_band": "7-8"
+},
+{
+"id": "25a925526e7769a9|math.s1.constructions",
+"text": "die Mittelsenkrechte einer Strecke, die Winkelhalbierende eines Winkels und Höhen im Dreieck zeichnen, insbesondere mit dynamischer Geometriesoftware",
+"grades": "7-9",
+"section": "3.2.3 Leitidee Raum und Form",
+"sub": "Ortslinien konstruieren; Ortslinien konstruieren und mit Ort",
+"topic": "math.s1.constructions",
+"topic_label": "Konstruktionen und Kongruenz",
+"topic_band": "7-8"
+},
+{
+"id": "b0d43f8b3047af26|math.s1.constructions",
+"text": "die Mittelsenkrechte einer Strecke, die Winkelhalbierende eines Winkels und Höhen im Dreieck zeichnen",
+"grades": "7-9",
+"section": "3.2.3 Leitidee Raum und Form",
+"sub": "Ortslinien konstruieren; Ortslinien konstruieren und mit Ort",
+"topic": "math.s1.constructions",
+"topic_label": "Konstruktionen und Kongruenz",
+"topic_band": "7-8"
+},
+{
+"id": "c507b18830286448|math.s1.constructions",
+"text": "die Mittelsenkrechte einer Strecke, die Winkelhalbierende eines Winkels mit Zirkel und Lineal konstruieren",
+"grades": "7-8/7-9",
+"section": "3.2.3 Leitidee Raum und Form",
+"sub": "Ortslinien konstruieren; Ortslinien konstruieren und mit Ort",
+"topic": "math.s1.constructions",
+"topic_label": "Konstruktionen und Kongruenz",
+"topic_band": "7-8"
+},
+{
+"id": "90f31393d95e1872|math.s1.constructions",
+"text": "geometrische Fragestellungen unter Verwendung von Ortslinien (Kreislinie, Mittelsenkrechte) zeichnerisch lösen",
+"grades": "7-9",
+"section": "3.2.3 Leitidee Raum und Form",
+"sub": "Ortslinien konstruieren; Ortslinien konstruieren und mit Ort",
+"topic": "math.s1.constructions",
+"topic_label": "Konstruktionen und Kongruenz",
+"topic_band": "7-8"
+},
+{
+"id": "588342e70c9de469|math.s1.constructions",
+"text": "geometrische Fragestellungen unter Verwendung von Ortslinien (Kreislinie, Mittelsenkrechte, Winkelhalbierende, Thaleskreis) zeichnerisch lösen, auch mit dynamischer Geometriesoftware",
+"grades": "7-9",
+"section": "3.2.3 Leitidee Raum und Form",
+"sub": "Ortslinien konstruieren; Ortslinien konstruieren und mit Ort",
+"topic": "math.s1.constructions",
+"topic_label": "Konstruktionen und Kongruenz",
+"topic_band": "7-8"
+},
+{
+"id": "602e284aa9865088|math.s1.constructions",
+"text": "geometrische Probleme unter Verwendung von Ortslinien (Kreislinie, Mittelsenkrechte, Winkelhalbierende, Mittelparallele, Thaleskreis) zeichnerisch lösen, auch mit dynamischer Geometriesoftware, und die Lösung beschreiben",
+"grades": "7-8/7-9",
+"section": "3.2.3 Leitidee Raum und Form",
+"sub": "Ortslinien konstruieren; Ortslinien konstruieren und mit Ort",
+"topic": "math.s1.constructions",
+"topic_label": "Konstruktionen und Kongruenz",
+"topic_band": "7-8"
+},
+{
+"id": "de021fcd5aebb74d|math.s1.constructions",
+"text": "den Umkreismittelpunkt und den Inkreismittelpunkt eines Dreiecks mit Zirkel und Lineal konstruieren und die Konstruktion begründen",
+"grades": "7-8/7-9",
+"section": "3.2.3 Leitidee Raum und Form",
+"sub": "Ortslinien konstruieren; Ortslinien konstruieren und mit Ort",
+"topic": "math.s1.constructions",
+"topic_label": "Konstruktionen und Kongruenz",
+"topic_band": "7-8"
+},
+{
+"id": "8191d46444ecf2c6|math.s1.circle",
+"text": "Tangenten an Kreise in Punkten auf dem Kreis und von Punkten außerhalb konstruieren",
+"grades": "7-8/7-9",
+"section": "3.2.3 Leitidee Raum und Form",
+"sub": "Ortslinien konstruieren; Ortslinien konstruieren und mit Ort",
+"topic": "math.s1.circle",
+"topic_label": "Kreis: Umfang und Flächeninhalt",
+"topic_band": "8-9"
+},
+{
+"id": "8191d46444ecf2c6|math.s1.constructions",
+"text": "Tangenten an Kreise in Punkten auf dem Kreis und von Punkten außerhalb konstruieren",
+"grades": "7-8/7-9",
+"section": "3.2.3 Leitidee Raum und Form",
+"sub": "Ortslinien konstruieren; Ortslinien konstruieren und mit Ort",
+"topic": "math.s1.constructions",
+"topic_label": "Konstruktionen und Kongruenz",
+"topic_band": "7-8"
+},
+{
+"id": "3adab00cd0de569f|math.s1.solids_nets",
+"text": "Schrägbilder und Netze (von Prismen, Pyramiden und Zylindern) skizzieren und die Darstellungsformen ineinander überführen",
+"grades": "7-9",
+"section": "3.2.3 Leitidee Raum und Form",
+"sub": "Körper zeichnerisch darstellen",
+"topic": "math.s1.solids_nets",
+"topic_label": "Körper, Netze und Schrägbilder",
+"topic_band": "5-7"
+},
+{
+"id": "1b1827d6e2cab6a4|math.s1.solids_nets",
+"text": "Schrägbilder und Netze (von Prismen, Pyramiden, Zylindern und Kegeln) skizzieren und die Darstellungsformen ineinander überführen",
+"grades": "11/7-9/9-10",
+"section": "3.2.3 Leitidee Raum und Form; 3.3.3 Leitidee Raum und Form",
+"sub": "Körper zeichnerisch darstellen",
+"topic": "math.s1.solids_nets",
+"topic_label": "Körper, Netze und Schrägbilder",
+"topic_band": "5-7"
+},
+{
+"id": "84602ad441292cb0|math.s1.similarity",
+"text": "durch zentrische Streckung (auch negativer Streckfaktor) Figuren maßstäblich vergrößern und verkleinern",
+"grades": "7-8/7-9",
+"section": "3.2.3 Leitidee Raum und Form",
+"sub": "Mit Strahlensätzen, Ähnlichkeit und Kongruenz arbeiten; Mit ",
+"topic": "math.s1.similarity",
+"topic_label": "Ähnlichkeit, zentrische Streckung und Strahlensätze",
+"topic_band": "8-9"
+},
+{
+"id": "3a7c02b83cea5fbb|math.s1.constructions",
+"text": "[MSA] aufgrund von Deckungsgleichheit und durch Vergleich von Streckenlängen und Winkelweiten angeben, ob zwei Figuren kongruent sind",
+"grades": "7-9",
+"section": "3.2.3 Leitidee Raum und Form",
+"sub": "Mit Strahlensätzen, Ähnlichkeit und Kongruenz arbeiten; mit ",
+"topic": "math.s1.constructions",
+"topic_label": "Konstruktionen und Kongruenz",
+"topic_band": "7-8"
+},
+{
+"id": "ba484d070e84c4d0|math.s1.constructions",
+"text": "aufgrund von Deckungsgleichheit und durch Vergleich von Streckenlängen und Winkelweiten angeben, ob zwei Figuren kongruent sind",
+"grades": "7-9",
+"section": "3.2.3 Leitidee Raum und Form",
+"sub": "Mit Strahlensätzen, Ähnlichkeit und Kongruenz arbeiten; mit ",
+"topic": "math.s1.constructions",
+"topic_label": "Konstruktionen und Kongruenz",
+"topic_band": "7-8"
+},
+{
+"id": "d2369cc4dbba085a|math.s1.constructions",
+"text": "zwei gegebene Figuren mithilfe der Definition auf Kongruenz untersuchen",
+"grades": "7-9",
+"section": "3.2.3 Leitidee Raum und Form",
+"sub": "Mit Strahlensätzen, Ähnlichkeit und Kongruenz arbeiten; mit ",
+"topic": "math.s1.constructions",
+"topic_label": "Konstruktionen und Kongruenz",
+"topic_band": "7-8"
+},
+{
+"id": "0d49070ee05d09bc|math.s1.similarity",
+"text": "[MSA] aufgrund von Gestaltsgleichheit angeben, ob zwei Figuren einander ähnlich sind",
+"grades": "7-9",
+"section": "3.2.3 Leitidee Raum und Form",
+"sub": "Mit Strahlensätzen, Ähnlichkeit und Kongruenz arbeiten; mit ",
+"topic": "math.s1.similarity",
+"topic_label": "Ähnlichkeit, zentrische Streckung und Strahlensätze",
+"topic_band": "8-9"
+},
+{
+"id": "a6951dc5a295b4a9|math.s1.similarity",
+"text": "aufgrund von Gestaltsgleichheit angeben, ob zwei Figuren einander ähnlich sind",
+"grades": "7-9",
+"section": "3.2.3 Leitidee Raum und Form",
+"sub": "Mit Strahlensätzen, Ähnlichkeit und Kongruenz arbeiten; mit ",
+"topic": "math.s1.similarity",
+"topic_label": "Ähnlichkeit, zentrische Streckung und Strahlensätze",
+"topic_band": "8-9"
+},
+{
+"id": "4178aa900a713092|math.s1.similarity",
+"text": "zwei gegebene Figuren mithilfe der Definition auf Ähnlichkeit untersuchen",
+"grades": "7-9",
+"section": "3.2.3 Leitidee Raum und Form",
+"sub": "Mit Strahlensätzen, Ähnlichkeit und Kongruenz arbeiten; mit ",
+"topic": "math.s1.similarity",
+"topic_label": "Ähnlichkeit, zentrische Streckung und Strahlensätze",
+"topic_band": "8-9"
+},
+{
+"id": "a7336cedfc15905a|math.s1.similarity",
+"text": "Dreiecke mithilfe ausgewählter Ähnlichkeitssätze (Übereinstimmung in den Längenverhältnissen aller Seiten, Übereinstimmung in zwei Winkelweiten) auf Ähnlichkeit überprüfen",
+"grades": "7-9",
+"section": "3.2.3 Leitidee Raum und Form",
+"sub": "Mit Strahlensätzen, Ähnlichkeit und Kongruenz arbeiten; mit ",
+"topic": "math.s1.similarity",
+"topic_label": "Ähnlichkeit, zentrische Streckung und Strahlensätze",
+"topic_band": "8-9"
+},
+{
+"id": "c8f2ca25d5047546|math.s1.similarity",
+"text": "[MSA] Streckenlängen und Winkelweiten unter Nutzung der Ähnlichkeit von Figuren und der Strahlensätze bestimmen",
+"grades": "7-9",
+"section": "3.2.3 Leitidee Raum und Form",
+"sub": "Mit Strahlensätzen, Ähnlichkeit und Kongruenz arbeiten; mit ",
+"topic": "math.s1.similarity",
+"topic_label": "Ähnlichkeit, zentrische Streckung und Strahlensätze",
+"topic_band": "8-9"
+},
+{
+"id": "f8ba37953f6dfb8c|math.s1.similarity",
+"text": "Streckenlängen und Winkelweiten unter Nutzung der Ähnlichkeit von Figuren und der Strahlensätze bestimmen",
+"grades": "7-9",
+"section": "3.2.3 Leitidee Raum und Form",
+"sub": "Mit Strahlensätzen, Ähnlichkeit und Kongruenz arbeiten; mit ",
+"topic": "math.s1.similarity",
+"topic_label": "Ähnlichkeit, zentrische Streckung und Strahlensätze",
+"topic_band": "8-9"
+},
+{
+"id": "fa8f3da5d8e24b63|math.s1.similarity",
+"text": "die Nichtumkehrbarkeit des zweiten Strahlensatzes durch Angabe eines Gegenbeispiels begründen",
+"grades": "7-8/7-9",
+"section": "3.2.3 Leitidee Raum und Form",
+"sub": "Mit Strahlensätzen, Ähnlichkeit und Kongruenz arbeiten; Mit ",
+"topic": "math.s1.similarity",
+"topic_label": "Ähnlichkeit, zentrische Streckung und Strahlensätze",
+"topic_band": "8-9"
+},
+{
+"id": "391b0a2aa27839c6|math.s1.constructions",
+"text": "geometrische Zusammenhänge unter Zuhilfenahme bereits bekannter Sätze sowie mithilfe von Ähnlichkeitsbeziehungen und Kongruenzsätzen erschließen, begründen und beweisen und Größen berechnen",
+"grades": "7-9",
+"section": "3.2.3 Leitidee Raum und Form",
+"sub": "Mit Strahlensätzen, Ähnlichkeit und Kongruenz arbeiten; mit ",
+"topic": "math.s1.constructions",
+"topic_label": "Konstruktionen und Kongruenz",
+"topic_band": "7-8"
+},
+{
+"id": "391b0a2aa27839c6|math.s1.similarity",
+"text": "geometrische Zusammenhänge unter Zuhilfenahme bereits bekannter Sätze sowie mithilfe von Ähnlichkeitsbeziehungen und Kongruenzsätzen erschließen, begründen und beweisen und Größen berechnen",
+"grades": "7-9",
+"section": "3.2.3 Leitidee Raum und Form",
+"sub": "Mit Strahlensätzen, Ähnlichkeit und Kongruenz arbeiten; mit ",
+"topic": "math.s1.similarity",
+"topic_label": "Ähnlichkeit, zentrische Streckung und Strahlensätze",
+"topic_band": "8-9"
+},
+{
+"id": "6e83ae9fdfea190b|math.s1.pythagoras",
+"text": "im Zusammenhang mit dem Satz des Pythagoras Streckenlängen berechnen und Orthogonalität untersuchen",
+"grades": "7-9",
+"section": "3.2.3 Leitidee Raum und Form",
+"sub": "Den Satz des Pythagoras anwenden",
+"topic": "math.s1.pythagoras",
+"topic_label": "Satz des Pythagoras",
+"topic_band": "8-9"
+},
+{
+"id": "4152bd4d58f478ae|math.s1.pythagoras",
+"text": "unter Nutzung des Satzes des Pythagoras Streckenlängen berechnen beziehungsweise mithilfe seines Kehrsatzes auf Orthogonalität schließen",
+"grades": "11/7-9/9-10",
+"section": "3.2.3 Leitidee Raum und Form; 3.3.3 Leitidee Raum und Form",
+"sub": "Den Satz des Pythagoras anwenden; Geometrische Zusammenhänge",
+"topic": "math.s1.pythagoras",
+"topic_label": "Satz des Pythagoras",
+"topic_band": "8-9"
+},
+{
+"id": "df5549971d16ecb1|math.s1.functions_concept",
+"text": "Zusammenhänge durch Tabellen, Gleichungen, Graphen oder Text darstellen",
+"grades": "7-9",
+"section": "3.2.4 Leitidee Funktionaler Zusammenhang",
+"sub": "Funktionale Zusammenhänge darstellen und nutzen; funktionale",
+"topic": "math.s1.functions_concept",
+"topic_label": "Funktionsbegriff",
+"topic_band": "7-8"
+},
+{
+"id": "c51d2afb5d950abf|math.s1.linear_equations",
+"text": "zu linearen Gleichungen Tabellen und Graphen bestimmen",
+"grades": "7-9",
+"section": "3.2.4 Leitidee Funktionaler Zusammenhang",
+"sub": "Funktionale Zusammenhänge darstellen und nutzen",
+"topic": "math.s1.linear_equations",
+"topic_label": "Lineare Gleichungen",
+"topic_band": "7-8"
+},
+{
+"id": "c51d2afb5d950abf|math.s1.linear_functions",
+"text": "zu linearen Gleichungen Tabellen und Graphen bestimmen",
+"grades": "7-9",
+"section": "3.2.4 Leitidee Funktionaler Zusammenhang",
+"sub": "Funktionale Zusammenhänge darstellen und nutzen",
+"topic": "math.s1.linear_functions",
+"topic_label": "Lineare Funktionen",
+"topic_band": "7-8"
+},
+{
+"id": "ee3c7cca09b54287|math.s1.functions_concept",
+"text": "zwischen unterschiedlichen Darstellungsformen situationsgerecht wechseln",
+"grades": "7-9",
+"section": "3.2.4 Leitidee Funktionaler Zusammenhang",
+"sub": "Funktionale Zusammenhänge darstellen und nutzen; funktionale",
+"topic": "math.s1.functions_concept",
+"topic_label": "Funktionsbegriff",
+"topic_band": "7-8"
+},
+{
+"id": "79a526bea895026a|math.s1.functions_concept",
+"text": "alltagsbezogene Sachverhalte aus Darstellungen ablesen (z. B. größte und kleinste Werte, Zunehmen und Abnehmen, Zeitpunkte)",
+"grades": "7-9",
+"section": "3.2.4 Leitidee Funktionaler Zusammenhang",
+"sub": "Funktionale Zusammenhänge darstellen und nutzen; funktionale",
+"topic": "math.s1.functions_concept",
+"topic_label": "Funktionsbegriff",
+"topic_band": "7-8"
+},
+{
+"id": "d6a956c58e11d85e|math.s1.proportionality",
+"text": "Proportionalität und Antiproportionalität in verschiedenen Darstellungsformen erkennen und für Berechnungen nutzen",
+"grades": "7-8/7-9",
+"section": "3.2.4 Leitidee Funktionaler Zusammenhang",
+"sub": "Funktionale Zusammenhänge darstellen und nutzen",
+"topic": "math.s1.proportionality",
+"topic_label": "Proportionale und antiproportionale Zuordnungen",
+"topic_band": "6-7"
+},
+{
+"id": "1d98379cfb58cb45|math.s1.functions_concept",
+"text": "Funktionen als eindeutige Zuordnungen z. B. von x-Werten zu y-Werten, von nicht eindeutigen Zuordnungen unterscheiden",
+"grades": "7-9",
+"section": "3.2.4 Leitidee Funktionaler Zusammenhang",
+"sub": "Funktionale Zusammenhänge darstellen und nutzen; funktionale",
+"topic": "math.s1.functions_concept",
+"topic_label": "Funktionsbegriff",
+"topic_band": "7-8"
+},
+{
+"id": "ec9577cdbab4c89d|math.s1.linear_functions",
+"text": "[MSA] eine Gerade mit der Gleichung \\(y=mx+c\\) u. a. unter Verwendung von Steigung und Steigungsdreiecken zeichnen und einer Geraden eine Gleichung zuordnen",
+"grades": "7-9",
+"section": "3.2.4 Leitidee Funktionaler Zusammenhang",
+"sub": "Mit linearen Funktionen umgehen",
+"topic": "math.s1.linear_functions",
+"topic_label": "Lineare Funktionen",
+"topic_band": "7-8"
+},
+{
+"id": "50615a8ea3cc25e1|math.s1.linear_functions",
+"text": "eine Gerade mit der Gleichung \\(y=mx+c\\) u. a. unter Verwendung von Steigung und Steigungsdreiecken zeichnen und einer Geraden eine Gleichung zuordnen",
+"grades": "7-9",
+"section": "3.2.4 Leitidee Funktionaler Zusammenhang",
+"sub": "Mit linearen Funktionen umgehen; mit linearen Funktionen umg",
+"topic": "math.s1.linear_functions",
+"topic_label": "Lineare Funktionen",
+"topic_band": "7-8"
+},
+{
+"id": "4ba504d5d4ce87cd|math.s1.linear_functions",
+"text": "aus den Koordinaten zweier Punkte zunächst die Steigung, dann den y-Achsenabschnitt der zugehörigen Geraden berechnen und eine Gleichung der Geraden angeben",
+"grades": "7-8/7-9",
+"section": "3.2.4 Leitidee Funktionaler Zusammenhang",
+"sub": "Mit linearen Funktionen umgehen; mit linearen Funktionen umg",
+"topic": "math.s1.linear_functions",
+"topic_label": "Lineare Funktionen",
+"topic_band": "7-8"
+},
+{
+"id": "cea31d8c273970b7|math.s1.linear_functions",
+"text": "[MSA] bei linearen Zuordnungen das Änderungsverhalten im Sachzusammenhang beschreiben",
+"grades": "7-9",
+"section": "3.2.4 Leitidee Funktionaler Zusammenhang",
+"sub": "Mit linearen Funktionen umgehen",
+"topic": "math.s1.linear_functions",
+"topic_label": "Lineare Funktionen",
+"topic_band": "7-8"
+},
+{
+"id": "f5cb5bb18725e059|math.s1.linear_functions",
+"text": "bei linearen Zuordnungen das Änderungsverhalten im Sachzusammenhang beschreiben",
+"grades": "7-9",
+"section": "3.2.4 Leitidee Funktionaler Zusammenhang",
+"sub": "Mit linearen Funktionen umgehen",
+"topic": "math.s1.linear_functions",
+"topic_label": "Lineare Funktionen",
+"topic_band": "7-8"
+},
+{
+"id": "b0c2b75ec04cd17a|math.s1.linear_functions",
+"text": "bei linearen Funktionen das Änderungsverhalten im Sachzusammenhang mithilfe der Änderungsrate beschreiben",
+"grades": "7-8/7-9",
+"section": "3.2.4 Leitidee Funktionaler Zusammenhang",
+"sub": "Mit linearen Funktionen umgehen; mit linearen Funktionen umg",
+"topic": "math.s1.linear_functions",
+"topic_label": "Lineare Funktionen",
+"topic_band": "7-8"
+},
+{
+"id": "fecb6b8040b90e25|math.s1.linear_functions",
+"text": "[MSA] die Lagebeziehung zweier Geraden anhand ihrer Gleichungen untersuchen",
+"grades": "7-9",
+"section": "3.2.4 Leitidee Funktionaler Zusammenhang",
+"sub": "Mit linearen Funktionen umgehen; mit linearen Funktionen umg",
+"topic": "math.s1.linear_functions",
+"topic_label": "Lineare Funktionen",
+"topic_band": "7-8"
+},
+{
+"id": "f18545d61efb898d|math.s1.linear_functions",
+"text": "die Lagebeziehung zweier Geraden anhand ihrer Gleichungen untersuchen",
+"grades": "7-8/7-9",
+"section": "3.2.4 Leitidee Funktionaler Zusammenhang",
+"sub": "Mit linearen Funktionen umgehen; mit linearen Funktionen umg",
+"topic": "math.s1.linear_functions",
+"topic_label": "Lineare Funktionen",
+"topic_band": "7-8"
+},
+{
+"id": "f8e40db551ddf9ee|math.s1.quadratic_functions",
+"text": "[MSA] quadratische Zusammenhänge durch Tabellen und Gleichungen beschreiben und graphisch darstellen",
+"grades": "7-9",
+"section": "3.2.4 Leitidee Funktionaler Zusammenhang",
+"sub": "Mit quadratischen Funktionen umgehen; mit quadratischen Funk",
+"topic": "math.s1.quadratic_functions",
+"topic_label": "Quadratische Funktionen",
+"topic_band": "8-9"
+},
+{
+"id": "2a2de4812c9fa9ef|math.s1.quadratic_functions",
+"text": "quadratische Zusammenhänge durch Tabellen und Gleichungen beschreiben und graphisch darstellen",
+"grades": "7-8/7-9",
+"section": "3.2.4 Leitidee Funktionaler Zusammenhang",
+"sub": "Mit quadratischen Funktionen umgehen; mit quadratischen Funk",
+"topic": "math.s1.quadratic_functions",
+"topic_label": "Quadratische Funktionen",
+"topic_band": "8-9"
+},
+{
+"id": "50edb8bd6c5f7300|math.s1.quadratic_functions",
+"text": "[MSA] Eigenschaften von Parabeln angeben",
+"grades": "7-9",
+"section": "3.2.4 Leitidee Funktionaler Zusammenhang",
+"sub": "Mit quadratischen Funktionen umgehen; mit quadratischen Funk",
+"topic": "math.s1.quadratic_functions",
+"topic_label": "Quadratische Funktionen",
+"topic_band": "8-9"
+},
+{
+"id": "922a3d5e839c07e1|math.s1.quadratic_functions",
+"text": "Eigenschaften von Parabeln angeben",
+"grades": "7-8/7-9/9-10",
+"section": "3.2.4 Leitidee Funktionaler Zusammenhang; 3.3.4 Leitidee Funktionaler Zusammenha",
+"sub": "Mit quadratischen Funktionen umgehen; mit quadratischen Funk",
+"topic": "math.s1.quadratic_functions",
+"topic_label": "Quadratische Funktionen",
+"topic_band": "8-9"
+},
+{
+"id": "db58805558253d6f|math.s1.quadratic_functions",
+"text": "[MSA] den Graphen einer quadratischen Funktion mithilfe von Wertetabellen zeichnen oder ausgehend von der Lage des Scheitels skizzieren",
+"grades": "7-9",
+"section": "3.2.4 Leitidee Funktionaler Zusammenhang",
+"sub": "Mit quadratischen Funktionen umgehen; mit quadratischen Funk",
+"topic": "math.s1.quadratic_functions",
+"topic_label": "Quadratische Funktionen",
+"topic_band": "8-9"
+},
+{
+"id": "1dccb21091d93693|math.s1.quadratic_functions",
+"text": "den Graphen einer quadratischen Funktion mithilfe von Wertetabellen zeichnen oder ausgehend von der Lage des Scheitels skizzieren",
+"grades": "7-8/7-9/9-10",
+"section": "3.2.4 Leitidee Funktionaler Zusammenhang; 3.3.4 Leitidee Funktionaler Zusammenha",
+"sub": "Mit quadratischen Funktionen umgehen; mit quadratischen Funk",
+"topic": "math.s1.quadratic_functions",
+"topic_label": "Quadratische Funktionen",
+"topic_band": "8-9"
+},
+{
+"id": "edd4f2ea2858176a|math.s1.quadratic_functions",
+"text": "[MSA] die Wirkung der Parameter \\(a\\) und \\(c\\) in der Parabelgleichung \\(y=ax^2+c\\) auf den Graphen abbildungsgeometrisch als Streckung, Spiegelung, Verschiebung deuten",
+"grades": "7-9",
+"section": "3.2.4 Leitidee Funktionaler Zusammenhang",
+"sub": "Mit quadratischen Funktionen umgehen; mit quadratischen Funk",
+"topic": "math.s1.quadratic_functions",
+"topic_label": "Quadratische Funktionen",
+"topic_band": "8-9"
+},
+{
+"id": "23d9f05dadb68766|math.s1.quadratic_functions",
+"text": "die Wirkung der Parameter \\(a\\), \\(c\\), \\(d\\), \\(e\\) in den Parabelgleichungen \\(y=ax^2+c\\) und \\(y=(x-d)^2+e\\) auf den Graphen abbildungsgeometrisch als Streckung, Spiegelung, Verschiebungen deuten",
+"grades": "7-9",
+"section": "3.2.4 Leitidee Funktionaler Zusammenhang",
+"sub": "Mit quadratischen Funktionen umgehen; mit quadratischen Funk",
+"topic": "math.s1.quadratic_functions",
+"topic_label": "Quadratische Funktionen",
+"topic_band": "8-9"
+},
+{
+"id": "6815089094b39da1|math.s1.quadratic_functions",
+"text": "die Wirkung der Parameter \\(a\\), \\(d\\), \\(e\\) in der Parabelgleichung \\(y=a\\cdot(x-d)^2+e\\) auf den Graphen abbildungsgeometrisch als Streckung, Spiegelung, Verschiebungen deuten",
+"grades": "7-8/7-9",
+"section": "3.2.4 Leitidee Funktionaler Zusammenhang",
+"sub": "Mit quadratischen Funktionen umgehen; mit quadratischen Funk",
+"topic": "math.s1.quadratic_functions",
+"topic_label": "Quadratische Funktionen",
+"topic_band": "8-9"
+},
+{
+"id": "2c8905447bb89016|math.s1.quadratic_functions",
+"text": "die Gleichung \\(y=x^2+bx+c\\) mithilfe funktionaler oder algebraischer Überlegungen in die Scheitelform \\(y=(x-d)^2+e\\) überführen",
+"grades": "7-9",
+"section": "3.2.4 Leitidee Funktionaler Zusammenhang",
+"sub": "Mit quadratischen Funktionen umgehen; mit quadratischen Funk",
+"topic": "math.s1.quadratic_functions",
+"topic_label": "Quadratische Funktionen",
+"topic_band": "8-9"
+},
+{
+"id": "9e8bd1e24abc9158|math.s1.quadratic_functions",
+"text": "die allgemeine Parabelgleichung \\(y=ax^2+bx+c\\) mithilfe funktionaler oder algebraischer Überlegungen in die Scheitelform \\(y=a(x-d)^2+e\\) überführen",
+"grades": "7-9",
+"section": "3.2.4 Leitidee Funktionaler Zusammenhang",
+"sub": "Mit quadratischen Funktionen umgehen; mit quadratischen Funk",
+"topic": "math.s1.quadratic_functions",
+"topic_label": "Quadratische Funktionen",
+"topic_band": "8-9"
+},
+{
+"id": "c9e5196556624100|math.s1.quadratic_functions",
+"text": "den Funktionsterm einer quadratischen Funktion mithilfe der Nullstellen in Linearfaktordarstellung angeben",
+"grades": "7-9",
+"section": "3.2.4 Leitidee Funktionaler Zusammenhang",
+"sub": "Mit quadratischen Funktionen umgehen; mit quadratischen Funk",
+"topic": "math.s1.quadratic_functions",
+"topic_label": "Quadratische Funktionen",
+"topic_band": "8-9"
+},
+{
+"id": "71c82d3505bb84e8|math.s1.quadratic_functions",
+"text": "Anwendungsaufgaben mithilfe quadratischer Funktionen lösen, auch die Bestimmung größter und kleinster Werte",
+"grades": "7-9",
+"section": "3.2.4 Leitidee Funktionaler Zusammenhang",
+"sub": "Mit quadratischen Funktionen umgehen; mit quadratischen Funk",
+"topic": "math.s1.quadratic_functions",
+"topic_label": "Quadratische Funktionen",
+"topic_band": "8-9"
+},
+{
+"id": "f04f94f5f723806c|math.s1.statistics",
+"text": "eine Datenerhebung bei vorgegebenen Merkmalen und Merkmalsausprägungen mithilfe planen und selbstständig durchführen",
+"grades": "7-9",
+"section": "3.2.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen, aus- und bewerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "b951d22380ca2826|math.s1.statistics",
+"text": "zu einer vorgegebenen statistischen Fragestellung eine Datenerhebung selbstständig planen und selbstständig durchführen",
+"grades": "7-9",
+"section": "3.2.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen, aus- und bewerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "5f05ec382af32ee2|math.s1.statistics",
+"text": "Daten aus vorgegebenen Sekundärquellen (z. B. Texte, Diagramme) entnehmen",
+"grades": "7-9",
+"section": "3.2.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen, aus- und bewerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "78ed0c52cefebe99|math.s1.statistics",
+"text": "zu einer statistischen Fragestellung Daten aus Sekundärquellen entnehmen",
+"grades": "7-8/7-9",
+"section": "3.2.5 Leitidee Daten und Zufall",
+"sub": "Daten aus- und bewerten; Daten erfassen, darstellen, aus- un",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "755e382233bc7891|math.s1.statistics",
+"text": "Daten graphisch darstellen (auch Kreisdiagramm), auch unter Verwendung von Software",
+"grades": "7-9",
+"section": "3.2.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen, aus- und bewerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "6dfa6878249d1c31|math.s1.boxplot",
+"text": "Daten graphisch darstellen (auch Boxplot), auch unter Verwendung von Software",
+"grades": "7-9",
+"section": "3.2.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen, aus- und bewerten",
+"topic": "math.s1.boxplot",
+"topic_label": "Boxplot und Streumaße",
+"topic_band": "8-10"
+},
+{
+"id": "20aaeb996ff11344|math.s1.boxplot",
+"text": "die Kenngrößen unteres und oberes Quartil, Median bestimmen",
+"grades": "7-8/7-9",
+"section": "3.2.5 Leitidee Daten und Zufall",
+"sub": "Daten aus- und bewerten; Daten erfassen, darstellen, aus- un",
+"topic": "math.s1.boxplot",
+"topic_label": "Boxplot und Streumaße",
+"topic_band": "8-10"
+},
+{
+"id": "fbe08c8f72fff9e3|math.s1.boxplot",
+"text": "Boxplots erstellen und Verteilungen mithilfe von Boxplots interpretieren und vergleichen",
+"grades": "7-8/7-9",
+"section": "3.2.5 Leitidee Daten und Zufall",
+"sub": "Daten aus- und bewerten; Daten erfassen, darstellen, aus- un",
+"topic": "math.s1.boxplot",
+"topic_label": "Boxplot und Streumaße",
+"topic_band": "8-10"
+},
+{
+"id": "382893d7aa603a3e|math.s1.statistics",
+"text": "einfache statistische Aussagen mithilfe von relativen Häufigkeiten und Mittelwerten von Daten formulieren",
+"grades": "7-9",
+"section": "3.2.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen, aus- und bewerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "c5766455a3f78624|math.s1.statistics",
+"text": "einfache statistische Aussagen mithilfe von Kenngrößen von Daten formulieren",
+"grades": "7-9",
+"section": "3.2.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen, aus- und bewerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "97c8227b877f1c04|math.s1.statistics",
+"text": "statistische Aussagen mithilfe von Kenngrößen von Daten formulieren",
+"grades": "7-9",
+"section": "3.2.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen, aus- und bewerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "93cad7f5113a0453|math.s1.statistics",
+"text": "Daten aus ihrer Erfahrungswelt bei übereinstimmender Darstellungsform auswerten, vergleichen und bewerten",
+"grades": "7-9",
+"section": "3.2.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen, aus- und bewerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "6ee9ee3ae3260901|math.s1.statistics",
+"text": "Daten aus ihrer Erfahrungswelt auch bei unterschiedlichen Darstellungsformen auswerten, vergleichen und bewerten",
+"grades": "7-9",
+"section": "3.2.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen, aus- und bewerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "04d9149cd459596f|math.s1.statistics",
+"text": "graphische statistische Darstellungen hinsichtlich ihrer Eignung beurteilen",
+"grades": "7-9",
+"section": "3.2.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen, aus- und bewerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "cb3b51510834fb62|math.s1.statistics",
+"text": "graphische statistische Darstellungen hinsichtlich ihrer Eignung und hinsichtlich möglicher Irreführung beurteilen",
+"grades": "7-9",
+"section": "3.2.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen, aus- und bewerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "fbc705d20a4d79ce|math.s1.statistics",
+"text": "graphische statistische Darstellungen kritisch beurteilen",
+"grades": "7-9",
+"section": "3.2.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen, aus- und bewerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "862807be02e78ffa|math.s1.statistics",
+"text": "Aussagen, die auf einer Datenanalyse basieren, nach vorgegebenen Kriterien bewerten",
+"grades": "7-9",
+"section": "3.2.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen, aus- und bewerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "0b6f103df09b13f0|math.s1.statistics",
+"text": "Aussagen, die auf einer Datenanalyse basieren, bewerten",
+"grades": "7-9",
+"section": "3.2.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen, aus- und bewerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "c101cc2779f9bc74|math.s1.statistics",
+"text": "Aussagen, die auf einer Datenanalyse basieren, formulieren und bewerten",
+"grades": "7-8/7-9",
+"section": "3.2.5 Leitidee Daten und Zufall",
+"sub": "Daten aus- und bewerten; Daten erfassen, darstellen, aus- un",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "70440eee6644567b|math.s1.probability",
+"text": "Wahrscheinlichkeitsaussagen in alltäglichen Situationen verstehen und beschreiben",
+"grades": "7-9",
+"section": "3.2.5 Leitidee Daten und Zufall",
+"sub": "Wahrscheinlichkeiten verstehen und berechnen",
+"topic": "math.s1.probability",
+"topic_label": "Zufallsexperimente und Wahrscheinlichkeit",
+"topic_band": "6-8"
+},
+{
+"id": "921259fb71b95286|math.s1.probability",
+"text": "die Bedeutung von Wahrscheinlichkeitsaussagen in alltäglichen Situationen erklären",
+"grades": "7-8/7-9",
+"section": "3.2.5 Leitidee Daten und Zufall",
+"sub": "Wahrscheinlichkeiten verstehen und berechnen",
+"topic": "math.s1.probability",
+"topic_label": "Zufallsexperimente und Wahrscheinlichkeit",
+"topic_band": "6-8"
+},
+{
+"id": "cd9ee0962c6e9bff|math.s1.probability",
+"text": "die Begriffe Ergebnis und Ereignis bei Zufallsexperimenten erläutern",
+"grades": "7-8/7-9",
+"section": "3.2.5 Leitidee Daten und Zufall",
+"sub": "Wahrscheinlichkeiten verstehen und berechnen",
+"topic": "math.s1.probability",
+"topic_label": "Zufallsexperimente und Wahrscheinlichkeit",
+"topic_band": "6-8"
+}
+]
+}

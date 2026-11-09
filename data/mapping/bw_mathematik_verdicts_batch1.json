@@ -1,0 +1,1535 @@
+{
+ "judge": "independent agent, batch 1",
+ "verdicts": [
+  {
+   "id": "8509dbd04f805af4|math.p.place_value",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Stellenwertsystem."
+  },
+  {
+   "id": "c60fe539fcdbd7a2|math.p.place_value",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Stellenwertsystem."
+  },
+  {
+   "id": "83f275286feb9774|math.p.place_value",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Stellenwertsystem."
+  },
+  {
+   "id": "7e87df6410396615|math.s1.natural_numbers",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Natürliche Zahlen, große Zahlen, Runden."
+  },
+  {
+   "id": "3944370fff2477b6|math.s1.divisibility",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Teilbarkeit und Primzahlen."
+  },
+  {
+   "id": "22ce7dfe8a2f372e|math.s1.divisibility",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Teilbarkeit und Primzahlen."
+  },
+  {
+   "id": "02781f55401ad33e|math.s1.divisibility",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Teilbarkeit und Primzahlen."
+  },
+  {
+   "id": "f9f6d319f491280d|math.s1.negative_numbers",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Negative und rationale Zahlen."
+  },
+  {
+   "id": "4f0e9c528c68ea5c|math.s1.fractions",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Brüche und Bruchteile."
+  },
+  {
+   "id": "dea421ba2f587430|math.s1.fractions",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Brüche und Bruchteile."
+  },
+  {
+   "id": "8675b548f641662f|math.s1.fractions",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Brüche und Bruchteile."
+  },
+  {
+   "id": "bda7216ea9be00b3|math.s1.negative_numbers",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Negative und rationale Zahlen."
+  },
+  {
+   "id": "6344247e58af4ae3|math.s1.negative_numbers",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Negative und rationale Zahlen."
+  },
+  {
+   "id": "4fe80d787d90df04|math.s1.negative_numbers",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Negative und rationale Zahlen."
+  },
+  {
+   "id": "d8c0513c169c0045|math.s1.decimals",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Dezimalzahlen."
+  },
+  {
+   "id": "d8c0513c169c0045|math.s1.fractions",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Brüche und Bruchteile."
+  },
+  {
+   "id": "4a1e8ba246ae8055|math.s1.decimals",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Dezimalzahlen."
+  },
+  {
+   "id": "4a1e8ba246ae8055|math.s1.fractions",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Brüche und Bruchteile."
+  },
+  {
+   "id": "a7402b112b3dc061|math.s1.decimals",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Dezimalzahlen."
+  },
+  {
+   "id": "a7402b112b3dc061|math.s1.percent",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Prozentrechnung."
+  },
+  {
+   "id": "caeb7b6f88851a5e|math.s1.decimals",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Dezimalzahlen."
+  },
+  {
+   "id": "caeb7b6f88851a5e|math.s1.percent",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Prozentrechnung."
+  },
+  {
+   "id": "12fe5d7cf5a20e8f|math.p.mental_strategies",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Rechenstrategien und Kopfrechnen."
+  },
+  {
+   "id": "fd0ae28b095c4a8a|math.p.written_algorithms",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Schriftliche Rechenverfahren."
+  },
+  {
+   "id": "fd0ae28b095c4a8a|math.s1.decimals",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Dezimalzahlen."
+  },
+  {
+   "id": "15a52e6fbdc49776|math.p.written_algorithms",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Schriftliche Rechenverfahren."
+  },
+  {
+   "id": "15a52e6fbdc49776|math.s1.decimals",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Dezimalzahlen."
+  },
+  {
+   "id": "b408db91a7b725da|math.s1.decimals",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Dezimalzahlen."
+  },
+  {
+   "id": "64523f38dba0e70d|math.s1.decimals",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Dezimalzahlen."
+  },
+  {
+   "id": "bb771acf980ddfb4|math.s1.powers",
+   "verdict": "decline",
+   "reason": "Only recall of square numbers; not about powers as a concept or power laws."
+  },
+  {
+   "id": "c5f752218c65e961|math.s1.powers",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Potenzen und Potenzgesetze."
+  },
+  {
+   "id": "49e22f5b2c379391|math.s1.powers",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Potenzen und Potenzgesetze."
+  },
+  {
+   "id": "be5974140ff01cbf|math.s1.fractions",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Brüche und Bruchteile."
+  },
+  {
+   "id": "e35d0e741f79fb26|math.s1.fraction_operations",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Rechnen mit Brüchen."
+  },
+  {
+   "id": "96b5909d9d2d1ccb|math.s1.fraction_operations",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Rechnen mit Brüchen."
+  },
+  {
+   "id": "0a34100e8b17a4d7|math.s1.fraction_operations",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Rechnen mit Brüchen."
+  },
+  {
+   "id": "de1aa2200e178fc7|math.s1.fraction_operations",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Rechnen mit Brüchen."
+  },
+  {
+   "id": "80c869693ba2e5f2|math.s1.natural_numbers",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Natürliche Zahlen, große Zahlen, Runden."
+  },
+  {
+   "id": "2542b0faf4e50050|math.s1.natural_numbers",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Natürliche Zahlen, große Zahlen, Runden."
+  },
+  {
+   "id": "63d07f76fb1a577b|math.s1.natural_numbers",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Natürliche Zahlen, große Zahlen, Runden."
+  },
+  {
+   "id": "59f9b968ce38948f|math.s1.powers",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Potenzen und Potenzgesetze."
+  },
+  {
+   "id": "8200e5d65c8e8506|math.p.mental_strategies",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Rechenstrategien und Kopfrechnen."
+  },
+  {
+   "id": "4052ad846272ddfc|math.s1.terms",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Terme und Variablen."
+  },
+  {
+   "id": "ede1c9ae4cb6848a|math.s1.terms",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Terme und Variablen."
+  },
+  {
+   "id": "85e36bd305299d4d|math.s1.terms",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Terme und Variablen."
+  },
+  {
+   "id": "b0c429d530dab25b|math.s1.terms",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Terme und Variablen."
+  },
+  {
+   "id": "4e61e0633cb69f09|math.s1.terms",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Terme und Variablen."
+  },
+  {
+   "id": "4cf0db821028bd87|math.s1.terms",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Terme und Variablen."
+  },
+  {
+   "id": "10b2d5e3ebd9407a|math.s1.terms",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Terme und Variablen."
+  },
+  {
+   "id": "0fe64007b0e074ce|math.s1.terms",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Terme und Variablen."
+  },
+  {
+   "id": "930d0ac2e7090908|math.s1.terms",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Terme und Variablen."
+  },
+  {
+   "id": "b5b6e3f2c59335fe|math.s1.terms",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Terme und Variablen."
+  },
+  {
+   "id": "a2292d3522a847f4|math.s1.terms",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Terme und Variablen."
+  },
+  {
+   "id": "49e6bf263c157262|math.s1.terms",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Terme und Variablen."
+  },
+  {
+   "id": "1bd19318e8aecef6|math.s1.terms",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Terme und Variablen."
+  },
+  {
+   "id": "ecb006cebbb7843d|math.s1.units",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Größen und Einheiten."
+  },
+  {
+   "id": "d3ee1d15f4716ce9|math.s1.units",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Größen und Einheiten."
+  },
+  {
+   "id": "43f3db2c759df595|math.s1.units",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Größen und Einheiten."
+  },
+  {
+   "id": "d8f0340a87553da1|math.s1.units",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Größen und Einheiten."
+  },
+  {
+   "id": "5d65cf6df1d52891|math.s1.units",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Größen und Einheiten."
+  },
+  {
+   "id": "68e6b27555c35f74|math.s1.units",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Größen und Einheiten."
+  },
+  {
+   "id": "e959672b72fe444a|math.s1.units",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Größen und Einheiten."
+  },
+  {
+   "id": "87fd07a33d210b12|math.s1.angles",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Winkel."
+  },
+  {
+   "id": "1762906929b2f73b|math.s1.angles",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Winkel."
+  },
+  {
+   "id": "8fdb7409fc878c2c|math.s1.units",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Größen und Einheiten."
+  },
+  {
+   "id": "a84e68464811071e|math.s1.area_perimeter",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Flächeninhalt und Umfang von Vielecken."
+  },
+  {
+   "id": "00cdffa7f117a87d|math.s1.area_perimeter",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Flächeninhalt und Umfang von Vielecken."
+  },
+  {
+   "id": "00cdffa7f117a87d|math.s1.circle",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Kreis: Umfang und Flächeninhalt."
+  },
+  {
+   "id": "56d254897e867fb1|math.s1.circle",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Kreis: Umfang und Flächeninhalt."
+  },
+  {
+   "id": "7eeb93c1ffcddd78|math.s1.area_perimeter",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Flächeninhalt und Umfang von Vielecken."
+  },
+  {
+   "id": "9dd78c971c63b65d|math.s1.area_perimeter",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Flächeninhalt und Umfang von Vielecken."
+  },
+  {
+   "id": "9dd78c971c63b65d|math.s1.circle",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Kreis: Umfang und Flächeninhalt."
+  },
+  {
+   "id": "c3923d63d2dfe321|math.s1.area_perimeter",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Flächeninhalt und Umfang von Vielecken."
+  },
+  {
+   "id": "37a2455f311ca7fa|math.s1.area_perimeter",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Flächeninhalt und Umfang von Vielecken."
+  },
+  {
+   "id": "37a2455f311ca7fa|math.s1.circle",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Kreis: Umfang und Flächeninhalt."
+  },
+  {
+   "id": "06821520a2b4c3f4|math.s1.volume_surface",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Volumen und Oberfläche von Prismen und Zylindern."
+  },
+  {
+   "id": "5c4939100672db4d|math.s1.volume_surface",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Volumen und Oberfläche von Prismen und Zylindern."
+  },
+  {
+   "id": "09bcf769d819f365|math.s1.volume_surface",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Volumen und Oberfläche von Prismen und Zylindern."
+  },
+  {
+   "id": "04b48793137f5595|math.s1.geometry_basics",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Geometrische Grundbegriffe."
+  },
+  {
+   "id": "84098f228bb2c6ee|math.s1.angles",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Winkel."
+  },
+  {
+   "id": "236507119fbb5e54|math.s1.angles",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Winkel."
+  },
+  {
+   "id": "fb387f9b5bf921cb|math.s1.symmetry_maps",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Symmetrie und Kongruenzabbildungen."
+  },
+  {
+   "id": "9c63e7b453c0ae9d|math.s1.symmetry_maps",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Symmetrie und Kongruenzabbildungen."
+  },
+  {
+   "id": "32a3425696f02447|math.s1.triangles_quadrilaterals",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Dreiecke und Vierecke."
+  },
+  {
+   "id": "4e6a1d62bfc2ea6a|math.s1.triangles_quadrilaterals",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Dreiecke und Vierecke."
+  },
+  {
+   "id": "26aa42df9709efa1|math.s1.triangles_quadrilaterals",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Dreiecke und Vierecke."
+  },
+  {
+   "id": "444ded1e1c427ddb|math.s1.solids_nets",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Körper, Netze und Schrägbilder."
+  },
+  {
+   "id": "01824c76730ba509|math.s1.constructions",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Konstruktionen und Kongruenz."
+  },
+  {
+   "id": "10e776c26e3d4019|math.s1.constructions",
+   "verdict": "decline",
+   "reason": "Drawing a circle with a compass is a basic drawing skill, not construction or congruence."
+  },
+  {
+   "id": "857a1966da647159|math.s1.angles",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Winkel."
+  },
+  {
+   "id": "857a1966da647159|math.s1.geometry_basics",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Geometrische Grundbegriffe."
+  },
+  {
+   "id": "31ffad9ab727807a|math.s1.angles",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Winkel."
+  },
+  {
+   "id": "31ffad9ab727807a|math.s1.geometry_basics",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Geometrische Grundbegriffe."
+  },
+  {
+   "id": "f0ea59b1d5c3c2a4|math.s1.angles",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Winkel."
+  },
+  {
+   "id": "f0ea59b1d5c3c2a4|math.s1.geometry_basics",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Geometrische Grundbegriffe."
+  },
+  {
+   "id": "0569b06703dc7497|math.s1.geometry_basics",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Geometrische Grundbegriffe."
+  },
+  {
+   "id": "5ed3ca02c2592677|math.s1.geometry_basics",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Geometrische Grundbegriffe."
+  },
+  {
+   "id": "2703c464a6ca3b91|math.s1.geometry_basics",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Geometrische Grundbegriffe."
+  },
+  {
+   "id": "0356b7098a8d0417|math.s1.coordinates",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Koordinatensystem."
+  },
+  {
+   "id": "2f28d9135d29d7cb|math.s1.coordinates",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Koordinatensystem."
+  },
+  {
+   "id": "7c7e350da76f3190|math.s1.coordinates",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Koordinatensystem."
+  },
+  {
+   "id": "15d52ce5e52ed83c|math.s1.symmetry_maps",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Symmetrie und Kongruenzabbildungen."
+  },
+  {
+   "id": "73c29f3c51ec5b52|math.s1.symmetry_maps",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Symmetrie und Kongruenzabbildungen."
+  },
+  {
+   "id": "be3efe3f107f88cc|math.s1.solids_nets",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Körper, Netze und Schrägbilder."
+  },
+  {
+   "id": "8ee1eba16b246256|math.s1.solids_nets",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Körper, Netze und Schrägbilder."
+  },
+  {
+   "id": "39cd0a380703c613|math.s1.solids_nets",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Körper, Netze und Schrägbilder."
+  },
+  {
+   "id": "3265fc5ccc4e0653|math.s1.proportionality",
+   "verdict": "decline",
+   "reason": "Generic relationships between quantities; nothing specific to proportional or inverse proportional mappings."
+  },
+  {
+   "id": "34b5c9277691b261|math.s1.proportionality",
+   "verdict": "decline",
+   "reason": "Generic relationships between numbers or quantities; proportionality not named or implied."
+  },
+  {
+   "id": "78b96df4784bd469|math.p.patterns",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Muster und Strukturen."
+  },
+  {
+   "id": "4346ea10e98126a6|math.p.patterns",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Muster und Strukturen."
+  },
+  {
+   "id": "1a5c3d66fc76e573|math.s1.coordinates",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Koordinatensystem."
+  },
+  {
+   "id": "6326d5cf039fef9f|math.s1.functions_concept",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Funktionsbegriff."
+  },
+  {
+   "id": "c55b5aa05ed5fe75|math.s1.proportionality",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Proportionale und antiproportionale Zuordnungen."
+  },
+  {
+   "id": "bdebe84aa167ccc0|math.s1.proportionality",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Proportionale und antiproportionale Zuordnungen."
+  },
+  {
+   "id": "99101dcc632119a6|math.s1.functions_concept",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Funktionsbegriff."
+  },
+  {
+   "id": "602195dba4e6f76c|math.s1.scale",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Maßstab und maßstäbliches Zeichnen."
+  },
+  {
+   "id": "f4efe4e6cea7f270|math.s1.scale",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Maßstab und maßstäbliches Zeichnen."
+  },
+  {
+   "id": "0ac13aa000d1378b|math.s1.scale",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Maßstab und maßstäbliches Zeichnen."
+  },
+  {
+   "id": "7239336d2439d654|math.s1.scale",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Maßstab und maßstäbliches Zeichnen."
+  },
+  {
+   "id": "c394dec99eb437ed|math.s1.scale",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Maßstab und maßstäbliches Zeichnen."
+  },
+  {
+   "id": "6f45e3a0ed1cfd1e|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "a1097e6bb10b712d|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "be02847fcb9d492e|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "c159d619adee2a75|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "bd059585d6367a47|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "07dc4d93126ac356|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "1f583be93d13ef33|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "7b0d92a43961fccc|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "edcaef1aa69fc190|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "73c9385b4f8de0e1|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "150efdd4d7f025a0|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "afba62fc3a348dbe|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "92964e9fa2904e51|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "c80b58e97d9b18a9|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "086e7a62869e9cb3|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "ab69cddd6d4febd0|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "955ef5de298b77dc|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "4e16ee46e7bc1a52|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "970fa42cd87ed293|math.s1.negative_numbers",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Negative und rationale Zahlen."
+  },
+  {
+   "id": "970fa42cd87ed293|math.s1.terms",
+   "verdict": "decline",
+   "reason": "Arithmetic with everyday numbers is number computation, not terms and variables."
+  },
+  {
+   "id": "4f79a6dfe1c66ca1|math.s1.negative_numbers",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Negative und rationale Zahlen."
+  },
+  {
+   "id": "4f79a6dfe1c66ca1|math.s1.terms",
+   "verdict": "decline",
+   "reason": "Calculating with rational numbers is number arithmetic, not terms and variables."
+  },
+  {
+   "id": "d56c2807e4c30985|math.s1.negative_numbers",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Negative und rationale Zahlen."
+  },
+  {
+   "id": "d56c2807e4c30985|math.s1.terms",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Terme und Variablen."
+  },
+  {
+   "id": "24b4753a8208d0d4|math.s1.negative_numbers",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Negative und rationale Zahlen."
+  },
+  {
+   "id": "24b4753a8208d0d4|math.s1.terms",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Terme und Variablen."
+  },
+  {
+   "id": "7e502992e22f55e1|math.s1.percent",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Prozentrechnung."
+  },
+  {
+   "id": "500f5a01a3cfd51d|math.s1.interest",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Zinsrechnung."
+  },
+  {
+   "id": "a53d5fb114787749|math.s1.interest",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Zinsrechnung."
+  },
+  {
+   "id": "4e8109f40c6b16da|math.s1.terms",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Terme und Variablen."
+  },
+  {
+   "id": "9120119543df7a9f|math.s1.terms",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Terme und Variablen."
+  },
+  {
+   "id": "84435df540809998|math.s1.terms",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Terme und Variablen."
+  },
+  {
+   "id": "901c53b6cb6e867e|math.s1.terms",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Terme und Variablen."
+  },
+  {
+   "id": "d7a9fbb15d220564|math.s1.terms",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Terme und Variablen."
+  },
+  {
+   "id": "b5894dfe18812ad2|math.s1.terms",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Terme und Variablen."
+  },
+  {
+   "id": "2574e7c8876df319|math.s1.term_transformations",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Termumformungen und binomische Formeln."
+  },
+  {
+   "id": "79db80f0f7cfb5e6|math.s1.term_transformations",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Termumformungen und binomische Formeln."
+  },
+  {
+   "id": "7a29ce7815d7b2c8|math.s1.term_transformations",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Termumformungen und binomische Formeln."
+  },
+  {
+   "id": "40c53495006ed1e2|math.s1.terms",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Terme und Variablen."
+  },
+  {
+   "id": "22f8e753e39943e4|math.s1.terms",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Terme und Variablen."
+  },
+  {
+   "id": "3951e7f5a55e38fb|math.s1.roots",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Quadratwurzeln und reelle Zahlen."
+  },
+  {
+   "id": "230064597c0f2af9|math.s1.roots",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Quadratwurzeln und reelle Zahlen."
+  },
+  {
+   "id": "97ddf6369f7d2b79|math.s1.roots",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Quadratwurzeln und reelle Zahlen."
+  },
+  {
+   "id": "b51a81eccdb74b70|math.s1.roots",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Quadratwurzeln und reelle Zahlen."
+  },
+  {
+   "id": "6af2b42851f008cf|math.s1.roots",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Quadratwurzeln und reelle Zahlen."
+  },
+  {
+   "id": "26dbff9c69809b14|math.s1.roots",
+   "verdict": "decline",
+   "reason": "Cube roots by calculator; topic is square roots specifically."
+  },
+  {
+   "id": "55fd0d1f019938a2|math.s1.roots",
+   "verdict": "decline",
+   "reason": "Applies root definition to cube roots; topic is square roots specifically."
+  },
+  {
+   "id": "8f40de48b4913cf4|math.s1.roots",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Quadratwurzeln und reelle Zahlen."
+  },
+  {
+   "id": "9a414b3db961d7ee|math.s1.roots",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Quadratwurzeln und reelle Zahlen."
+  },
+  {
+   "id": "3fb9401802d2f8af|math.s1.roots",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Quadratwurzeln und reelle Zahlen."
+  },
+  {
+   "id": "c76462cb90692158|math.s1.roots",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Quadratwurzeln und reelle Zahlen."
+  },
+  {
+   "id": "1e842bdffb20fd24|math.s1.linear_equations",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Lineare Gleichungen."
+  },
+  {
+   "id": "b5d227eb468de128|math.s1.linear_systems",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Lineare Gleichungssysteme."
+  },
+  {
+   "id": "75070fb10fffcded|math.s1.linear_systems",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Lineare Gleichungssysteme."
+  },
+  {
+   "id": "652595f0d2134898|math.s1.linear_systems",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Lineare Gleichungssysteme."
+  },
+  {
+   "id": "8d7d70385446fc83|math.s1.quadratic_equations",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Quadratische Gleichungen."
+  },
+  {
+   "id": "86ad1fff6b493438|math.s1.quadratic_equations",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Quadratische Gleichungen."
+  },
+  {
+   "id": "f579622011f265d1|math.s1.quadratic_equations",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Quadratische Gleichungen."
+  },
+  {
+   "id": "e4f9c341b1e8d045|math.s1.quadratic_equations",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Quadratische Gleichungen."
+  },
+  {
+   "id": "b016edc61d99faca|math.s1.linear_equations",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Lineare Gleichungen."
+  },
+  {
+   "id": "b016edc61d99faca|math.s1.proportionality",
+   "verdict": "decline",
+   "reason": "Solving ratio equations with a variable is equation solving, not proportional mappings."
+  },
+  {
+   "id": "7f694818a6b3bbfd|math.s1.fraction_equations",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Bruchgleichungen und Wurzelgleichungen."
+  },
+  {
+   "id": "ca68483517aae6e8|math.s1.fraction_equations",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Bruchgleichungen und Wurzelgleichungen."
+  },
+  {
+   "id": "8b44aa2197f7ac60|math.s1.fraction_equations",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Bruchgleichungen und Wurzelgleichungen."
+  },
+  {
+   "id": "1976c6659612a8d8|math.s1.linear_equations",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Lineare Gleichungen."
+  },
+  {
+   "id": "1976c6659612a8d8|math.s1.linear_systems",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Lineare Gleichungssysteme."
+  },
+  {
+   "id": "1976c6659612a8d8|math.s1.quadratic_equations",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Quadratische Gleichungen."
+  },
+  {
+   "id": "6dd163d5a9ecc18d|math.s1.linear_equations",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Lineare Gleichungen."
+  },
+  {
+   "id": "6dd163d5a9ecc18d|math.s1.linear_systems",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Lineare Gleichungssysteme."
+  },
+  {
+   "id": "6dd163d5a9ecc18d|math.s1.quadratic_equations",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Quadratische Gleichungen."
+  },
+  {
+   "id": "b10a768a96716bb8|math.s1.linear_systems",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Lineare Gleichungssysteme."
+  },
+  {
+   "id": "b10a768a96716bb8|math.s1.quadratic_equations",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Quadratische Gleichungen."
+  },
+  {
+   "id": "b5e6e6d07faaa00d|math.s1.functions_concept",
+   "verdict": "decline",
+   "reason": "Solving inequalities; the function concept is only a tool here."
+  },
+  {
+   "id": "b5e6e6d07faaa00d|math.s1.linear_equations",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Lineare Gleichungen."
+  },
+  {
+   "id": "54975ee938e3bdca|math.s1.functions_concept",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Funktionsbegriff."
+  },
+  {
+   "id": "bcc427e62bc53179|math.s1.area_perimeter",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Flächeninhalt und Umfang von Vielecken."
+  },
+  {
+   "id": "86a8e710d1bab885|math.s1.area_perimeter",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Flächeninhalt und Umfang von Vielecken."
+  },
+  {
+   "id": "86a8e710d1bab885|math.s1.circle",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Kreis: Umfang und Flächeninhalt."
+  },
+  {
+   "id": "f28ca5957d72b56a|math.s1.circle",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Kreis: Umfang und Flächeninhalt."
+  },
+  {
+   "id": "3e4c16cc2440fab8|math.s1.circle",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Kreis: Umfang und Flächeninhalt."
+  },
+  {
+   "id": "86629578e2b84e21|math.s1.circle",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Kreis: Umfang und Flächeninhalt."
+  },
+  {
+   "id": "4e7411d920bf969e|math.s1.area_perimeter",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Flächeninhalt und Umfang von Vielecken."
+  },
+  {
+   "id": "71d02ef0647be64d|math.s1.area_perimeter",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Flächeninhalt und Umfang von Vielecken."
+  },
+  {
+   "id": "71d02ef0647be64d|math.s1.circle",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Kreis: Umfang und Flächeninhalt."
+  },
+  {
+   "id": "cc7e892ac025f7f8|math.s1.area_perimeter",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Flächeninhalt und Umfang von Vielecken."
+  },
+  {
+   "id": "cc7e892ac025f7f8|math.s1.circle",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Kreis: Umfang und Flächeninhalt."
+  },
+  {
+   "id": "96fea41f9be4cae5|math.s1.circle",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Kreis: Umfang und Flächeninhalt."
+  },
+  {
+   "id": "0492748cfbd3af8d|math.s1.circle",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Kreis: Umfang und Flächeninhalt."
+  },
+  {
+   "id": "0aefe51b07fede03|math.s1.volume_surface",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Volumen und Oberfläche von Prismen und Zylindern."
+  },
+  {
+   "id": "80b3f810c8980f4d|math.s1.pyramid_cone_sphere",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Pyramide, Kegel und Kugel."
+  },
+  {
+   "id": "a0bea90c49d1508d|math.s1.pyramid_cone_sphere",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Pyramide, Kegel und Kugel."
+  },
+  {
+   "id": "a0bea90c49d1508d|math.s1.volume_surface",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Volumen und Oberfläche von Prismen und Zylindern."
+  },
+  {
+   "id": "06fc406ef9d717a0|math.s1.triangles_quadrilaterals",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Dreiecke und Vierecke."
+  },
+  {
+   "id": "59cd697d90cdc9db|math.s1.triangles_quadrilaterals",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Dreiecke und Vierecke."
+  },
+  {
+   "id": "fec5b1e6fec01332|math.s1.angles",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Winkel."
+  },
+  {
+   "id": "5f6a7141d964b27b|math.s1.angles",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Winkel."
+  },
+  {
+   "id": "76dd6c6fda6a7600|math.s1.angles",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Winkel."
+  },
+  {
+   "id": "76dd6c6fda6a7600|math.s1.triangles_quadrilaterals",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Dreiecke und Vierecke."
+  },
+  {
+   "id": "e5f71e477b8dfebc|math.s1.angles",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Winkel."
+  },
+  {
+   "id": "e5f71e477b8dfebc|math.s1.triangles_quadrilaterals",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Dreiecke und Vierecke."
+  },
+  {
+   "id": "03b813241eed0322|math.s1.angles",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Winkel."
+  },
+  {
+   "id": "03b813241eed0322|math.s1.triangles_quadrilaterals",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Dreiecke und Vierecke."
+  },
+  {
+   "id": "77cebb1e72121832|math.s1.angles",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Winkel."
+  },
+  {
+   "id": "77cebb1e72121832|math.s1.triangles_quadrilaterals",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Dreiecke und Vierecke."
+  },
+  {
+   "id": "c561bdd8aa09e82c|math.s1.constructions",
+   "verdict": "decline",
+   "reason": "Thales theorem to infer orthogonality is not about constructions or congruence."
+  },
+  {
+   "id": "5cac513cf5092454|math.s1.constructions",
+   "verdict": "decline",
+   "reason": "Thales theorem to infer orthogonality is not about constructions or congruence."
+  },
+  {
+   "id": "8bfbbf407dc62f4c|math.s1.constructions",
+   "verdict": "decline",
+   "reason": "Proving and applying Thales theorem is not about constructions or congruence."
+  },
+  {
+   "id": "a7add7e8eeac33be|math.s1.constructions",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Konstruktionen und Kongruenz."
+  },
+  {
+   "id": "837757d9c1873759|math.s1.constructions",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Konstruktionen und Kongruenz."
+  },
+  {
+   "id": "1bca5b74c20a4999|math.s1.constructions",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Konstruktionen und Kongruenz."
+  },
+  {
+   "id": "25a925526e7769a9|math.s1.constructions",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Konstruktionen und Kongruenz."
+  },
+  {
+   "id": "b0d43f8b3047af26|math.s1.constructions",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Konstruktionen und Kongruenz."
+  },
+  {
+   "id": "c507b18830286448|math.s1.constructions",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Konstruktionen und Kongruenz."
+  },
+  {
+   "id": "90f31393d95e1872|math.s1.constructions",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Konstruktionen und Kongruenz."
+  },
+  {
+   "id": "588342e70c9de469|math.s1.constructions",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Konstruktionen und Kongruenz."
+  },
+  {
+   "id": "602e284aa9865088|math.s1.constructions",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Konstruktionen und Kongruenz."
+  },
+  {
+   "id": "de021fcd5aebb74d|math.s1.constructions",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Konstruktionen und Kongruenz."
+  },
+  {
+   "id": "8191d46444ecf2c6|math.s1.circle",
+   "verdict": "decline",
+   "reason": "Constructing tangents is not about circle circumference or area."
+  },
+  {
+   "id": "8191d46444ecf2c6|math.s1.constructions",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Konstruktionen und Kongruenz."
+  },
+  {
+   "id": "3adab00cd0de569f|math.s1.solids_nets",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Körper, Netze und Schrägbilder."
+  },
+  {
+   "id": "1b1827d6e2cab6a4|math.s1.solids_nets",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Körper, Netze und Schrägbilder."
+  },
+  {
+   "id": "84602ad441292cb0|math.s1.similarity",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Ähnlichkeit, zentrische Streckung und Strahlensätze."
+  },
+  {
+   "id": "3a7c02b83cea5fbb|math.s1.constructions",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Konstruktionen und Kongruenz."
+  },
+  {
+   "id": "ba484d070e84c4d0|math.s1.constructions",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Konstruktionen und Kongruenz."
+  },
+  {
+   "id": "d2369cc4dbba085a|math.s1.constructions",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Konstruktionen und Kongruenz."
+  },
+  {
+   "id": "0d49070ee05d09bc|math.s1.similarity",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Ähnlichkeit, zentrische Streckung und Strahlensätze."
+  },
+  {
+   "id": "a6951dc5a295b4a9|math.s1.similarity",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Ähnlichkeit, zentrische Streckung und Strahlensätze."
+  },
+  {
+   "id": "4178aa900a713092|math.s1.similarity",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Ähnlichkeit, zentrische Streckung und Strahlensätze."
+  },
+  {
+   "id": "a7336cedfc15905a|math.s1.similarity",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Ähnlichkeit, zentrische Streckung und Strahlensätze."
+  },
+  {
+   "id": "c8f2ca25d5047546|math.s1.similarity",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Ähnlichkeit, zentrische Streckung und Strahlensätze."
+  },
+  {
+   "id": "f8ba37953f6dfb8c|math.s1.similarity",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Ähnlichkeit, zentrische Streckung und Strahlensätze."
+  },
+  {
+   "id": "fa8f3da5d8e24b63|math.s1.similarity",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Ähnlichkeit, zentrische Streckung und Strahlensätze."
+  },
+  {
+   "id": "391b0a2aa27839c6|math.s1.constructions",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Konstruktionen und Kongruenz."
+  },
+  {
+   "id": "391b0a2aa27839c6|math.s1.similarity",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Ähnlichkeit, zentrische Streckung und Strahlensätze."
+  },
+  {
+   "id": "6e83ae9fdfea190b|math.s1.pythagoras",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Satz des Pythagoras."
+  },
+  {
+   "id": "4152bd4d58f478ae|math.s1.pythagoras",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Satz des Pythagoras."
+  },
+  {
+   "id": "df5549971d16ecb1|math.s1.functions_concept",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Funktionsbegriff."
+  },
+  {
+   "id": "c51d2afb5d950abf|math.s1.linear_equations",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Lineare Gleichungen."
+  },
+  {
+   "id": "c51d2afb5d950abf|math.s1.linear_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Lineare Funktionen."
+  },
+  {
+   "id": "ee3c7cca09b54287|math.s1.functions_concept",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Funktionsbegriff."
+  },
+  {
+   "id": "79a526bea895026a|math.s1.functions_concept",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Funktionsbegriff."
+  },
+  {
+   "id": "d6a956c58e11d85e|math.s1.proportionality",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Proportionale und antiproportionale Zuordnungen."
+  },
+  {
+   "id": "1d98379cfb58cb45|math.s1.functions_concept",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Funktionsbegriff."
+  },
+  {
+   "id": "ec9577cdbab4c89d|math.s1.linear_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Lineare Funktionen."
+  },
+  {
+   "id": "50615a8ea3cc25e1|math.s1.linear_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Lineare Funktionen."
+  },
+  {
+   "id": "4ba504d5d4ce87cd|math.s1.linear_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Lineare Funktionen."
+  },
+  {
+   "id": "cea31d8c273970b7|math.s1.linear_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Lineare Funktionen."
+  },
+  {
+   "id": "f5cb5bb18725e059|math.s1.linear_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Lineare Funktionen."
+  },
+  {
+   "id": "b0c2b75ec04cd17a|math.s1.linear_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Lineare Funktionen."
+  },
+  {
+   "id": "fecb6b8040b90e25|math.s1.linear_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Lineare Funktionen."
+  },
+  {
+   "id": "f18545d61efb898d|math.s1.linear_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Lineare Funktionen."
+  },
+  {
+   "id": "f8e40db551ddf9ee|math.s1.quadratic_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Quadratische Funktionen."
+  },
+  {
+   "id": "2a2de4812c9fa9ef|math.s1.quadratic_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Quadratische Funktionen."
+  },
+  {
+   "id": "50edb8bd6c5f7300|math.s1.quadratic_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Quadratische Funktionen."
+  },
+  {
+   "id": "922a3d5e839c07e1|math.s1.quadratic_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Quadratische Funktionen."
+  },
+  {
+   "id": "db58805558253d6f|math.s1.quadratic_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Quadratische Funktionen."
+  },
+  {
+   "id": "1dccb21091d93693|math.s1.quadratic_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Quadratische Funktionen."
+  },
+  {
+   "id": "edd4f2ea2858176a|math.s1.quadratic_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Quadratische Funktionen."
+  },
+  {
+   "id": "23d9f05dadb68766|math.s1.quadratic_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Quadratische Funktionen."
+  },
+  {
+   "id": "6815089094b39da1|math.s1.quadratic_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Quadratische Funktionen."
+  },
+  {
+   "id": "2c8905447bb89016|math.s1.quadratic_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Quadratische Funktionen."
+  },
+  {
+   "id": "9e8bd1e24abc9158|math.s1.quadratic_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Quadratische Funktionen."
+  },
+  {
+   "id": "c9e5196556624100|math.s1.quadratic_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Quadratische Funktionen."
+  },
+  {
+   "id": "71c82d3505bb84e8|math.s1.quadratic_functions",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Quadratische Funktionen."
+  },
+  {
+   "id": "f04f94f5f723806c|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "b951d22380ca2826|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "5f05ec382af32ee2|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "78ed0c52cefebe99|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "755e382233bc7891|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "6dfa6878249d1c31|math.s1.boxplot",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Boxplot und Streumaße."
+  },
+  {
+   "id": "20aaeb996ff11344|math.s1.boxplot",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Boxplot und Streumaße."
+  },
+  {
+   "id": "fbe08c8f72fff9e3|math.s1.boxplot",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Boxplot und Streumaße."
+  },
+  {
+   "id": "382893d7aa603a3e|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "c5766455a3f78624|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "97c8227b877f1c04|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "93cad7f5113a0453|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "6ee9ee3ae3260901|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "04d9149cd459596f|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "cb3b51510834fb62|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "fbc705d20a4d79ce|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "862807be02e78ffa|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "0b6f103df09b13f0|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "c101cc2779f9bc74|math.s1.statistics",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Daten, Diagramme und Kenngrößen."
+  },
+  {
+   "id": "70440eee6644567b|math.s1.probability",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Zufallsexperimente und Wahrscheinlichkeit."
+  },
+  {
+   "id": "921259fb71b95286|math.s1.probability",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Zufallsexperimente und Wahrscheinlichkeit."
+  },
+  {
+   "id": "cd9ee0962c6e9bff|math.s1.probability",
+   "verdict": "pass",
+   "reason": "Standard substantially covers Zufallsexperimente und Wahrscheinlichkeit."
+  }
+ ]
+}

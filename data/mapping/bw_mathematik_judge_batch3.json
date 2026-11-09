@@ -1,0 +1,3055 @@
+{
+"instructions": "You audit proposed links between a curriculum standard (verbatim text from an official\nGerman school curriculum) and a backbone topic. For each item decide independently:\npass = the standard's text is substantially about this topic, so a pupil meeting the standard is\n       learning this topic; decline = it is not, or only in passing, or the link is too broad or wrong.\nJudge only from the text, section and subheading given. Do not guess what the proposer intended.\nGrade bands of topics are typical placements, not rules: a standard outside the band can still pass.\nWrite {\"verdicts\": [{\"text_key\": ..., \"dst\": ..., \"verdict\": \"pass\" | \"decline\", \"reason\": \"<one short sentence, German or English>\"}]}\ncovering every item.",
+"items": [
+{
+"id": "3af3ffbc9d426a9b|math.s2.gauss",
+"text": "das Gaußverfahren, auch in Matrixschreibweise, zum Lösen eines linearen Gleichungssystems durchführen",
+"grades": "11-12/12-13",
+"section": "3.4.1 Leitidee Zahl – Variable – Operation; 3.5.1 Leitidee Zahl – Variable – Ope",
+"sub": "Gauß-Algorithmus verwenden",
+"topic": "math.s2.gauss",
+"topic_label": "Lineare Gleichungssysteme und Gauß-Verfahren",
+"topic_band": "11-12"
+},
+{
+"id": "890f5f5b4f945d83|math.s2.gauss",
+"text": "die Lösungsmenge eines linearen 3x3-Gleichungssystems geometrisch interpretieren",
+"grades": "11-12/12-13",
+"section": "3.4.1 Leitidee Zahl – Variable – Operation; 3.5.1 Leitidee Zahl – Variable – Ope",
+"sub": "Gauß-Algorithmus verwenden",
+"topic": "math.s2.gauss",
+"topic_label": "Lineare Gleichungssysteme und Gauß-Verfahren",
+"topic_band": "11-12"
+},
+{
+"id": "bce688903eb5a880|math.s2.distances_angles",
+"text": "die Orthogonalität zweier Vektoren mithilfe des Skalarprodukts überprüfen",
+"grades": "11-12/12-13",
+"section": "3.4.2 Leitidee Messen; 3.5.2 Leitidee Messen; 3.6.2 Leitidee Messen",
+"sub": "Winkelweiten, Abstände und Flächeninhalte in kartesischen Ko",
+"topic": "math.s2.distances_angles",
+"topic_label": "Abstände und Winkel im Raum",
+"topic_band": "12-13"
+},
+{
+"id": "bce688903eb5a880|math.s2.vectors",
+"text": "die Orthogonalität zweier Vektoren mithilfe des Skalarprodukts überprüfen",
+"grades": "11-12/12-13",
+"section": "3.4.2 Leitidee Messen; 3.5.2 Leitidee Messen; 3.6.2 Leitidee Messen",
+"sub": "Winkelweiten, Abstände und Flächeninhalte in kartesischen Ko",
+"topic": "math.s2.vectors",
+"topic_label": "Vektoren",
+"topic_band": "11-12"
+},
+{
+"id": "c651793b57d38fcf|math.s2.distances_angles",
+"text": "Winkelweiten mithilfe des Skalarprodukts bestimmen",
+"grades": "11-12/12-13",
+"section": "3.4.2 Leitidee Messen; 3.5.2 Leitidee Messen; 3.6.2 Leitidee Messen",
+"sub": "Winkelweiten, Abstände und Flächeninhalte in kartesischen Ko",
+"topic": "math.s2.distances_angles",
+"topic_label": "Abstände und Winkel im Raum",
+"topic_band": "12-13"
+},
+{
+"id": "c651793b57d38fcf|math.s2.vectors",
+"text": "Winkelweiten mithilfe des Skalarprodukts bestimmen",
+"grades": "11-12/12-13",
+"section": "3.4.2 Leitidee Messen; 3.5.2 Leitidee Messen; 3.6.2 Leitidee Messen",
+"sub": "Winkelweiten, Abstände und Flächeninhalte in kartesischen Ko",
+"topic": "math.s2.vectors",
+"topic_label": "Vektoren",
+"topic_band": "11-12"
+},
+{
+"id": "418b79f2c442fb79|math.s2.distances_angles",
+"text": "Schnittwinkel zwischen geometrischen Objekten (Geraden und Ebenen) bestimmen",
+"grades": "11-12/12-13",
+"section": "3.4.2 Leitidee Messen; 3.5.2 Leitidee Messen; 3.6.2 Leitidee Messen",
+"sub": "Winkelweiten, Abstände und Flächeninhalte in kartesischen Ko",
+"topic": "math.s2.distances_angles",
+"topic_label": "Abstände und Winkel im Raum",
+"topic_band": "12-13"
+},
+{
+"id": "273e7c59597864a0|math.s2.distances_angles",
+"text": "die Hesse'sche Normalenform einer Ebenengleichung zur Berechnung des Abstands eines Punktes zu einer Ebene anwenden",
+"grades": "11-12/12-13",
+"section": "3.4.2 Leitidee Messen; 3.5.2 Leitidee Messen",
+"sub": "Winkelweiten, Abstände und Flächeninhalte in kartesischen Ko",
+"topic": "math.s2.distances_angles",
+"topic_label": "Abstände und Winkel im Raum",
+"topic_band": "12-13"
+},
+{
+"id": "910502e3f461a766|math.s2.distances_angles",
+"text": "Abstände zwischen den geometrischen Objekten Punkt, Gerade und Ebene (auch zwischen windschiefen Geraden) ermitteln",
+"grades": "11-12/12-13",
+"section": "3.4.2 Leitidee Messen; 3.5.2 Leitidee Messen",
+"sub": "Winkelweiten, Abstände und Flächeninhalte in kartesischen Ko",
+"topic": "math.s2.distances_angles",
+"topic_label": "Abstände und Winkel im Raum",
+"topic_band": "12-13"
+},
+{
+"id": "81613d56f900b6f6|math.s2.vectors",
+"text": "das Vektorprodukt zum Ermitteln von Flächeninhalten anwenden",
+"grades": "11-12/12-13",
+"section": "3.4.2 Leitidee Messen; 3.5.2 Leitidee Messen; 3.6.2 Leitidee Messen",
+"sub": "Winkelweiten, Abstände und Flächeninhalte in kartesischen Ko",
+"topic": "math.s2.vectors",
+"topic_label": "Vektoren",
+"topic_band": "11-12"
+},
+{
+"id": "752c03925715552c|math.s2.integral",
+"text": "das bestimmte Integral als Grenzwert einer Summe erläutern und geometrisch deuten",
+"grades": "11-12/12-13",
+"section": "3.4.2 Leitidee Messen; 3.5.2 Leitidee Messen",
+"sub": "Das Integral nutzen; das Integral nutzen",
+"topic": "math.s2.integral",
+"topic_label": "Integral und Stammfunktion",
+"topic_band": "11-12"
+},
+{
+"id": "9914b78a7e45fc9c|math.s2.integral_applications",
+"text": "den Mittelwert einer Funktion auf einem Intervall berechnen",
+"grades": "11-12/12-13",
+"section": "3.4.2 Leitidee Messen; 3.5.2 Leitidee Messen",
+"sub": "Das Integral nutzen; das Integral nutzen",
+"topic": "math.s2.integral_applications",
+"topic_label": "Anwendungen der Integralrechnung",
+"topic_band": "12-13"
+},
+{
+"id": "167feb393a829725|math.s2.integral_applications",
+"text": "Flächeninhalte zwischen Graph und x-Achse und zwischen zwei Graphen bestimmen",
+"grades": "11-12/12-13",
+"section": "3.4.2 Leitidee Messen; 3.5.2 Leitidee Messen; 3.6.2 Leitidee Messen",
+"sub": "Das Integral nutzen; das Integral nutzen",
+"topic": "math.s2.integral_applications",
+"topic_label": "Anwendungen der Integralrechnung",
+"topic_band": "12-13"
+},
+{
+"id": "93e6fe4bb22a0fc6|math.s2.integral_applications",
+"text": "das Volumen von Körpern berechnen, die durch Rotation von Flächen um die x-Achse entstehen",
+"grades": "11-12/12-13",
+"section": "3.4.2 Leitidee Messen; 3.5.2 Leitidee Messen",
+"sub": "Das Integral nutzen; das Integral nutzen",
+"topic": "math.s2.integral_applications",
+"topic_label": "Anwendungen der Integralrechnung",
+"topic_band": "12-13"
+},
+{
+"id": "9681feac30bbcd7d|math.s2.vectors",
+"text": "das Skalarprodukt und das Vektorprodukt geometrisch deuten",
+"grades": "11-12/12-13",
+"section": "3.4.3 Leitidee Raum und Form; 3.5.3 Leitidee Raum und Form; 3.6.3 Leitidee Raum ",
+"sub": "Produkte von Vektoren geometrisch nutzen",
+"topic": "math.s2.vectors",
+"topic_label": "Vektoren",
+"topic_band": "11-12"
+},
+{
+"id": "e2379554ffcd6524|math.s2.vectors",
+"text": "einen gemeinsamen orthogonalen Vektor zu zwei Vektoren bestimmen",
+"grades": "11-12/12-13",
+"section": "3.4.3 Leitidee Raum und Form; 3.5.3 Leitidee Raum und Form; 3.6.3 Leitidee Raum ",
+"sub": "Produkte von Vektoren geometrisch nutzen",
+"topic": "math.s2.vectors",
+"topic_label": "Vektoren",
+"topic_band": "11-12"
+},
+{
+"id": "5153ab759674caad|math.s2.lines_planes",
+"text": "Ebenen mithilfe von Spurpunkten und Spurgeraden im Schrägbild eines Koordinatensystems veranschaulichen",
+"grades": "11-12/12-13",
+"section": "3.4.3 Leitidee Raum und Form; 3.5.3 Leitidee Raum und Form; 3.6.3 Leitidee Raum ",
+"sub": "Vektorielle Darstellungen zur Beschreibung des Anschauungsra",
+"topic": "math.s2.lines_planes",
+"topic_label": "Geraden und Ebenen im Raum",
+"topic_band": "12"
+},
+{
+"id": "7c21462ae2ba3516|math.s2.lines_planes",
+"text": "Ebenen mithilfe einer Parameterdarstellung, einer Koordinatengleichung und einer Normalengleichung analytisch beschreiben",
+"grades": "11-12/12-13",
+"section": "3.4.3 Leitidee Raum und Form; 3.5.3 Leitidee Raum und Form",
+"sub": "Vektorielle Darstellungen zur Beschreibung des Anschauungsra",
+"topic": "math.s2.lines_planes",
+"topic_label": "Geraden und Ebenen im Raum",
+"topic_band": "12"
+},
+{
+"id": "9611fea502e4d3c7|math.s2.lines_planes",
+"text": "eine Parameterdarstellung einer Ebene in eine Normalengleichung und in eine Koordinatengleichung umrechnen",
+"grades": "11-12/12-13",
+"section": "3.4.3 Leitidee Raum und Form; 3.5.3 Leitidee Raum und Form",
+"sub": "Vektorielle Darstellungen zur Beschreibung des Anschauungsra",
+"topic": "math.s2.lines_planes",
+"topic_label": "Geraden und Ebenen im Raum",
+"topic_band": "12"
+},
+{
+"id": "89da0455bc19af57|math.s2.lines_planes",
+"text": "zwischen Gerade – Ebene und Ebene – Ebene die Lagebeziehung untersuchen sowie gegebenenfalls die Schnittgebilde rechnerisch bestimmen",
+"grades": "11-12/12-13",
+"section": "3.4.3 Leitidee Raum und Form; 3.5.3 Leitidee Raum und Form",
+"sub": "Vektorielle Darstellungen zur Beschreibung des Anschauungsra",
+"topic": "math.s2.lines_planes",
+"topic_label": "Geraden und Ebenen im Raum",
+"topic_band": "12"
+},
+{
+"id": "f18921d4dab68d59|math.s2.distances_angles",
+"text": "Problemstellungen, wie zum Beispiel Spiegelung eines Punktes an einer Ebene, Spiegelung einer Geraden an einem Punkt, Flächeninhalts- und Volumenberechnungen sowie Untersuchungen geradliniger Bewegungen, im Raum bearbeiten",
+"grades": "11-12/12-13",
+"section": "3.4.3 Leitidee Raum und Form",
+"sub": "Vektorielle Darstellungen zur Beschreibung des Anschauungsra",
+"topic": "math.s2.distances_angles",
+"topic_label": "Abstände und Winkel im Raum",
+"topic_band": "12-13"
+},
+{
+"id": "f18921d4dab68d59|math.s2.lines_planes",
+"text": "Problemstellungen, wie zum Beispiel Spiegelung eines Punktes an einer Ebene, Spiegelung einer Geraden an einem Punkt, Flächeninhalts- und Volumenberechnungen sowie Untersuchungen geradliniger Bewegungen, im Raum bearbeiten",
+"grades": "11-12/12-13",
+"section": "3.4.3 Leitidee Raum und Form",
+"sub": "Vektorielle Darstellungen zur Beschreibung des Anschauungsra",
+"topic": "math.s2.lines_planes",
+"topic_label": "Geraden und Ebenen im Raum",
+"topic_band": "12"
+},
+{
+"id": "4f892d57c731e931|math.s2.vectors",
+"text": "einfache mathematische Aussagen und Sätze beweisen, wie zum Beispiel „In einem Trapez ist die Mittellinie parallel zu den Grundseiten“, „Die Seitenmitten eines räumlichen Vierecks bilden die Eckpunkte eines Parallelogramms“, „In einer Raute sind die Diagonalen zueinander orthogonal“, Satz des Thales",
+"grades": "11-12/12-13",
+"section": "3.4.3 Leitidee Raum und Form; 3.5.3 Leitidee Raum und Form",
+"sub": "Vektorielle Darstellungen beim Beweisen nutzen; vektorielle ",
+"topic": "math.s2.vectors",
+"topic_label": "Vektoren",
+"topic_band": "11-12"
+},
+{
+"id": "016860d003df6fc1|math.s2.exp_ln",
+"text": "die besondere Bedeutung der Basis e bei Exponentialfunktionen erläutern",
+"grades": "11-12/12-13",
+"section": "3.4.4 Leitidee Funktionaler Zusammenhang; 3.5.4 Leitidee Funktionaler Zusammenha",
+"sub": "Mit der natürlichen Exponential- und Logarithmusfunktion umg",
+"topic": "math.s2.exp_ln",
+"topic_label": "e-Funktion und natürlicher Logarithmus",
+"topic_band": "11-12"
+},
+{
+"id": "0d1553a89c43e684|math.s2.exp_ln",
+"text": "die Graphen der natürlichen Exponential- und Logarithmusfunktion unter Verwendung charakteristischer Eigenschaften skizzieren und die Beziehung zwischen den Graphen beschreiben",
+"grades": "11-12/12-13",
+"section": "3.4.4 Leitidee Funktionaler Zusammenhang",
+"sub": "Mit der natürlichen Exponential- und Logarithmusfunktion umg",
+"topic": "math.s2.exp_ln",
+"topic_label": "e-Funktion und natürlicher Logarithmus",
+"topic_band": "11-12"
+},
+{
+"id": "12820366b52f02d0|math.s2.exp_ln",
+"text": "charakteristische Eigenschaften der Funktion \\(f\\) mit \\(f(x)=e^{x}\\) beschreiben",
+"grades": "11-12/12-13",
+"section": "3.4.4 Leitidee Funktionaler Zusammenhang",
+"sub": "Mit der natürlichen Exponential- und Logarithmusfunktion umg",
+"topic": "math.s2.exp_ln",
+"topic_label": "e-Funktion und natürlicher Logarithmus",
+"topic_band": "11-12"
+},
+{
+"id": "5fbdb0b842b9da20|math.s2.derivative_rules",
+"text": "die Ableitungsfunktion und eine Stammfunktion der Funktion \\(f\\) mit \\(f(x)=e^{x}\\) angeben",
+"grades": "11-12/12-13",
+"section": "3.4.4 Leitidee Funktionaler Zusammenhang; 3.5.4 Leitidee Funktionaler Zusammenha",
+"sub": "Mit der natürlichen Exponential- und Logarithmusfunktion umg",
+"topic": "math.s2.derivative_rules",
+"topic_label": "Ableitungsregeln",
+"topic_band": "11"
+},
+{
+"id": "5fbdb0b842b9da20|math.s2.exp_ln",
+"text": "die Ableitungsfunktion und eine Stammfunktion der Funktion \\(f\\) mit \\(f(x)=e^{x}\\) angeben",
+"grades": "11-12/12-13",
+"section": "3.4.4 Leitidee Funktionaler Zusammenhang; 3.5.4 Leitidee Funktionaler Zusammenha",
+"sub": "Mit der natürlichen Exponential- und Logarithmusfunktion umg",
+"topic": "math.s2.exp_ln",
+"topic_label": "e-Funktion und natürlicher Logarithmus",
+"topic_band": "11-12"
+},
+{
+"id": "4a7ee1dd8fde08c5|math.s2.derivative_rules",
+"text": "die Ableitungsfunktion der Funktion \\(f\\) mit \\(f(x)=ln(x)\\) angeben",
+"grades": "11-12/12-13",
+"section": "3.4.4 Leitidee Funktionaler Zusammenhang",
+"sub": "Mit der natürlichen Exponential- und Logarithmusfunktion umg",
+"topic": "math.s2.derivative_rules",
+"topic_label": "Ableitungsregeln",
+"topic_band": "11"
+},
+{
+"id": "4a7ee1dd8fde08c5|math.s2.exp_ln",
+"text": "die Ableitungsfunktion der Funktion \\(f\\) mit \\(f(x)=ln(x)\\) angeben",
+"grades": "11-12/12-13",
+"section": "3.4.4 Leitidee Funktionaler Zusammenhang",
+"sub": "Mit der natürlichen Exponential- und Logarithmusfunktion umg",
+"topic": "math.s2.exp_ln",
+"topic_label": "e-Funktion und natürlicher Logarithmus",
+"topic_band": "11-12"
+},
+{
+"id": "77f030976a83ce0c|math.s2.derivative_rules",
+"text": "Funktionen verketten und Verkettungen von Funktionen erkennen",
+"grades": "11-12/12-13",
+"section": "3.4.4 Leitidee Funktionaler Zusammenhang; 3.5.4 Leitidee Funktionaler Zusammenha",
+"sub": "Mit zusammengesetzten Funktionen umgehen; mit zusammengesetz",
+"topic": "math.s2.derivative_rules",
+"topic_label": "Ableitungsregeln",
+"topic_band": "11"
+},
+{
+"id": "77f030976a83ce0c|math.s2.function_classes",
+"text": "Funktionen verketten und Verkettungen von Funktionen erkennen",
+"grades": "11-12/12-13",
+"section": "3.4.4 Leitidee Funktionaler Zusammenhang; 3.5.4 Leitidee Funktionaler Zusammenha",
+"sub": "Mit zusammengesetzten Funktionen umgehen; mit zusammengesetz",
+"topic": "math.s2.function_classes",
+"topic_label": "Funktionenklassen und Transformationen",
+"topic_band": "10-11"
+},
+{
+"id": "7b80bb531e72cb50|math.s2.function_classes",
+"text": "die Graphen von Funktionen in einfachen Fällen auf waagrechte und senkrechte Asymptoten und Nullstellen untersuchen, deren Funktionsterm als Quotient zuvor behandelter Funktionstypen gebildet werden kann",
+"grades": "11-12/12-13",
+"section": "3.4.4 Leitidee Funktionaler Zusammenhang; 3.5.4 Leitidee Funktionaler Zusammenha",
+"sub": "Mit zusammengesetzten Funktionen umgehen; mit zusammengesetz",
+"topic": "math.s2.function_classes",
+"topic_label": "Funktionenklassen und Transformationen",
+"topic_band": "10-11"
+},
+{
+"id": "43eca07d191f2ff0|math.s2.function_classes",
+"text": "Graphen von zusammengesetzten Funktionen (Summe, Produkt, Verkettung) untersuchen",
+"grades": "11-12/12-13",
+"section": "3.4.4 Leitidee Funktionaler Zusammenhang; 3.5.4 Leitidee Funktionaler Zusammenha",
+"sub": "Mit zusammengesetzten Funktionen umgehen; mit zusammengesetz",
+"topic": "math.s2.function_classes",
+"topic_label": "Funktionenklassen und Transformationen",
+"topic_band": "10-11"
+},
+{
+"id": "f419cc4a120ac4c5|math.s2.optimisation",
+"text": "Extremwertprobleme mit Nebenbedingungen lösen",
+"grades": "11-12/12-13",
+"section": "3.4.4 Leitidee Funktionaler Zusammenhang; 3.5.4 Leitidee Funktionaler Zusammenha",
+"sub": "Differentialrechnung anwenden",
+"topic": "math.s2.optimisation",
+"topic_label": "Extremwertprobleme",
+"topic_band": "11-12"
+},
+{
+"id": "aa30193dfed9c5eb|math.s2.curve_analysis",
+"text": "einen Funktionsterm zu gegebenen Eigenschaften eines Graphen ermitteln",
+"grades": "11-12/12-13",
+"section": "3.4.4 Leitidee Funktionaler Zusammenhang; 3.5.4 Leitidee Funktionaler Zusammenha",
+"sub": "Differentialrechnung anwenden",
+"topic": "math.s2.curve_analysis",
+"topic_label": "Funktionsuntersuchung",
+"topic_band": "11-12"
+},
+{
+"id": "950a3b19d182369f|math.s2.curve_analysis",
+"text": "bei Funktionenscharen einzelne Fragestellungen zu Eigenschaften ihrer Graphen oder zu Zusammenhängen zwischen den Graphen untersuchen",
+"grades": "11-12/12-13",
+"section": "3.4.4 Leitidee Funktionaler Zusammenhang; 3.5.4 Leitidee Funktionaler Zusammenha",
+"sub": "Differentialrechnung anwenden",
+"topic": "math.s2.curve_analysis",
+"topic_label": "Funktionsuntersuchung",
+"topic_band": "11-12"
+},
+{
+"id": "558619f8dc1ee6fa|math.s2.integral",
+"text": "den Wert des bestimmten Integrals als orientierten Flächeninhalt und als Bestandsveränderung erklären",
+"grades": "11-12/12-13",
+"section": "3.4.4 Leitidee Funktionaler Zusammenhang; 3.5.4 Leitidee Funktionaler Zusammenha",
+"sub": "Die Grundidee der Integralrechnung verstehen und mit Integra",
+"topic": "math.s2.integral",
+"topic_label": "Integral und Stammfunktion",
+"topic_band": "11-12"
+},
+{
+"id": "558619f8dc1ee6fa|math.s2.integral_applications",
+"text": "den Wert des bestimmten Integrals als orientierten Flächeninhalt und als Bestandsveränderung erklären",
+"grades": "11-12/12-13",
+"section": "3.4.4 Leitidee Funktionaler Zusammenhang; 3.5.4 Leitidee Funktionaler Zusammenha",
+"sub": "Die Grundidee der Integralrechnung verstehen und mit Integra",
+"topic": "math.s2.integral_applications",
+"topic_label": "Anwendungen der Integralrechnung",
+"topic_band": "12-13"
+},
+{
+"id": "850c8d5fd2bcbec3|math.s2.integral_applications",
+"text": "Funktionen aus ihren Änderungsraten rekonstruieren",
+"grades": "11-12/12-13",
+"section": "3.4.4 Leitidee Funktionaler Zusammenhang; 3.5.4 Leitidee Funktionaler Zusammenha",
+"sub": "Die Grundidee der Integralrechnung verstehen und mit Integra",
+"topic": "math.s2.integral_applications",
+"topic_label": "Anwendungen der Integralrechnung",
+"topic_band": "12-13"
+},
+{
+"id": "f4046640814a3214|math.s2.integral_applications",
+"text": "den Bestand aus Anfangsbestand und Änderungsraten bestimmen",
+"grades": "11-12/12-13",
+"section": "3.4.4 Leitidee Funktionaler Zusammenhang; 3.5.4 Leitidee Funktionaler Zusammenha",
+"sub": "Die Grundidee der Integralrechnung verstehen und mit Integra",
+"topic": "math.s2.integral_applications",
+"topic_label": "Anwendungen der Integralrechnung",
+"topic_band": "12-13"
+},
+{
+"id": "3dad1bdcf07f31dc|math.s2.integral",
+"text": "den Inhalt des Hauptsatzes der Differential- und Integralrechnung angeben",
+"grades": "11-12/12-13",
+"section": "3.4.4 Leitidee Funktionaler Zusammenhang; 3.5.4 Leitidee Funktionaler Zusammenha",
+"sub": "Die Grundidee der Integralrechnung verstehen und mit Integra",
+"topic": "math.s2.integral",
+"topic_label": "Integral und Stammfunktion",
+"topic_band": "11-12"
+},
+{
+"id": "f99bb0cc22ab1439|math.s2.integral",
+"text": "die Begriffe Integralfunktion und Stammfunktion gegeneinander abgrenzen",
+"grades": "11-12/12-13",
+"section": "3.4.4 Leitidee Funktionaler Zusammenhang; 3.5.4 Leitidee Funktionaler Zusammenha",
+"sub": "Die Grundidee der Integralrechnung verstehen und mit Integra",
+"topic": "math.s2.integral",
+"topic_label": "Integral und Stammfunktion",
+"topic_band": "11-12"
+},
+{
+"id": "4ade15443bfbcde1|math.s2.integral",
+"text": "vom Graphen der Funktion auf den Graphen einer Stammfunktion schließen und umgekehrt",
+"grades": "11-12/12-13",
+"section": "3.4.4 Leitidee Funktionaler Zusammenhang; 3.5.4 Leitidee Funktionaler Zusammenha",
+"sub": "Die Grundidee der Integralrechnung verstehen und mit Integra",
+"topic": "math.s2.integral",
+"topic_label": "Integral und Stammfunktion",
+"topic_band": "11-12"
+},
+{
+"id": "0e26fdea965527a8|math.s2.integral",
+"text": "den Hauptsatz der Differential- und Integralrechnung in Begründungszusammenhängen, zum Beispiel zum Nachweis der Linearität des Integrals, nutzen",
+"grades": "11-12/12-13",
+"section": "3.4.4 Leitidee Funktionaler Zusammenhang; 3.5.4 Leitidee Funktionaler Zusammenha",
+"sub": "Die Grundidee der Integralrechnung verstehen und mit Integra",
+"topic": "math.s2.integral",
+"topic_label": "Integral und Stammfunktion",
+"topic_band": "11-12"
+},
+{
+"id": "548be7419e76ebe7|math.s2.integral",
+"text": "die Linearität des Integrals anschaulich begründen und rechenökonomisch nutzen",
+"grades": "11-12/12-13",
+"section": "3.4.4 Leitidee Funktionaler Zusammenhang; 3.5.4 Leitidee Funktionaler Zusammenha",
+"sub": "Die Grundidee der Integralrechnung verstehen und mit Integra",
+"topic": "math.s2.integral",
+"topic_label": "Integral und Stammfunktion",
+"topic_band": "11-12"
+},
+{
+"id": "c5244870d3009505|math.s2.hypothesis_test",
+"text": "das Argumentationsmuster erläutern, das dem Testen von Hypothesen zugrunde liegt",
+"grades": "11-12/12-13",
+"section": "3.4.5 Leitidee Daten und Zufall; 3.5.5 Leitidee Daten und Zufall",
+"sub": "Hypothesen bei binomialverteilten Zufallsgrößen testen",
+"topic": "math.s2.hypothesis_test",
+"topic_label": "Hypothesentest",
+"topic_band": "12-13"
+},
+{
+"id": "0f01f593e128209d|math.s2.hypothesis_test",
+"text": "eine Nullhypothese so formulieren, dass sie der Zielsetzung des Tests entspricht",
+"grades": "11-12/12-13",
+"section": "3.4.5 Leitidee Daten und Zufall; 3.5.5 Leitidee Daten und Zufall",
+"sub": "Hypothesen bei binomialverteilten Zufallsgrößen testen",
+"topic": "math.s2.hypothesis_test",
+"topic_label": "Hypothesentest",
+"topic_band": "12-13"
+},
+{
+"id": "e4046f0aecec0f3b|math.s2.hypothesis_test",
+"text": "Ablehnungsbereich und Irrtumswahrscheinlichkeit an einem Histogramm erläutern",
+"grades": "11-12/12-13",
+"section": "3.4.5 Leitidee Daten und Zufall",
+"sub": "Hypothesen bei binomialverteilten Zufallsgrößen testen",
+"topic": "math.s2.hypothesis_test",
+"topic_label": "Hypothesentest",
+"topic_band": "12-13"
+},
+{
+"id": "0328a3749ee8d099|math.s2.hypothesis_test",
+"text": "ein- und zweiseitige Hypothesentests durchführen und den Ablehnungsbereich, die Entscheidungsregel und die Irrtumswahrscheinlichkeit angeben",
+"grades": "11-12/12-13",
+"section": "3.4.5 Leitidee Daten und Zufall; 3.5.5 Leitidee Daten und Zufall",
+"sub": "Hypothesen bei binomialverteilten Zufallsgrößen testen",
+"topic": "math.s2.hypothesis_test",
+"topic_label": "Hypothesentest",
+"topic_band": "12-13"
+},
+{
+"id": "f5829d6846c9a545|math.s2.hypothesis_test",
+"text": "Signifikanzniveau und Irrtumswahrscheinlichkeit gegeneinander abgrenzen",
+"grades": "11-12/12-13",
+"section": "3.4.5 Leitidee Daten und Zufall; 3.5.5 Leitidee Daten und Zufall",
+"sub": "Hypothesen bei binomialverteilten Zufallsgrößen testen",
+"topic": "math.s2.hypothesis_test",
+"topic_label": "Hypothesentest",
+"topic_band": "12-13"
+},
+{
+"id": "3039f215e4724111|math.s2.hypothesis_test",
+"text": "Fehler erster und zweiter Art im Kontext eines Hypothesentests erläutern",
+"grades": "11-12/12-13",
+"section": "3.4.5 Leitidee Daten und Zufall; 3.5.5 Leitidee Daten und Zufall",
+"sub": "Hypothesen bei binomialverteilten Zufallsgrößen testen",
+"topic": "math.s2.hypothesis_test",
+"topic_label": "Hypothesentest",
+"topic_band": "12-13"
+},
+{
+"id": "1c7ffecb3415a094|math.s2.hypothesis_test",
+"text": "den Einfluss des Stichprobenumfangs auf die Wahrscheinlichkeiten für den Fehler erster Art (das Risiko erster Art) und für den Fehler zweiter Art (das Risiko zweiter Art) angeben",
+"grades": "11-12/12-13",
+"section": "3.4.5 Leitidee Daten und Zufall; 3.5.5 Leitidee Daten und Zufall",
+"sub": "Hypothesen bei binomialverteilten Zufallsgrößen testen",
+"topic": "math.s2.hypothesis_test",
+"topic_label": "Hypothesentest",
+"topic_band": "12-13"
+},
+{
+"id": "b92e9116c4014c63|math.s2.normal",
+"text": "den Unterschied zwischen diskreten und stetigen Zufallsgrößen erläutern",
+"grades": "11-12/12-13",
+"section": "3.4.5 Leitidee Daten und Zufall",
+"sub": "Mit Normalverteilungen umgehen",
+"topic": "math.s2.normal",
+"topic_label": "Normalverteilung",
+"topic_band": "12-13"
+},
+{
+"id": "31f3b2486662ea44|math.s2.normal",
+"text": "die Dichtefunktion einer normalverteilten Zufallsgröße mithilfe von Erwartungswert und Standardabweichung angeben und die zugehörige Glockenkurve skizzieren",
+"grades": "11-12/12-13",
+"section": "3.4.5 Leitidee Daten und Zufall; 3.5.5 Leitidee Daten und Zufall",
+"sub": "Mit Normalverteilungen umgehen; mit Normalverteilungen umgeh",
+"topic": "math.s2.normal",
+"topic_label": "Normalverteilung",
+"topic_band": "12-13"
+},
+{
+"id": "8c43db998817442a|math.s2.normal",
+"text": "stochastische Situationen untersuchen, die zu annähernd normalverteilten Zufallsgrößen gehören, und Wahrscheinlichkeiten berechnen",
+"grades": "11-12/12-13",
+"section": "3.4.5 Leitidee Daten und Zufall; 3.5.5 Leitidee Daten und Zufall; 3.6.5 Leitidee",
+"sub": "Mit Normalverteilungen umgehen; mit Normalverteilungen umgeh",
+"topic": "math.s2.normal",
+"topic_label": "Normalverteilung",
+"topic_band": "12-13"
+},
+{
+"id": "20909d3aba641296|math.s2.exp_ln",
+"text": "den natürlichen Logarithmus einer Zahl als Lösung einer Exponentialgleichung verwenden",
+"grades": "11-12/12-13",
+"section": "3.5.1 Leitidee Zahl – Variable – Operation; 3.6.1 Leitidee Zahl – Variable – Ope",
+"sub": "Den natürlichen Logarithmus nutzen; den natürlichen Logarith",
+"topic": "math.s2.exp_ln",
+"topic_label": "e-Funktion und natürlicher Logarithmus",
+"topic_band": "11-12"
+},
+{
+"id": "6a00a6a604aa4445|math.s2.derivative_rules",
+"text": "die Produktregel zum Ableiten von Funktionstermen verwenden",
+"grades": "11-12/12-13",
+"section": "3.5.1 Leitidee Zahl – Variable – Operation; 3.6.1 Leitidee Zahl – Variable – Ope",
+"sub": "Weitere Ableitungsregeln anwenden; weitere Ableitungsregeln ",
+"topic": "math.s2.derivative_rules",
+"topic_label": "Ableitungsregeln",
+"topic_band": "11"
+},
+{
+"id": "61c08585c07e948d|math.s2.derivative_rules",
+"text": "die Kettenregel zum Ableiten von Funktionstermen verwenden, bei denen die innere Funktion eine lineare Funktion ist",
+"grades": "11-12/12-13",
+"section": "3.5.1 Leitidee Zahl – Variable – Operation; 3.6.1 Leitidee Zahl – Variable – Ope",
+"sub": "Weitere Ableitungsregeln anwenden; weitere Ableitungsregeln ",
+"topic": "math.s2.derivative_rules",
+"topic_label": "Ableitungsregeln",
+"topic_band": "11"
+},
+{
+"id": "5f08ad6f7ff807e7|math.s2.integral",
+"text": "Stammfunktionsterme zu den Funktionstermen \\(sin(x)\\), \\(cos(x)\\), \\(e^{x}\\) angeben",
+"grades": "11-12/12-13",
+"section": "3.5.1 Leitidee Zahl – Variable – Operation",
+"sub": "Integrationsregeln verwenden und Integrale berechnen",
+"topic": "math.s2.integral",
+"topic_label": "Integral und Stammfunktion",
+"topic_band": "11-12"
+},
+{
+"id": "0decb2f9d0ff6144|math.s2.vectors",
+"text": "das Skalarprodukt berechnen und bei Berechnungen nutzen",
+"grades": "11-12/12-13",
+"section": "3.5.1 Leitidee Zahl – Variable – Operation; 3.6.1 Leitidee Zahl – Variable – Ope",
+"sub": "Produkte von Vektoren bilden",
+"topic": "math.s2.vectors",
+"topic_label": "Vektoren",
+"topic_band": "11-12"
+},
+{
+"id": "34a73830b0e8fdf2|math.s2.vectors",
+"text": "das Vektorprodukt berechnen und bei Berechnungen nutzen",
+"grades": "11-12/12-13",
+"section": "3.5.1 Leitidee Zahl – Variable – Operation; 3.6.1 Leitidee Zahl – Variable – Ope",
+"sub": "Produkte von Vektoren bilden",
+"topic": "math.s2.vectors",
+"topic_label": "Vektoren",
+"topic_band": "11-12"
+},
+{
+"id": "f98e1ad2ff6ccfc7|math.s2.gauss",
+"text": "das Gaußverfahren, auch in Matrixschreibweise, auf lineare Gleichungssysteme ohne Parameter bis zur Stufenform anwenden",
+"grades": "11-12/12-13",
+"section": "3.5.1 Leitidee Zahl – Variable – Operation; 3.6.1 Leitidee Zahl – Variable – Ope",
+"sub": "Lineare Gleichungssysteme untersuchen; lineare Gleichungssys",
+"topic": "math.s2.gauss",
+"topic_label": "Lineare Gleichungssysteme und Gauß-Verfahren",
+"topic_band": "11-12"
+},
+{
+"id": "2dbbb7d5921ccc95|math.s2.gauss",
+"text": "die Lösungsvielfalt linearer Gleichungssysteme ohne Parameter angeben und im Falle eindeutiger Lösbarkeit deren Lösung bestimmen",
+"grades": "11-12/12-13",
+"section": "3.5.1 Leitidee Zahl – Variable – Operation; 3.6.1 Leitidee Zahl – Variable – Ope",
+"sub": "Lineare Gleichungssysteme untersuchen; lineare Gleichungssys",
+"topic": "math.s2.gauss",
+"topic_label": "Lineare Gleichungssysteme und Gauß-Verfahren",
+"topic_band": "11-12"
+},
+{
+"id": "baf05e634627d70b|math.s2.distances_angles",
+"text": "Abstände zwischen den geometrischen Objekten Punkt und Ebene ermitteln",
+"grades": "11-12/12-13",
+"section": "3.5.2 Leitidee Messen",
+"sub": "Winkelweiten, Abstände und Flächeninhalte in kartesischen Ko",
+"topic": "math.s2.distances_angles",
+"topic_label": "Abstände und Winkel im Raum",
+"topic_band": "12-13"
+},
+{
+"id": "a19c76630fe61dde|math.s2.integral",
+"text": "das bestimmte Integral mithilfe eines Grenzprozesses anschaulich beschreiben und geometrisch deuten",
+"grades": "11-12/12-13",
+"section": "3.5.2 Leitidee Messen; 3.6.2 Leitidee Messen",
+"sub": "Das Integral nutzen; das Integral nutzen",
+"topic": "math.s2.integral",
+"topic_label": "Integral und Stammfunktion",
+"topic_band": "11-12"
+},
+{
+"id": "45fd0ae68a313f9b|math.s2.lines_planes",
+"text": "Ebenen mithilfe einer Parameterdarstellung und einer Koordinatengleichung analytisch beschreiben",
+"grades": "11-12/12-13",
+"section": "3.5.3 Leitidee Raum und Form; 3.6.3 Leitidee Raum und Form",
+"sub": "Vektorielle Darstellungen zur Beschreibung des Anschauungsra",
+"topic": "math.s2.lines_planes",
+"topic_label": "Geraden und Ebenen im Raum",
+"topic_band": "12"
+},
+{
+"id": "a367ac33ebbb5044|math.s2.lines_planes",
+"text": "eine Parameterdarstellung einer Ebene in eine Koordinatengleichung umrechnen",
+"grades": "11-12/12-13",
+"section": "3.5.3 Leitidee Raum und Form; 3.6.3 Leitidee Raum und Form",
+"sub": "Vektorielle Darstellungen zur Beschreibung des Anschauungsra",
+"topic": "math.s2.lines_planes",
+"topic_label": "Geraden und Ebenen im Raum",
+"topic_band": "12"
+},
+{
+"id": "b06c72aa7d0b5092|math.s2.lines_planes",
+"text": "die Lagebeziehung zwischen einer Geraden und einer Ebene untersuchen und gegebenenfalls deren Schnittpunkt rechnerisch bestimmen",
+"grades": "11-12/12-13",
+"section": "3.5.3 Leitidee Raum und Form; 3.6.3 Leitidee Raum und Form",
+"sub": "Vektorielle Darstellungen zur Beschreibung des Anschauungsra",
+"topic": "math.s2.lines_planes",
+"topic_label": "Geraden und Ebenen im Raum",
+"topic_band": "12"
+},
+{
+"id": "eccc8a915aaf598f|math.s2.lines_planes",
+"text": "die Lagebeziehung zwischen zwei Ebenen erkennen und begründen",
+"grades": "11-12/12-13",
+"section": "3.5.3 Leitidee Raum und Form; 3.6.3 Leitidee Raum und Form",
+"sub": "Vektorielle Darstellungen zur Beschreibung des Anschauungsra",
+"topic": "math.s2.lines_planes",
+"topic_label": "Geraden und Ebenen im Raum",
+"topic_band": "12"
+},
+{
+"id": "fce449950aea73b5|math.s2.distances_angles",
+"text": "Problemstellungen, wie zum Beispiel Spiegelung eines Punktes an einer Ebene sowie Flächeninhalts- und Volumenberechnungen bearbeiten",
+"grades": "11-12/12-13",
+"section": "3.5.3 Leitidee Raum und Form",
+"sub": "Vektorielle Darstellungen zur Beschreibung des Anschauungsra",
+"topic": "math.s2.distances_angles",
+"topic_label": "Abstände und Winkel im Raum",
+"topic_band": "12-13"
+},
+{
+"id": "fce449950aea73b5|math.s2.lines_planes",
+"text": "Problemstellungen, wie zum Beispiel Spiegelung eines Punktes an einer Ebene sowie Flächeninhalts- und Volumenberechnungen bearbeiten",
+"grades": "11-12/12-13",
+"section": "3.5.3 Leitidee Raum und Form",
+"sub": "Vektorielle Darstellungen zur Beschreibung des Anschauungsra",
+"topic": "math.s2.lines_planes",
+"topic_label": "Geraden und Ebenen im Raum",
+"topic_band": "12"
+},
+{
+"id": "9b91f16de7ca5fff|math.s2.exp_ln",
+"text": "die besondere Bedeutung der Basis e bei Exponentialfunktionen beschreiben",
+"grades": "11-12/12-13",
+"section": "3.5.4 Leitidee Funktionaler Zusammenhang; 3.6.4 Leitidee Funktionaler Zusammenha",
+"sub": "Mit der natürlichen Exponentialfunktion umgehen; mit der nat",
+"topic": "math.s2.exp_ln",
+"topic_label": "e-Funktion und natürlicher Logarithmus",
+"topic_band": "11-12"
+},
+{
+"id": "d9b0f025eff30bf2|math.s2.exp_ln",
+"text": "charakteristische Eigenschaften der Funktion \\(f\\) mit \\(f(x)=e^{x}\\) beschreiben und deren Graph mit dessen waagrechter Asymptote skizzieren",
+"grades": "11-12/12-13",
+"section": "3.5.4 Leitidee Funktionaler Zusammenhang",
+"sub": "Mit der natürlichen Exponentialfunktion umgehen; mit der nat",
+"topic": "math.s2.exp_ln",
+"topic_label": "e-Funktion und natürlicher Logarithmus",
+"topic_band": "11-12"
+},
+{
+"id": "34fff5070f102abf|math.s2.function_classes",
+"text": "Verkettungen von Funktionen erkennen, falls die innere Funktion eine lineare Funktion ist",
+"grades": "11-12/12-13",
+"section": "3.5.4 Leitidee Funktionaler Zusammenhang; 3.6.4 Leitidee Funktionaler Zusammenha",
+"sub": "Mit zusammengesetzten Funktionen umgehen; mit zusammengesetz",
+"topic": "math.s2.function_classes",
+"topic_label": "Funktionenklassen und Transformationen",
+"topic_band": "10-11"
+},
+{
+"id": "792b426d88a99c43|math.s2.function_classes",
+"text": "Graphen von zusammengesetzten Funktionen (Summe, Produkt, Verkettung mit linearer innerer Funktion) untersuchen",
+"grades": "11-12/12-13",
+"section": "3.5.4 Leitidee Funktionaler Zusammenhang; 3.6.4 Leitidee Funktionaler Zusammenha",
+"sub": "Mit zusammengesetzten Funktionen umgehen; mit zusammengesetz",
+"topic": "math.s2.function_classes",
+"topic_label": "Funktionenklassen und Transformationen",
+"topic_band": "10-11"
+},
+{
+"id": "eed299f8c95e5f00|math.s2.optimisation",
+"text": "Extremwerte auch in außermathematischen Sachzusammenhängen bestimmen",
+"grades": "11-12/12-13",
+"section": "3.5.4 Leitidee Funktionaler Zusammenhang; 3.6.4 Leitidee Funktionaler Zusammenha",
+"sub": "Differentialrechnung anwenden",
+"topic": "math.s2.optimisation",
+"topic_label": "Extremwertprobleme",
+"topic_band": "11-12"
+},
+{
+"id": "63cf57db788e8c1f|math.s2.curve_analysis",
+"text": "einen Funktionsterm ermitteln, falls dieser durch die Eigenschaften eines Graphen eindeutig festgelegt ist",
+"grades": "11-12/12-13",
+"section": "3.5.4 Leitidee Funktionaler Zusammenhang; 3.6.4 Leitidee Funktionaler Zusammenha",
+"sub": "Differentialrechnung anwenden",
+"topic": "math.s2.curve_analysis",
+"topic_label": "Funktionsuntersuchung",
+"topic_band": "11-12"
+},
+{
+"id": "a82d2bd95097c166|math.s2.integral",
+"text": "den Wert des bestimmten Integrals als orientierten Flächeninhalt und als Bestandsveränderung deuten",
+"grades": "11-12/12-13",
+"section": "3.5.4 Leitidee Funktionaler Zusammenhang; 3.6.4 Leitidee Funktionaler Zusammenha",
+"sub": "Die Grundidee der Integralrechnung verstehen und mit Integra",
+"topic": "math.s2.integral",
+"topic_label": "Integral und Stammfunktion",
+"topic_band": "11-12"
+},
+{
+"id": "a82d2bd95097c166|math.s2.integral_applications",
+"text": "den Wert des bestimmten Integrals als orientierten Flächeninhalt und als Bestandsveränderung deuten",
+"grades": "11-12/12-13",
+"section": "3.5.4 Leitidee Funktionaler Zusammenhang; 3.6.4 Leitidee Funktionaler Zusammenha",
+"sub": "Die Grundidee der Integralrechnung verstehen und mit Integra",
+"topic": "math.s2.integral_applications",
+"topic_label": "Anwendungen der Integralrechnung",
+"topic_band": "12-13"
+},
+{
+"id": "269b1a8493cd1f73|math.s2.integral",
+"text": "den Hauptsatz der Differential- und Integralrechnung anwenden",
+"grades": "11-12/12-13",
+"section": "3.5.4 Leitidee Funktionaler Zusammenhang; 3.6.4 Leitidee Funktionaler Zusammenha",
+"sub": "Die Grundidee der Integralrechnung verstehen und mit Integra",
+"topic": "math.s2.integral",
+"topic_label": "Integral und Stammfunktion",
+"topic_band": "11-12"
+},
+{
+"id": "09f4ceca61390e6a|math.s2.normal",
+"text": "den Unterschied zwischen diskreten und stetigen Zufallsgrößen am Beispiel binomial- und normalverteilter Zufallsgrößen beschreiben",
+"grades": "11-12/12-13",
+"section": "3.5.5 Leitidee Daten und Zufall; 3.6.5 Leitidee Daten und Zufall",
+"sub": "Mit Normalverteilungen umgehen; mit Normalverteilungen umgeh",
+"topic": "math.s2.normal",
+"topic_label": "Normalverteilung",
+"topic_band": "12-13"
+},
+{
+"id": "8f96dd120d3f36df|math.s2.normal",
+"text": "den Zusammenhang der Kenngrößen Erwartungswert und Standardabweichung einer Normalverteilung und der zugehörigen Glockenkurve beschreiben",
+"grades": "11-12/12-13",
+"section": "3.5.5 Leitidee Daten und Zufall; 3.6.5 Leitidee Daten und Zufall",
+"sub": "Mit Normalverteilungen umgehen; mit Normalverteilungen umgeh",
+"topic": "math.s2.normal",
+"topic_label": "Normalverteilung",
+"topic_band": "12-13"
+},
+{
+"id": "aca79294d03a0023|math.s1.functions_concept",
+"text": "anhand einer Betrachtung der Graphen von \\(f\\) mit \\(f(x)=x^{ 2 }\\) und der Wurzelfunktion \\(g\\) mit \\(g(x)=\\sqrt{ x }\\) den Funktionsbegriff und dabei auch die Begriffe Definitionsmenge und Wertemenge erläutern Begriffe Definitionsmenge und Wertemenge erläutern",
+"grades": "11",
+"section": "3.3.4 Leitidee Funktionaler Zusammenhang",
+"sub": "Mit Funktionen umgehen",
+"topic": "math.s1.functions_concept",
+"topic_label": "Funktionsbegriff",
+"topic_band": "7-8"
+},
+{
+"id": "aca79294d03a0023|math.s1.power_functions",
+"text": "anhand einer Betrachtung der Graphen von \\(f\\) mit \\(f(x)=x^{ 2 }\\) und der Wurzelfunktion \\(g\\) mit \\(g(x)=\\sqrt{ x }\\) den Funktionsbegriff und dabei auch die Begriffe Definitionsmenge und Wertemenge erläutern Begriffe Definitionsmenge und Wertemenge erläutern",
+"grades": "11",
+"section": "3.3.4 Leitidee Funktionaler Zusammenhang",
+"sub": "Mit Funktionen umgehen",
+"topic": "math.s1.power_functions",
+"topic_label": "Potenzfunktionen",
+"topic_band": "10"
+},
+{
+"id": "46692e5ef8e2723a|math.s1.quadratic_equations",
+"text": "die Methode der Substitution zum Lösen von Gleichungen anwenden, insbesondere bei biquadratischen Gleichungen",
+"grades": "11/9-10",
+"section": "3.3.1 Leitidee Zahl – Variable – Operation",
+"sub": "Gleichungen lösen",
+"topic": "math.s1.quadratic_equations",
+"topic_label": "Quadratische Gleichungen",
+"topic_band": "9"
+},
+{
+"id": "46692e5ef8e2723a|math.s2.function_classes",
+"text": "die Methode der Substitution zum Lösen von Gleichungen anwenden, insbesondere bei biquadratischen Gleichungen",
+"grades": "11/9-10",
+"section": "3.3.1 Leitidee Zahl – Variable – Operation",
+"sub": "Gleichungen lösen",
+"topic": "math.s2.function_classes",
+"topic_label": "Funktionenklassen und Transformationen",
+"topic_band": "10-11"
+},
+{
+"id": "972c5e35a1cdfab1|math.s1.pythagoras",
+"text": "unter Nutzung des Satzes des Pythagoras Längen von Strecken (Hypotenuse, Katheten) berechnen beziehungsweise mithilfe seines Kehrsatzes auf Orthogonalität schließen",
+"grades": "11/7-9/9-10",
+"section": "3.2.3 Leitidee Raum und Form; 3.3.3 Leitidee Raum und Form",
+"sub": "den Satz des Pythagoras anwenden; geometrische Zusammenhänge",
+"topic": "math.s1.pythagoras",
+"topic_label": "Satz des Pythagoras",
+"topic_band": "8-9"
+},
+{
+"id": "ba84b4c59ecb3124|math.s1.trigonometry",
+"text": "die Beziehungen \\(sin^{ 2 }(\\alpha)+cos^{ 2 }(\\alpha)=1\\), \\(sin(90^\\circ‑\\alpha)=cos(\\alpha)\\), \\(tan(\\alpha)=\\frac{ sin(\\alpha) }{ cos(\\alpha)}\\) herleiten",
+"grades": "11/9-10",
+"section": "3.3.3 Leitidee Raum und Form",
+"sub": "geometrische Zusammenhänge beweisen und mit trigonometrische",
+"topic": "math.s1.trigonometry",
+"topic_label": "Trigonometrie im Dreieck",
+"topic_band": "9-10"
+},
+{
+"id": "eaf0f3fb2c774a28|math.s1.power_functions",
+"text": "die Graphen der Potenzfunktionen \\(f\\) mit \\(f(x)=x^{ n }, n \\in\\) \\(mathbb{N}\\) und \\(f(x)=x^{ k }\\ (k=-1,‑2)\\) unter Verwendung charakteristischer Eigenschaften skizzieren",
+"grades": "11",
+"section": "3.3.4 Leitidee Funktionaler Zusammenhang",
+"sub": "mit Funktionen umgehen",
+"topic": "math.s1.power_functions",
+"topic_label": "Potenzfunktionen",
+"topic_band": "10"
+},
+{
+"id": "25ea2f15e32f5f5e|math.s2.inverse_functions",
+"text": "anhand der Funktion \\(f\\) mit \\(f(x)=x^{ 2 }\\) und der Wurzelfunktion \\(g) mit \\(g(x)=\\sqrt{ x }\\) den Begriff der Umkehrfunktion beschreiben, den Zusammenhang ihrer Graphen erläutern und ihre Definitionsmengen und Wertemengen vergleichen",
+"grades": "11/9-10",
+"section": "3.3.4 Leitidee Funktionaler Zusammenhang",
+"sub": "mit Funktionen umgehen",
+"topic": "math.s2.inverse_functions",
+"topic_label": "Umkehrfunktionen",
+"topic_band": "10-12"
+},
+{
+"id": "9265f69a76457a7d|math.s1.exponential",
+"text": "Wachstumsvorgänge mithilfe von Exponentialfunktionen beschreiben und Berechnungen durchführen sowie die Bedeutung von Halbwertszeit und Verdopplungszeit erläutern",
+"grades": "11/9-10",
+"section": "3.3.4 Leitidee Funktionaler Zusammenhang",
+"sub": "mit Funktionen umgehen; mit Potenz- und Exponentialfunktione",
+"topic": "math.s1.exponential",
+"topic_label": "Exponentielles Wachstum und Exponentialfunktionen",
+"topic_band": "9-10"
+},
+{
+"id": "0bb8b1c1dc745aa2|math.s1.trig_functions",
+"text": "die Sinusfunktion der Form \\(f(x)= a \\cdot sin(b \\cdot x)\\) zur Beschreibung periodischer Vorgänge verwenden, insesondere mithilfe digitaler Mathematikwerkzeuge verwenden",
+"grades": "11/9-10",
+"section": "3.3.4 Leitidee Funktionaler Zusammenhang",
+"sub": "mit Funktionen umgehen",
+"topic": "math.s1.trig_functions",
+"topic_label": "Trigonometrische Funktionen",
+"topic_band": "10"
+},
+{
+"id": "caf418dc0ea3b5d6|math.s1.trig_functions",
+"text": "charakteristische Punkte von Graphen trigonometrischer Funktionen \\(f\\) mit \\(f(x)= a \\cdot sin(b \\cdot x)\\) angeben, auch auf ganz \\(\\mathbb{R}\\)",
+"grades": "11/9-10",
+"section": "3.3.4 Leitidee Funktionaler Zusammenhang",
+"sub": "mit Funktionen umgehen",
+"topic": "math.s1.trig_functions",
+"topic_label": "Trigonometrische Funktionen",
+"topic_band": "10"
+},
+{
+"id": "78629ef68d5158de|math.s2.random_variables",
+"text": "den Erwartungswert einer Zufallsgröße bei gegebener Wahrscheinlichkeitsverteilung im Sachkontext erläutern",
+"grades": "10/11/9-10",
+"section": "3.3.5 Leitidee Daten und Zufall",
+"sub": "Wahrscheinlichkeiten verstehen und berechnen; Wahrscheinlich",
+"topic": "math.s2.random_variables",
+"topic_label": "Zufallsgrößen und Erwartungswert",
+"topic_band": "11-12"
+},
+{
+"id": "c6c8358c08b1dca2|math.s2.random_variables",
+"text": "den Erwartungswert einer Zufallsgröße bei gegebener Wahrscheinlichkeitsverteilung berechnen, auch unter Verwendung des Summenzeichens \\(\\sum\\)",
+"grades": "10/11/9-10",
+"section": "3.3.5 Leitidee Daten und Zufall",
+"sub": "Wahrscheinlichkeiten verstehen und berechnen; Wahrscheinlich",
+"topic": "math.s2.random_variables",
+"topic_label": "Zufallsgrößen und Erwartungswert",
+"topic_band": "11-12"
+},
+{
+"id": "3088df0ae8b0b209|math.s2.random_variables",
+"text": "die Varianz und Standardabweichung einer Zufallsgröße bei gegebener Wahrscheinlichkeitsverteilung berechnen und im Sachkontext erläutern",
+"grades": "10/11/9-10",
+"section": "3.3.5 Leitidee Daten und Zufall",
+"sub": "Wahrscheinlichkeiten verstehen und berechnen; Wahrscheinlich",
+"topic": "math.s2.random_variables",
+"topic_label": "Zufallsgrößen und Erwartungswert",
+"topic_band": "11-12"
+},
+{
+"id": "9f4dd6dee9f0b518|math.s2.binomial",
+"text": "Binomialverteilungen in Histogrammen graphisch darstellen und die Wirkung der Parameter \\(n\\) und \\(p\\) beschreiben",
+"grades": "11/9-10",
+"section": "3.3.5 Leitidee Daten und Zufall",
+"sub": "mit Binomialverteilungen umgehen",
+"topic": "math.s2.binomial",
+"topic_label": "Binomialverteilung",
+"topic_band": "12"
+},
+{
+"id": "ff721207f2b1ef4c|math.s2.binomial",
+"text": "die Kenngrößen Erwartungswert, Varianz und Standardabweichung einer binomialverteilten Zufallsgröße berechnen und ihren Zusammenhang am Histogramm erläutern",
+"grades": "11/9-10",
+"section": "3.3.5 Leitidee Daten und Zufall",
+"sub": "mit Binomialverteilungen umgehen",
+"topic": "math.s2.binomial",
+"topic_label": "Binomialverteilung",
+"topic_band": "12"
+},
+{
+"id": "4a9f6ce7fbb6dbb6|math.s2.distances_angles",
+"text": "Problemstellungen, wie zum Beispiel Spiegelung eines Punktes an einer Ebene, Spiegelung einer Geraden an einem Punkt, Abstands‑, Flächeninhalts- und Volumenberechnungen sowie Untersuchungen geradliniger Bewegungen, im Raum bearbeiten",
+"grades": "11-12/12-13",
+"section": "3.4.3 Leitidee Raum und Form",
+"sub": "vektorielle Darstellungen zur Beschreibung des Anschauungsra",
+"topic": "math.s2.distances_angles",
+"topic_label": "Abstände und Winkel im Raum",
+"topic_band": "12-13"
+},
+{
+"id": "4a9f6ce7fbb6dbb6|math.s2.lines_planes",
+"text": "Problemstellungen, wie zum Beispiel Spiegelung eines Punktes an einer Ebene, Spiegelung einer Geraden an einem Punkt, Abstands‑, Flächeninhalts- und Volumenberechnungen sowie Untersuchungen geradliniger Bewegungen, im Raum bearbeiten",
+"grades": "11-12/12-13",
+"section": "3.4.3 Leitidee Raum und Form",
+"sub": "vektorielle Darstellungen zur Beschreibung des Anschauungsra",
+"topic": "math.s2.lines_planes",
+"topic_label": "Geraden und Ebenen im Raum",
+"topic_band": "12"
+},
+{
+"id": "c4be36ca2703dcdd|math.s2.exp_ln",
+"text": "die Graphen der natürlichen Exponential- und Logarithmusfunktion unter Verwendung charakteristischer Eigenschaften skizzieren und die Beziehung zwischen den Graphen beschreiben, auch unter dem Aspekt der Umkehrfunktion",
+"grades": "11-12/12-13",
+"section": "3.4.4 Leitidee Funktionaler Zusammenhang; 3.5.4 Leitidee Funktionaler Zusammenha",
+"sub": "mit der natürlichen Exponential- und Logarithmusfunktion umg",
+"topic": "math.s2.exp_ln",
+"topic_label": "e-Funktion und natürlicher Logarithmus",
+"topic_band": "11-12"
+},
+{
+"id": "d4c1d3e2ed8c25c7|math.s2.inverse_functions",
+"text": "Definitionsmengen und Wertemengen von Funktionen bestimmen und den Zusammenhang zwischen der Wertemenge einer Funktion und der Definitionsmenge ihrer Umkehrfunktion erläutern",
+"grades": "11-12/12-13",
+"section": "3.4.4 Leitidee Funktionaler Zusammenhang; 3.5.4 Leitidee Funktionaler Zusammenha",
+"sub": "mit Umkehrfunktionen arbeiten",
+"topic": "math.s2.inverse_functions",
+"topic_label": "Umkehrfunktionen",
+"topic_band": "10-12"
+},
+{
+"id": "6bed8721743d450d|math.s2.inverse_functions",
+"text": "die strenge Monotonie einer Funktion verwenden, um ihre Umkehrbarkeit nachzuweisen, und die Nichtumkehrbarkeit einer Funktion anhand ihrer charakteristischen Eigenschaften begründen",
+"grades": "11-12/12-13",
+"section": "3.4.4 Leitidee Funktionaler Zusammenhang; 3.5.4 Leitidee Funktionaler Zusammenha",
+"sub": "mit Umkehrfunktionen arbeiten",
+"topic": "math.s2.inverse_functions",
+"topic_label": "Umkehrfunktionen",
+"topic_band": "10-12"
+},
+{
+"id": "f8d15da24242a962|math.s2.inverse_functions",
+"text": "zu einer gegebenen umkehrbaren Funktion den Term ihrer Umkehrfunktion bestimmen",
+"grades": "11-12/12-13",
+"section": "3.4.4 Leitidee Funktionaler Zusammenhang; 3.5.4 Leitidee Funktionaler Zusammenha",
+"sub": "mit Umkehrfunktionen arbeiten",
+"topic": "math.s2.inverse_functions",
+"topic_label": "Umkehrfunktionen",
+"topic_band": "10-12"
+},
+{
+"id": "2b15b24d6b03e753|math.s2.normal",
+"text": "den Unterschied zwischen diskreten und stetigen Zufallsgrößen erläutern, insbesondere am Beispiel binomial- und normalverteilter Zufallsgrößen",
+"grades": "11-12/12-13",
+"section": "3.4.5 Leitidee Daten und Zufall; 3.5.5 Leitidee Daten und Zufall",
+"sub": "mit Normalverteilungen umgehen",
+"topic": "math.s2.normal",
+"topic_label": "Normalverteilung",
+"topic_band": "12-13"
+},
+{
+"id": "33685e9381a75c75|math.s2.distances_angles",
+"text": "den Abstand zwischen den geometrischen Objekten Punkt und Ebene ermitteln",
+"grades": "11-12/12-13",
+"section": "3.5.2 Leitidee Messen; 3.6.2 Leitidee Messen",
+"sub": "Winkelweiten, Abstände und Flächeninhalte in kartesischen Ko",
+"topic": "math.s2.distances_angles",
+"topic_label": "Abstände und Winkel im Raum",
+"topic_band": "12-13"
+},
+{
+"id": "8cfeae687c3c859b|math.s2.distances_angles",
+"text": "Problemstellungen, wie zum Beispiel Spiegelung eines Punktes an einer Ebene, Flächeninhalts- und Volumenberechnungen bearbeiten, sowie Untersuchungen geradliniger Bewegungen",
+"grades": "11-12/12-13",
+"section": "3.5.3 Leitidee Raum und Form",
+"sub": "vektorielle Darstellungen zur Beschreibung des Anschauungsra",
+"topic": "math.s2.distances_angles",
+"topic_label": "Abstände und Winkel im Raum",
+"topic_band": "12-13"
+},
+{
+"id": "8cfeae687c3c859b|math.s2.lines_planes",
+"text": "Problemstellungen, wie zum Beispiel Spiegelung eines Punktes an einer Ebene, Flächeninhalts- und Volumenberechnungen bearbeiten, sowie Untersuchungen geradliniger Bewegungen",
+"grades": "11-12/12-13",
+"section": "3.5.3 Leitidee Raum und Form",
+"sub": "vektorielle Darstellungen zur Beschreibung des Anschauungsra",
+"topic": "math.s2.lines_planes",
+"topic_label": "Geraden und Ebenen im Raum",
+"topic_band": "12"
+},
+{
+"id": "396fee25f6aa6e9a|math.s1.fractions",
+"text": "Brüche zur Beschreibung von Realsituationen verwenden, insbesondere unter den Aspekten Anteil, Teile eines oder mehrerer Ganzer, Verhältnis, Operator, Maßzahl einer Größe",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Zahlbereiche erkunden",
+"topic": "math.s1.fractions",
+"topic_label": "Brüche und Bruchteile",
+"topic_band": "5-6"
+},
+{
+"id": "e52826ca262299cd|math.s1.fractions",
+"text": "Brüche in verschiedenen Formen darstellen (zum Beispiel durch geometrische Figuren, Bruchstreifen)",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Zahlbereiche erkunden",
+"topic": "math.s1.fractions",
+"topic_label": "Brüche und Bruchteile",
+"topic_band": "5-6"
+},
+{
+"id": "aa9610fcca1a82a8|math.p.written_algorithms",
+"text": "natürliche Zahlen und positive Dezimalzahlen schriftlich addieren, subtrahieren, multiplizieren (dabei ein Faktor maximal dreistellig) und dividieren (Divisor maximal zweistellig)",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "mit Zahlen rechnen",
+"topic": "math.p.written_algorithms",
+"topic_label": "Schriftliche Rechenverfahren",
+"topic_band": "3-4"
+},
+{
+"id": "aa9610fcca1a82a8|math.s1.decimals",
+"text": "natürliche Zahlen und positive Dezimalzahlen schriftlich addieren, subtrahieren, multiplizieren (dabei ein Faktor maximal dreistellig) und dividieren (Divisor maximal zweistellig)",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "mit Zahlen rechnen",
+"topic": "math.s1.decimals",
+"topic_label": "Dezimalzahlen",
+"topic_band": "5-6"
+},
+{
+"id": "673ced80825423f8|math.s1.powers",
+"text": "Potenzen als Kurzschreibweise eines Produkts erklären und verwenden sowie die Quadratzahlen von 1^2 bis 20^2 wiedergeben und erkennen",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "mit Zahlen rechnen",
+"topic": "math.s1.powers",
+"topic_label": "Potenzen und Potenzgesetze",
+"topic_band": "9-10"
+},
+{
+"id": "599c7a947ed0d113|math.s1.units",
+"text": "Einheiten für Masse, Zeit(-spanne), Geld, Länge, Flächeninhalt und Volumen verwenden und umwandeln",
+"grades": "5-6",
+"section": "3.1.2 Leitidee Messen",
+"sub": "mit Größen umgehen",
+"topic": "math.s1.units",
+"topic_label": "Größen und Einheiten",
+"topic_band": "5"
+},
+{
+"id": "c8e909d75392f797|math.s1.units",
+"text": "alltagsbezogene Repräsentanten als Schätzhilfe für Größenangaben verwenden, auch zur Plausibilitätsprüfung",
+"grades": "5-6",
+"section": "3.1.2 Leitidee Messen",
+"sub": "mit Größen umgehen",
+"topic": "math.s1.units",
+"topic_label": "Größen und Einheiten",
+"topic_band": "5"
+},
+{
+"id": "99d4f3084b19ffee|math.s1.functions_concept",
+"text": "einfache funktionale Zusammenhänge in verbaler, tabellarischer, ikonischer und grafischer Form (auch im Koordinatensystem) darstellen und zwischen Darstellungsformen wechseln",
+"grades": "5-6",
+"section": "3.1.4 Leitidee Funktionaler Zusammenhang",
+"sub": "Zusammenhänge beschreiben",
+"topic": "math.s1.functions_concept",
+"topic_label": "Funktionsbegriff",
+"topic_band": "7-8"
+},
+{
+"id": "72db0d0cce81230b|math.s1.statistics",
+"text": "zu einer statistischen Fragestellung eine Datenerhebung planen und durchführen, auch unter den Aspekten Stichprobenauswahl und Erhebungsinstrument, und dabei Urlisten, Strichlisten, Häufigkeitstabellen anfertigen",
+"grades": "5-6",
+"section": "3.1.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen und auswerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "96ebe803d355d2b5|math.s1.statistics",
+"text": "Daten grafisch darstellen (Balken‑, Säulen‑, Streifen‑, Kreisdiagramm), auch unter Verwendung von Tabellenkalkulation",
+"grades": "5-6",
+"section": "3.1.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen und auswerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "c25e0e938cea546e|math.s1.statistics",
+"text": "die Kenngrößen Maximum, Minimum, Spannweite, Median und Mittelwert (arithmetisches Mittel) bestimmen",
+"grades": "5-6",
+"section": "3.1.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen und auswerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "a7726928f988a9b4|math.s1.statistics",
+"text": "Daten aus vorgegebenen Sekundärquellen (zum Beispiel Texten, Diagrammen, bildlichen Darstellungen) entnehmen und interpretieren",
+"grades": "5-6",
+"section": "3.1.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen und auswerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "39b51c7eaf88bcbe|math.s1.statistics",
+"text": "Daten aus ihrer Erfahrungswelt auch bei unterschiedlichen Darstellungsformen auswerten, vergleichen und deuten, auch mithilfe von Tabellenkalkulation",
+"grades": "5-6",
+"section": "3.1.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen und auswerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "3de07dd347e7c4bc|math.s1.statistics",
+"text": "statistische Darstellungen hinsichtlich ihrer Eignung und hinsichtlich Irreführung beurteilen",
+"grades": "5-6",
+"section": "3.1.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen und auswerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "cdf07fd0d6bc2816|math.s1.percent",
+"text": "Prozentwert, Grundwert und Prozentsatz identifizieren, visualisieren (zum Beispiel Prozentstreifen) und berechnen",
+"grades": "7-8",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "mit Prozenten und Zinsen umgehen",
+"topic": "math.s1.percent",
+"topic_label": "Prozentrechnung",
+"topic_band": "6-7"
+},
+{
+"id": "9e1b52a8a5835c29|math.s1.terms",
+"text": "Zahlenfolgen fortsetzen und unter Verwendung von Variablen beschreiben (auch die Folge der ungeraden und geraden Zahlen)",
+"grades": "7-8/7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "mit Termen umgehen, die auch Variablen enthalten",
+"topic": "math.s1.terms",
+"topic_label": "Terme und Variablen",
+"topic_band": "5-8"
+},
+{
+"id": "e90fb31fae5787e1|math.s1.terms",
+"text": "einfache Formeln (zum Beispiel \\(\\rho = \\frac{m}{V}\\)) nach jeder Variablen auflösen",
+"grades": "7-8",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "mit Termen umgehen, die auch Variablen enthalten",
+"topic": "math.s1.terms",
+"topic_label": "Terme und Variablen",
+"topic_band": "5-8"
+},
+{
+"id": "1ecd1d79f4d8f05b|math.s1.roots",
+"text": "anhand eines Beispiels erklären, dass im Allgemeinen \\(\\sqrt{a} + \\sqrt{b} \\neq \\sqrt{a+b}\\) ist, aber \\(\\sqrt{a \\cdot b}= \\sqrt{a} \\cdot \\sqrt{b}\\) ist",
+"grades": "7-8",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "mit Wurzeln umgehen",
+"topic": "math.s1.roots",
+"topic_label": "Quadratwurzeln und reelle Zahlen",
+"topic_band": "8-9"
+},
+{
+"id": "b9f694a4bb8591bc|math.s1.roots",
+"text": "ein iteratives Verfahren (zum Beispiel Heron-Verfahren, Intervallschachtelung) zur Bestimmung einer Wurzel durchführen, bewerten und mit einem digitalen Werkzeug implementieren",
+"grades": "7-8",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Zahlbereichserweiterungen untersuchen",
+"topic": "math.s1.roots",
+"topic_label": "Quadratwurzeln und reelle Zahlen",
+"topic_band": "8-9"
+},
+{
+"id": "ea99ddb95fa64f40|math.s1.linear_equations",
+"text": "lineare Gleichungen durch systematisches Probieren und Äquivalenzumformungen lösen",
+"grades": "7-8/7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Gleichungen lösen",
+"topic": "math.s1.linear_equations",
+"topic_label": "Lineare Gleichungen",
+"topic_band": "7-8"
+},
+{
+"id": "d66a4c6b11345410|math.s1.linear_equations",
+"text": "die Lösbarkeit und Lösungsvielfalt von linearen Gleichungen sowie linearen Gleichungssystemen untersuchen",
+"grades": "7-8",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Gleichungen lösen",
+"topic": "math.s1.linear_equations",
+"topic_label": "Lineare Gleichungen",
+"topic_band": "7-8"
+},
+{
+"id": "d66a4c6b11345410|math.s1.linear_systems",
+"text": "die Lösbarkeit und Lösungsvielfalt von linearen Gleichungen sowie linearen Gleichungssystemen untersuchen",
+"grades": "7-8",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Gleichungen lösen",
+"topic": "math.s1.linear_systems",
+"topic_label": "Lineare Gleichungssysteme",
+"topic_band": "8-9"
+},
+{
+"id": "22f11caf8c18e136|math.s1.linear_functions",
+"text": "lineare Gleichungen sowie lineare Gleichungssysteme geometrisch als Schnittproblem von Graphen interpretieren und so näherungsweise lösen",
+"grades": "7-8",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Gleichungen lösen",
+"topic": "math.s1.linear_functions",
+"topic_label": "Lineare Funktionen",
+"topic_band": "7-8"
+},
+{
+"id": "22f11caf8c18e136|math.s1.linear_systems",
+"text": "lineare Gleichungen sowie lineare Gleichungssysteme geometrisch als Schnittproblem von Graphen interpretieren und so näherungsweise lösen",
+"grades": "7-8",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Gleichungen lösen",
+"topic": "math.s1.linear_systems",
+"topic_label": "Lineare Gleichungssysteme",
+"topic_band": "8-9"
+},
+{
+"id": "9bd76f5d8f5e736e|math.s1.functions_concept",
+"text": "einfache lineare Ungleichungen geometrisch interpretieren und mithilfe funktionaler Überlegungen lösen",
+"grades": "7-8",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Gleichungen lösen",
+"topic": "math.s1.functions_concept",
+"topic_label": "Funktionsbegriff",
+"topic_band": "7-8"
+},
+{
+"id": "9bd76f5d8f5e736e|math.s1.linear_equations",
+"text": "einfache lineare Ungleichungen geometrisch interpretieren und mithilfe funktionaler Überlegungen lösen",
+"grades": "7-8",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Gleichungen lösen",
+"topic": "math.s1.linear_equations",
+"topic_label": "Lineare Gleichungen",
+"topic_band": "7-8"
+},
+{
+"id": "9986918c980de7da|math.s1.functions_concept",
+"text": "zu einer gegebenen Funktion eine Sachsituation angeben, die mithilfe dieser Funktion beschrieben werden kann",
+"grades": "7-8",
+"section": "3.2.4 Leitidee Funktionaler Zusammenhang",
+"sub": "funktionale Zusammenhänge darstellen und nutzen",
+"topic": "math.s1.functions_concept",
+"topic_label": "Funktionsbegriff",
+"topic_band": "7-8"
+},
+{
+"id": "300ee59a0971c2f9|math.s1.proportionality",
+"text": "Proportionalität und Antiproportionalität in verschiedenen Darstellungsformen erkennen und für Berechnungen nutzen, auch in Sachzusammenhängen",
+"grades": "7-8/7-9",
+"section": "3.2.4 Leitidee Funktionaler Zusammenhang",
+"sub": "funktionale Zusammenhänge darstellen und nutzen",
+"topic": "math.s1.proportionality",
+"topic_label": "Proportionale und antiproportionale Zuordnungen",
+"topic_band": "6-7"
+},
+{
+"id": "1cfa053a2174c22f|math.s1.linear_functions",
+"text": "eine Gerade mit der Gleichung ​\\(y = m x + c\\) unter anderem unter Verwendung von Steigung und Steigungsdreiecken zeichnen und einer Geraden eine Gleichung zuordnen",
+"grades": "7-8",
+"section": "3.2.4 Leitidee Funktionaler Zusammenhang",
+"sub": "mit linearen Funktionen umgehen",
+"topic": "math.s1.linear_functions",
+"topic_label": "Lineare Funktionen",
+"topic_band": "7-8"
+},
+{
+"id": "6360bc0a56b45acd|math.s1.probability",
+"text": "die auftretenden relativen Häufigkeiten bei der Durchführung von Zufallsexperimenten als Schätzwerte von Wahrscheinlichkeiten deuten, die bei wachsendem Stichprobenumfang tendenziell besser werden (Gesetz der großen Zahlen)",
+"grades": "7-8",
+"section": "3.2.5 Leitidee Daten und Zufall",
+"sub": "Wahrscheinlichkeiten verstehen und berechnen",
+"topic": "math.s1.probability",
+"topic_label": "Zufallsexperimente und Wahrscheinlichkeit",
+"topic_band": "6-8"
+},
+{
+"id": "50ff4a685f57620c|math.s1.combinatorics",
+"text": "die Anzahl der jeweiligen Möglichkeiten (mögliche und günstige Ergebnisse) in konkreten Situationen durch kombinatorische Überlegungen bestimmen",
+"grades": "7-8",
+"section": "3.2.5 Leitidee Daten und Zufall",
+"sub": "Wahrscheinlichkeiten verstehen und berechnen",
+"topic": "math.s1.combinatorics",
+"topic_label": "Zählprinzipien und Kombinatorik",
+"topic_band": "6-9"
+},
+{
+"id": "50ff4a685f57620c|math.s1.probability",
+"text": "die Anzahl der jeweiligen Möglichkeiten (mögliche und günstige Ergebnisse) in konkreten Situationen durch kombinatorische Überlegungen bestimmen",
+"grades": "7-8",
+"section": "3.2.5 Leitidee Daten und Zufall",
+"sub": "Wahrscheinlichkeiten verstehen und berechnen",
+"topic": "math.s1.probability",
+"topic_label": "Zufallsexperimente und Wahrscheinlichkeit",
+"topic_band": "6-8"
+},
+{
+"id": "2f3b374895c84eb1|math.s1.quadratic_equations",
+"text": "die Lösbarkeit und Lösungsvielfalt von quadratischen Gleichungen untersuchen",
+"grades": "9-10",
+"section": "3.3.1 Leitidee Zahl – Variable – Operation",
+"sub": "Gleichungen lösen",
+"topic": "math.s1.quadratic_equations",
+"topic_label": "Quadratische Gleichungen",
+"topic_band": "9"
+},
+{
+"id": "92b085a58364aa57|math.s1.quadratic_equations",
+"text": "quadratische Gleichungen geometrisch als Schnittproblem von Graphen interpretieren und so näherungsweise lösen",
+"grades": "9-10",
+"section": "3.3.1 Leitidee Zahl – Variable – Operation",
+"sub": "Gleichungen lösen",
+"topic": "math.s1.quadratic_equations",
+"topic_label": "Quadratische Gleichungen",
+"topic_band": "9"
+},
+{
+"id": "92b085a58364aa57|math.s1.quadratic_functions",
+"text": "quadratische Gleichungen geometrisch als Schnittproblem von Graphen interpretieren und so näherungsweise lösen",
+"grades": "9-10",
+"section": "3.3.1 Leitidee Zahl – Variable – Operation",
+"sub": "Gleichungen lösen",
+"topic": "math.s1.quadratic_functions",
+"topic_label": "Quadratische Funktionen",
+"topic_band": "8-9"
+},
+{
+"id": "d81d674e2ff9e168|math.s1.quadratic_equations",
+"text": "einfache quadratische Ungleichungen geometrisch interpretieren und mithilfe funktionaler Überlegungen lösen",
+"grades": "9-10",
+"section": "3.3.1 Leitidee Zahl – Variable – Operation",
+"sub": "Gleichungen lösen",
+"topic": "math.s1.quadratic_equations",
+"topic_label": "Quadratische Gleichungen",
+"topic_band": "9"
+},
+{
+"id": "ad519b2938b9f590|math.s1.exponential",
+"text": "die Formel \\(K_n = K_0 \\cdot q^n\\) unter dem Aspekt des exponentiellen Wachstums für die Berechnung aller Größen anwenden und begründen",
+"grades": "9-10",
+"section": "3.3.1 Leitidee Zahl – Variable – Operation",
+"sub": "exponentielles Wachstum anwenden",
+"topic": "math.s1.exponential",
+"topic_label": "Exponentielles Wachstum und Exponentialfunktionen",
+"topic_band": "9-10"
+},
+{
+"id": "ad519b2938b9f590|math.s1.interest",
+"text": "die Formel \\(K_n = K_0 \\cdot q^n\\) unter dem Aspekt des exponentiellen Wachstums für die Berechnung aller Größen anwenden und begründen",
+"grades": "9-10",
+"section": "3.3.1 Leitidee Zahl – Variable – Operation",
+"sub": "exponentielles Wachstum anwenden",
+"topic": "math.s1.interest",
+"topic_label": "Zinsrechnung",
+"topic_band": "7-8"
+},
+{
+"id": "94c5db06fd973009|math.s1.trigonometry",
+"text": "die Beziehungen \\(sin^2(\\alpha) + cos^2(\\alpha) = 1\\), \\(sin(90° - \\alpha) = cos(\\alpha)\\), \\(tan(\\alpha) = \\frac{sin(\\alpha)}{cos(\\alpha)}\\) herleiten",
+"grades": "9-10",
+"section": "3.3.3 Leitidee Raum und Form",
+"sub": "geometrische Zusammenhänge beweisen und mit trigonometrische",
+"topic": "math.s1.trigonometry",
+"topic_label": "Trigonometrie im Dreieck",
+"topic_band": "9-10"
+},
+{
+"id": "edfc9b304c54f3e8|math.s1.quadratic_functions",
+"text": "quadratische Zusammenhänge durch Tabellen und Gleichungen beschreiben und grafisch darstellen",
+"grades": "9-10",
+"section": "3.3.4 Leitidee Funktionaler Zusammenhang",
+"sub": "mit quadratischen Funktionen umgehen",
+"topic": "math.s1.quadratic_functions",
+"topic_label": "Quadratische Funktionen",
+"topic_band": "8-9"
+},
+{
+"id": "94bb1ed32e259ca0|math.s1.quadratic_functions",
+"text": "die Wirkung der Parameter ​\\(a, d, e\\) auf den Graphen der Funktion ​\\(f\\) mit \\(f(x) = a \\cdot (x - d)^2 + e\\) abbildungsgeometrisch als Streckung, Spiegelung, Verschiebung deuten",
+"grades": "9-10",
+"section": "3.3.4 Leitidee Funktionaler Zusammenhang",
+"sub": "mit quadratischen Funktionen umgehen",
+"topic": "math.s1.quadratic_functions",
+"topic_label": "Quadratische Funktionen",
+"topic_band": "8-9"
+},
+{
+"id": "b53293226f46f5dc|math.s1.quadratic_functions",
+"text": "eine quadratische Funktion \\(f\\) in ihrer Normalform \\(f(x) = a x^2 + b x + c\\) mithilfe funktionaler oder algebraischer Überlegungen in die Scheitelform ​\\(f(x) = a \\cdot (x-d)^2 + e\\) überführen",
+"grades": "9-10",
+"section": "3.3.4 Leitidee Funktionaler Zusammenhang",
+"sub": "mit quadratischen Funktionen umgehen",
+"topic": "math.s1.quadratic_functions",
+"topic_label": "Quadratische Funktionen",
+"topic_band": "8-9"
+},
+{
+"id": "9a7c6dd480ce16aa|math.s1.power_functions",
+"text": "die Graphen der Potenzfunktionen ​\\(f\\) mit \\(f(x) = x^n,\\ n \\in \\mathbb{N}\\) und \\(f(x) = x^k \\ (k = -1, -2)\\) unter Verwendung charakteristischer Eigenschaften skizzieren",
+"grades": "9-10",
+"section": "3.3.4 Leitidee Funktionaler Zusammenhang",
+"sub": "mit Potenz- und Exponentialfunktionen umgehen",
+"topic": "math.s1.power_functions",
+"topic_label": "Potenzfunktionen",
+"topic_band": "10"
+},
+{
+"id": "ccabf91b93674d31|math.s1.functions_concept",
+"text": "anhand einer Betrachtung der Graphen von \\(f\\) mit \\(f(x) = x^2\\) und der Wurzelfunktion ​\\(g\\) mit \\(g(x) = \\sqrt{x}\\) den Funktionsbegriff und dabei auch die Begriffe Definitionsmenge und Wertemenge erläutern",
+"grades": "9-10",
+"section": "3.3.4 Leitidee Funktionaler Zusammenhang",
+"sub": "mit Potenz- und Exponentialfunktionen umgehen",
+"topic": "math.s1.functions_concept",
+"topic_label": "Funktionsbegriff",
+"topic_band": "7-8"
+},
+{
+"id": "ccabf91b93674d31|math.s1.power_functions",
+"text": "anhand einer Betrachtung der Graphen von \\(f\\) mit \\(f(x) = x^2\\) und der Wurzelfunktion ​\\(g\\) mit \\(g(x) = \\sqrt{x}\\) den Funktionsbegriff und dabei auch die Begriffe Definitionsmenge und Wertemenge erläutern",
+"grades": "9-10",
+"section": "3.3.4 Leitidee Funktionaler Zusammenhang",
+"sub": "mit Potenz- und Exponentialfunktionen umgehen",
+"topic": "math.s1.power_functions",
+"topic_label": "Potenzfunktionen",
+"topic_band": "10"
+},
+{
+"id": "56a11ce8e07560d5|math.s2.inverse_functions",
+"text": "anhand der Funktion ​\\(f\\) mit \\(f(x) = x^2\\) und der Wurzelfunktion ​\\(g\\) mit \\(g(x) = \\sqrt{x}\\) den Begriff der Umkehrfunktion beschreiben, den Zusammenhang ihrer Graphen erläutern und ihre Definitionsmengen und Wertemengen vergleichen.",
+"grades": "9-10",
+"section": "3.3.4 Leitidee Funktionaler Zusammenhang",
+"sub": "mit Potenz- und Exponentialfunktionen umgehen",
+"topic": "math.s2.inverse_functions",
+"topic_label": "Umkehrfunktionen",
+"topic_band": "10-12"
+},
+{
+"id": "89314fecb9033d91|math.s1.exponential",
+"text": "die Graphen der Exponentialfunktionen ​\\(f\\) mit \\(f(x) = c \\cdot a^x + d\\) unter Verwendung charakteristischer Eigenschaften skizzieren",
+"grades": "9-10",
+"section": "3.3.4 Leitidee Funktionaler Zusammenhang",
+"sub": "mit Potenz- und Exponentialfunktionen umgehen",
+"topic": "math.s1.exponential",
+"topic_label": "Exponentielles Wachstum und Exponentialfunktionen",
+"topic_band": "9-10"
+},
+{
+"id": "b3d4025e20ddcad7|math.s1.exponential",
+"text": "die Wirkung von Parametern in Funktionstermen von Potenz‑, Exponential- und Wurzelfunktion auf deren Graphen abbildungsgeometrisch als Streckung, Spiegelung, Verschiebung deuten",
+"grades": "9-10",
+"section": "3.3.4 Leitidee Funktionaler Zusammenhang",
+"sub": "mit Potenz- und Exponentialfunktionen umgehen",
+"topic": "math.s1.exponential",
+"topic_label": "Exponentielles Wachstum und Exponentialfunktionen",
+"topic_band": "9-10"
+},
+{
+"id": "b3d4025e20ddcad7|math.s1.power_functions",
+"text": "die Wirkung von Parametern in Funktionstermen von Potenz‑, Exponential- und Wurzelfunktion auf deren Graphen abbildungsgeometrisch als Streckung, Spiegelung, Verschiebung deuten",
+"grades": "9-10",
+"section": "3.3.4 Leitidee Funktionaler Zusammenhang",
+"sub": "mit Potenz- und Exponentialfunktionen umgehen",
+"topic": "math.s1.power_functions",
+"topic_label": "Potenzfunktionen",
+"topic_band": "10"
+},
+{
+"id": "b3d4025e20ddcad7|math.s2.function_classes",
+"text": "die Wirkung von Parametern in Funktionstermen von Potenz‑, Exponential- und Wurzelfunktion auf deren Graphen abbildungsgeometrisch als Streckung, Spiegelung, Verschiebung deuten",
+"grades": "9-10",
+"section": "3.3.4 Leitidee Funktionaler Zusammenhang",
+"sub": "mit Potenz- und Exponentialfunktionen umgehen",
+"topic": "math.s2.function_classes",
+"topic_label": "Funktionenklassen und Transformationen",
+"topic_band": "10-11"
+},
+{
+"id": "256ac36fabb2a12a|math.s1.trig_functions",
+"text": "die Graphen trigonometrischer Funktionen \\(f\\) mit \\(f(x) = a \\cdot sin(b \\cdot (x - c)) + d\\) unter Verwendung charakteristischer Eigenschaften skizzieren und die Wirkung der Parameter \\(a, b, c, d\\) abbildungsgeometrisch als Streckung, Spiegelung, Verschiebung deuten, auch \\(sin(x + \\frac{\\pi}{2}) = cos(x)\\)",
+"grades": "9-10",
+"section": "3.3.4 Leitidee Funktionaler Zusammenhang",
+"sub": "mit ganzrationalen und trigonometrischen Funktionen umgehen",
+"topic": "math.s1.trig_functions",
+"topic_label": "Trigonometrische Funktionen",
+"topic_band": "10"
+},
+{
+"id": "28fe6020c05a7718|math.s1.trig_functions",
+"text": "charakteristische Punkte von Graphen trigonometrischer Funktionen \\(f\\) mit \\(f(x) = a \\cdot sin(b \\cdot x)\\) angeben, auch auf ganz \\(\\mathbb{R}\\)",
+"grades": "9-10",
+"section": "3.3.4 Leitidee Funktionaler Zusammenhang",
+"sub": "mit ganzrationalen und trigonometrischen Funktionen umgehen",
+"topic": "math.s1.trig_functions",
+"topic_label": "Trigonometrische Funktionen",
+"topic_band": "10"
+},
+{
+"id": "6bd5fa560345f7f7|math.s1.trig_functions",
+"text": "die Sinusfunktion der Form \\(f(x) = a \\cdot sin(b \\cdot (x - c)) + d\\) zur Beschreibung periodischer Vorgänge verwenden, auch mithilfe digitaler Mathematikwerkzeuge",
+"grades": "9-10",
+"section": "3.3.4 Leitidee Funktionaler Zusammenhang",
+"sub": "mit ganzrationalen und trigonometrischen Funktionen umgehen",
+"topic": "math.s1.trig_functions",
+"topic_label": "Trigonometrische Funktionen",
+"topic_band": "10"
+},
+{
+"id": "f430c68436a7c54c|math.s2.function_classes",
+"text": "Funktionen auf ihr Verhalten für \\(|x| \\to \\infty\\) und deren Graphen auf Symmetrie (zum Ursprung oder zur y-Achse) untersuchen",
+"grades": "9-10",
+"section": "3.3.4 Leitidee Funktionaler Zusammenhang",
+"sub": "mit ganzrationalen und trigonometrischen Funktionen umgehen",
+"topic": "math.s2.function_classes",
+"topic_label": "Funktionenklassen und Transformationen",
+"topic_band": "10-11"
+},
+{
+"id": "1cb9236b0609461d|math.s2.random_variables",
+"text": "den Erwartungswert einer Zufallsgröße bei gegebener Wahrscheinlichkeitsverteilung berechnen, auch unter Verwendung des Summenzeichens",
+"grades": "9-10",
+"section": "3.3.5 Leitidee Daten und Zufall",
+"sub": "Wahrscheinlichkeiten verstehen und mit Wahrscheinlichkeiten ",
+"topic": "math.s2.random_variables",
+"topic_label": "Zufallsgrößen und Erwartungswert",
+"topic_band": "11-12"
+},
+{
+"id": "0a7b2e3b42753713|math.s1.trig_functions",
+"text": "die Ableitungsfunktionen der Funktionen \\(f\\) und \\(g\\) mit \\(f(x) = sin(x)\\) und \\(g(x) = cos(x)\\) angeben",
+"grades": "11",
+"section": "3.4.1 Leitidee Zahl – Variable – Operation",
+"sub": "Funktionsterme ableiten",
+"topic": "math.s1.trig_functions",
+"topic_label": "Trigonometrische Funktionen",
+"topic_band": "10"
+},
+{
+"id": "0a7b2e3b42753713|math.s2.derivative_rules",
+"text": "die Ableitungsfunktionen der Funktionen \\(f\\) und \\(g\\) mit \\(f(x) = sin(x)\\) und \\(g(x) = cos(x)\\) angeben",
+"grades": "11",
+"section": "3.4.1 Leitidee Zahl – Variable – Operation",
+"sub": "Funktionsterme ableiten",
+"topic": "math.s2.derivative_rules",
+"topic_label": "Ableitungsregeln",
+"topic_band": "11"
+},
+{
+"id": "3909f9dea5493059|math.s1.trig_functions",
+"text": "den Zusammenhang zwischen der Funktion ​\\(f\\) mit \\(f(x) = sin(x)\\) und ihrer Ableitungsfunktion ​\\(f'\\) mit \\(f'(x) = cos(x)\\) grafisch erläutern",
+"grades": "11",
+"section": "3.4.4 Leitidee Funktionaler Zusammenhang",
+"sub": "die Grundidee der Differentialrechnung verstehen und mit Abl",
+"topic": "math.s1.trig_functions",
+"topic_label": "Trigonometrische Funktionen",
+"topic_band": "10"
+},
+{
+"id": "3909f9dea5493059|math.s2.derivative_rules",
+"text": "den Zusammenhang zwischen der Funktion ​\\(f\\) mit \\(f(x) = sin(x)\\) und ihrer Ableitungsfunktion ​\\(f'\\) mit \\(f'(x) = cos(x)\\) grafisch erläutern",
+"grades": "11",
+"section": "3.4.4 Leitidee Funktionaler Zusammenhang",
+"sub": "die Grundidee der Differentialrechnung verstehen und mit Abl",
+"topic": "math.s2.derivative_rules",
+"topic_label": "Ableitungsregeln",
+"topic_band": "11"
+},
+{
+"id": "f3df0784f8ad8c16|math.s2.binomial",
+"text": "Binomialverteilungen grafisch darstellen und die Wirkung der Parameter \\(n\\) und \\(p\\) beschreiben",
+"grades": "11",
+"section": "3.4.5 Leitidee Daten und Zufall",
+"sub": "mit Binomialverteilungen umgehen",
+"topic": "math.s2.binomial",
+"topic_label": "Binomialverteilung",
+"topic_band": "12"
+},
+{
+"id": "d6f0b0376263dbc1|math.s2.binomial",
+"text": "die grafische Darstellung einer Binomialverteilung interpretieren",
+"grades": "11",
+"section": "3.4.5 Leitidee Daten und Zufall",
+"sub": "mit Binomialverteilungen umgehen",
+"topic": "math.s2.binomial",
+"topic_label": "Binomialverteilung",
+"topic_band": "12"
+},
+{
+"id": "a39153146a6e40fe|math.s2.binomial",
+"text": "bei Binomialverteilungen den jeweils fehlenden Parameter (\\(n,p\\) oder \\(k\\)) mit geeigneten Hilfsmitteln bestimmen",
+"grades": "11",
+"section": "3.4.5 Leitidee Daten und Zufall",
+"sub": "mit Binomialverteilungen umgehen",
+"topic": "math.s2.binomial",
+"topic_label": "Binomialverteilung",
+"topic_band": "12"
+},
+{
+"id": "4149211428220443|math.s2.binomial",
+"text": "die Kenngrößen Erwartungswert, Varianz und Standardabweichung einer binomialverteilten Zufallsgröße berechnen und ihren Zusammenhang an einer grafischen Darstellung erläutern",
+"grades": "11",
+"section": "3.4.5 Leitidee Daten und Zufall",
+"sub": "mit Binomialverteilungen umgehen",
+"topic": "math.s2.binomial",
+"topic_label": "Binomialverteilung",
+"topic_band": "12"
+},
+{
+"id": "5054f9c389d2a3c1|math.s2.derivative_rules",
+"text": "gebrochenrationale Funktionen durch Verbindung der Ableitungsregeln in einfachen Fällen ableiten (zum Beispiel \\(f(x) = \\frac{2}{3 x^2 - 4}\\), nicht jedoch \\(f(x) = \\frac{x}{3 x^2 -4}\\))",
+"grades": "12-13",
+"section": "3.5.1 Leitidee Zahl – Variable – Operation",
+"sub": "weitere Ableitungsregeln anwenden",
+"topic": "math.s2.derivative_rules",
+"topic_label": "Ableitungsregeln",
+"topic_band": "11"
+},
+{
+"id": "9226e39d73752fa0|math.s2.integral",
+"text": "Stammfunktionsterme zu den Funktionstermen ​\\(\\sin(x)\\), \\(\\cos(x)\\), \\(e^x\\), \\(\\frac{1}{x}\\) angeben",
+"grades": "12-13",
+"section": "3.5.1 Leitidee Zahl – Variable – Operation",
+"sub": "Integrationsregeln verwenden und Integrale berechnen",
+"topic": "math.s2.integral",
+"topic_label": "Integral und Stammfunktion",
+"topic_band": "11-12"
+},
+{
+"id": "618942ffe3e27a04|math.s2.distances_angles",
+"text": "Problemstellungen wie zum Beispiel Spiegelung eines Punktes an einer Ebene, Spiegelung einer Geraden an einem Punkt, Abstands‑, Flächeninhalts- und Volumenberechnungen bearbeiten sowie geradlinige Bewegungen im Raum untersuchen",
+"grades": "12-13",
+"section": "3.5.3 Leitidee Raum und Form",
+"sub": "vektorielle Darstellungen zur Beschreibung des Anschauungsra",
+"topic": "math.s2.distances_angles",
+"topic_label": "Abstände und Winkel im Raum",
+"topic_band": "12-13"
+},
+{
+"id": "618942ffe3e27a04|math.s2.lines_planes",
+"text": "Problemstellungen wie zum Beispiel Spiegelung eines Punktes an einer Ebene, Spiegelung einer Geraden an einem Punkt, Abstands‑, Flächeninhalts- und Volumenberechnungen bearbeiten sowie geradlinige Bewegungen im Raum untersuchen",
+"grades": "12-13",
+"section": "3.5.3 Leitidee Raum und Form",
+"sub": "vektorielle Darstellungen zur Beschreibung des Anschauungsra",
+"topic": "math.s2.lines_planes",
+"topic_label": "Geraden und Ebenen im Raum",
+"topic_band": "12"
+},
+{
+"id": "e3fd700cdf908e69|math.s2.exp_ln",
+"text": "charakteristische Eigenschaften der Funktion ​\\(f\\) mit \\(f(x) = e^x\\) beschreiben",
+"grades": "12-13",
+"section": "3.5.4 Leitidee Funktionaler Zusammenhang",
+"sub": "mit der natürlichen Exponential- und Logarithmusfunktion umg",
+"topic": "math.s2.exp_ln",
+"topic_label": "e-Funktion und natürlicher Logarithmus",
+"topic_band": "11-12"
+},
+{
+"id": "3ee24c3e5d4a91bd|math.s2.derivative_rules",
+"text": "die Ableitungsfunktion und eine Stammfunktion der Funktion ​\\(f\\) mit \\(f(x) = e^x\\) angeben",
+"grades": "12-13",
+"section": "3.5.4 Leitidee Funktionaler Zusammenhang; 3.6.4 Leitidee Funktionaler Zusammenha",
+"sub": "mit der natürlichen Exponential- und Logarithmusfunktion umg",
+"topic": "math.s2.derivative_rules",
+"topic_label": "Ableitungsregeln",
+"topic_band": "11"
+},
+{
+"id": "3ee24c3e5d4a91bd|math.s2.exp_ln",
+"text": "die Ableitungsfunktion und eine Stammfunktion der Funktion ​\\(f\\) mit \\(f(x) = e^x\\) angeben",
+"grades": "12-13",
+"section": "3.5.4 Leitidee Funktionaler Zusammenhang; 3.6.4 Leitidee Funktionaler Zusammenha",
+"sub": "mit der natürlichen Exponential- und Logarithmusfunktion umg",
+"topic": "math.s2.exp_ln",
+"topic_label": "e-Funktion und natürlicher Logarithmus",
+"topic_band": "11-12"
+},
+{
+"id": "7dc1cf5df8510b24|math.s2.derivative_rules",
+"text": "die Ableitungsfunktion der Funktion ​\\(f\\) mit \\(f(x) = ln(x)\\) angeben",
+"grades": "12-13",
+"section": "3.5.4 Leitidee Funktionaler Zusammenhang",
+"sub": "mit der natürlichen Exponential- und Logarithmusfunktion umg",
+"topic": "math.s2.derivative_rules",
+"topic_label": "Ableitungsregeln",
+"topic_band": "11"
+},
+{
+"id": "7dc1cf5df8510b24|math.s2.exp_ln",
+"text": "die Ableitungsfunktion der Funktion ​\\(f\\) mit \\(f(x) = ln(x)\\) angeben",
+"grades": "12-13",
+"section": "3.5.4 Leitidee Funktionaler Zusammenhang",
+"sub": "mit der natürlichen Exponential- und Logarithmusfunktion umg",
+"topic": "math.s2.exp_ln",
+"topic_label": "e-Funktion und natürlicher Logarithmus",
+"topic_band": "11-12"
+},
+{
+"id": "0f6a4e82104bff89|math.s2.hypothesis_test",
+"text": "Ablehnungsbereich und Irrtumswahrscheinlichkeit an einer grafischen Darstellung der Binomialverteilung erläutern",
+"grades": "12-13",
+"section": "3.5.5 Leitidee Daten und Zufall",
+"sub": "Hypothesen bei binomialverteilten Zufallsgrößen testen",
+"topic": "math.s2.hypothesis_test",
+"topic_label": "Hypothesentest",
+"topic_band": "12-13"
+},
+{
+"id": "31c25ebd768a3a34|math.s2.integral",
+"text": "Stammfunktionsterme zu den Funktionstermen ​\\(sin(x)\\), \\(cos(x)\\), \\(e^x\\) angeben",
+"grades": "12-13",
+"section": "3.6.1 Leitidee Zahl – Variable – Operation",
+"sub": "Integrationsregeln verwenden und Integrale berechnen",
+"topic": "math.s2.integral",
+"topic_label": "Integral und Stammfunktion",
+"topic_band": "11-12"
+},
+{
+"id": "ef190f3ca35d2f5a|math.s2.distances_angles",
+"text": "Problemstellungen wie zum Beispiel Spiegelung eines Punktes an einer Ebene, Flächeninhalts- und Volumenberechnungen bearbeiten sowie geradlinige Bewegungen untersuchen",
+"grades": "12-13",
+"section": "3.6.3 Leitidee Raum und Form",
+"sub": "vektorielle Darstellungen zur Beschreibung des Anschauungsra",
+"topic": "math.s2.distances_angles",
+"topic_label": "Abstände und Winkel im Raum",
+"topic_band": "12-13"
+},
+{
+"id": "ef190f3ca35d2f5a|math.s2.lines_planes",
+"text": "Problemstellungen wie zum Beispiel Spiegelung eines Punktes an einer Ebene, Flächeninhalts- und Volumenberechnungen bearbeiten sowie geradlinige Bewegungen untersuchen",
+"grades": "12-13",
+"section": "3.6.3 Leitidee Raum und Form",
+"sub": "vektorielle Darstellungen zur Beschreibung des Anschauungsra",
+"topic": "math.s2.lines_planes",
+"topic_label": "Geraden und Ebenen im Raum",
+"topic_band": "12"
+},
+{
+"id": "96d459a2a6a9d54c|math.s2.exp_ln",
+"text": "charakteristische Eigenschaften der Funktion ​\\(f\\) mit \\(f(x) = e^x\\) beschreiben und deren Graph mit dessen waagrechter Asymptote skizzieren",
+"grades": "12-13",
+"section": "3.6.4 Leitidee Funktionaler Zusammenhang",
+"sub": "mit der natürlichen Exponentialfunktion umgehen",
+"topic": "math.s2.exp_ln",
+"topic_label": "e-Funktion und natürlicher Logarithmus",
+"topic_band": "11-12"
+},
+{
+"id": "08190611d2156e09|math.s1.fractions",
+"text": "Brüche zur Beschreibung von Realsituationen verwenden, insbesondere unter den Aspekten Anteil, Teile, eines oder mehrerer Ganzer, Maßzahl einer Größe",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Zahlbereiche erkunden",
+"topic": "math.s1.fractions",
+"topic_label": "Brüche und Bruchteile",
+"topic_band": "5-6"
+},
+{
+"id": "2522febd84307cb3|math.s1.fractions",
+"text": "Brüche zur Beschreibung von Realsituationen verwenden, insbesondere unter den Aspekten Anteil, Teile, eines oder mehrerer Ganzer, Operator, Maßzahl einer Größe",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Zahlbereiche erkunden",
+"topic": "math.s1.fractions",
+"topic_label": "Brüche und Bruchteile",
+"topic_band": "5-6"
+},
+{
+"id": "791a913fa584136b|math.s1.fractions",
+"text": "Brüche zur Beschreibung von Realsituationen verwenden, insbesondere unter den Aspekten Anteil, Verhältnis, Teile, eines oder mehrerer Ganzer, Operator, Maßzahl einer Größe",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Zahlbereiche erkunden",
+"topic": "math.s1.fractions",
+"topic_label": "Brüche und Bruchteile",
+"topic_band": "5-6"
+},
+{
+"id": "24aa723e4f98c26e|math.s1.fractions",
+"text": "Brüche in verschiedenen Formen darstellen (z. B. durch geometrische Figuren, Bruchstreifen)",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "Zahlbereiche erkunden",
+"topic": "math.s1.fractions",
+"topic_label": "Brüche und Bruchteile",
+"topic_band": "5-6"
+},
+{
+"id": "1d2d4206a8d7621e|math.s1.terms",
+"text": "Sachsituationen aus der eigenen Erfahrungswelt und Zahlenmuster durch einfache Zahlterme beschreiben",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "mit Zahltermen arbeiten",
+"topic": "math.s1.terms",
+"topic_label": "Terme und Variablen",
+"topic_band": "5-8"
+},
+{
+"id": "e5f131a1ee1359f7|math.s1.terms",
+"text": "Sachsituationen (auch aus der Geometrie und bei Zahlenmuster) durch Zahlterme beschreiben",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "mit Zahltermen arbeiten",
+"topic": "math.s1.terms",
+"topic_label": "Terme und Variablen",
+"topic_band": "5-8"
+},
+{
+"id": "7f0831839785df97|math.s1.terms",
+"text": "den Wert von Zahltermen mit Klammern (eine Klammerebene) in einfachen Fällen berechnen, z. B. wenn rationale Zahlen nur in gleicher Darstellung auftreten",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "mit Zahltermen arbeiten",
+"topic": "math.s1.terms",
+"topic_label": "Terme und Variablen",
+"topic_band": "5-8"
+},
+{
+"id": "0959d5c553b2e6b6|math.s1.terms",
+"text": "den Wert von Zahltermen mit Klammern in einfachen Fällen berechnen, z. B. wenn rationale Zahlen nur in gleicher Darstellung auftreten",
+"grades": "5-6",
+"section": "3.1.1 Leitidee Zahl – Variable – Operation",
+"sub": "mit Zahltermen arbeiten",
+"topic": "math.s1.terms",
+"topic_label": "Terme und Variablen",
+"topic_band": "5-8"
+},
+{
+"id": "b2f75a8411d105c8|math.s1.statistics",
+"text": "eine Datenerhebung bei vorgegebenen Merkmalen und Merkmalsausprägungen mit Anleitung planen und durchführen",
+"grades": "5-6",
+"section": "3.1.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen und auswerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "aafb3ffd9c04d662|math.s1.statistics",
+"text": "eine Datenerhebung bei vorgegebenen Merkmalen und Merkmalsausprägungen mit Hilfe planen und selbstständig durchführen, auch unter den Aspekten Stichprobenauswahl und Erhebungsinstrument",
+"grades": "5-6/7-9",
+"section": "3.1.5 Leitidee Daten und Zufall; 3.2.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen und auswerten; Daten erfassen, da",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "1b2d33b1b6195c00|math.s1.statistics",
+"text": "zu einer statistischen Fragestellung eine Datenerhebung selbstständig planen und durchführen, auch unter den Aspekten Stichprobenauswahl und Erhebungsinstrument",
+"grades": "5-6",
+"section": "3.1.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen und auswerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "b5c982247411a3d7|math.s1.statistics",
+"text": "die Kenngrößen Maximum, Minimum, Spannweite und Mittelwert (arithmetisches Mittel) bestimmen",
+"grades": "5-6",
+"section": "3.1.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen und auswerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "587f2fe8feae1940|math.s1.statistics",
+"text": "aus Diagrammen (Balken‑, Säulen‑, Kreis- und Streifendiagramm) Zahlenwerte entnehmen und interpretieren",
+"grades": "5-6",
+"section": "3.1.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen und auswerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "9bcadcd658fc83aa|math.s1.statistics",
+"text": "Daten aus vorgegebenen Sekundärquellen (z. B. Texten, Diagrammen, bildlichen Darstellungen) entnehmen und interpretieren",
+"grades": "5-6",
+"section": "3.1.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen und auswerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "7ce9980b571dfa29|math.s1.statistics",
+"text": "Daten graphisch darstellen (Balken- und Säulendiagramm), auch unter Verwendung von Tabellenkalkulation",
+"grades": "5-6",
+"section": "3.1.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen und auswerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "1ce90ded08304d5d|math.s1.statistics",
+"text": "Daten graphisch darstellen (Balken‑, Säulen‑, Kreis- und Streifendiagramm), auch unter Verwendung von Tabellenkalkulation",
+"grades": "5-6",
+"section": "3.1.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen und auswerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "4e449bb7cb13f458|math.s1.statistics",
+"text": "Daten aus ihrer Erfahrungswelt auch bei unterschiedlichen Darstellungsformen auswerten, vergleichen und deuten, auch unter Verwendung von Tabellenkalkulation",
+"grades": "5-6",
+"section": "3.1.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen und auswerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "a5e7a3b05e2160c8|math.s1.statistics",
+"text": "statistische Darstellungen hinsichtlich ihrer Eignung und möglicher Irreführung beurteilen",
+"grades": "5-6",
+"section": "3.1.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen und auswerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "24425e6d2309c09d|math.s1.percent",
+"text": "Prozentwert, Grundwert und Prozentsatz identifizieren, visualisieren (z. B. Prozentstreifen) und berechnen",
+"grades": "7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "mit Prozenten und Zinsen umgehen",
+"topic": "math.s1.percent",
+"topic_label": "Prozentrechnung",
+"topic_band": "6-7"
+},
+{
+"id": "40549292c17ce67b|math.s1.terms",
+"text": "[MSA] Zahlenfolgen fortsetzen und unter Verwendung von Variablen beschreiben",
+"grades": "7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "mit Termen umgehen, die auch Variablen enthalten",
+"topic": "math.s1.terms",
+"topic_label": "Terme und Variablen",
+"topic_band": "5-8"
+},
+{
+"id": "175638e23ef3197d|math.s1.terms",
+"text": "Zahlenfolgen fortsetzen und unter Verwendung von Variablen beschreiben",
+"grades": "7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "mit Termen umgehen, die auch Variablen enthalten",
+"topic": "math.s1.terms",
+"topic_label": "Terme und Variablen",
+"topic_band": "5-8"
+},
+{
+"id": "116ccd701d5248a3|math.s1.term_transformations",
+"text": "Rechengesetze (z. B. Assoziativgesetz, Kommutativgesetz, Distributivgesetz) zum Umformen von Termen und vorteilhaften Rechnen nutzen",
+"grades": "7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "mit Termen umgehen, die auch Variablen enthalten",
+"topic": "math.s1.term_transformations",
+"topic_label": "Termumformungen und binomische Formeln",
+"topic_band": "7-8"
+},
+{
+"id": "6715415be34a5bc2|math.s1.roots",
+"text": "anhand eines Beispiels erklären, dass im Allgemeinen \\(\\sqrt{a}+\\sqrt{b}\\neq\\sqrt{a+b}\\) ist, aber \\(\\sqrt{ab}=\\sqrt{a} \\cdot \\sqrt{b}\\) ist",
+"grades": "7-8/7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "mit Wurzeln umgehen",
+"topic": "math.s1.roots",
+"topic_label": "Quadratwurzeln und reelle Zahlen",
+"topic_band": "8-9"
+},
+{
+"id": "546924741a613681|math.s1.roots",
+"text": "[MSA] die Notwendigkeit der Zahlbereichserweiterung auf reelle Zahlen anhand geeigneter Beispiele beschreiben",
+"grades": "7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Zahlbereichserweiterungen untersuchen",
+"topic": "math.s1.roots",
+"topic_label": "Quadratwurzeln und reelle Zahlen",
+"topic_band": "8-9"
+},
+{
+"id": "58e62b8ec58dce88|math.s1.roots",
+"text": "[MSA] Beispiele für irrationale Zahlen angeben",
+"grades": "7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Zahlbereichserweiterungen untersuchen",
+"topic": "math.s1.roots",
+"topic_label": "Quadratwurzeln und reelle Zahlen",
+"topic_band": "8-9"
+},
+{
+"id": "af22cd14401e6026|math.s1.roots",
+"text": "[MSA] ein iteratives Verfahren (z. B. Heron-Verfahren, Intervallschachtelung) zur Bestimmung einer Wurzel durchführen, bewerten und mit einem digitalen Werkzeug implementieren",
+"grades": "7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Zahlbereichserweiterungen untersuchen",
+"topic": "math.s1.roots",
+"topic_label": "Quadratwurzeln und reelle Zahlen",
+"topic_band": "8-9"
+},
+{
+"id": "bb50193c4d3a47a4|math.s1.roots",
+"text": "ein iteratives Verfahren (z. B. Heron-Verfahren, Intervallschachtelung) zur Bestimmung einer Wurzel durchführen, bewerten und mit einem digitalen Werkzeug implementieren",
+"grades": "7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Zahlbereichserweiterungen untersuchen",
+"topic": "math.s1.roots",
+"topic_label": "Quadratwurzeln und reelle Zahlen",
+"topic_band": "8-9"
+},
+{
+"id": "b9a91493ac040613|math.s1.linear_systems",
+"text": "[MSA] die Lösung eines linearen Gleichungssystems mit zwei Variablen mithilfe eines Verfahrens bestimmen",
+"grades": "7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Gleichungen lösen",
+"topic": "math.s1.linear_systems",
+"topic_label": "Lineare Gleichungssysteme",
+"topic_band": "8-9"
+},
+{
+"id": "85570f477de17eef|math.s1.linear_equations",
+"text": "lineare Gleichungen grafisch näherungsweise lösen",
+"grades": "7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Gleichungen lösen",
+"topic": "math.s1.linear_equations",
+"topic_label": "Lineare Gleichungen",
+"topic_band": "7-8"
+},
+{
+"id": "85570f477de17eef|math.s1.linear_functions",
+"text": "lineare Gleichungen grafisch näherungsweise lösen",
+"grades": "7-9",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "Gleichungen lösen",
+"topic": "math.s1.linear_functions",
+"topic_label": "Lineare Funktionen",
+"topic_band": "7-8"
+},
+{
+"id": "6ca3188d19f11467|math.s1.pythagoras",
+"text": "im Zusammenhang mit dem Satz des Pythagoras Längen von Strecken (Hypotenuse, Katheten) berechnen und Orthogonalität untersuchen",
+"grades": "7-9",
+"section": "3.2.3 Leitidee Raum und Form",
+"sub": "den Satz des Pythagoras anwenden",
+"topic": "math.s1.pythagoras",
+"topic_label": "Satz des Pythagoras",
+"topic_band": "8-9"
+},
+{
+"id": "5428759b811242f6|math.s1.linear_functions",
+"text": "bei linearen Funktionen Beziehungen zwischen Gleichungen, Tabellen und Graphen herstellen",
+"grades": "7-9",
+"section": "3.2.4 Leitidee Funktionaler Zusammenhang",
+"sub": "funktionale Zusammenhänge darstellen und nutzen",
+"topic": "math.s1.linear_functions",
+"topic_label": "Lineare Funktionen",
+"topic_band": "7-8"
+},
+{
+"id": "a4f7048803d1f5c7|math.s1.linear_functions",
+"text": "zu einer gegebenen linearen Funktion eine Sachsituation angeben, die mithilfe dieser Funktion beschrieben werden kann",
+"grades": "7-9",
+"section": "3.2.4 Leitidee Funktionaler Zusammenhang",
+"sub": "funktionale Zusammenhänge darstellen und nutzen",
+"topic": "math.s1.linear_functions",
+"topic_label": "Lineare Funktionen",
+"topic_band": "7-8"
+},
+{
+"id": "2bfe1bf08f49490a|math.s1.functions_concept",
+"text": "zu einer gegebenen Funktion eine Sachsituationen angeben, die mithilfe dieser Funktion beschrieben werden kann",
+"grades": "7-9",
+"section": "3.2.4 Leitidee Funktionaler Zusammenhang",
+"sub": "funktionale Zusammenhänge darstellen und nutzen",
+"topic": "math.s1.functions_concept",
+"topic_label": "Funktionsbegriff",
+"topic_band": "7-8"
+},
+{
+"id": "7b4d8b18390ff7b2|math.s1.linear_functions",
+"text": "[MSA] bei linearen Funktionen das Änderungsverhalten im Sachzusammenhang beschreiben",
+"grades": "7-9",
+"section": "3.2.4 Leitidee Funktionaler Zusammenhang",
+"sub": "mit linearen Funktionen umgehen",
+"topic": "math.s1.linear_functions",
+"topic_label": "Lineare Funktionen",
+"topic_band": "7-8"
+},
+{
+"id": "1f75375883d40245|math.s1.linear_functions",
+"text": "bei linearen Funktionen das Änderungsverhalten im Sachzusammenhang beschreiben",
+"grades": "7-9",
+"section": "3.2.4 Leitidee Funktionaler Zusammenhang",
+"sub": "mit linearen Funktionen umgehen",
+"topic": "math.s1.linear_functions",
+"topic_label": "Lineare Funktionen",
+"topic_band": "7-8"
+},
+{
+"id": "b1a7f7e0e52f7b33|math.s1.quadratic_functions",
+"text": "[MSA] Anwendungsaufgaben mithilfe quadratischer Funktionen lösen",
+"grades": "7-9",
+"section": "3.2.4 Leitidee Funktionaler Zusammenhang",
+"sub": "mit quadratischen Funktionen umgehen",
+"topic": "math.s1.quadratic_functions",
+"topic_label": "Quadratische Funktionen",
+"topic_band": "8-9"
+},
+{
+"id": "1b6318f748520b25|math.s1.statistics",
+"text": "zu einer vorgegebenen statistischen Fragestellung eine Datenerhebung selbstständig planen und selbstständig durchführen, auch unter den Aspekten Stichprobenauswahl und Erhebungsinstrument",
+"grades": "7-9",
+"section": "3.2.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen, aus- und bewerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "3050c7f30ed34296|math.s1.boxplot",
+"text": "[MSA] die Kenngröße Median bestimmen",
+"grades": "7-9",
+"section": "3.2.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen, aus- und bewerten",
+"topic": "math.s1.boxplot",
+"topic_label": "Boxplot und Streumaße",
+"topic_band": "8-10"
+},
+{
+"id": "bb0a9473ca81044c|math.s1.boxplot",
+"text": "die Kenngröße Median bestimmen",
+"grades": "7-8/7-9",
+"section": "3.2.5 Leitidee Daten und Zufall",
+"sub": "Daten aus- und bewerten; Daten erfassen, darstellen, aus- un",
+"topic": "math.s1.boxplot",
+"topic_label": "Boxplot und Streumaße",
+"topic_band": "8-10"
+},
+{
+"id": "5806e327c5b3570f|math.s1.statistics",
+"text": "Daten graphisch darstellen und interpretieren (auch Kreisdiagramm), auch unter Verwendung von Software",
+"grades": "7-9",
+"section": "3.2.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen, aus- und bewerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "21ff13bd30dae689|math.s1.statistics",
+"text": "Daten graphisch darstellen und interpretieren, auch unter Verwendung von Software",
+"grades": "7-9",
+"section": "3.2.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen, aus- und bewerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "32b7cbaf39773922|math.s1.statistics",
+"text": "Daten aus ihrer Erfahrungswelt bei übereinstimmender Darstellungsform auswerten, vergleichen und bewerten, auch mit Hilfe von Tabellenkalkulation",
+"grades": "7-9",
+"section": "3.2.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen, aus- und bewerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "89952c01cb41a581|math.s1.statistics",
+"text": "Daten aus ihrer Erfahrungswelt auch bei unterschiedlichen Darstellungsformen auswerten, vergleichen und bewerten, auch mit Hilfe von Tabellenkalkulation",
+"grades": "7-9",
+"section": "3.2.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen, aus- und bewerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "fe663e1524cad207|math.s1.statistics",
+"text": "graphische statistische Darstellungen hinsichtlich ihrer Eignung und möglicher Irreführung beurteilen",
+"grades": "7-9",
+"section": "3.2.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen, aus- und bewerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "b4803085cd843f45|math.s1.combinatorics",
+"text": "die Anzahl der jeweiligen Möglichkeiten in konkreten Situationen (mögliche und günstige Ergebnisse) durch kombinatorische Überlegungen bestimmen",
+"grades": "7-9",
+"section": "3.2.5 Leitidee Daten und Zufall",
+"sub": "Wahrscheinlichkeiten verstehen und berechnen",
+"topic": "math.s1.combinatorics",
+"topic_label": "Zählprinzipien und Kombinatorik",
+"topic_band": "6-9"
+},
+{
+"id": "b4803085cd843f45|math.s1.probability",
+"text": "die Anzahl der jeweiligen Möglichkeiten in konkreten Situationen (mögliche und günstige Ergebnisse) durch kombinatorische Überlegungen bestimmen",
+"grades": "7-9",
+"section": "3.2.5 Leitidee Daten und Zufall",
+"sub": "Wahrscheinlichkeiten verstehen und berechnen",
+"topic": "math.s1.probability",
+"topic_label": "Zufallsexperimente und Wahrscheinlichkeit",
+"topic_band": "6-8"
+},
+{
+"id": "4d2820823053f939|math.s1.probability",
+"text": "die auftretenden relativen Häufigkeiten bei der Durchführung von Zufallsexperimenten als Schätzwerte von Wahrscheinlichkeiten nutzen, die bei wachsendem Stichprobenumfang tendenziell besser werden (Gesetz der großen Zahlen)",
+"grades": "7-9",
+"section": "3.2.5 Leitidee Daten und Zufall",
+"sub": "Wahrscheinlichkeiten verstehen und berechnen",
+"topic": "math.s1.probability",
+"topic_label": "Zufallsexperimente und Wahrscheinlichkeit",
+"topic_band": "6-8"
+},
+{
+"id": "c0eed255ab35dec8|math.s1.exponential",
+"text": "[MSA] die Begriffe Zinssatz, Anfangskapital, Endkapital und Zinseszins erläutern",
+"grades": "10",
+"section": "3.3.1 Leitidee Zahl – Variable – Operation",
+"sub": "exponentielles Wachstum anwenden",
+"topic": "math.s1.exponential",
+"topic_label": "Exponentielles Wachstum und Exponentialfunktionen",
+"topic_band": "9-10"
+},
+{
+"id": "c0eed255ab35dec8|math.s1.interest",
+"text": "[MSA] die Begriffe Zinssatz, Anfangskapital, Endkapital und Zinseszins erläutern",
+"grades": "10",
+"section": "3.3.1 Leitidee Zahl – Variable – Operation",
+"sub": "exponentielles Wachstum anwenden",
+"topic": "math.s1.interest",
+"topic_label": "Zinsrechnung",
+"topic_band": "7-8"
+},
+{
+"id": "afd9bccfe917e3ca|math.s1.exponential",
+"text": "[MSA] die Formel \\(K_{ n }=K_{ 0 } \\cdot q^{ n }\\) unter dem Aspekt des exponentiellen Wachstums für die Berechnung des Endkapitals anwenden",
+"grades": "10",
+"section": "3.3.1 Leitidee Zahl – Variable – Operation",
+"sub": "exponentielles Wachstum anwenden",
+"topic": "math.s1.exponential",
+"topic_label": "Exponentielles Wachstum und Exponentialfunktionen",
+"topic_band": "9-10"
+},
+{
+"id": "afd9bccfe917e3ca|math.s1.interest",
+"text": "[MSA] die Formel \\(K_{ n }=K_{ 0 } \\cdot q^{ n }\\) unter dem Aspekt des exponentiellen Wachstums für die Berechnung des Endkapitals anwenden",
+"grades": "10",
+"section": "3.3.1 Leitidee Zahl – Variable – Operation",
+"sub": "exponentielles Wachstum anwenden",
+"topic": "math.s1.interest",
+"topic_label": "Zinsrechnung",
+"topic_band": "7-8"
+},
+{
+"id": "28211bdc61dfcc0f|math.s1.pyramid_cone_sphere",
+"text": "[MSA] den Oberflächeninhalt und das Volumen bei Kegel und Kugel unter Verwendung einer geeigneten Formelsammlung berechnen",
+"grades": "10",
+"section": "3.3.2 Leitidee Messen",
+"sub": "bei Figuren und Körpern Größen berechnen",
+"topic": "math.s1.pyramid_cone_sphere",
+"topic_label": "Pyramide, Kegel und Kugel",
+"topic_band": "9-10"
+},
+{
+"id": "210f2b55aa5f5be0|math.s1.pyramid_cone_sphere",
+"text": "[MSA] Oberflächeninhalte und Volumina bei zusammengesetzten Körpern bestimmen",
+"grades": "10",
+"section": "3.3.2 Leitidee Messen",
+"sub": "bei Figuren und Körpern Größen berechnen",
+"topic": "math.s1.pyramid_cone_sphere",
+"topic_label": "Pyramide, Kegel und Kugel",
+"topic_band": "9-10"
+},
+{
+"id": "210f2b55aa5f5be0|math.s1.volume_surface",
+"text": "[MSA] Oberflächeninhalte und Volumina bei zusammengesetzten Körpern bestimmen",
+"grades": "10",
+"section": "3.3.2 Leitidee Messen",
+"sub": "bei Figuren und Körpern Größen berechnen",
+"topic": "math.s1.volume_surface",
+"topic_label": "Volumen und Oberfläche von Prismen und Zylindern",
+"topic_band": "7-9"
+},
+{
+"id": "d06614a338b80f66|math.s1.trigonometry",
+"text": "[MSA] Streckenlängen und Winkelweiten unter Nutzung der Längenverhältnisse Sinus und Tangens bestimmen",
+"grades": "10",
+"section": "3.3.3 Leitidee Raum und Form",
+"sub": "mit trigonometrischen Beziehungen arbeiten",
+"topic": "math.s1.trigonometry",
+"topic_label": "Trigonometrie im Dreieck",
+"topic_band": "9-10"
+},
+{
+"id": "97be6398dec03943|math.s1.functions_concept",
+"text": "[MSA] Zusammenhänge durch Tabellen, Gleichungen, Graphen oder Text darstellen und zwischen den Darstellungsformen wechseln",
+"grades": "10",
+"section": "3.3.4 Leitidee Funktionaler Zusammenhang",
+"sub": "funktionale Zusammenhängen darstellen",
+"topic": "math.s1.functions_concept",
+"topic_label": "Funktionsbegriff",
+"topic_band": "7-8"
+},
+{
+"id": "8c2eac255a0eb1b0|math.s1.power_functions",
+"text": "die Graphen der Potenzfunktionen \\(f\\) mit \\(f(x)=x^{ n }\\), \\(n \\in \\mathbb{N}\\) und \\(f(x)=x^{ k }\\), \\((k=-1,‑2)\\) unter Verwendung charakteristischer Eigenschaften skizzieren",
+"grades": "10",
+"section": "3.3.4 Leitidee Funktionaler Zusammenhang",
+"sub": "mit weiteren Funktionstypen umgehen",
+"topic": "math.s1.power_functions",
+"topic_label": "Potenzfunktionen",
+"topic_band": "10"
+},
+{
+"id": "cf974e3a0e25a4d3|math.s1.functions_concept",
+"text": "anhand einer Betrachtung der Graphen von \\(f\\) mit \\(f(x)=x^{ 2 }\\) und der Wurzelfunktion \\(g\\) mit \\(g(x)=\\sqrt{ x }\\) den Funktionsbegriff und dabei auch die Begriffe; Definitionsmenge und Wertemenge erläutern",
+"grades": "10",
+"section": "3.3.4 Leitidee Funktionaler Zusammenhang",
+"sub": "mit weiteren Funktionstypen umgehen",
+"topic": "math.s1.functions_concept",
+"topic_label": "Funktionsbegriff",
+"topic_band": "7-8"
+},
+{
+"id": "cf974e3a0e25a4d3|math.s1.power_functions",
+"text": "anhand einer Betrachtung der Graphen von \\(f\\) mit \\(f(x)=x^{ 2 }\\) und der Wurzelfunktion \\(g\\) mit \\(g(x)=\\sqrt{ x }\\) den Funktionsbegriff und dabei auch die Begriffe; Definitionsmenge und Wertemenge erläutern",
+"grades": "10",
+"section": "3.3.4 Leitidee Funktionaler Zusammenhang",
+"sub": "mit weiteren Funktionstypen umgehen",
+"topic": "math.s1.power_functions",
+"topic_label": "Potenzfunktionen",
+"topic_band": "10"
+},
+{
+"id": "9382bb8afc7b52cb|math.s2.inverse_functions",
+"text": "anhand der Funktion \\(f\\) mit \\(f(x)=x^{ 2 }\\) und der Wurzelfunktion \\(g\\) mit \\(g(x)=\\sqrt{ x }\\) den Begriff der Umkehrfunktion beschreiben, den Zusammenhang ihrer Graphen erläutern und ihre Definitionsmengen und Wertemengen vergleichen",
+"grades": "10",
+"section": "3.3.4 Leitidee Funktionaler Zusammenhang",
+"sub": "mit weiteren Funktionstypen umgehen",
+"topic": "math.s2.inverse_functions",
+"topic_label": "Umkehrfunktionen",
+"topic_band": "10-12"
+},
+{
+"id": "3bace366bbe8af03|math.s1.exponential",
+"text": "[MSA] die Graphen der Exponentialfunktionen \\(f\\) mit \\(f(x)=c \\cdot a^{ x }\\) unter Verwendung charakteristischer Eigenschaften skizzieren",
+"grades": "10",
+"section": "3.3.4 Leitidee Funktionaler Zusammenhang",
+"sub": "mit weiteren Funktionstypen umgehen",
+"topic": "math.s1.exponential",
+"topic_label": "Exponentielles Wachstum und Exponentialfunktionen",
+"topic_band": "9-10"
+},
+{
+"id": "761313ceb83fd31a|math.s1.exponential",
+"text": "die Graphen der Exponentialfunktionen \\(f\\) mit \\(f(x)=c \\cdot a^{ x }\\) unter Verwendung charakteristischer Eigenschaften skizzieren",
+"grades": "10",
+"section": "3.3.4 Leitidee Funktionaler Zusammenhang",
+"sub": "mit weiteren Funktionstypen umgehen",
+"topic": "math.s1.exponential",
+"topic_label": "Exponentielles Wachstum und Exponentialfunktionen",
+"topic_band": "9-10"
+},
+{
+"id": "51490ee79a030fb8|math.s1.trig_functions",
+"text": "[MSA] die Sinusfunktion der Form \\(f(x)= a \\cdot sin(a x)\\) zur Beschreibung periodischer Vorgänge mithilfe digitaler Mathematikwerkzeuge verwenden",
+"grades": "10",
+"section": "3.3.4 Leitidee Funktionaler Zusammenhang",
+"sub": "mit weiteren Funktionstypen umgehen",
+"topic": "math.s1.trig_functions",
+"topic_label": "Trigonometrische Funktionen",
+"topic_band": "10"
+},
+{
+"id": "913b437a518ae751|math.s1.trig_functions",
+"text": "die Sinusfunktion der Form \\(f(x)= a \\cdot sin(a x)\\) zur Beschreibung periodischer Vorgänge mithilfe digitaler Mathematikwerkzeuge verwenden",
+"grades": "10",
+"section": "3.3.4 Leitidee Funktionaler Zusammenhang",
+"sub": "mit weiteren Funktionstypen umgehen",
+"topic": "math.s1.trig_functions",
+"topic_label": "Trigonometrische Funktionen",
+"topic_band": "10"
+},
+{
+"id": "b863a1198e90d7ea|math.s1.trig_functions",
+"text": "die Sinusfunktion der Form \\(f(x)= a \\cdot sin(a x)\\) zur Beschreibung periodischer Vorgänge verwenden, insbesondere mithilfe digitaler Mathematikwerkzeuge verwenden",
+"grades": "10",
+"section": "3.3.4 Leitidee Funktionaler Zusammenhang",
+"sub": "mit weiteren Funktionstypen umgehen",
+"topic": "math.s1.trig_functions",
+"topic_label": "Trigonometrische Funktionen",
+"topic_band": "10"
+},
+{
+"id": "a07a1c9729a636bc|math.s1.exponential",
+"text": "[MSA] Wachstumsvorgänge mithilfe von Exponentialfunktionen beschreiben und Berechnungen durchführen",
+"grades": "10",
+"section": "3.3.4 Leitidee Funktionaler Zusammenhang",
+"sub": "mit weiteren Funktionstypen umgehen",
+"topic": "math.s1.exponential",
+"topic_label": "Exponentielles Wachstum und Exponentialfunktionen",
+"topic_band": "9-10"
+},
+{
+"id": "fdfd91a9c578e9d7|math.s1.exponential",
+"text": "Wachstumsvorgänge mithilfe von Exponentialfunktionen beschreiben und Berechnungen durchführen",
+"grades": "10",
+"section": "3.3.4 Leitidee Funktionaler Zusammenhang",
+"sub": "mit weiteren Funktionstypen umgehen",
+"topic": "math.s1.exponential",
+"topic_label": "Exponentielles Wachstum und Exponentialfunktionen",
+"topic_band": "9-10"
+},
+{
+"id": "94e4093525cf96a1|math.s1.multistage",
+"text": "[MSA] Baumdiagramme zur Darstellung zweistufiger Zufallsexperimente erstellen",
+"grades": "10",
+"section": "3.3.5 Leitidee Daten und Zufall",
+"sub": "Wahrscheinlichkeiten verstehen und berechnen",
+"topic": "math.s1.multistage",
+"topic_label": "Mehrstufige Zufallsexperimente und Baumdiagramme",
+"topic_band": "8-10"
+},
+{
+"id": "2d0d661a9afd0cb5|math.s1.multistage",
+"text": "[MSA] Wahrscheinlichkeiten bei zweistufigen Zufallsexperimenten mithilfe der Pfadregeln (Produkt‑, Summenregel) bestimmen",
+"grades": "10",
+"section": "3.3.5 Leitidee Daten und Zufall",
+"sub": "Wahrscheinlichkeiten verstehen und berechnen",
+"topic": "math.s1.multistage",
+"topic_label": "Mehrstufige Zufallsexperimente und Baumdiagramme",
+"topic_band": "8-10"
+},
+{
+"id": "9389505d495e0682|math.s2.conditional_probability",
+"text": "[MSA] den Begriff bedingte Wahrscheinlichkeit anhand eines Beispiels erläutern",
+"grades": "10",
+"section": "3.3.5 Leitidee Daten und Zufall",
+"sub": "Wahrscheinlichkeiten verstehen und berechnen",
+"topic": "math.s2.conditional_probability",
+"topic_label": "Bedingte Wahrscheinlichkeit und Unabhängigkeit",
+"topic_band": "10-11"
+},
+{
+"id": "5941417ceadf18b8|math.s2.conditional_probability",
+"text": "[MSA] Visualisierungen (z. B. Vierfeldertafel, Baumdiagramm) verwenden, auch zum Erkennen von bedingten Wahrscheinlichkeiten",
+"grades": "10",
+"section": "3.3.5 Leitidee Daten und Zufall",
+"sub": "Wahrscheinlichkeiten verstehen und berechnen",
+"topic": "math.s2.conditional_probability",
+"topic_label": "Bedingte Wahrscheinlichkeit und Unabhängigkeit",
+"topic_band": "10-11"
+},
+{
+"id": "a4dfacf8add89683|math.s2.conditional_probability",
+"text": "Visualisierungen (z. B. Vierfeldertafel, Baumdiagramm) verwenden, auch zum Erkennen von bedingten Wahrscheinlichkeiten",
+"grades": "10",
+"section": "3.3.5 Leitidee Daten und Zufall",
+"sub": "Wahrscheinlichkeiten verstehen und berechnen",
+"topic": "math.s2.conditional_probability",
+"topic_label": "Bedingte Wahrscheinlichkeit und Unabhängigkeit",
+"topic_band": "10-11"
+},
+{
+"id": "a7e1ac7e8bbfb62c|math.s2.random_variables",
+"text": "den Erwartungswert in konkreten Situationen im Sachkontext erläutern",
+"grades": "10",
+"section": "3.3.5 Leitidee Daten und Zufall",
+"sub": "Wahrscheinlichkeiten verstehen und berechnen",
+"topic": "math.s2.random_variables",
+"topic_label": "Zufallsgrößen und Erwartungswert",
+"topic_band": "11-12"
+},
+{
+"id": "01d396c09bc33242|math.p.numbers_to_100",
+"text": "Anzahlen simultan und quasi-simultan erfassen und nennen (zum Beispiel Blitzblick, Fingerzahlen, …) sowie Anzahlen auf verschiedene Weise darstellen (mit unterschiedlichen Materialien legen, an einem geeigneten Anschauungsmittel quasi-simultan einstellen, zeichnen)",
+"grades": "1-2",
+"section": "3.1.1.1 Zahldarstellungen und Zahlbeziehungen verstehen",
+"sub": "",
+"topic": "math.p.numbers_to_100",
+"topic_label": "Zahlen bis 100",
+"topic_band": "1-2"
+},
+{
+"id": "01d396c09bc33242|math.p.numbers_to_20",
+"text": "Anzahlen simultan und quasi-simultan erfassen und nennen (zum Beispiel Blitzblick, Fingerzahlen, …) sowie Anzahlen auf verschiedene Weise darstellen (mit unterschiedlichen Materialien legen, an einem geeigneten Anschauungsmittel quasi-simultan einstellen, zeichnen)",
+"grades": "1-2",
+"section": "3.1.1.1 Zahldarstellungen und Zahlbeziehungen verstehen",
+"sub": "",
+"topic": "math.p.numbers_to_20",
+"topic_label": "Zahlen bis 20",
+"topic_band": "1"
+},
+{
+"id": "e33f7d74e85cb05f|math.p.add_sub",
+"text": "die Grundvorstellungen der vier Grundrechenarten verstehen und diese individuell nutzen (Zusammenfügen, Hinzufügen, Abziehen, Ergänzen, Vervielfachen, Aufteilen, Verteilen – auch mit Rest)",
+"grades": "1-2",
+"section": "3.1.1.2 Rechenoperationen verstehen und beherrschen",
+"sub": "",
+"topic": "math.p.add_sub",
+"topic_label": "Addition und Subtraktion",
+"topic_band": "1-2"
+},
+{
+"id": "e33f7d74e85cb05f|math.p.mult_div",
+"text": "die Grundvorstellungen der vier Grundrechenarten verstehen und diese individuell nutzen (Zusammenfügen, Hinzufügen, Abziehen, Ergänzen, Vervielfachen, Aufteilen, Verteilen – auch mit Rest)",
+"grades": "1-2",
+"section": "3.1.1.2 Rechenoperationen verstehen und beherrschen",
+"sub": "",
+"topic": "math.p.mult_div",
+"topic_label": "Multiplikation und Division, Einmaleins",
+"topic_band": "2-3"
+},
+{
+"id": "bc4fe29f1b527800|math.p.add_sub",
+"text": "Zusammenhänge zwischen Rechenoperationen und Umkehroperationen sowie zwischen Addition und Multiplikation verstehen und die genannten Operationen beim Kontrollieren von Lösungen anwenden",
+"grades": "1-2",
+"section": "3.1.1.2 Rechenoperationen verstehen und beherrschen",
+"sub": "",
+"topic": "math.p.add_sub",
+"topic_label": "Addition und Subtraktion",
+"topic_band": "1-2"
+},
+{
+"id": "bc4fe29f1b527800|math.p.mult_div",
+"text": "Zusammenhänge zwischen Rechenoperationen und Umkehroperationen sowie zwischen Addition und Multiplikation verstehen und die genannten Operationen beim Kontrollieren von Lösungen anwenden",
+"grades": "1-2",
+"section": "3.1.1.2 Rechenoperationen verstehen und beherrschen",
+"sub": "",
+"topic": "math.p.mult_div",
+"topic_label": "Multiplikation und Division, Einmaleins",
+"topic_band": "2-3"
+},
+{
+"id": "3020653dc050acfd|math.p.functional_relations",
+"text": "einfache funktionale Zusammenhänge (zum Beispiel Anzahl – Preis) erkennen und mithilfe von Material veranschaulichen und beschreiben",
+"grades": "1-2",
+"section": "3.1.1.3 In Kontexten rechnen",
+"sub": "",
+"topic": "math.p.functional_relations",
+"topic_label": "Einfache funktionale Beziehungen (Grundschule)",
+"topic_band": "1-4"
+},
+{
+"id": "e171ff46c5c2cda9|math.p.place_value",
+"text": "den Aufbau des dezimalen Stellenwertsystems nutzen und seine Struktur erkennen, verstehen und erklären (Einer, Zehner, Hunderter – als Dreier-Gruppierung, Tausender, Zehntausender, Hunderttausender, Million; Bündeln, Entbündeln)",
+"grades": "3-4",
+"section": "3.2.1.1 Zahldarstellungen und Zahlbeziehungen verstehen",
+"sub": "",
+"topic": "math.p.place_value",
+"topic_label": "Stellenwertsystem",
+"topic_band": "1-4"
+},
+{
+"id": "3699bad6365e5ee0|math.p.numbers_to_million",
+"text": "Zahlen bis 1.000.000 auf verschiedene Weise darstellen (zum Beispiel Stellenwerttafel, Zahlenstrahl, Mehrsystemblöcke)",
+"grades": "3-4",
+"section": "3.2.1.1 Zahldarstellungen und Zahlbeziehungen verstehen",
+"sub": "",
+"topic": "math.p.numbers_to_million",
+"topic_label": "Zahlen bis 1 000 000",
+"topic_band": "4"
+},
+{
+"id": "74aa3ff14f8f23d0|math.p.numbers_to_million",
+"text": "sich sicher im Zahlenraum bis 1.000.000 bewegen und orientieren (zum Beispiel Zählen in Schritten, Zahlen der Größe nach ordnen, Zahlen verorten, Nachbarzahlen bestimmen)",
+"grades": "3-4",
+"section": "3.2.1.1 Zahldarstellungen und Zahlbeziehungen verstehen",
+"sub": "",
+"topic": "math.p.numbers_to_million",
+"topic_label": "Zahlen bis 1 000 000",
+"topic_band": "4"
+},
+{
+"id": "fd31f9647ae923a3|math.p.numbers_to_million",
+"text": "Zahleigenschaften und Zahlbeziehungen erkennen, beschreiben und darstellen (gerade – ungerade Zahlen, Vorgänger – Nachfolger, Nachbarzahlen, die Hälfte, das Doppelte, größer als, kleiner als, gleich, liegt näher bei, liegt zwischen, ist gerundet)",
+"grades": "3-4",
+"section": "3.2.1.1 Zahldarstellungen und Zahlbeziehungen verstehen",
+"sub": "",
+"topic": "math.p.numbers_to_million",
+"topic_label": "Zahlen bis 1 000 000",
+"topic_band": "4"
+},
+{
+"id": "c8468b7dd9e3db18|math.p.add_sub",
+"text": "auf der Grundlage eines Operationenverständnisses zu den vier Grundrechenarten die Zusammenhänge zwischen den Operationen erkennen und nutzen",
+"grades": "3-4",
+"section": "3.2.1.2 Rechenoperationen verstehen und beherrschen",
+"sub": "",
+"topic": "math.p.add_sub",
+"topic_label": "Addition und Subtraktion",
+"topic_band": "1-2"
+},
+{
+"id": "c8468b7dd9e3db18|math.p.mult_div",
+"text": "auf der Grundlage eines Operationenverständnisses zu den vier Grundrechenarten die Zusammenhänge zwischen den Operationen erkennen und nutzen",
+"grades": "3-4",
+"section": "3.2.1.2 Rechenoperationen verstehen und beherrschen",
+"sub": "",
+"topic": "math.p.mult_div",
+"topic_label": "Multiplikation und Division, Einmaleins",
+"topic_band": "2-3"
+},
+{
+"id": "81d3d7a588f9151a|math.p.add_sub",
+"text": "Zusammenhänge zwischen Rechenoperationen und Umkehroperationen (Umkehraufgabe) verstehen und diese Operationen beim Kontrollieren von Lösungen anwenden",
+"grades": "3-4",
+"section": "3.2.1.2 Rechenoperationen verstehen und beherrschen",
+"sub": "",
+"topic": "math.p.add_sub",
+"topic_label": "Addition und Subtraktion",
+"topic_band": "1-2"
+},
+{
+"id": "81d3d7a588f9151a|math.p.mult_div",
+"text": "Zusammenhänge zwischen Rechenoperationen und Umkehroperationen (Umkehraufgabe) verstehen und diese Operationen beim Kontrollieren von Lösungen anwenden",
+"grades": "3-4",
+"section": "3.2.1.2 Rechenoperationen verstehen und beherrschen",
+"sub": "",
+"topic": "math.p.mult_div",
+"topic_label": "Multiplikation und Division, Einmaleins",
+"topic_band": "2-3"
+},
+{
+"id": "71af7568e104af7c|math.p.mental_strategies",
+"text": "strategische Werkzeuge des Zahlenrechnens im erweiterten Zahlenraum anwenden und aufgabenadäquat (auch mündlich) nutzen sowie eigene halbschriftliche Lösungswege im erweiterten Zahlenraum entwickeln, notieren und flexibel einsetzen: zerlegen und zusammensetzen Analogien bilden von Hilfsaufgaben ableiten Aufgaben verändern",
+"grades": "3-4",
+"section": "3.2.1.2 Rechenoperationen verstehen und beherrschen",
+"sub": "",
+"topic": "math.p.mental_strategies",
+"topic_label": "Rechenstrategien und Kopfrechnen",
+"topic_band": "1-4"
+},
+{
+"id": "a9deb8a1d929c024|math.p.mental_strategies",
+"text": "Rechengesetze erkennen, erklären und nutzen (zum Beispiel Kommutativgesetz/Tauschaufgaben, Distributivgesetz/Verteilungsgesetz)",
+"grades": "3-4",
+"section": "3.2.1.2 Rechenoperationen verstehen und beherrschen",
+"sub": "",
+"topic": "math.p.mental_strategies",
+"topic_label": "Rechenstrategien und Kopfrechnen",
+"topic_band": "1-4"
+},
+{
+"id": "e8ee8708e18b2851|math.s1.terms",
+"text": "Terme erkennen, Gleichheit von mathematischen Ausdrücken darstellen und diese nutzen (zum Beispiel Zahlen durch verschiedene Terme ausdrücken, Terme vergleichen)",
+"grades": "3-4",
+"section": "3.2.1.2 Rechenoperationen verstehen und beherrschen",
+"sub": "",
+"topic": "math.s1.terms",
+"topic_label": "Terme und Variablen",
+"topic_band": "5-8"
+},
+{
+"id": "a25333829d67d946|math.p.mental_strategies",
+"text": "eigene Rechenwege beschreiben und begründen sowie Lösungen durch geeignete Vorgehensweisen kontrollieren (zum Beispiel Überschlagsrechnung, Umkehroperation)",
+"grades": "3-4",
+"section": "3.2.1.2 Rechenoperationen verstehen und beherrschen",
+"sub": "",
+"topic": "math.p.mental_strategies",
+"topic_label": "Rechenstrategien und Kopfrechnen",
+"topic_band": "1-4"
+},
+{
+"id": "17ef7cead557b379|math.p.mental_strategies",
+"text": "verschiedene Rechenwege der Addition, Subtraktion (Abziehen oder Ergänzen), Multiplikation und Division verstehen, beschreiben, vergleichen und bewerten; Rechenfehler finden, erklären und berichtigen",
+"grades": "3-4",
+"section": "3.2.1.2 Rechenoperationen verstehen und beherrschen",
+"sub": "",
+"topic": "math.p.mental_strategies",
+"topic_label": "Rechenstrategien und Kopfrechnen",
+"topic_band": "1-4"
+},
+{
+"id": "95d3d81197a9d6a4|math.p.written_algorithms",
+"text": "schriftliche Verfahren der Addition, der Subtraktion, der Multiplikation wie auch der Division und der Division mit Rest anwenden, den Algorithmus beschreiben, und bei geeigneten Aufgaben gebrauchen",
+"grades": "3-4",
+"section": "3.2.1.2 Rechenoperationen verstehen und beherrschen",
+"sub": "",
+"topic": "math.p.written_algorithms",
+"topic_label": "Schriftliche Rechenverfahren",
+"topic_band": "3-4"
+},
+{
+"id": "16e2cb65465b26d5|math.p.add_sub",
+"text": "die Grundaufgaben des Kopfrechnens (unter anderem Zahlzerlegungen, Eins plus eins, Einmaleins) aus dem Gedächtnis abrufen, deren Umkehrungen sicher ableiten und diese Grundkenntnisse auf analoge Aufgaben in größeren Zahlenräumen übertragen und nutzen",
+"grades": "3-4",
+"section": "3.2.1.2 Rechenoperationen verstehen und beherrschen",
+"sub": "",
+"topic": "math.p.add_sub",
+"topic_label": "Addition und Subtraktion",
+"topic_band": "1-2"
+},
+{
+"id": "16e2cb65465b26d5|math.p.mult_div",
+"text": "die Grundaufgaben des Kopfrechnens (unter anderem Zahlzerlegungen, Eins plus eins, Einmaleins) aus dem Gedächtnis abrufen, deren Umkehrungen sicher ableiten und diese Grundkenntnisse auf analoge Aufgaben in größeren Zahlenräumen übertragen und nutzen",
+"grades": "3-4",
+"section": "3.2.1.2 Rechenoperationen verstehen und beherrschen",
+"sub": "",
+"topic": "math.p.mult_div",
+"topic_label": "Multiplikation und Division, Einmaleins",
+"topic_band": "2-3"
+},
+{
+"id": "3b220eac9fb4e139|math.p.word_problems",
+"text": "Sachaufgaben strukturieren, systematisch variieren und lösen sowie Ergebnisse auf Plausibilität prüfen",
+"grades": "3-4",
+"section": "3.2.1.3 Rechenoperationen in Kontexten anwenden",
+"sub": "",
+"topic": "math.p.word_problems",
+"topic_label": "Sachaufgaben und Sachsituationen",
+"topic_band": "1-4"
+},
+{
+"id": "842ec1c92509bc90|math.p.word_problems",
+"text": "die Beziehung zwischen der Sache und den einzelnen Lösungsschritten beschreiben",
+"grades": "3-4",
+"section": "3.2.1.3 Rechenoperationen in Kontexten anwenden",
+"sub": "",
+"topic": "math.p.word_problems",
+"topic_label": "Sachaufgaben und Sachsituationen",
+"topic_band": "1-4"
+},
+{
+"id": "1bd03102644a3d3a|math.p.mental_strategies",
+"text": "Die ungefähre Größenordnung von Ergebnissen vorhersagen und in der Umkehrung die Plausibilität von Ergebnissen durch Abschätzen überprüfen (sachadäquat runden und überschlagen)",
+"grades": "3-4",
+"section": "3.2.1.3 Rechenoperationen in Kontexten anwenden",
+"sub": "",
+"topic": "math.p.mental_strategies",
+"topic_label": "Rechenstrategien und Kopfrechnen",
+"topic_band": "1-4"
+},
+{
+"id": "977dfa8189b6b2f1|math.p.word_problems",
+"text": "heuristische Hilfsmittel (Zeichnungen, Diagramme, Tabellen, Skalen) zur Lösung nutzen und präsentieren (zum Beispiel Tafel, Plakat, Computer,...)",
+"grades": "3-4",
+"section": "3.2.1.3 Rechenoperationen in Kontexten anwenden",
+"sub": "",
+"topic": "math.p.word_problems",
+"topic_label": "Sachaufgaben und Sachsituationen",
+"topic_band": "1-4"
+},
+{
+"id": "67d18eaadce7f2a5|math.p.spatial_orientation",
+"text": "sich räumliche Konfigurationen (zum Beispiel Abbildungen von ebenen Figuren, Würfelbauten, Kantenmodelle, Schrägbilder) vorstellen und in Gedanken damit operieren (zum Beispiel zerlegen, falten, drehen, spiegeln, bauen)",
+"grades": "3-4",
+"section": "3.2.2.1 Über räumliches Vorstellungsvermögen verfügen",
+"sub": "",
+"topic": "math.p.spatial_orientation",
+"topic_label": "Räumliche Orientierung und Lagebeziehungen",
+"topic_band": "1-4"
+},
+{
+"id": "402aef5e5fc06fa2|math.p.spatial_orientation",
+"text": "geometrische Probleme mithilfe ihres räumlichen Vorstellungsvermögens lösen (zwei- und dreidimensionale Darstellungen von Bauwerken in Beziehung setzen (zum Beispiel Bauplan und Bauwerk, Netz und Körper), nach Vorlage bauen, Baupläne erstellen)",
+"grades": "3-4",
+"section": "3.2.2.1 Über räumliches Vorstellungsvermögen verfügen",
+"sub": "",
+"topic": "math.p.spatial_orientation",
+"topic_label": "Räumliche Orientierung und Lagebeziehungen",
+"topic_band": "1-4"
+},
+{
+"id": "b371f4cace297a66|math.p.plane_figures",
+"text": "Linien, ebene Figuren und Muster frei Hand und mit Hilfsmitteln zeichnen (zum Beispiel Lineal, Schablone, Geodreieck, Zirkel, digitale Werkzeuge – sobald vorhanden)",
+"grades": "3-4",
+"section": "3.2.2.2 Geometrische Figuren erkennen, benennen, untersuchen und darstellen",
+"sub": "",
+"topic": "math.p.plane_figures",
+"topic_label": "Ebene Figuren",
+"topic_band": "1-4"
+},
+{
+"id": "022f8fc46f21492f|math.p.plane_figures",
+"text": "ebene Figuren herstellen und zeichnen (zum Beispiel frei Hand, mit Lineal, Geodreieck, Zirkel, kariertes und unliniertes Papier, digitale Werkzeuge – sobald vorhanden)",
+"grades": "3-4",
+"section": "3.2.2.2 Geometrische Figuren erkennen, benennen, untersuchen und darstellen",
+"sub": "",
+"topic": "math.p.plane_figures",
+"topic_label": "Ebene Figuren",
+"topic_band": "1-4"
+},
+{
+"id": "b24fc68bf0855856|math.p.symmetry",
+"text": "achsensymmetrische Figuren herstellen (zum Beispiel falten, schneiden und zeichnen, auch unter Verwendung digitaler Werkzeuge – sobald vorhanden)",
+"grades": "3-4",
+"section": "3.2.2.3 Geometrische Abbildungen erkennen, benennen und darstellen",
+"sub": "",
+"topic": "math.p.symmetry",
+"topic_label": "Symmetrie (Grundschule)",
+"topic_band": "2-4"
+},
+{
+"id": "e9390a1146f0f0ce|math.p.plane_figures",
+"text": "ebene Figuren zeichnen sowie vergrößern und verkleinern",
+"grades": "3-4",
+"section": "3.2.2.3 Geometrische Abbildungen erkennen, benennen und darstellen",
+"sub": "",
+"topic": "math.p.plane_figures",
+"topic_label": "Ebene Figuren",
+"topic_band": "1-4"
+},
+{
+"id": "573e14e36a13e066|math.p.measuring",
+"text": "mit geeigneten Einheiten in allen relevanten Größenbereichen messen: nichtstandardisiert und standardisiert Längen (km, m, cm, mm) Geldwerte (€, Cent) Zeit (Jahr, Monat, Woche, Tag, h, min, s) Massen (t, kg, g) Rauminhalt (l, ml)",
+"grades": "3-4",
+"section": "3.2.3.1 Über Größenvorstellungen verfügen",
+"sub": "",
+"topic": "math.p.measuring",
+"topic_label": "Größen und Messen: Einheiten umrechnen",
+"topic_band": "2-4"
+},
+{
+"id": "10ddb78c88729ca8|math.p.measuring",
+"text": "zu Repräsentanten aus ihrer Erfahrungswelt passende Größenangaben nennen und Größenangaben passende Repräsentanten zuordnen (zum Beispiel Massen: 1 g – Reißnagel, 100 g – Tafel Schokolade, 250 g – Päckchen Butter, 1 kg – Päckchen Mehl, 1 t – Kleinwagen)",
+"grades": "3-4",
+"section": "3.2.3.1 Über Größenvorstellungen verfügen",
+"sub": "",
+"topic": "math.p.measuring",
+"topic_label": "Größen und Messen: Einheiten umrechnen",
+"topic_band": "2-4"
+},
+{
+"id": "99b6e05a5d5f58ee|math.p.word_problems",
+"text": "Sachprobleme aus ihrer Erfahrungswelt lösen und dabei auch passende Näherungswerte verwenden, Größen begründet schätzen, Ergebnisse auf Plausibilität überprüfen",
+"grades": "3-4",
+"section": "3.2.3.2 Mit Größen in Kontexten umgehen",
+"sub": "",
+"topic": "math.p.word_problems",
+"topic_label": "Sachaufgaben und Sachsituationen",
+"topic_band": "1-4"
+},
+{
+"id": "3599e85868261a8d|math.p.data",
+"text": "einfache Befragungen planen und bei Beobachtungen, Untersuchungen und einfachen Experimenten Daten erfassen und strukturieren sowie in Tabellen, Schaubildern und Diagrammen darstellen (Tabelle, Zeile, Spalte, Balken- oder Säulendiagramm)",
+"grades": "3-4",
+"section": "3.2.4.1 Daten erfassen, darstellen und mit ihnen umgehen",
+"sub": "",
+"topic": "math.p.data",
+"topic_label": "Daten erfassen und darstellen",
+"topic_band": "1-4"
+},
+{
+"id": "79962d21a5cd7b71|math.p.data",
+"text": "Daten in Tabellen, Schaubildern und Diagrammen darstellen, auch unter Nutzung digitaler Werkzeuge, sobald vorhanden sowie Informationen aus Tabellen, Schaubildern und Diagrammen entnehmen und diese Informationen deuten",
+"grades": "3-4",
+"section": "3.2.4.1 Daten erfassen, darstellen und mit ihnen umgehen",
+"sub": "",
+"topic": "math.p.data",
+"topic_label": "Daten erfassen und darstellen",
+"topic_band": "1-4"
+},
+{
+"id": "8098b48f07fb1361|math.p.data",
+"text": "heuristische Darstellungen (Zeichnungen, Diagramme, Tabellen, Skalen) zur Lösung nutzen",
+"grades": "3-4",
+"section": "3.2.4.1 Daten erfassen, darstellen und mit ihnen umgehen",
+"sub": "",
+"topic": "math.p.data",
+"topic_label": "Daten erfassen und darstellen",
+"topic_band": "1-4"
+},
+{
+"id": "f4681d4de105cc6a|math.p.chance",
+"text": "Chancen für das Eintreten von Ereignissen bei alltäglichen Phänomenen oder einfachen Zufallsexperimenten (zum Beispiel Kugeln ziehen, würfeln, Glücksrad drehen) einschätzen, auswerten (zum Beispiel Tabelle, Säulen- oder Balkendiagramm) und diese datenbasiert vergleichen (zum Beispiel \"ist wahrscheinlicher als\", „hat größere Chancen als“)",
+"grades": "3-4",
+"section": "3.2.4.2 Wahrscheinlichkeiten von Ereignissen in Zufallsexperimenten vergleichen",
+"sub": "",
+"topic": "math.p.chance",
+"topic_label": "Wahrscheinlichkeit (Grundschule)",
+"topic_band": "2-4"
+},
+{
+"id": "3306356e1ee301df|math.p.chance",
+"text": "Grundbegriffe zur Beschreibung von Zufallsereignissen (sicher, möglich, unmöglich) beschreiben und anwenden",
+"grades": "3-4",
+"section": "3.2.4.2 Wahrscheinlichkeiten von Ereignissen in Zufallsexperimenten vergleichen",
+"sub": "",
+"topic": "math.p.chance",
+"topic_label": "Wahrscheinlichkeit (Grundschule)",
+"topic_band": "2-4"
+},
+{
+"id": "aead18f08713990a|math.s1.statistics",
+"text": "Daten graphisch darstellen (Balken‑, Säulen‑, Streifen‑, Kreisdiagramm), auch unter Verwendung von Tabellenkalkulation",
+"grades": "5-6",
+"section": "3.1.5 Leitidee Daten und Zufall",
+"sub": "Daten erfassen, darstellen und auswerten",
+"topic": "math.s1.statistics",
+"topic_label": "Daten, Diagramme und Kenngrößen",
+"topic_band": "5-8"
+},
+{
+"id": "479477aad21b5279|math.s1.terms",
+"text": "einfache Formeln, unter anderem \\(v=\\frac{s}{t}\\), nach jeder Variablen auflösen",
+"grades": "7-8",
+"section": "3.2.1 Leitidee Zahl – Variable – Operation",
+"sub": "mit Termen umgehen, die auch Variablen enthalten",
+"topic": "math.s1.terms",
+"topic_label": "Terme und Variablen",
+"topic_band": "5-8"
+},
+{
+"id": "0406336ff687833e|math.s1.quadratic_functions",
+"text": "die allgemeine Parabelgleichung \\(y=ax^2+bx+c\\) mithilfe funktionaler oder algebraischer Überlegungen in die Scheitelform \\(y=a\\cdot(x-d)^2+e\\) überführen",
+"grades": "7-8",
+"section": "3.2.4 Leitidee Funktionaler Zusammenhang",
+"sub": "mit quadratischen Funktionen umgehen",
+"topic": "math.s1.quadratic_functions",
+"topic_label": "Quadratische Funktionen",
+"topic_band": "8-9"
+},
+{
+"id": "dd4473609d84ded7|math.s1.power_functions",
+"text": "die Graphen der Potenzfunktionen \\(f\\) mit \\(f(x)=x^{ n }, n \\in\\) \\(\\mathbb{N}\\) und \\(f(x)=x^{ k }\\ (k=-1,‑2)\\) unter Verwendung charakteristischer Eigenschaften skizzieren",
+"grades": "9-10",
+"section": "3.3.4 Leitidee Funktionaler Zusammenhang",
+"sub": "mit Funktionen umgehen",
+"topic": "math.s1.power_functions",
+"topic_label": "Potenzfunktionen",
+"topic_band": "10"
+}
+]
+}

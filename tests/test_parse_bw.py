@@ -45,3 +45,15 @@ def test_gen2x_rows_and_bands():
 
 def test_clean():
     assert clean("Ach­sen  sym­metrie , und ( a )") == "Achsen symmetrie, und (a)"
+    assert clean("Potenz‑, Exponential - und Wurzelfunktion") == "Potenz‑, Exponential- und Wurzelfunktion"
+    assert clean("a - b") == "a - b"   # a real minus or dash between words stays
+    assert clean("im Grad - als auch") == "im Grad- als auch"
+    assert clean("Zeit (- spanne)") == "Zeit (-spanne)"
+
+
+def test_text_of_joins_split_words_and_keeps_superscripts():
+    from bs4 import BeautifulSoup
+    from builder.parse.bw import text_of
+    el = BeautifulSoup('<div><p><span>Prozent</span><span>angaben</span> und 1<sup>2</sup> bis 20<sup>2</sup></p>'
+                       '<p>zweiter Satz</p></div>', "html.parser").div
+    assert text_of(el) == "Prozentangaben und 1^2 bis 20^2 zweiter Satz"

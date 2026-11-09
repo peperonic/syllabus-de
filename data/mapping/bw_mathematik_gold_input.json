@@ -1,0 +1,1364 @@
+{
+ "instructions": "You label curriculum standards (verbatim text from an official German school curriculum)\nwith backbone topics, blind: you see no one else's labels. For each item, list every topic from `topics`\nthat the standard is substantially about (usually one, sometimes two; an empty list if none fits).\nWrite {\"<text_key>\": [\"topic_id\", ...], ...} covering every item.",
+ "seed": 20261109,
+ "items": [
+  {
+   "text_key": "5f6a7141d964b27b",
+   "text": "Winkelweiten unter Verwendung von Scheitel- und Nebenwinkeln sowie Stufen- und Wechselwinkeln erschließen",
+   "grades": [
+    "7-8",
+    "7-9"
+   ],
+   "section": [
+    "3.2.3 Leitidee Raum und Form"
+   ],
+   "subheading": [
+    "Geometrische Figuren untersuchen",
+    "geometrische Figuren untersuchen"
+   ]
+  },
+  {
+   "text_key": "1bd19318e8aecef6",
+   "text": "einfache Aufgaben mit Unbekannten durch Ausprobieren oder Rückwärtsrechnen lösen",
+   "grades": [
+    "5-6"
+   ],
+   "section": [
+    "3.1.1 Leitidee Zahl – Variable – Operation"
+   ],
+   "subheading": [
+    "Mit Zahltermen arbeiten",
+    "mit Zahltermen arbeiten"
+   ]
+  },
+  {
+   "text_key": "c356daed80e11047",
+   "text": "Funktionsterme ganzrationaler Funktionen mithilfe von Nullstellen in faktorisierter Form angeben",
+   "grades": [
+    "11",
+    "9-10"
+   ],
+   "section": [
+    "3.3.4 Leitidee Funktionaler Zusammenhang"
+   ],
+   "subheading": [
+    "Mit Funktionen umgehen",
+    "mit Funktionen umgehen",
+    "mit ganzrationalen und trigonometrischen Funktionen umgehen"
+   ]
+  },
+  {
+   "text_key": "bb82a94dff68e7cf",
+   "text": "Streckenlängen und Winkelweiten unter Nutzung der Längenverhältnisse Sinus und Tangens bestimmen",
+   "grades": [
+    "10"
+   ],
+   "section": [
+    "3.3.3 Leitidee Raum und Form"
+   ],
+   "subheading": []
+  },
+  {
+   "text_key": "396fee25f6aa6e9a",
+   "text": "Brüche zur Beschreibung von Realsituationen verwenden, insbesondere unter den Aspekten Anteil, Teile eines oder mehrerer Ganzer, Verhältnis, Operator, Maßzahl einer Größe",
+   "grades": [
+    "5-6"
+   ],
+   "section": [
+    "3.1.1 Leitidee Zahl – Variable – Operation"
+   ],
+   "subheading": [
+    "Zahlbereiche erkunden"
+   ]
+  },
+  {
+   "text_key": "7a29ce7815d7b2c8",
+   "text": "die binomischen Formeln bei Termen, die nur eine Variable enthalten, auch zum Faktorisieren anwenden",
+   "grades": [
+    "7-8",
+    "7-9"
+   ],
+   "section": [
+    "3.2.1 Leitidee Zahl – Variable – Operation"
+   ],
+   "subheading": [
+    "Mit Termen umgehen, die auch Variablen enthalten",
+    "mit Termen umgehen, die auch Variablen enthalten"
+   ]
+  },
+  {
+   "text_key": "90d934e713d88f8d",
+   "text": "ihre Größenvorstellungen beim Schätzen anwenden",
+   "grades": [
+    "3-4"
+   ],
+   "section": [
+    "3.2.3.1 Größenvorstellungen besitzen",
+    "3.2.3.1 Über Größenvorstellungen verfügen"
+   ],
+   "subheading": []
+  },
+  {
+   "text_key": "5d39533ce7e9bed4",
+   "text": "einfache Zufallsexperimente durchführen und beschreiben (zum Beispiel Kugeln ziehen, würfeln, Glücksrad drehen, Münze werfen, Wendeplättchen werfen)",
+   "grades": [
+    "1-2"
+   ],
+   "section": [
+    "3.1.4.2 Einfache Zufallsexperimente durchführen"
+   ],
+   "subheading": []
+  },
+  {
+   "text_key": "59cd697d90cdc9db",
+   "text": "Vierecke (Quadrat, Rechteck, Raute, Drachenviereck, Parallelogramm, Trapez) identifizieren und deren spezielle Eigenschaften beschreiben",
+   "grades": [
+    "7-9"
+   ],
+   "section": [
+    "3.2.3 Leitidee Raum und Form"
+   ],
+   "subheading": [
+    "Geometrische Figuren untersuchen",
+    "geometrische Figuren untersuchen"
+   ]
+  },
+  {
+   "text_key": "4f0e9c528c68ea5c",
+   "text": "Brüche zur Beschreibung von Realsituationen verwenden, insbesondere unter den Aspekten Anteil, Maßzahl einer Größe",
+   "grades": [
+    "5-6"
+   ],
+   "section": [
+    "3.1.1 Leitidee Zahl – Variable – Operation"
+   ],
+   "subheading": [
+    "Zahlbereiche erkunden"
+   ]
+  },
+  {
+   "text_key": "7290c87e3f5445dc",
+   "text": "die Formel \\(K_{\\scriptscriptstyle n}=K_{\\scriptscriptstyle 0} \\cdot q^n\\) unter dem Aspekt des exponentiellen Wachstums für die Berechnung aller Größen anwenden und begründen",
+   "grades": [
+    "11",
+    "9-10"
+   ],
+   "section": [
+    "3.3.1 Leitidee Zahl – Variable – Operation"
+   ],
+   "subheading": [
+    "Exponentielles Wachstum anwenden",
+    "exponentielles Wachstum anwenden"
+   ]
+  },
+  {
+   "text_key": "4346ea10e98126a6",
+   "text": "Muster (z. B. Zahlenfolgen) erkennen, verbal beschreiben und diese fortsetzen",
+   "grades": [
+    "5-6"
+   ],
+   "section": [
+    "3.1.4 Leitidee Funktionaler Zusammenhang"
+   ],
+   "subheading": [
+    "Zusammenhänge beschreiben"
+   ]
+  },
+  {
+   "text_key": "3a7c02b83cea5fbb",
+   "text": "[MSA] aufgrund von Deckungsgleichheit und durch Vergleich von Streckenlängen und Winkelweiten angeben, ob zwei Figuren kongruent sind",
+   "grades": [
+    "7-9"
+   ],
+   "section": [
+    "3.2.3 Leitidee Raum und Form"
+   ],
+   "subheading": [
+    "Mit Strahlensätzen, Ähnlichkeit und Kongruenz arbeiten",
+    "mit Strahlensätzen, Ähnlichkeit und Kongruenz arbeiten"
+   ]
+  },
+  {
+   "text_key": "eba2b2a78f06e965",
+   "text": "Funktionen auf ihr Verhalten für \\(\\vert x \\vert \\to \\infty\\) und deren Graphen auf Symmetrie (zum Ursprung oder zur y-Achse) untersuchen",
+   "grades": [
+    "11",
+    "9-10"
+   ],
+   "section": [
+    "3.3.4 Leitidee Funktionaler Zusammenhang"
+   ],
+   "subheading": [
+    "Mit Funktionen umgehen",
+    "mit Funktionen umgehen"
+   ]
+  },
+  {
+   "text_key": "f8ba37953f6dfb8c",
+   "text": "Streckenlängen und Winkelweiten unter Nutzung der Ähnlichkeit von Figuren und der Strahlensätze bestimmen",
+   "grades": [
+    "7-9"
+   ],
+   "section": [
+    "3.2.3 Leitidee Raum und Form"
+   ],
+   "subheading": [
+    "Mit Strahlensätzen, Ähnlichkeit und Kongruenz arbeiten",
+    "mit Strahlensätzen, Ähnlichkeit und Kongruenz arbeiten"
+   ]
+  },
+  {
+   "text_key": "ece11e0cf25fab83",
+   "text": "den Aufbau des dezimalen Stellenwertsystems nutzen und seine Struktur erkennen und verstehen (Einer, Zehner, Hunderter – als Dreier-Gruppierung, Tausender, Zehntausender, Hunderttausender, Million; Bündeln, Entbündeln)",
+   "grades": [
+    "3-4"
+   ],
+   "section": [
+    "3.2.1.1 Zahldarstellungen und Zahlbeziehungen verstehen"
+   ],
+   "subheading": []
+  },
+  {
+   "text_key": "ca68483517aae6e8",
+   "text": "Bruchgleichungen lösen, bei denen die einmalige Multiplikation mit \\(x^n\\) oder mit genau einem Linearfaktor zielführend ist",
+   "grades": [
+    "7-8",
+    "7-9",
+    "9-10"
+   ],
+   "section": [
+    "3.2.1 Leitidee Zahl – Variable – Operation",
+    "3.3.1 Leitidee Zahl – Variable – Operation"
+   ],
+   "subheading": [
+    "Gleichungen lösen"
+   ]
+  },
+  {
+   "text_key": "7f936c596dbb30c7",
+   "text": "Gesetzmäßigkeiten in arithmetischen Mustern erkennen, beschreiben und fortsetzen",
+   "grades": [
+    "1-2",
+    "3-4"
+   ],
+   "section": [
+    "3.1.1.1 Zahldarstellungen und Zahlbeziehungen verstehen",
+    "3.2.1.1 Zahldarstellungen und Zahlbeziehungen verstehen"
+   ],
+   "subheading": []
+  },
+  {
+   "text_key": "b53293226f46f5dc",
+   "text": "eine quadratische Funktion \\(f\\) in ihrer Normalform \\(f(x) = a x^2 + b x + c\\) mithilfe funktionaler oder algebraischer Überlegungen in die Scheitelform ​\\(f(x) = a \\cdot (x-d)^2 + e\\) überführen",
+   "grades": [
+    "9-10"
+   ],
+   "section": [
+    "3.3.4 Leitidee Funktionaler Zusammenhang"
+   ],
+   "subheading": [
+    "mit quadratischen Funktionen umgehen"
+   ]
+  },
+  {
+   "text_key": "f2a24b3d257cf03c",
+   "text": "Baumdiagramme zur Darstellung zweistufiger Zufallsexperimente erstellen",
+   "grades": [
+    "10"
+   ],
+   "section": [
+    "3.3.5 Leitidee Daten und Zufall"
+   ],
+   "subheading": [
+    "Wahrscheinlichkeiten verstehen und berechnen"
+   ]
+  },
+  {
+   "text_key": "03331f0fcc1f6574",
+   "text": "einfachen Tabellen und Diagrammen Informationen entnehmen und diese beschreiben",
+   "grades": [
+    "1-2"
+   ],
+   "section": [
+    "3.1.4.1 Aus einfachen Situationen Daten erfassen und darstellen"
+   ],
+   "subheading": []
+  },
+  {
+   "text_key": "06956413e62857bf",
+   "text": "unterschiedliche Messgeräte sachgerecht nutzen (zum Beispiel Meterstab, Bandmaß, Lineal, Uhren, Messbecher)",
+   "grades": [
+    "3-4"
+   ],
+   "section": [
+    "3.2.3.1 Größenvorstellungen besitzen",
+    "3.2.3.1 Über Größenvorstellungen verfügen"
+   ],
+   "subheading": []
+  },
+  {
+   "text_key": "578c6066cf44c4d7",
+   "text": "räumliche Konfigurationen in verschiedenen Positionen beschreiben, Zusammenhänge erkennen und Perspektivwechsel durchführen",
+   "grades": [
+    "3-4"
+   ],
+   "section": [
+    "3.2.2.1 Sich im Raum orientieren",
+    "3.2.2.1 Über räumliches Vorstellungsvermögen verfügen"
+   ],
+   "subheading": []
+  },
+  {
+   "text_key": "4152bd4d58f478ae",
+   "text": "unter Nutzung des Satzes des Pythagoras Streckenlängen berechnen beziehungsweise mithilfe seines Kehrsatzes auf Orthogonalität schließen",
+   "grades": [
+    "11",
+    "7-9",
+    "9-10"
+   ],
+   "section": [
+    "3.2.3 Leitidee Raum und Form",
+    "3.3.3 Leitidee Raum und Form"
+   ],
+   "subheading": [
+    "Den Satz des Pythagoras anwenden",
+    "Geometrische Zusammenhänge beweisen und mit trigonometrischen Beziehungen arbeiten"
+   ]
+  },
+  {
+   "text_key": "f98e1ad2ff6ccfc7",
+   "text": "das Gaußverfahren, auch in Matrixschreibweise, auf lineare Gleichungssysteme ohne Parameter bis zur Stufenform anwenden",
+   "grades": [
+    "11-12",
+    "12-13"
+   ],
+   "section": [
+    "3.5.1 Leitidee Zahl – Variable – Operation",
+    "3.6.1 Leitidee Zahl – Variable – Operation"
+   ],
+   "subheading": [
+    "Lineare Gleichungssysteme untersuchen",
+    "lineare Gleichungssysteme untersuchen"
+   ]
+  },
+  {
+   "text_key": "8cfeae687c3c859b",
+   "text": "Problemstellungen, wie zum Beispiel Spiegelung eines Punktes an einer Ebene, Flächeninhalts- und Volumenberechnungen bearbeiten, sowie Untersuchungen geradliniger Bewegungen",
+   "grades": [
+    "11-12",
+    "12-13"
+   ],
+   "section": [
+    "3.5.3 Leitidee Raum und Form"
+   ],
+   "subheading": [
+    "vektorielle Darstellungen zur Beschreibung des Anschauungsraumes verwenden"
+   ]
+  },
+  {
+   "text_key": "0e38da533c446bb9",
+   "text": "mit geeigneten Einheiten in allen relevanten Größenbereichen messen: nichtstandardisiert und standardisiert Längen (km, m, cm, mm) Geldwerte (€, Cent) Zeit (Jahr, Monat, Woche, Tag, h, min, s) Gewichte (t, kg, g) Rauminhalt (l, ml)",
+   "grades": [
+    "3-4"
+   ],
+   "section": [
+    "3.2.3.1 Größenvorstellungen besitzen"
+   ],
+   "subheading": []
+  },
+  {
+   "text_key": "546924741a613681",
+   "text": "[MSA] die Notwendigkeit der Zahlbereichserweiterung auf reelle Zahlen anhand geeigneter Beispiele beschreiben",
+   "grades": [
+    "7-9"
+   ],
+   "section": [
+    "3.2.1 Leitidee Zahl – Variable – Operation"
+   ],
+   "subheading": [
+    "Zahlbereichserweiterungen untersuchen"
+   ]
+  },
+  {
+   "text_key": "79962d21a5cd7b71",
+   "text": "Daten in Tabellen, Schaubildern und Diagrammen darstellen, auch unter Nutzung digitaler Werkzeuge, sobald vorhanden sowie Informationen aus Tabellen, Schaubildern und Diagrammen entnehmen und diese Informationen deuten",
+   "grades": [
+    "3-4"
+   ],
+   "section": [
+    "3.2.4.1 Daten erfassen, darstellen und mit ihnen umgehen"
+   ],
+   "subheading": []
+  },
+  {
+   "text_key": "7c7e350da76f3190",
+   "text": "geometrische Objekte in selbstständig skalierten zweidimensionalen kartesischen Koordinatensystemen darstellen",
+   "grades": [
+    "5-6"
+   ],
+   "section": [
+    "3.1.3 Leitidee Raum und Form"
+   ],
+   "subheading": [
+    "Geometrische Objekte zeichnen und konstruieren",
+    "geometrische Objekte zeichnen und konstruieren"
+   ]
+  },
+  {
+   "text_key": "77cebb1e72121832",
+   "text": "Winkelweiten und Streckenlängen durch Anwenden des Winkelsummensatzes oder des Basiswinkelsatzes beziehungsweise dessen Kehrsatz erschließen",
+   "grades": [
+    "7-8",
+    "7-9"
+   ],
+   "section": [
+    "3.2.3 Leitidee Raum und Form"
+   ],
+   "subheading": [
+    "Geometrische Figuren untersuchen",
+    "geometrische Figuren untersuchen"
+   ]
+  },
+  {
+   "text_key": "76dd6c6fda6a7600",
+   "text": "den Winkelsummensatz für Dreiecke angeben",
+   "grades": [
+    "7-9"
+   ],
+   "section": [
+    "3.2.3 Leitidee Raum und Form"
+   ],
+   "subheading": [
+    "Geometrische Figuren untersuchen",
+    "geometrische Figuren untersuchen"
+   ]
+  },
+  {
+   "text_key": "40549292c17ce67b",
+   "text": "[MSA] Zahlenfolgen fortsetzen und unter Verwendung von Variablen beschreiben",
+   "grades": [
+    "7-9"
+   ],
+   "section": [
+    "3.2.1 Leitidee Zahl – Variable – Operation"
+   ],
+   "subheading": [
+    "mit Termen umgehen, die auch Variablen enthalten"
+   ]
+  },
+  {
+   "text_key": "c5766455a3f78624",
+   "text": "einfache statistische Aussagen mithilfe von Kenngrößen von Daten formulieren",
+   "grades": [
+    "7-9"
+   ],
+   "section": [
+    "3.2.5 Leitidee Daten und Zufall"
+   ],
+   "subheading": [
+    "Daten erfassen, darstellen, aus- und bewerten"
+   ]
+  },
+  {
+   "text_key": "e4f9c341b1e8d045",
+   "text": "eine quadratische Gleichung zu vorgegebenen Lösungen bestimmen",
+   "grades": [
+    "7-8",
+    "7-9",
+    "9-10"
+   ],
+   "section": [
+    "3.2.1 Leitidee Zahl – Variable – Operation",
+    "3.3.1 Leitidee Zahl – Variable – Operation"
+   ],
+   "subheading": [
+    "Gleichungen lösen"
+   ]
+  },
+  {
+   "text_key": "3039f215e4724111",
+   "text": "Fehler erster und zweiter Art im Kontext eines Hypothesentests erläutern",
+   "grades": [
+    "11-12",
+    "12-13"
+   ],
+   "section": [
+    "3.4.5 Leitidee Daten und Zufall",
+    "3.5.5 Leitidee Daten und Zufall"
+   ],
+   "subheading": [
+    "Hypothesen bei binomialverteilten Zufallsgrößen testen"
+   ]
+  },
+  {
+   "text_key": "cdde0d8372ff72e4",
+   "text": "alltagsbezogene Sachverhalte aus Darstellungen ablesen (zum Beispiel größte und kleinste Werte, Zunehmen und Abnehmen, Zeitpunkte)",
+   "grades": [
+    "7-8"
+   ],
+   "section": [
+    "3.2.4 Leitidee Funktionaler Zusammenhang"
+   ],
+   "subheading": [
+    "Funktionale Zusammenhänge darstellen und nutzen",
+    "funktionale Zusammenhänge darstellen und nutzen"
+   ]
+  },
+  {
+   "text_key": "901c53b6cb6e867e",
+   "text": "den Wert von Termen, die Variablen enthalten, durch Einsetzen berechnen",
+   "grades": [
+    "7-8",
+    "7-9"
+   ],
+   "section": [
+    "3.2.1 Leitidee Zahl – Variable – Operation"
+   ],
+   "subheading": [
+    "Mit Termen umgehen, die auch Variablen enthalten",
+    "mit Termen umgehen, die auch Variablen enthalten"
+   ]
+  },
+  {
+   "text_key": "40530aab1eeb686f",
+   "text": "die Wirkung von Parametern in Funktionstermen von Potenz‑, Exponential- und Wurzelfunktion auf deren Graphen abbildungsgeometrisch deuten",
+   "grades": [
+    "10"
+   ],
+   "section": [
+    "3.3.4 Leitidee Funktionaler Zusammenhang"
+   ],
+   "subheading": [
+    "Mit weiteren Funktionstypen umgehen",
+    "mit weiteren Funktionstypen umgehen"
+   ]
+  },
+  {
+   "text_key": "a44f68ff9ade568f",
+   "text": "das dezimale Stellenwertsystem nutzen und seine Struktur erkennen (Einer, Zehner, Hunderter, Bündeln, Entbündeln)",
+   "grades": [
+    "1-2"
+   ],
+   "section": [
+    "3.1.1.1 Zahldarstellungen und Zahlbeziehungen verstehen"
+   ],
+   "subheading": []
+  },
+  {
+   "text_key": "cf333224b669eecb",
+   "text": "Flächen mit unterschiedlichen Formen legen, auslegen und vergleichen (zum Beispiel Flächen mit Quadraten, Rechtecken und Dreiecken auslegen)",
+   "grades": [
+    "1-2"
+   ],
+   "section": [
+    "3.1.2.4 Flächen legen und auslegen"
+   ],
+   "subheading": []
+  },
+  {
+   "text_key": "e90fb31fae5787e1",
+   "text": "einfache Formeln (zum Beispiel \\(\\rho = \\frac{m}{V}\\)) nach jeder Variablen auflösen",
+   "grades": [
+    "7-8"
+   ],
+   "section": [
+    "3.2.1 Leitidee Zahl – Variable – Operation"
+   ],
+   "subheading": [
+    "mit Termen umgehen, die auch Variablen enthalten"
+   ]
+  },
+  {
+   "text_key": "4630f4c6ba64a965",
+   "text": "die Beziehungen \\(sin^{ 2 }(\\alpha)+cos^{ 2 }(\\alpha)=1\\), \\(sin(90^\\circ‑\\alpha)=cos(\\alpha)\\), \\(tan(\\alpha)=\\frac{ sin(\\alpha) }{ cos(\\alpha) }\\) herleiten",
+   "grades": [
+    "11",
+    "9-10"
+   ],
+   "section": [
+    "3.3.3 Leitidee Raum und Form"
+   ],
+   "subheading": [
+    "Geometrische Zusammenhänge beweisen und mit trigonometrischen Beziehungen arbeiten"
+   ]
+  },
+  {
+   "text_key": "402aef5e5fc06fa2",
+   "text": "geometrische Probleme mithilfe ihres räumlichen Vorstellungsvermögens lösen (zwei- und dreidimensionale Darstellungen von Bauwerken in Beziehung setzen (zum Beispiel Bauplan und Bauwerk, Netz und Körper), nach Vorlage bauen, Baupläne erstellen)",
+   "grades": [
+    "3-4"
+   ],
+   "section": [
+    "3.2.2.1 Über räumliches Vorstellungsvermögen verfügen"
+   ],
+   "subheading": []
+  },
+  {
+   "text_key": "0aefe51b07fede03",
+   "text": "die Formel zur Berechnung des Mantelflächeninhalts beim Zylinder herleiten",
+   "grades": [
+    "7-9"
+   ],
+   "section": [
+    "3.2.2 Leitidee Messen"
+   ],
+   "subheading": [
+    "Bei Figuren und Körpern Größen berechnen",
+    "bei Figuren und Körpern Größen berechnen"
+   ]
+  },
+  {
+   "text_key": "c059489494f2a1ea",
+   "text": "die Anzahl der jeweiligen Möglichkeiten (mögliche und günstige Ergebnisse) in konkreten Situationen durch einfache kombinatorische Überlegungen bestimmen",
+   "grades": [
+    "7-8"
+   ],
+   "section": [
+    "3.2.5 Leitidee Daten und Zufall"
+   ],
+   "subheading": [
+    "Wahrscheinlichkeiten verstehen und berechnen"
+   ]
+  },
+  {
+   "text_key": "22f8e753e39943e4",
+   "text": "einfache Formeln, u. a. \\(v=\\frac{s}{t}\\), nach jeder Variablen auflösen",
+   "grades": [
+    "7-9"
+   ],
+   "section": [
+    "3.2.1 Leitidee Zahl – Variable – Operation"
+   ],
+   "subheading": [
+    "Mit Termen umgehen, die auch Variablen enthalten",
+    "mit Termen umgehen, die auch Variablen enthalten"
+   ]
+  },
+  {
+   "text_key": "f419cc4a120ac4c5",
+   "text": "Extremwertprobleme mit Nebenbedingungen lösen",
+   "grades": [
+    "11-12",
+    "12-13"
+   ],
+   "section": [
+    "3.4.4 Leitidee Funktionaler Zusammenhang",
+    "3.5.4 Leitidee Funktionaler Zusammenhang"
+   ],
+   "subheading": [
+    "Differentialrechnung anwenden"
+   ]
+  },
+  {
+   "text_key": "ffc34394f94c61fe",
+   "text": "Gesetzmäßigkeiten in einfachen arithmetischen Mustern erkennen, beschreiben und fortsetzen",
+   "grades": [
+    "1-2"
+   ],
+   "section": [
+    "3.1.1.2 Rechenoperationen verstehen und beherrschen"
+   ],
+   "subheading": []
+  },
+  {
+   "text_key": "24425e6d2309c09d",
+   "text": "Prozentwert, Grundwert und Prozentsatz identifizieren, visualisieren (z. B. Prozentstreifen) und berechnen",
+   "grades": [
+    "7-9"
+   ],
+   "section": [
+    "3.2.1 Leitidee Zahl – Variable – Operation"
+   ],
+   "subheading": [
+    "mit Prozenten und Zinsen umgehen"
+   ]
+  },
+  {
+   "text_key": "31ffad9ab727807a",
+   "text": "Senkrechten, Parallelen und Winkel vorgegebener Winkelweite mithilfe eines Geodreiecks zeichnen",
+   "grades": [
+    "5-6"
+   ],
+   "section": [
+    "3.1.3 Leitidee Raum und Form"
+   ],
+   "subheading": [
+    "Geometrische Objekte zeichnen und konstruieren",
+    "geometrische Objekte zeichnen und konstruieren"
+   ]
+  },
+  {
+   "text_key": "8fdb7409fc878c2c",
+   "text": "mit Größenangaben rechnen und dabei Einheiten korrekt anwenden",
+   "grades": [
+    "5-6"
+   ],
+   "section": [
+    "3.1.2 Leitidee Messen"
+   ],
+   "subheading": [
+    "Mit Größen umgehen",
+    "mit Größen umgehen"
+   ]
+  },
+  {
+   "text_key": "6af2b42851f008cf",
+   "text": "anhand eines Beispiels erklären, dass im Allgemeinen \\(\\sqrt{a}+\\sqrt{b}\\neq\\sqrt{a+b}\\) ist, aber \\(\\sqrt{ab}=\\sqrt{a}\\sqrt{b}\\) ist",
+   "grades": [
+    "7-8",
+    "7-9"
+   ],
+   "section": [
+    "3.2.1 Leitidee Zahl – Variable – Operation"
+   ],
+   "subheading": [
+    "Mit Wurzeln umgehen"
+   ]
+  },
+  {
+   "text_key": "d4c1d3e2ed8c25c7",
+   "text": "Definitionsmengen und Wertemengen von Funktionen bestimmen und den Zusammenhang zwischen der Wertemenge einer Funktion und der Definitionsmenge ihrer Umkehrfunktion erläutern",
+   "grades": [
+    "11-12",
+    "12-13"
+   ],
+   "section": [
+    "3.4.4 Leitidee Funktionaler Zusammenhang",
+    "3.5.4 Leitidee Funktionaler Zusammenhang"
+   ],
+   "subheading": [
+    "mit Umkehrfunktionen arbeiten"
+   ]
+  },
+  {
+   "text_key": "aafb3ffd9c04d662",
+   "text": "eine Datenerhebung bei vorgegebenen Merkmalen und Merkmalsausprägungen mit Hilfe planen und selbstständig durchführen, auch unter den Aspekten Stichprobenauswahl und Erhebungsinstrument",
+   "grades": [
+    "5-6",
+    "7-9"
+   ],
+   "section": [
+    "3.1.5 Leitidee Daten und Zufall",
+    "3.2.5 Leitidee Daten und Zufall"
+   ],
+   "subheading": [
+    "Daten erfassen, darstellen und auswerten",
+    "Daten erfassen, darstellen, aus- und bewerten"
+   ]
+  },
+  {
+   "text_key": "edd4f2ea2858176a",
+   "text": "[MSA] die Wirkung der Parameter \\(a\\) und \\(c\\) in der Parabelgleichung \\(y=ax^2+c\\) auf den Graphen abbildungsgeometrisch als Streckung, Spiegelung, Verschiebung deuten",
+   "grades": [
+    "7-9"
+   ],
+   "section": [
+    "3.2.4 Leitidee Funktionaler Zusammenhang"
+   ],
+   "subheading": [
+    "Mit quadratischen Funktionen umgehen",
+    "mit quadratischen Funktionen umgehen"
+   ]
+  },
+  {
+   "text_key": "00cdffa7f117a87d",
+   "text": "den Umfang von Rechteck, Quadrat, Dreieck, Trapez, Parallelogramm bestimmen und beim Kreis mithilfe der Formel berechnen sowie den Umfang zusammengesetzter Figuren bestimmen",
+   "grades": [
+    "5-6"
+   ],
+   "section": [
+    "3.1.2 Leitidee Messen"
+   ],
+   "subheading": [
+    "Bei Figuren und Körpern Größen berechnen",
+    "bei Figuren und Körpern Größen berechnen"
+   ]
+  },
+  {
+   "text_key": "9f4e0ea24d8b697c",
+   "text": "Aufgaben zu Sachsituationen finden, erstellen und mit mathematischen Mitteln lösen",
+   "grades": [
+    "3-4"
+   ],
+   "section": [
+    "3.2.1.3 In Kontexten rechnen",
+    "3.2.1.3 Rechenoperationen in Kontexten anwenden"
+   ],
+   "subheading": []
+  },
+  {
+   "text_key": "04d9149cd459596f",
+   "text": "graphische statistische Darstellungen hinsichtlich ihrer Eignung beurteilen",
+   "grades": [
+    "7-9"
+   ],
+   "section": [
+    "3.2.5 Leitidee Daten und Zufall"
+   ],
+   "subheading": [
+    "Daten erfassen, darstellen, aus- und bewerten"
+   ]
+  },
+  {
+   "text_key": "f04f94f5f723806c",
+   "text": "eine Datenerhebung bei vorgegebenen Merkmalen und Merkmalsausprägungen mithilfe planen und selbstständig durchführen",
+   "grades": [
+    "7-9"
+   ],
+   "section": [
+    "3.2.5 Leitidee Daten und Zufall"
+   ],
+   "subheading": [
+    "Daten erfassen, darstellen, aus- und bewerten"
+   ]
+  }
+ ],
+ "topics": [
+  {
+   "topic_id": "math.p.add_sub",
+   "label_de": "Addition und Subtraktion",
+   "kmk_anchor": "L1 Zahl und Operation",
+   "grade_band": "1-2"
+  },
+  {
+   "topic_id": "math.p.area_perimeter_intro",
+   "label_de": "Flächen und Umfang (Grundvorstellung)",
+   "kmk_anchor": "L2 Messen",
+   "grade_band": "3-4"
+  },
+  {
+   "topic_id": "math.p.chance",
+   "label_de": "Wahrscheinlichkeit (Grundschule)",
+   "kmk_anchor": "L5 Daten und Zufall",
+   "grade_band": "2-4"
+  },
+  {
+   "topic_id": "math.p.combinatorics",
+   "label_de": "Einfache Kombinatorik (Grundschule)",
+   "kmk_anchor": "L5 Daten und Zufall",
+   "grade_band": "1-4"
+  },
+  {
+   "topic_id": "math.p.data",
+   "label_de": "Daten erfassen und darstellen",
+   "kmk_anchor": "L5 Daten und Zufall",
+   "grade_band": "1-4"
+  },
+  {
+   "topic_id": "math.p.functional_relations",
+   "label_de": "Einfache funktionale Beziehungen (Grundschule)",
+   "kmk_anchor": "Muster und Strukturen",
+   "grade_band": "1-4"
+  },
+  {
+   "topic_id": "math.p.length_weight_capacity",
+   "label_de": "Längen, Gewichte und Rauminhalte",
+   "kmk_anchor": "L2 Messen",
+   "grade_band": "2-4"
+  },
+  {
+   "topic_id": "math.p.measuring",
+   "label_de": "Größen und Messen: Einheiten umrechnen",
+   "kmk_anchor": "L2 Messen",
+   "grade_band": "2-4"
+  },
+  {
+   "topic_id": "math.p.mental_strategies",
+   "label_de": "Rechenstrategien und Kopfrechnen",
+   "kmk_anchor": "L1 Zahl und Operation",
+   "grade_band": "1-4"
+  },
+  {
+   "topic_id": "math.p.money",
+   "label_de": "Geld",
+   "kmk_anchor": "L2 Messen",
+   "grade_band": "1-2"
+  },
+  {
+   "topic_id": "math.p.mult_div",
+   "label_de": "Multiplikation und Division, Einmaleins",
+   "kmk_anchor": "L1 Zahl und Operation",
+   "grade_band": "2-3"
+  },
+  {
+   "topic_id": "math.p.numbers_to_100",
+   "label_de": "Zahlen bis 100",
+   "kmk_anchor": "L1 Zahl und Operation",
+   "grade_band": "1-2"
+  },
+  {
+   "topic_id": "math.p.numbers_to_1000",
+   "label_de": "Zahlen bis 1000",
+   "kmk_anchor": "L1 Zahl und Operation",
+   "grade_band": "3"
+  },
+  {
+   "topic_id": "math.p.numbers_to_20",
+   "label_de": "Zahlen bis 20",
+   "kmk_anchor": "L1 Zahl und Operation",
+   "grade_band": "1"
+  },
+  {
+   "topic_id": "math.p.numbers_to_million",
+   "label_de": "Zahlen bis 1 000 000",
+   "kmk_anchor": "L1 Zahl und Operation",
+   "grade_band": "4"
+  },
+  {
+   "topic_id": "math.p.patterns",
+   "label_de": "Muster und Strukturen",
+   "kmk_anchor": "Muster und Strukturen",
+   "grade_band": "1-4"
+  },
+  {
+   "topic_id": "math.p.place_value",
+   "label_de": "Stellenwertsystem",
+   "kmk_anchor": "L1 Zahl und Operation",
+   "grade_band": "1-4"
+  },
+  {
+   "topic_id": "math.p.plane_figures",
+   "label_de": "Ebene Figuren",
+   "kmk_anchor": "L3 Raum und Form",
+   "grade_band": "1-4"
+  },
+  {
+   "topic_id": "math.p.solids",
+   "label_de": "Geometrische Körper",
+   "kmk_anchor": "L3 Raum und Form",
+   "grade_band": "1-4"
+  },
+  {
+   "topic_id": "math.p.spatial_orientation",
+   "label_de": "Räumliche Orientierung und Lagebeziehungen",
+   "kmk_anchor": "L3 Raum und Form",
+   "grade_band": "1-4"
+  },
+  {
+   "topic_id": "math.p.symmetry",
+   "label_de": "Symmetrie (Grundschule)",
+   "kmk_anchor": "L3 Raum und Form",
+   "grade_band": "2-4"
+  },
+  {
+   "topic_id": "math.p.time",
+   "label_de": "Zeit",
+   "kmk_anchor": "L2 Messen",
+   "grade_band": "1-4"
+  },
+  {
+   "topic_id": "math.p.word_problems",
+   "label_de": "Sachaufgaben und Sachsituationen",
+   "kmk_anchor": "L1 Zahl und Operation",
+   "grade_band": "1-4"
+  },
+  {
+   "topic_id": "math.p.written_algorithms",
+   "label_de": "Schriftliche Rechenverfahren",
+   "kmk_anchor": "L1 Zahl und Operation",
+   "grade_band": "3-4"
+  },
+  {
+   "topic_id": "math.s1.angles",
+   "label_de": "Winkel",
+   "kmk_anchor": "L2 Messen",
+   "grade_band": "5-6"
+  },
+  {
+   "topic_id": "math.s1.area_perimeter",
+   "label_de": "Flächeninhalt und Umfang von Vielecken",
+   "kmk_anchor": "L2 Messen",
+   "grade_band": "5-7"
+  },
+  {
+   "topic_id": "math.s1.boxplot",
+   "label_de": "Boxplot und Streumaße",
+   "kmk_anchor": "L5 Daten und Zufall",
+   "grade_band": "8-10"
+  },
+  {
+   "topic_id": "math.s1.circle",
+   "label_de": "Kreis: Umfang und Flächeninhalt",
+   "kmk_anchor": "L2 Messen",
+   "grade_band": "8-9"
+  },
+  {
+   "topic_id": "math.s1.combinatorics",
+   "label_de": "Zählprinzipien und Kombinatorik",
+   "kmk_anchor": "L5 Daten und Zufall",
+   "grade_band": "6-9"
+  },
+  {
+   "topic_id": "math.s1.constructions",
+   "label_de": "Konstruktionen und Kongruenz",
+   "kmk_anchor": "L3 Raum und Form",
+   "grade_band": "7-8"
+  },
+  {
+   "topic_id": "math.s1.coordinates",
+   "label_de": "Koordinatensystem",
+   "kmk_anchor": "L3 Raum und Form",
+   "grade_band": "5-6"
+  },
+  {
+   "topic_id": "math.s1.decimals",
+   "label_de": "Dezimalzahlen",
+   "kmk_anchor": "L1 Zahl und Operation",
+   "grade_band": "5-6"
+  },
+  {
+   "topic_id": "math.s1.divisibility",
+   "label_de": "Teilbarkeit und Primzahlen",
+   "kmk_anchor": "L1 Zahl und Operation",
+   "grade_band": "5-6"
+  },
+  {
+   "topic_id": "math.s1.exponential",
+   "label_de": "Exponentielles Wachstum und Exponentialfunktionen",
+   "kmk_anchor": "L4 Funktionaler Zusammenhang",
+   "grade_band": "9-10"
+  },
+  {
+   "topic_id": "math.s1.fraction_equations",
+   "label_de": "Bruchgleichungen und Wurzelgleichungen",
+   "kmk_anchor": "L1 Zahl und Operation",
+   "grade_band": "9-10"
+  },
+  {
+   "topic_id": "math.s1.fraction_operations",
+   "label_de": "Rechnen mit Brüchen",
+   "kmk_anchor": "L1 Zahl und Operation",
+   "grade_band": "6"
+  },
+  {
+   "topic_id": "math.s1.fractions",
+   "label_de": "Brüche und Bruchteile",
+   "kmk_anchor": "L1 Zahl und Operation",
+   "grade_band": "5-6"
+  },
+  {
+   "topic_id": "math.s1.functions_concept",
+   "label_de": "Funktionsbegriff",
+   "kmk_anchor": "L4 Funktionaler Zusammenhang",
+   "grade_band": "7-8"
+  },
+  {
+   "topic_id": "math.s1.geometry_basics",
+   "label_de": "Geometrische Grundbegriffe",
+   "kmk_anchor": "L3 Raum und Form",
+   "grade_band": "5"
+  },
+  {
+   "topic_id": "math.s1.interest",
+   "label_de": "Zinsrechnung",
+   "kmk_anchor": "L1 Zahl und Operation",
+   "grade_band": "7-8"
+  },
+  {
+   "topic_id": "math.s1.linear_equations",
+   "label_de": "Lineare Gleichungen",
+   "kmk_anchor": "L1 Zahl und Operation",
+   "grade_band": "7-8"
+  },
+  {
+   "topic_id": "math.s1.linear_functions",
+   "label_de": "Lineare Funktionen",
+   "kmk_anchor": "L4 Funktionaler Zusammenhang",
+   "grade_band": "7-8"
+  },
+  {
+   "topic_id": "math.s1.linear_systems",
+   "label_de": "Lineare Gleichungssysteme",
+   "kmk_anchor": "L1 Zahl und Operation",
+   "grade_band": "8-9"
+  },
+  {
+   "topic_id": "math.s1.logarithm",
+   "label_de": "Logarithmus",
+   "kmk_anchor": "L1 Zahl und Operation",
+   "grade_band": "10"
+  },
+  {
+   "topic_id": "math.s1.multistage",
+   "label_de": "Mehrstufige Zufallsexperimente und Baumdiagramme",
+   "kmk_anchor": "L5 Daten und Zufall",
+   "grade_band": "8-10"
+  },
+  {
+   "topic_id": "math.s1.natural_numbers",
+   "label_de": "Natürliche Zahlen, große Zahlen, Runden",
+   "kmk_anchor": "L1 Zahl und Operation",
+   "grade_band": "5"
+  },
+  {
+   "topic_id": "math.s1.negative_numbers",
+   "label_de": "Negative und rationale Zahlen",
+   "kmk_anchor": "L1 Zahl und Operation",
+   "grade_band": "6-7"
+  },
+  {
+   "topic_id": "math.s1.percent",
+   "label_de": "Prozentrechnung",
+   "kmk_anchor": "L1 Zahl und Operation",
+   "grade_band": "6-7"
+  },
+  {
+   "topic_id": "math.s1.power_functions",
+   "label_de": "Potenzfunktionen",
+   "kmk_anchor": "L4 Funktionaler Zusammenhang",
+   "grade_band": "10"
+  },
+  {
+   "topic_id": "math.s1.powers",
+   "label_de": "Potenzen und Potenzgesetze",
+   "kmk_anchor": "L1 Zahl und Operation",
+   "grade_band": "9-10"
+  },
+  {
+   "topic_id": "math.s1.probability",
+   "label_de": "Zufallsexperimente und Wahrscheinlichkeit",
+   "kmk_anchor": "L5 Daten und Zufall",
+   "grade_band": "6-8"
+  },
+  {
+   "topic_id": "math.s1.proportionality",
+   "label_de": "Proportionale und antiproportionale Zuordnungen",
+   "kmk_anchor": "L4 Funktionaler Zusammenhang",
+   "grade_band": "6-7"
+  },
+  {
+   "topic_id": "math.s1.pyramid_cone_sphere",
+   "label_de": "Pyramide, Kegel und Kugel",
+   "kmk_anchor": "L2 Messen",
+   "grade_band": "9-10"
+  },
+  {
+   "topic_id": "math.s1.pythagoras",
+   "label_de": "Satz des Pythagoras",
+   "kmk_anchor": "L3 Raum und Form",
+   "grade_band": "8-9"
+  },
+  {
+   "topic_id": "math.s1.quadratic_equations",
+   "label_de": "Quadratische Gleichungen",
+   "kmk_anchor": "L1 Zahl und Operation",
+   "grade_band": "9"
+  },
+  {
+   "topic_id": "math.s1.quadratic_functions",
+   "label_de": "Quadratische Funktionen",
+   "kmk_anchor": "L4 Funktionaler Zusammenhang",
+   "grade_band": "8-9"
+  },
+  {
+   "topic_id": "math.s1.roots",
+   "label_de": "Quadratwurzeln und reelle Zahlen",
+   "kmk_anchor": "L1 Zahl und Operation",
+   "grade_band": "8-9"
+  },
+  {
+   "topic_id": "math.s1.scale",
+   "label_de": "Maßstab und maßstäbliches Zeichnen",
+   "kmk_anchor": "L2 Messen",
+   "grade_band": "5-7"
+  },
+  {
+   "topic_id": "math.s1.similarity",
+   "label_de": "Ähnlichkeit, zentrische Streckung und Strahlensätze",
+   "kmk_anchor": "L3 Raum und Form",
+   "grade_band": "8-9"
+  },
+  {
+   "topic_id": "math.s1.solids_nets",
+   "label_de": "Körper, Netze und Schrägbilder",
+   "kmk_anchor": "L3 Raum und Form",
+   "grade_band": "5-7"
+  },
+  {
+   "topic_id": "math.s1.statistics",
+   "label_de": "Daten, Diagramme und Kenngrößen",
+   "kmk_anchor": "L5 Daten und Zufall",
+   "grade_band": "5-8"
+  },
+  {
+   "topic_id": "math.s1.symmetry_maps",
+   "label_de": "Symmetrie und Kongruenzabbildungen",
+   "kmk_anchor": "L3 Raum und Form",
+   "grade_band": "5-7"
+  },
+  {
+   "topic_id": "math.s1.term_transformations",
+   "label_de": "Termumformungen und binomische Formeln",
+   "kmk_anchor": "L1 Zahl und Operation",
+   "grade_band": "7-8"
+  },
+  {
+   "topic_id": "math.s1.terms",
+   "label_de": "Terme und Variablen",
+   "kmk_anchor": "L1 Zahl und Operation",
+   "grade_band": "5-8"
+  },
+  {
+   "topic_id": "math.s1.triangles_quadrilaterals",
+   "label_de": "Dreiecke und Vierecke",
+   "kmk_anchor": "L3 Raum und Form",
+   "grade_band": "5-7"
+  },
+  {
+   "topic_id": "math.s1.trig_functions",
+   "label_de": "Trigonometrische Funktionen",
+   "kmk_anchor": "L4 Funktionaler Zusammenhang",
+   "grade_band": "10"
+  },
+  {
+   "topic_id": "math.s1.trigonometry",
+   "label_de": "Trigonometrie im Dreieck",
+   "kmk_anchor": "L3 Raum und Form",
+   "grade_band": "9-10"
+  },
+  {
+   "topic_id": "math.s1.units",
+   "label_de": "Größen und Einheiten",
+   "kmk_anchor": "L2 Messen",
+   "grade_band": "5"
+  },
+  {
+   "topic_id": "math.s1.volume_surface",
+   "label_de": "Volumen und Oberfläche von Prismen und Zylindern",
+   "kmk_anchor": "L2 Messen",
+   "grade_band": "7-9"
+  },
+  {
+   "topic_id": "math.s2.binomial",
+   "label_de": "Binomialverteilung",
+   "kmk_anchor": "L5 Daten und Zufall",
+   "grade_band": "12"
+  },
+  {
+   "topic_id": "math.s2.conditional_probability",
+   "label_de": "Bedingte Wahrscheinlichkeit und Unabhängigkeit",
+   "kmk_anchor": "L5 Daten und Zufall",
+   "grade_band": "10-11"
+  },
+  {
+   "topic_id": "math.s2.confidence",
+   "label_de": "Konfidenzintervalle und Schätzen",
+   "kmk_anchor": "L5 Daten und Zufall",
+   "grade_band": "12-13"
+  },
+  {
+   "topic_id": "math.s2.curve_analysis",
+   "label_de": "Funktionsuntersuchung",
+   "kmk_anchor": "L4 Funktionaler Zusammenhang",
+   "grade_band": "11-12"
+  },
+  {
+   "topic_id": "math.s2.derivative_rules",
+   "label_de": "Ableitungsregeln",
+   "kmk_anchor": "L4 Funktionaler Zusammenhang",
+   "grade_band": "11"
+  },
+  {
+   "topic_id": "math.s2.differential_growth",
+   "label_de": "Wachstumsmodelle und Differentialgleichungen",
+   "kmk_anchor": "L4 Funktionaler Zusammenhang",
+   "grade_band": "12-13"
+  },
+  {
+   "topic_id": "math.s2.distances_angles",
+   "label_de": "Abstände und Winkel im Raum",
+   "kmk_anchor": "L3 Raum und Form",
+   "grade_band": "12-13"
+  },
+  {
+   "topic_id": "math.s2.exp_ln",
+   "label_de": "e-Funktion und natürlicher Logarithmus",
+   "kmk_anchor": "L4 Funktionaler Zusammenhang",
+   "grade_band": "11-12"
+  },
+  {
+   "topic_id": "math.s2.function_classes",
+   "label_de": "Funktionenklassen und Transformationen",
+   "kmk_anchor": "L4 Funktionaler Zusammenhang",
+   "grade_band": "10-11"
+  },
+  {
+   "topic_id": "math.s2.gauss",
+   "label_de": "Lineare Gleichungssysteme und Gauß-Verfahren",
+   "kmk_anchor": "L1 Zahl und Operation",
+   "grade_band": "11-12"
+  },
+  {
+   "topic_id": "math.s2.hypothesis_test",
+   "label_de": "Hypothesentest",
+   "kmk_anchor": "L5 Daten und Zufall",
+   "grade_band": "12-13"
+  },
+  {
+   "topic_id": "math.s2.integral",
+   "label_de": "Integral und Stammfunktion",
+   "kmk_anchor": "L4 Funktionaler Zusammenhang",
+   "grade_band": "11-12"
+  },
+  {
+   "topic_id": "math.s2.integral_applications",
+   "label_de": "Anwendungen der Integralrechnung",
+   "kmk_anchor": "L4 Funktionaler Zusammenhang",
+   "grade_band": "12-13"
+  },
+  {
+   "topic_id": "math.s2.inverse_functions",
+   "label_de": "Umkehrfunktionen",
+   "kmk_anchor": "L4 Funktionaler Zusammenhang",
+   "grade_band": "10-12"
+  },
+  {
+   "topic_id": "math.s2.lines_planes",
+   "label_de": "Geraden und Ebenen im Raum",
+   "kmk_anchor": "L3 Raum und Form",
+   "grade_band": "12"
+  },
+  {
+   "topic_id": "math.s2.matrices",
+   "label_de": "Matrizen und Übergangsprozesse",
+   "kmk_anchor": "L1 Zahl und Operation",
+   "grade_band": "12-13"
+  },
+  {
+   "topic_id": "math.s2.normal",
+   "label_de": "Normalverteilung",
+   "kmk_anchor": "L5 Daten und Zufall",
+   "grade_band": "12-13"
+  },
+  {
+   "topic_id": "math.s2.numerics",
+   "label_de": "Numerische Näherungsverfahren",
+   "kmk_anchor": "L1 Zahl und Operation",
+   "grade_band": "11-13"
+  },
+  {
+   "topic_id": "math.s2.optimisation",
+   "label_de": "Extremwertprobleme",
+   "kmk_anchor": "L4 Funktionaler Zusammenhang",
+   "grade_band": "11-12"
+  },
+  {
+   "topic_id": "math.s2.random_variables",
+   "label_de": "Zufallsgrößen und Erwartungswert",
+   "kmk_anchor": "L5 Daten und Zufall",
+   "grade_band": "11-12"
+  },
+  {
+   "topic_id": "math.s2.rate_of_change",
+   "label_de": "Änderungsrate und Ableitungsbegriff",
+   "kmk_anchor": "L4 Funktionaler Zusammenhang",
+   "grade_band": "10-11"
+  },
+  {
+   "topic_id": "math.s2.vectors",
+   "label_de": "Vektoren",
+   "kmk_anchor": "L3 Raum und Form",
+   "grade_band": "11-12"
+  }
+ ]
+}

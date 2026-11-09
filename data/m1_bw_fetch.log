@@ -1,0 +1,12 @@
+S0 inventory
+  S0: 9 documents, 19 curated context rows
+S0b validity
+  S0b: validity {'stated': 1, 'inferred': 7, 'needs_review': 1, 'override': 0}, 5 supersedes edges
+S1 fetch
+  S1: {'fetched': 9, 'cached': 0, 'skipped': 0, 'errors': 0, 'robots_disallowed': 0, 'subpages': 231}
+S2 extract
+  S2: {'extracted': 9, 'cached': 0, 'errors': 0}
+S3 parse
+  S3: {'documents': 9, 'nodes': 3064, 'no_profile': 0, 'text_withheld': 0}
+S4 backbone
+  S4: {'topics': 86, 'requires': 108, 'competences': 0, 'conventions': 0, 'rejected': 0, 'operators_from_plans': 206}

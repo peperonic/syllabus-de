@@ -37,7 +37,43 @@ def clean(s: str | None) -> str:
     s = re.sub(r"\s+", " ", s).strip()
     # get_text(" ") puts a space at every inline tag; undo it before punctuation
     s = re.sub(r"\s+([,.;:!?)\]])", r"\1", s)
-    return re.sub(r"([(\[])\s+", r"\1", s)
+    # truncation hyphen split from its word by a tag: "Exponential - und" -> "Exponential- und"
+    s = re.sub(r"(\w)\s+([-\u2011])(\s+(?:und|oder|bzw\.|sowie|als)\b)", r"\1\2\3", s)
+    s = re.sub(r"(\w)\s+([\u2011])", r"\1\2", s)
+    s = re.sub(r"\((-|\u2011)\s+(\w)", r"(\1\2", s)       # "(- spanne)" -> "(-spanne)"
+    return re.sub(r"([(\[„])\s+", r"\1", s)
+
+
+BLOCK = {"p", "div", "li", "ul", "ol", "td", "th", "tr", "table", "h1", "h2", "h3", "h4", "h5", "h6", "section"}
+
+
+def text_of(el) -> str:
+    """Text of an element as a reader sees it. Inline tags are joined without a
+    separator, because the G9 plan splits words across spans ("Prozent" + "angaben");
+    block elements and <br> are separated by a space; superscripts become ^x
+    (1<sup>2</sup> -> 1^2)."""
+    from bs4 import NavigableString, Tag
+    parts: list[str] = []
+
+    def walk(node):
+        for ch in node.children:
+            if isinstance(ch, NavigableString):
+                parts.append(str(ch))
+            elif isinstance(ch, Tag):
+                if ch.name == "br":
+                    parts.append(" ")
+                elif ch.name == "sup":
+                    parts.append("^" + ch.get_text(""))
+                elif ch.name == "sub":
+                    parts.append("_" + ch.get_text(""))
+                else:
+                    if ch.name in BLOCK:
+                        parts.append(" ")
+                    walk(ch)
+                    if ch.name in BLOCK:
+                        parts.append(" ")
+    walk(el)
+    return clean("".join(parts))
 
 
 def _operators(soup, url: str, page: int, document: dict) -> list[dict]:
@@ -49,7 +85,7 @@ def _operators(soup, url: str, page: int, document: dict) -> list[dict]:
         if len(head) < 3 or not head[0].startswith("Operator") or head[-1] != "AFB":
             continue
         for i, r in enumerate(rows[1:], 1):
-            cells = [clean(c.get_text(" ")) for c in r.find_all(["td", "th"])]
+            cells = [text_of(c) for c in r.find_all(["td", "th"])]
             if len(cells) < 3 or not cells[0]:
                 continue
             out.append(dict(path=f"OP/{i:02d}", parent_path="OP", kind="Operator", label=f"{cells[0]} [AFB {cells[-1]}]",
@@ -146,7 +182,7 @@ def _parse_bp2016(document: dict, pages: list[dict]) -> list[dict]:
             txt_el = el.find(class_="teilkompetenzText")
             if txt_el is None:
                 continue
-            text = clean(txt_el.get_text(" "))
+            text = text_of(txt_el)
             if not text or re.fullmatch(r"\[.*\]", text):   # "[Teilkompetenz schon in Klassen 5/6]"
                 continue
             number = clean(num_el.get_text(" ")).split(" ")[0] if num_el else ""
@@ -216,7 +252,7 @@ def _parse_gen2x(document: dict, pages: list[dict]) -> list[dict]:
             continue
         sec, n = m.group(1), m.group(2)
         body = tr.find(class_="text-body")
-        text = clean(body.get_text(" ")) if body else ""
+        text = text_of(body) if body else ""
         if not text or re.fullmatch(r"\[.*\]", text):
             continue
         top = ".".join(sec.split(".")[:2])

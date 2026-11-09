@@ -1,0 +1,1720 @@
+# Proposer output for BW Mathematik, keyed by text_key (identical wording shares one decision).
+# Proposer: the model in the build session (no API key), 2026-11-09. Empty list = no backbone topic fits.
+00cdffa7f117a87d:
+- math.s1.area_perimeter
+- math.s1.circle
+016860d003df6fc1:
+- math.s2.exp_ln
+01824c76730ba509:
+- math.s1.constructions
+01d396c09bc33242:
+- math.p.numbers_to_100
+- math.p.numbers_to_20
+022f8fc46f21492f:
+- math.p.plane_figures
+02781f55401ad33e:
+- math.s1.divisibility
+02cd400801e79ac2:
+- math.p.symmetry
+0328a3749ee8d099:
+- math.s2.hypothesis_test
+03331f0fcc1f6574:
+- math.p.data
+0356b7098a8d0417:
+- math.s1.coordinates
+03b813241eed0322:
+- math.s1.angles
+- math.s1.triangles_quadrilaterals
+0406336ff687833e:
+- math.s1.quadratic_functions
+0481f28d3a6c9475:
+- math.p.patterns
+- math.p.plane_figures
+0492748cfbd3af8d:
+- math.s1.circle
+04b48793137f5595:
+- math.s1.geometry_basics
+04d9149cd459596f:
+- math.s1.statistics
+05458f4407f34c53:
+- math.s1.probability
+0569b06703dc7497:
+- math.s1.geometry_basics
+057da2615cac7c44:
+- math.s1.probability
+05bbcc768b24c562:
+- math.s1.trig_functions
+05f90d10c2b1135b:
+- math.s2.curve_analysis
+06821520a2b4c3f4:
+- math.s1.volume_surface
+06956413e62857bf:
+- math.p.measuring
+06fc406ef9d717a0:
+- math.s1.triangles_quadrilaterals
+07dc4d93126ac356:
+- math.s1.statistics
+08190611d2156e09:
+- math.s1.fractions
+086e7a62869e9cb3:
+- math.s1.statistics
+088b759f1830c248:
+- math.p.mental_strategies
+0959d5c553b2e6b6:
+- math.s1.terms
+09bcee672b71f532:
+- math.p.numbers_to_100
+- math.p.numbers_to_20
+09bcf769d819f365:
+- math.s1.volume_surface
+09f4ceca61390e6a:
+- math.s2.normal
+0a34100e8b17a4d7:
+- math.s1.fraction_operations
+0a7b2e3b42753713:
+- math.s1.trig_functions
+- math.s2.derivative_rules
+0ac13aa000d1378b:
+- math.s1.scale
+0aefe51b07fede03:
+- math.s1.volume_surface
+0b6f103df09b13f0:
+- math.s1.statistics
+0b92b39da71e55bb:
+- math.p.spatial_orientation
+0bb8b1c1dc745aa2:
+- math.s1.trig_functions
+0bcd32b6698ba057:
+- math.p.solids
+0d1553a89c43e684:
+- math.s2.exp_ln
+0d49070ee05d09bc:
+- math.s1.similarity
+0decb2f9d0ff6144:
+- math.s2.vectors
+0e26fdea965527a8:
+- math.s2.integral
+0e38da533c446bb9:
+- math.p.measuring
+0e7abad6797f7be8:
+- math.p.written_algorithms
+0f01f593e128209d:
+- math.s2.hypothesis_test
+0f13e85bdc74394c:
+- math.p.spatial_orientation
+0f6a4e82104bff89:
+- math.s2.hypothesis_test
+0fe64007b0e074ce:
+- math.s1.terms
+0ff62bd7db264a02:
+- math.s2.binomial
+10b2d5e3ebd9407a:
+- math.s1.terms
+10ddb78c88729ca8:
+- math.p.measuring
+10e776c26e3d4019:
+- math.s1.constructions
+116ccd701d5248a3:
+- math.s1.term_transformations
+12820366b52f02d0:
+- math.s2.exp_ln
+12fe5d7cf5a20e8f:
+- math.p.mental_strategies
+13f017083486a722:
+- math.p.add_sub
+- math.p.mult_div
+150efdd4d7f025a0:
+- math.s1.statistics
+15a52e6fbdc49776:
+- math.p.written_algorithms
+- math.s1.decimals
+15d52ce5e52ed83c:
+- math.s1.symmetry_maps
+1631901a849bf410: []
+167feb393a829725:
+- math.s2.integral_applications
+16e2cb65465b26d5:
+- math.p.add_sub
+- math.p.mult_div
+174c1ba9ddf5b331:
+- math.s2.binomial
+175638e23ef3197d:
+- math.s1.terms
+1762906929b2f73b:
+- math.s1.angles
+17eed8467417ba51:
+- math.s2.curve_analysis
+17ef7cead557b379:
+- math.p.mental_strategies
+18fa85bef4314f94:
+- math.s2.derivative_rules
+1976c6659612a8d8:
+- math.s1.linear_equations
+- math.s1.linear_systems
+- math.s1.quadratic_equations
+1a5c3d66fc76e573:
+- math.s1.coordinates
+1b1827d6e2cab6a4:
+- math.s1.solids_nets
+1b1ee93969c6bb0e:
+- math.s2.vectors
+1b2d33b1b6195c00:
+- math.s1.statistics
+1b6318f748520b25:
+- math.s1.statistics
+1bca5b74c20a4999:
+- math.s1.constructions
+1bd03102644a3d3a:
+- math.p.mental_strategies
+1bd19318e8aecef6:
+- math.s1.terms
+1c4d68f3ffb255f2:
+- math.p.word_problems
+1c7ffecb3415a094:
+- math.s2.hypothesis_test
+1c8d65fe93c00f4a:
+- math.s2.binomial
+1cb9236b0609461d:
+- math.s2.random_variables
+1ce90ded08304d5d:
+- math.s1.statistics
+1cfa053a2174c22f:
+- math.s1.linear_functions
+1d2d4206a8d7621e:
+- math.s1.terms
+1d41fdb13c78890f:
+- math.p.measuring
+1d44efab52c772a7:
+- math.p.numbers_to_100
+1d98379cfb58cb45:
+- math.s1.functions_concept
+1dca2a9958bdf970:
+- math.s1.combinatorics
+- math.s1.probability
+1dccb21091d93693:
+- math.s1.quadratic_functions
+1e18579ab2f7863f:
+- math.p.word_problems
+1e842bdffb20fd24:
+- math.s1.linear_equations
+1ecd1d79f4d8f05b:
+- math.s1.roots
+1f583be93d13ef33:
+- math.s1.statistics
+1f75375883d40245:
+- math.s1.linear_functions
+1fbdbd8d35c11cfa:
+- math.p.numbers_to_million
+1fc7545994ff6122:
+- math.p.symmetry
+20909d3aba641296:
+- math.s2.exp_ln
+20aaeb996ff11344:
+- math.s1.boxplot
+210f2b55aa5f5be0:
+- math.s1.pyramid_cone_sphere
+- math.s1.volume_surface
+213121674f9532c8:
+- math.s1.constructions
+- math.s1.scale
+21ff13bd30dae689:
+- math.s1.statistics
+221a074cd5ce48ed:
+- math.s1.pyramid_cone_sphere
+- math.s1.volume_surface
+22ce7dfe8a2f372e:
+- math.s1.divisibility
+22f11caf8c18e136:
+- math.s1.linear_functions
+- math.s1.linear_systems
+22f8e753e39943e4:
+- math.s1.terms
+230064597c0f2af9:
+- math.s1.roots
+236507119fbb5e54:
+- math.s1.angles
+236ce1acf77d6843:
+- math.s1.statistics
+23d9f05dadb68766:
+- math.s1.quadratic_functions
+23f12c1702a8bcb5:
+- math.s1.exponential
+- math.s1.logarithm
+24425e6d2309c09d:
+- math.s1.percent
+24aa723e4f98c26e:
+- math.s1.fractions
+24b4753a8208d0d4:
+- math.s1.negative_numbers
+- math.s1.terms
+2522febd84307cb3:
+- math.s1.fractions
+2542b0faf4e50050:
+- math.s1.natural_numbers
+256ac36fabb2a12a:
+- math.s1.trig_functions
+2574e7c8876df319:
+- math.s1.term_transformations
+25a925526e7769a9:
+- math.s1.constructions
+25ea2f15e32f5f5e:
+- math.s2.inverse_functions
+2624d8fda7c7fc6f:
+- math.s2.binomial
+269b1a8493cd1f73:
+- math.s2.integral
+26aa42df9709efa1:
+- math.s1.triangles_quadrilaterals
+26da1b6f36844b27:
+- math.p.patterns
+26dbff9c69809b14:
+- math.s1.roots
+2703c464a6ca3b91:
+- math.s1.geometry_basics
+273e7c59597864a0:
+- math.s2.distances_angles
+28211bdc61dfcc0f:
+- math.s1.pyramid_cone_sphere
+2873d8f6bd4e1ba3:
+- math.p.mult_div
+28fe6020c05a7718:
+- math.s1.trig_functions
+29cf6375ad6f8fc5:
+- math.s1.constructions
+- math.s1.similarity
+2a2de4812c9fa9ef:
+- math.s1.quadratic_functions
+2a5bfead813b7127:
+- math.s1.quadratic_equations
+- math.s2.function_classes
+2b15b24d6b03e753:
+- math.s2.normal
+2bfe1bf08f49490a:
+- math.s1.functions_concept
+2c8905447bb89016:
+- math.s1.quadratic_functions
+2d0d661a9afd0cb5:
+- math.s1.multistage
+2d0e3ce22074f2a3:
+- math.s2.integral
+2dbbb7d5921ccc95:
+- math.s2.gauss
+2e4ffef661f65a28:
+- math.p.measuring
+2e89dafaa7b70400:
+- math.p.patterns
+2ee5c64bcbc6d1b4:
+- math.s1.area_perimeter
+- math.s1.circle
+2f28d9135d29d7cb:
+- math.s1.coordinates
+2f3b374895c84eb1:
+- math.s1.quadratic_equations
+2ffacd76f29a69d2:
+- math.p.measuring
+300ee59a0971c2f9:
+- math.s1.proportionality
+3020653dc050acfd:
+- math.p.functional_relations
+30282adfd96363b4:
+- math.s2.vectors
+3039f215e4724111:
+- math.s2.hypothesis_test
+3050c7f30ed34296:
+- math.s1.boxplot
+3088df0ae8b0b209:
+- math.s2.random_variables
+309bd5f51d404529:
+- math.s2.function_classes
+31c25ebd768a3a34:
+- math.s2.integral
+31f3b2486662ea44:
+- math.s2.normal
+31ffad9ab727807a:
+- math.s1.angles
+- math.s1.geometry_basics
+3204c0ed2e7a8829:
+- math.p.word_problems
+3207e53c91845b36:
+- math.s2.rate_of_change
+3265fc5ccc4e0653:
+- math.s1.proportionality
+32a3425696f02447:
+- math.s1.triangles_quadrilaterals
+32b7cbaf39773922:
+- math.s1.statistics
+3306356e1ee301df:
+- math.p.chance
+333c9dd4dd9d8e26:
+- math.s1.statistics
+33685e9381a75c75:
+- math.s2.distances_angles
+34a73830b0e8fdf2:
+- math.s2.vectors
+34b5c9277691b261:
+- math.s1.proportionality
+34fff5070f102abf:
+- math.s2.function_classes
+3597919519980ad5:
+- math.s1.multistage
+3599e85868261a8d:
+- math.p.data
+35c47535f6f008f0:
+- math.s2.integral
+3699bad6365e5ee0:
+- math.p.numbers_to_million
+37a2455f311ca7fa:
+- math.s1.area_perimeter
+- math.s1.circle
+382893d7aa603a3e:
+- math.s1.statistics
+384c1220a575a692:
+- math.p.measuring
+3909f9dea5493059:
+- math.s1.trig_functions
+- math.s2.derivative_rules
+391b0a2aa27839c6:
+- math.s1.constructions
+- math.s1.similarity
+3944370fff2477b6:
+- math.s1.divisibility
+3951e7f5a55e38fb:
+- math.s1.roots
+396fee25f6aa6e9a:
+- math.s1.fractions
+39b51c7eaf88bcbe:
+- math.s1.statistics
+39cd0a380703c613:
+- math.s1.solids_nets
+3a5e83490b186099:
+- math.p.data
+3a629959d96d3d38:
+- math.p.spatial_orientation
+3a7c02b83cea5fbb:
+- math.s1.constructions
+3ac26a826730b98f:
+- math.s1.exponential
+- math.s1.interest
+3adab00cd0de569f:
+- math.s1.solids_nets
+3af3ffbc9d426a9b:
+- math.s2.gauss
+3b220eac9fb4e139:
+- math.p.word_problems
+3bace366bbe8af03:
+- math.s1.exponential
+3dad1bdcf07f31dc:
+- math.s2.integral
+3de07dd347e7c4bc:
+- math.s1.statistics
+3e0b24451a8ef7b3:
+- math.p.combinatorics
+3e4c16cc2440fab8:
+- math.s1.circle
+3ee24c3e5d4a91bd:
+- math.s2.derivative_rules
+- math.s2.exp_ln
+3fb9401802d2f8af:
+- math.s1.roots
+3fbd732b49aa2f24:
+- math.s2.derivative_rules
+3fbd9f42a74b0bff:
+- math.p.word_problems
+402aef5e5fc06fa2:
+- math.p.spatial_orientation
+4052ad846272ddfc:
+- math.s1.terms
+40530aab1eeb686f:
+- math.s1.exponential
+- math.s1.power_functions
+- math.s2.function_classes
+40549292c17ce67b:
+- math.s1.terms
+40c53495006ed1e2:
+- math.s1.terms
+411775a67eba55ab:
+- math.s1.pyramid_cone_sphere
+- math.s1.volume_surface
+'4149211428220443':
+- math.s2.binomial
+4152bd4d58f478ae:
+- math.s1.pythagoras
+4178aa900a713092:
+- math.s1.similarity
+418b79f2c442fb79:
+- math.s2.distances_angles
+4254b07fae07c3fe:
+- math.s1.functions_concept
+- math.s1.power_functions
+42e652aa2a23bda9:
+- math.s1.probability
+430c8c13cecdc1ce:
+- math.p.plane_figures
+431cc6bbe21c265f:
+- math.p.mult_div
+4346ea10e98126a6:
+- math.p.patterns
+43eca07d191f2ff0:
+- math.s2.function_classes
+43f3db2c759df595:
+- math.s1.units
+444ded1e1c427ddb:
+- math.s1.solids_nets
+4496010722403cd0:
+- math.s1.exponential
+- math.s1.interest
+45fd0ae68a313f9b:
+- math.s2.lines_planes
+462584b70a86a412:
+- math.s1.exponential
+- math.s1.interest
+4630f4c6ba64a965:
+- math.s1.trigonometry
+46692e5ef8e2723a:
+- math.s1.quadratic_equations
+- math.s2.function_classes
+46c26d3aadae5961:
+- math.p.length_weight_capacity
+- math.p.money
+- math.p.time
+479477aad21b5279:
+- math.s1.terms
+47efad08b5c0f35f:
+- math.p.numbers_to_million
+483fa3a681ef28d1:
+- math.s1.quadratic_functions
+484ea8821f347991:
+- math.p.mental_strategies
+48c41c92fc38e1cc:
+- math.p.data
+49e22f5b2c379391:
+- math.s1.powers
+49e6bf263c157262:
+- math.s1.terms
+4a1e8ba246ae8055:
+- math.s1.decimals
+- math.s1.fractions
+4a7ee1dd8fde08c5:
+- math.s2.derivative_rules
+- math.s2.exp_ln
+4a9f6ce7fbb6dbb6:
+- math.s2.distances_angles
+- math.s2.lines_planes
+4abcf91222359e77:
+- math.p.length_weight_capacity
+4ade15443bfbcde1:
+- math.s2.integral
+4ba504d5d4ce87cd:
+- math.s1.linear_functions
+4bdcd13a0913b3f7:
+- math.p.measuring
+4cf0db821028bd87:
+- math.s1.terms
+4d2820823053f939:
+- math.s1.probability
+4d5b03ad915e4dd7:
+- math.s1.probability
+4e16ee46e7bc1a52:
+- math.s1.statistics
+4e449bb7cb13f458:
+- math.s1.statistics
+4e61e0633cb69f09:
+- math.s1.terms
+4e6a1d62bfc2ea6a:
+- math.s1.triangles_quadrilaterals
+4e7411d920bf969e:
+- math.s1.area_perimeter
+4e8109f40c6b16da:
+- math.s1.terms
+4f0e9c528c68ea5c:
+- math.s1.fractions
+4f3158ab00ae35f8:
+- math.p.symmetry
+4f79a6dfe1c66ca1:
+- math.s1.negative_numbers
+- math.s1.terms
+4f892d57c731e931:
+- math.s2.vectors
+4fe80d787d90df04:
+- math.s1.negative_numbers
+500f5a01a3cfd51d:
+- math.s1.interest
+5054f9c389d2a3c1:
+- math.s2.derivative_rules
+50615a8ea3cc25e1:
+- math.s1.linear_functions
+50688b7d1a446c88:
+- math.s2.curve_analysis
+50edb8bd6c5f7300:
+- math.s1.quadratic_functions
+50ff4a685f57620c:
+- math.s1.combinatorics
+- math.s1.probability
+511141b556c79f6d:
+- math.s1.circle
+511a98f1009bf634:
+- math.s1.probability
+51490ee79a030fb8:
+- math.s1.trig_functions
+5153ab759674caad:
+- math.s2.lines_planes
+51a152cf619d42b3:
+- math.p.add_sub
+521f855742a34e42:
+- math.p.length_weight_capacity
+524d554fb387be92:
+- math.s1.functions_concept
+5428759b811242f6:
+- math.s1.linear_functions
+546924741a613681:
+- math.s1.roots
+548be7419e76ebe7:
+- math.s2.integral
+54975ee938e3bdca:
+- math.s1.functions_concept
+54c2a6e71ef35f1d:
+- math.s2.rate_of_change
+558619f8dc1ee6fa:
+- math.s2.integral
+- math.s2.integral_applications
+55940a44a46d73f9:
+- math.p.measuring
+55b929687adefa2b:
+- math.s1.terms
+55fd0d1f019938a2:
+- math.s1.roots
+565423b88713d0be:
+- math.p.data
+56a11ce8e07560d5:
+- math.s2.inverse_functions
+56d254897e867fb1:
+- math.s1.circle
+56fe8274e697b0b9:
+- math.p.solids
+573e14e36a13e066:
+- math.p.measuring
+578c6066cf44c4d7:
+- math.p.spatial_orientation
+5806e327c5b3570f:
+- math.s1.statistics
+587f2fe8feae1940:
+- math.s1.statistics
+588342e70c9de469:
+- math.s1.constructions
+58e62b8ec58dce88:
+- math.s1.roots
+5941417ceadf18b8:
+- math.s2.conditional_probability
+59493be85b8e56f6:
+- math.p.plane_figures
+599c7a947ed0d113:
+- math.s1.units
+59afcb8d29150e63:
+- math.s2.vectors
+59c37c313e346dee:
+- math.s1.trig_functions
+59cd697d90cdc9db:
+- math.s1.triangles_quadrilaterals
+59f9b968ce38948f:
+- math.s1.powers
+5a20273846d9b717:
+- math.s1.pythagoras
+- math.s2.vectors
+5b025fe30826ed4a:
+- math.s1.trig_functions
+5c4939100672db4d:
+- math.s1.volume_surface
+5cac513cf5092454:
+- math.s1.constructions
+5cde5cef5974541f:
+- math.s2.exp_ln
+5d39533ce7e9bed4:
+- math.p.chance
+5d65cf6df1d52891:
+- math.s1.units
+5d7f4d0c65d82d25:
+- math.s1.trigonometry
+5eb24d250282ecd2:
+- math.p.mental_strategies
+5ed3ca02c2592677:
+- math.s1.geometry_basics
+5eed888d80ac842c:
+- math.s2.vectors
+5f05ec382af32ee2:
+- math.s1.statistics
+5f08ad6f7ff807e7:
+- math.s2.integral
+5f6a7141d964b27b:
+- math.s1.angles
+5fbdb0b842b9da20:
+- math.s2.derivative_rules
+- math.s2.exp_ln
+602195dba4e6f76c:
+- math.s1.scale
+602e284aa9865088:
+- math.s1.constructions
+6131d48a32045dca:
+- math.p.data
+618942ffe3e27a04:
+- math.s2.distances_angles
+- math.s2.lines_planes
+61b8993ef168360d:
+- math.p.word_problems
+61c08585c07e948d:
+- math.s2.derivative_rules
+6209a8a8c620e517:
+- math.p.word_problems
+623f11735863fc5d:
+- math.p.word_problems
+6326d5cf039fef9f:
+- math.s1.functions_concept
+6340c8317018ba9e:
+- math.p.solids
+6344247e58af4ae3:
+- math.s1.negative_numbers
+6360bc0a56b45acd:
+- math.s1.probability
+63cf57db788e8c1f:
+- math.s2.curve_analysis
+63d07f76fb1a577b:
+- math.s1.natural_numbers
+64028b114ccf6fc4:
+- math.s2.random_variables
+64523f38dba0e70d:
+- math.s1.decimals
+64bc6b6b08d9eaac:
+- math.p.word_problems
+651af7be8b500a63:
+- math.p.written_algorithms
+652595f0d2134898:
+- math.s1.linear_systems
+65a2e05a5524786b:
+- math.p.solids
+6605f911e0d1aff6:
+- math.s1.similarity
+66d51c3a818806b9:
+- math.p.mental_strategies
+6715415be34a5bc2:
+- math.s1.roots
+6721b2929b2eec54:
+- math.p.numbers_to_100
+673ced80825423f8:
+- math.s1.powers
+6785c49343dfa127:
+- math.p.numbers_to_100
+67d18eaadce7f2a5:
+- math.p.spatial_orientation
+6815089094b39da1:
+- math.s1.quadratic_functions
+685c134ec8e89bc6:
+- math.p.plane_figures
+68e6b27555c35f74:
+- math.s1.units
+6a00a6a604aa4445:
+- math.s2.derivative_rules
+6af2b42851f008cf:
+- math.s1.roots
+6bd5fa560345f7f7:
+- math.s1.trig_functions
+6bed8721743d450d:
+- math.s2.inverse_functions
+6ca3188d19f11467:
+- math.s1.pythagoras
+6cd70b45c055b829:
+- math.s1.trig_functions
+6d937c6757b34ca4:
+- math.p.functional_relations
+6dd163d5a9ecc18d:
+- math.s1.linear_equations
+- math.s1.linear_systems
+- math.s1.quadratic_equations
+6dfa6878249d1c31:
+- math.s1.boxplot
+6e83ae9fdfea190b:
+- math.s1.pythagoras
+6e8fc235ebac0bc1:
+- math.p.data
+6ee9ee3ae3260901:
+- math.s1.statistics
+6f45e3a0ed1cfd1e:
+- math.s1.statistics
+6fcd5d37bb022e9e:
+- math.p.symmetry
+70440eee6644567b:
+- math.s1.probability
+70ba2b5e3de1e785:
+- math.s2.gauss
+71af7568e104af7c:
+- math.p.mental_strategies
+71c82d3505bb84e8:
+- math.s1.quadratic_functions
+71d02ef0647be64d:
+- math.s1.area_perimeter
+- math.s1.circle
+71ead8c49c3e43a8:
+- math.s2.derivative_rules
+7239336d2439d654:
+- math.s1.scale
+7290c87e3f5445dc:
+- math.s1.exponential
+- math.s1.interest
+72db0d0cce81230b:
+- math.s1.statistics
+72f6e288cda3ae82:
+- math.s2.rate_of_change
+73c29f3c51ec5b52:
+- math.s1.symmetry_maps
+73c9385b4f8de0e1:
+- math.s1.statistics
+7410a25936accd0a:
+- math.s1.terms
+74aa3ff14f8f23d0:
+- math.p.numbers_to_million
+75070fb10fffcded:
+- math.s1.linear_systems
+75196eaee0897994:
+- math.p.combinatorics
+752c03925715552c:
+- math.s2.integral
+755e382233bc7891:
+- math.s1.statistics
+75b102dda45af2c6:
+- math.s1.power_functions
+761313ceb83fd31a:
+- math.s1.exponential
+7613fc29419e5596:
+- math.p.patterns
+- math.p.plane_figures
+7640a0990737526a:
+- math.s1.statistics
+76dd52dbe330e89f:
+- math.s2.vectors
+76dd6c6fda6a7600:
+- math.s1.angles
+- math.s1.triangles_quadrilaterals
+77086901e201fe91:
+- math.p.patterns
+77bcfd503e480162:
+- math.s2.numerics
+77cebb1e72121832:
+- math.s1.angles
+- math.s1.triangles_quadrilaterals
+77f030976a83ce0c:
+- math.s2.derivative_rules
+- math.s2.function_classes
+78629ef68d5158de:
+- math.s2.random_variables
+78b96df4784bd469:
+- math.p.patterns
+78ed0c52cefebe99:
+- math.s1.statistics
+78f39cc74a890879:
+- math.s1.probability
+791a913fa584136b:
+- math.s1.fractions
+792b426d88a99c43:
+- math.s2.function_classes
+79962d21a5cd7b71:
+- math.p.data
+79a526bea895026a:
+- math.s1.functions_concept
+79d13befbf83a138:
+- math.p.add_sub
+- math.p.mult_div
+79db80f0f7cfb5e6:
+- math.s1.term_transformations
+7a29ce7815d7b2c8:
+- math.s1.term_transformations
+7a5e1b0927c7d38c:
+- math.s1.probability
+7a663bfa3ac85056:
+- math.p.plane_figures
+7b0d92a43961fccc:
+- math.s1.statistics
+7b4d8b18390ff7b2:
+- math.s1.linear_functions
+7b80bb531e72cb50:
+- math.s2.function_classes
+7c21462ae2ba3516:
+- math.s2.lines_planes
+7c7e350da76f3190:
+- math.s1.coordinates
+7cda918636db0ca7:
+- math.p.area_perimeter_intro
+7ce9980b571dfa29:
+- math.s1.statistics
+7dc1cf5df8510b24:
+- math.s2.derivative_rules
+- math.s2.exp_ln
+7dd6c4aaa8f466b3:
+- math.s1.pyramid_cone_sphere
+7df7af0119c4479b:
+- math.p.chance
+7e1b7dabef822d9e:
+- math.s2.vectors
+7e502992e22f55e1:
+- math.s1.percent
+7e87df6410396615:
+- math.s1.natural_numbers
+7eeb93c1ffcddd78:
+- math.s1.area_perimeter
+7f0831839785df97:
+- math.s1.terms
+7f49dc0318436fe4:
+- math.s1.exponential
+- math.s1.logarithm
+7f694818a6b3bbfd:
+- math.s1.fraction_equations
+7f936c596dbb30c7:
+- math.p.patterns
+7fa6fae9db9d4262: []
+8098b48f07fb1361:
+- math.p.data
+80b3f810c8980f4d:
+- math.s1.pyramid_cone_sphere
+80c869693ba2e5f2:
+- math.s1.natural_numbers
+81613d56f900b6f6:
+- math.s2.vectors
+8191d46444ecf2c6:
+- math.s1.circle
+- math.s1.constructions
+81d26aa66f8c8174:
+- math.s1.pyramid_cone_sphere
+81d3d7a588f9151a:
+- math.p.add_sub
+- math.p.mult_div
+8200e5d65c8e8506:
+- math.p.mental_strategies
+82bf918c1d667515:
+- math.s1.functions_concept
+837757d9c1873759:
+- math.s1.constructions
+839b67b66caddf55:
+- math.s2.conditional_probability
+83d86bb2672e7e81:
+- math.p.mental_strategies
+83f275286feb9774:
+- math.p.place_value
+84098f228bb2c6ee:
+- math.s1.angles
+842ec1c92509bc90:
+- math.p.word_problems
+84435df540809998:
+- math.s1.terms
+84602ad441292cb0:
+- math.s1.similarity
+8509dbd04f805af4:
+- math.p.place_value
+850c8d5fd2bcbec3:
+- math.s2.integral_applications
+853d8f6e26e88116:
+- math.s2.vectors
+85570f477de17eef:
+- math.s1.linear_equations
+- math.s1.linear_functions
+857a1966da647159:
+- math.s1.angles
+- math.s1.geometry_basics
+85e36bd305299d4d:
+- math.s1.terms
+862807be02e78ffa:
+- math.s1.statistics
+86629578e2b84e21:
+- math.s1.circle
+8675b548f641662f:
+- math.s1.fractions
+86a8e710d1bab885:
+- math.s1.area_perimeter
+- math.s1.circle
+86ad1fff6b493438:
+- math.s1.quadratic_equations
+8711999721cc7548:
+- math.p.plane_figures
+87fd07a33d210b12:
+- math.s1.angles
+890f5f5b4f945d83:
+- math.s2.gauss
+89314fecb9033d91:
+- math.s1.exponential
+89952c01cb41a581:
+- math.s1.statistics
+89da0455bc19af57:
+- math.s2.lines_planes
+89ef2161b442ad95:
+- math.p.mental_strategies
+89efcd05301adb06:
+- math.p.add_sub
+- math.p.mult_div
+8a8487cfa796a74d:
+- math.p.solids
+8a9ff017d3bd8717:
+- math.p.solids
+8b44aa2197f7ac60:
+- math.s1.fraction_equations
+8b544ad5913613c3:
+- math.s2.curve_analysis
+8b8b0d752c2f0038:
+- math.s2.lines_planes
+8bfbbf407dc62f4c:
+- math.s1.constructions
+8bfeab080adde113:
+- math.s1.linear_functions
+8c2eac255a0eb1b0:
+- math.s1.power_functions
+8c30815879c264cd:
+- math.s1.functions_concept
+8c43db998817442a:
+- math.s2.normal
+8cfeae687c3c859b:
+- math.s2.distances_angles
+- math.s2.lines_planes
+8d7d70385446fc83:
+- math.s1.quadratic_equations
+8e86f8e2892cdee2:
+- math.s1.pyramid_cone_sphere
+8e96e2569c5d4ad1:
+- math.p.add_sub
+- math.p.mult_div
+8ee1eba16b246256:
+- math.s1.solids_nets
+8f40de48b4913cf4:
+- math.s1.roots
+8f4c475faf9b9d9d:
+- math.s1.logarithm
+8f96dd120d3f36df:
+- math.s2.normal
+8fdb7409fc878c2c:
+- math.s1.units
+901c53b6cb6e867e:
+- math.s1.terms
+90d934e713d88f8d:
+- math.p.measuring
+90f31393d95e1872:
+- math.s1.constructions
+910502e3f461a766:
+- math.s2.distances_angles
+9106354eac893607:
+- math.p.functional_relations
+9120119543df7a9f:
+- math.s1.terms
+913b437a518ae751:
+- math.s1.trig_functions
+91e4effd86c6aa08:
+- math.s2.binomial
+91f7b84ac3703539:
+- math.p.spatial_orientation
+921259fb71b95286:
+- math.s1.probability
+9226e39d73752fa0:
+- math.s2.integral
+922a3d5e839c07e1:
+- math.s1.quadratic_functions
+9265f69a76457a7d:
+- math.s1.exponential
+92964e9fa2904e51:
+- math.s1.statistics
+92b085a58364aa57:
+- math.s1.quadratic_equations
+- math.s1.quadratic_functions
+930d0ac2e7090908:
+- math.s1.terms
+9382bb8afc7b52cb:
+- math.s2.inverse_functions
+9389505d495e0682:
+- math.s2.conditional_probability
+93cad7f5113a0453:
+- math.s1.statistics
+93e6fe4bb22a0fc6:
+- math.s2.integral_applications
+94bb1ed32e259ca0:
+- math.s1.quadratic_functions
+94c5db06fd973009:
+- math.s1.trigonometry
+94e4093525cf96a1:
+- math.s1.multistage
+950a3b19d182369f:
+- math.s2.curve_analysis
+955ef5de298b77dc:
+- math.s1.statistics
+95d3d81197a9d6a4:
+- math.p.written_algorithms
+9611fea502e4d3c7:
+- math.s2.lines_planes
+9681feac30bbcd7d:
+- math.s2.vectors
+96b5909d9d2d1ccb:
+- math.s1.fraction_operations
+96d459a2a6a9d54c:
+- math.s2.exp_ln
+96ebe803d355d2b5:
+- math.s1.statistics
+96fea41f9be4cae5:
+- math.s1.circle
+970fa42cd87ed293:
+- math.s1.negative_numbers
+- math.s1.terms
+972c5e35a1cdfab1:
+- math.s1.pythagoras
+977dfa8189b6b2f1:
+- math.p.word_problems
+97be6398dec03943:
+- math.s1.functions_concept
+97c8227b877f1c04:
+- math.s1.statistics
+97ddf6369f7d2b79:
+- math.s1.roots
+99101dcc632119a6:
+- math.s1.functions_concept
+9914b78a7e45fc9c:
+- math.s2.integral_applications
+9986918c980de7da:
+- math.s1.functions_concept
+99967a1831822725:
+- math.p.functional_relations
+99b6e05a5d5f58ee:
+- math.p.word_problems
+99d4f3084b19ffee:
+- math.s1.functions_concept
+9a414b3db961d7ee:
+- math.s1.roots
+9a5d4cf7c684380d:
+- math.s1.exponential
+9a7c6dd480ce16aa:
+- math.s1.power_functions
+9b91f16de7ca5fff:
+- math.s2.exp_ln
+9bcadcd658fc83aa:
+- math.s1.statistics
+9bd76f5d8f5e736e:
+- math.s1.functions_concept
+- math.s1.linear_equations
+9bf4851b0d2215ba:
+- math.p.plane_figures
+9c63e7b453c0ae9d:
+- math.s1.symmetry_maps
+9cebb4398e44ceff:
+- math.s2.binomial
+9d542797ff3d4119:
+- math.p.mental_strategies
+9dd78c971c63b65d:
+- math.s1.area_perimeter
+- math.s1.circle
+9e08df503f91b355:
+- math.s1.powers
+9e1b52a8a5835c29:
+- math.s1.terms
+9e8bd1e24abc9158:
+- math.s1.quadratic_functions
+9f4dd6dee9f0b518:
+- math.s2.binomial
+9f4e0ea24d8b697c:
+- math.p.word_problems
+a05ef6145c217724:
+- math.s2.rate_of_change
+a0692c1ec43c88a0:
+- math.s1.interest
+a07a1c9729a636bc:
+- math.s1.exponential
+a0bea90c49d1508d:
+- math.s1.pyramid_cone_sphere
+- math.s1.volume_surface
+a1097e6bb10b712d:
+- math.s1.statistics
+a19c76630fe61dde:
+- math.s2.integral
+a2292d3522a847f4:
+- math.s1.terms
+a25333829d67d946:
+- math.p.mental_strategies
+a367ac33ebbb5044:
+- math.s2.lines_planes
+a39153146a6e40fe:
+- math.s2.binomial
+a3baece1bb989b71:
+- math.s2.vectors
+a44f68ff9ade568f:
+- math.p.place_value
+a4dfacf8add89683:
+- math.s2.conditional_probability
+a4f7048803d1f5c7:
+- math.s1.linear_functions
+a53d5fb114787749:
+- math.s1.interest
+a544ecd12e54f817:
+- math.s2.derivative_rules
+a5e7a3b05e2160c8:
+- math.s1.statistics
+a63f9efba5fffac2:
+- math.p.word_problems
+a68ca1bbc931a0de:
+- math.p.solids
+- math.p.spatial_orientation
+a6951dc5a295b4a9:
+- math.s1.similarity
+a7336cedfc15905a:
+- math.s1.similarity
+a7402b112b3dc061:
+- math.s1.decimals
+- math.s1.percent
+a7726928f988a9b4:
+- math.s1.statistics
+a7add7e8eeac33be:
+- math.s1.constructions
+a7c203413be6e18c:
+- math.s1.quadratic_functions
+a7e1ac7e8bbfb62c:
+- math.s2.random_variables
+a82d2bd95097c166:
+- math.s2.integral
+- math.s2.integral_applications
+a84e68464811071e:
+- math.s1.area_perimeter
+a9deb8a1d929c024:
+- math.p.mental_strategies
+aa30193dfed9c5eb:
+- math.s2.curve_analysis
+aa9610fcca1a82a8:
+- math.p.written_algorithms
+- math.s1.decimals
+aab501adf1e1ff4e:
+- math.s1.units
+aafb3ffd9c04d662:
+- math.s1.statistics
+ab69cddd6d4febd0:
+- math.s1.statistics
+ab8212244b951c24:
+- math.p.chance
+aca79294d03a0023:
+- math.s1.functions_concept
+- math.s1.power_functions
+aca82039eac10dfa:
+- math.s2.function_classes
+acb480908b644bb6:
+- math.s1.quadratic_functions
+ad519b2938b9f590:
+- math.s1.exponential
+- math.s1.interest
+aead18f08713990a:
+- math.s1.statistics
+af22cd14401e6026:
+- math.s1.roots
+afba62fc3a348dbe:
+- math.s1.statistics
+afd9bccfe917e3ca:
+- math.s1.exponential
+- math.s1.interest
+b016edc61d99faca:
+- math.s1.linear_equations
+- math.s1.proportionality
+b01b05b4cf3b78f7:
+- math.p.data
+b05e0d3957db8e23:
+- math.p.measuring
+b06c72aa7d0b5092:
+- math.s2.lines_planes
+b0b828887e383ebe:
+- math.s2.lines_planes
+b0c2b75ec04cd17a:
+- math.s1.linear_functions
+b0c429d530dab25b:
+- math.s1.terms
+b0d43f8b3047af26:
+- math.s1.constructions
+b10a768a96716bb8:
+- math.s1.linear_systems
+- math.s1.quadratic_equations
+b1a7f7e0e52f7b33:
+- math.s1.quadratic_functions
+b24fc68bf0855856:
+- math.p.symmetry
+b25b7601fa81cb5d:
+- math.s1.trigonometry
+b2f75a8411d105c8:
+- math.s1.statistics
+b371f4cace297a66:
+- math.p.plane_figures
+b3d4025e20ddcad7:
+- math.s1.exponential
+- math.s1.power_functions
+- math.s2.function_classes
+b408db91a7b725da:
+- math.s1.decimals
+b4803085cd843f45:
+- math.s1.combinatorics
+- math.s1.probability
+b51a81eccdb74b70:
+- math.s1.roots
+b52e72aee6c1213e:
+- math.s2.integral
+b53293226f46f5dc:
+- math.s1.quadratic_functions
+b5894dfe18812ad2:
+- math.s1.terms
+b5b6e3f2c59335fe:
+- math.s1.terms
+b5c982247411a3d7:
+- math.s1.statistics
+b5d227eb468de128:
+- math.s1.linear_systems
+b5e6e6d07faaa00d:
+- math.s1.functions_concept
+- math.s1.linear_equations
+b62ea51f037c0fff:
+- math.p.plane_figures
+b670c3c7a2055403:
+- math.s2.integral
+b6c66413920efaf0:
+- math.p.data
+b6d34d219524711d:
+- math.p.symmetry
+b7ab1a57ce979f4d:
+- math.p.add_sub
+- math.p.mult_div
+b82c2e01764f097f:
+- math.s1.trig_functions
+b863a1198e90d7ea:
+- math.s1.trig_functions
+b92e9116c4014c63:
+- math.s2.normal
+b9450ec43d37f676:
+- math.s1.exponential
+- math.s1.interest
+b951d22380ca2826:
+- math.s1.statistics
+b9a91493ac040613:
+- math.s1.linear_systems
+b9f694a4bb8591bc:
+- math.s1.roots
+ba244f4b18d593ca:
+- math.p.numbers_to_million
+ba484d070e84c4d0:
+- math.s1.constructions
+ba5655c85b3c24aa:
+- math.s2.derivative_rules
+ba84b4c59ecb3124:
+- math.s1.trigonometry
+bada9e316dd14944:
+- math.s1.multistage
+baf05e634627d70b:
+- math.s2.distances_angles
+bafacc91be2464cd:
+- math.p.data
+bb0a9473ca81044c:
+- math.s1.boxplot
+bb50193c4d3a47a4:
+- math.s1.roots
+bb771acf980ddfb4:
+- math.s1.powers
+bb82a94dff68e7cf:
+- math.s1.trigonometry
+bc4fe29f1b527800:
+- math.p.add_sub
+- math.p.mult_div
+bc861466a4af770e:
+- math.p.add_sub
+- math.p.mult_div
+bcc427e62bc53179:
+- math.s1.area_perimeter
+bcca6b90dbae9c06:
+- math.p.time
+bce688903eb5a880:
+- math.s2.distances_angles
+- math.s2.vectors
+bd059585d6367a47:
+- math.s1.statistics
+bda7216ea9be00b3:
+- math.s1.negative_numbers
+bdebe84aa167ccc0:
+- math.s1.proportionality
+be02847fcb9d492e:
+- math.s1.statistics
+be3efe3f107f88cc:
+- math.s1.solids_nets
+be5974140ff01cbf:
+- math.s1.fractions
+c059489494f2a1ea:
+- math.s1.combinatorics
+- math.s1.probability
+c0eed255ab35dec8:
+- math.s1.exponential
+- math.s1.interest
+c101cc2779f9bc74:
+- math.s1.statistics
+c159d619adee2a75:
+- math.s1.statistics
+c1637aacc145ad06:
+- math.p.spatial_orientation
+c247d03f903a3f0e:
+- math.p.solids
+- math.p.spatial_orientation
+c25e0e938cea546e:
+- math.s1.statistics
+c2b4b9f98e11829b:
+- math.s2.rate_of_change
+c2f48d83fa2e409a:
+- math.p.numbers_to_million
+c30f0c62a9eb67b9:
+- math.s2.conditional_probability
+c356daed80e11047:
+- math.s2.function_classes
+c3923d63d2dfe321:
+- math.s1.area_perimeter
+c394dec99eb437ed:
+- math.s1.scale
+c3b39b75417a3731:
+- math.s1.trig_functions
+c4be36ca2703dcdd:
+- math.s2.exp_ln
+c507b18830286448:
+- math.s1.constructions
+c51d2afb5d950abf:
+- math.s1.linear_equations
+- math.s1.linear_functions
+c5244870d3009505:
+- math.s2.hypothesis_test
+c55b5aa05ed5fe75:
+- math.s1.proportionality
+c561bdd8aa09e82c:
+- math.s1.constructions
+c5766455a3f78624:
+- math.s1.statistics
+c5f752218c65e961:
+- math.s1.powers
+c60fe539fcdbd7a2:
+- math.p.place_value
+c651793b57d38fcf:
+- math.s2.distances_angles
+- math.s2.vectors
+c6c8358c08b1dca2:
+- math.s2.random_variables
+c76462cb90692158:
+- math.s1.roots
+c800ef8741cc2b7d:
+- math.s2.lines_planes
+c80b58e97d9b18a9:
+- math.s1.statistics
+c8468b7dd9e3db18:
+- math.p.add_sub
+- math.p.mult_div
+c8e909d75392f797:
+- math.s1.units
+c8f2ca25d5047546:
+- math.s1.similarity
+c9e5196556624100:
+- math.s1.quadratic_functions
+ca68483517aae6e8:
+- math.s1.fraction_equations
+caeb7b6f88851a5e:
+- math.s1.decimals
+- math.s1.percent
+caf418dc0ea3b5d6:
+- math.s1.trig_functions
+cb3b51510834fb62:
+- math.s1.statistics
+cc21396b9b1681ab:
+- math.s2.conditional_probability
+cc3d685a321f7a1d:
+- math.s2.random_variables
+cc7e892ac025f7f8:
+- math.s1.area_perimeter
+- math.s1.circle
+ccabf91b93674d31:
+- math.s1.functions_concept
+- math.s1.power_functions
+ccd68e216ed265f3:
+- math.p.numbers_to_million
+cd0d2b5c7e9cd7c9:
+- math.p.mental_strategies
+cd8ca67ec7db697a:
+- math.s1.constructions
+- math.s1.similarity
+cd9ee0962c6e9bff:
+- math.s1.probability
+cdde0d8372ff72e4:
+- math.s1.functions_concept
+cdf07fd0d6bc2816:
+- math.s1.percent
+ce875a121c6137f8:
+- math.p.word_problems
+cea31d8c273970b7:
+- math.s1.linear_functions
+cf333224b669eecb:
+- math.p.area_perimeter_intro
+cf974e3a0e25a4d3:
+- math.s1.functions_concept
+- math.s1.power_functions
+d06614a338b80f66:
+- math.s1.trigonometry
+d2369cc4dbba085a:
+- math.s1.constructions
+d2d1a6a91baed6d5:
+- math.p.solids
+d2fd8fcdb2efeafc:
+- math.s2.curve_analysis
+d330618132f410ad:
+- math.s1.functions_concept
+d3526cb695f2a115:
+- math.s1.pyramid_cone_sphere
+- math.s1.volume_surface
+d3ee1d15f4716ce9:
+- math.s1.units
+d4c1d3e2ed8c25c7:
+- math.s2.inverse_functions
+d507d26822c35c16:
+- math.p.mental_strategies
+d5360f8d61db9029:
+- math.p.patterns
+d545cf96a50dc3f5:
+- math.s1.powers
+d56c2807e4c30985:
+- math.s1.negative_numbers
+- math.s1.terms
+d60d9d5a18333b5c:
+- math.s1.pyramid_cone_sphere
+- math.s1.volume_surface
+d66a4c6b11345410:
+- math.s1.linear_equations
+- math.s1.linear_systems
+d6a956c58e11d85e:
+- math.s1.proportionality
+d6f0b0376263dbc1:
+- math.s2.binomial
+d72eb0266d8b6926:
+- math.s1.pyramid_cone_sphere
+- math.s1.volume_surface
+d7a9fbb15d220564:
+- math.s1.terms
+d7c499cfae4216de:
+- math.s1.volume_surface
+d7da9b9d1b1f0778:
+- math.p.functional_relations
+d81d674e2ff9e168:
+- math.s1.quadratic_equations
+d84153f3347e70ea:
+- math.p.add_sub
+- math.p.mult_div
+d87431786a2cb0f4:
+- math.s1.powers
+d8c0513c169c0045:
+- math.s1.decimals
+- math.s1.fractions
+d8f0340a87553da1:
+- math.s1.units
+d97a153c09a41dec:
+- math.s2.random_variables
+d9b0f025eff30bf2:
+- math.s2.exp_ln
+db58805558253d6f:
+- math.s1.quadratic_functions
+dd4473609d84ded7:
+- math.s1.power_functions
+dd9177bc32172807:
+- math.s1.powers
+de021fcd5aebb74d:
+- math.s1.constructions
+de1aa2200e178fc7:
+- math.s1.fraction_operations
+dea421ba2f587430:
+- math.s1.fractions
+decdf2f6814b7f42:
+- math.p.add_sub
+- math.p.mult_div
+df5549971d16ecb1:
+- math.s1.functions_concept
+dfaf878eba8c4da4:
+- math.p.area_perimeter_intro
+e1253aa1ca07f9b6:
+- math.s1.units
+e13032ac99be7877:
+- math.s1.power_functions
+e171ff46c5c2cda9:
+- math.p.place_value
+e18722211c4036e3:
+- math.s1.decimals
+- math.s1.fraction_operations
+e2379554ffcd6524:
+- math.s2.vectors
+e33f7d74e85cb05f:
+- math.p.add_sub
+- math.p.mult_div
+e3511c90fd5fdd55:
+- math.s1.pyramid_cone_sphere
+e35d0e741f79fb26:
+- math.s1.fraction_operations
+e3fd700cdf908e69:
+- math.s2.exp_ln
+e4046f0aecec0f3b:
+- math.s2.hypothesis_test
+e44f9d76d58650d0:
+- math.p.data
+e4d4a11f55d07f4a:
+- math.p.data
+e4f9c341b1e8d045:
+- math.s1.quadratic_equations
+e52826ca262299cd:
+- math.s1.fractions
+e5f131a1ee1359f7:
+- math.s1.terms
+e5f71e477b8dfebc:
+- math.s1.angles
+- math.s1.triangles_quadrilaterals
+e608fd99fd685b90:
+- math.s2.rate_of_change
+e6215b19c2f6cb98:
+- math.s1.trig_functions
+- math.s2.derivative_rules
+e843217a5ebcf6e6:
+- math.s1.exponential
+e8ee8708e18b2851:
+- math.s1.terms
+e90fb31fae5787e1:
+- math.s1.terms
+e9390a1146f0f0ce:
+- math.p.plane_figures
+e959672b72fe444a:
+- math.s1.units
+ea99ddb95fa64f40:
+- math.s1.linear_equations
+eacf3040eb2ade35:
+- math.s1.negative_numbers
+- math.s1.terms
+eaf0f3fb2c774a28:
+- math.s1.power_functions
+eb939e163b8aae03:
+- math.p.data
+eba2b2a78f06e965:
+- math.s2.function_classes
+ec9577cdbab4c89d:
+- math.s1.linear_functions
+ecb006cebbb7843d:
+- math.s1.units
+eccc8a915aaf598f:
+- math.s2.lines_planes
+ece11e0cf25fab83:
+- math.p.place_value
+edcaef1aa69fc190:
+- math.s1.statistics
+edd4f2ea2858176a:
+- math.s1.quadratic_functions
+ede1c9ae4cb6848a:
+- math.s1.terms
+edfc9b304c54f3e8:
+- math.s1.quadratic_functions
+ee3c7cca09b54287:
+- math.s1.functions_concept
+eed299f8c95e5f00:
+- math.s2.optimisation
+ef190f3ca35d2f5a:
+- math.s2.distances_angles
+- math.s2.lines_planes
+efac73c5acbefaeb:
+- math.p.word_problems
+efe08eb10d088ac2:
+- math.p.measuring
+f023fc44b1194215:
+- math.p.area_perimeter_intro
+f04f94f5f723806c:
+- math.s1.statistics
+f0ea59b1d5c3c2a4:
+- math.s1.angles
+- math.s1.geometry_basics
+f13c6c9eaeb3bac4:
+- math.p.numbers_to_100
+f18545d61efb898d:
+- math.s1.linear_functions
+f18921d4dab68d59:
+- math.s2.distances_angles
+- math.s2.lines_planes
+f1acaf0609a976c3:
+- math.p.functional_relations
+f21d2d096a096333:
+- math.s1.exponential
+- math.s1.interest
+f28ca5957d72b56a:
+- math.s1.circle
+f2a24b3d257cf03c:
+- math.s1.multistage
+f3df0784f8ad8c16:
+- math.s2.binomial
+f4046640814a3214:
+- math.s2.integral_applications
+f419cc4a120ac4c5:
+- math.s2.optimisation
+f430c68436a7c54c:
+- math.s2.function_classes
+f4592b90f0c68ed5:
+- math.p.mental_strategies
+f4681d4de105cc6a:
+- math.p.chance
+f4efe4e6cea7f270:
+- math.s1.scale
+f579622011f265d1:
+- math.s1.quadratic_equations
+f57e9f63d0b07f08:
+- math.p.plane_figures
+f5829d6846c9a545:
+- math.s2.hypothesis_test
+f5cb5bb18725e059:
+- math.s1.linear_functions
+f6231405b2761240:
+- math.s1.constructions
+- math.s1.similarity
+f66a5ef0041c38fb:
+- math.s2.binomial
+f7d7ac6d81a3949e:
+- math.s1.powers
+f82250f929166f0a:
+- math.s2.random_variables
+f84f9bd2afa8c76c:
+- math.p.measuring
+f86f6d3a9328fa7c:
+- math.p.money
+f8ba37953f6dfb8c:
+- math.s1.similarity
+f8d15da24242a962:
+- math.s2.inverse_functions
+f8e40db551ddf9ee:
+- math.s1.quadratic_functions
+f98e1ad2ff6ccfc7:
+- math.s2.gauss
+f99bb0cc22ab1439:
+- math.s2.integral
+f99d2ab001f4362e:
+- math.p.functional_relations
+f9abeae4e3a3159b:
+- math.s2.rate_of_change
+f9f6d319f491280d:
+- math.s1.negative_numbers
+fa8f3da5d8e24b63:
+- math.s1.similarity
+fb387f9b5bf921cb:
+- math.s1.symmetry_maps
+fbc705d20a4d79ce:
+- math.s1.statistics
+fbe08c8f72fff9e3:
+- math.s1.boxplot
+fc53372c7f052811:
+- math.s1.multistage
+fc76a2d62feffe55:
+- math.s2.lines_planes
+fce449950aea73b5:
+- math.s2.distances_angles
+- math.s2.lines_planes
+fd0ae28b095c4a8a:
+- math.p.written_algorithms
+- math.s1.decimals
+fd31f9647ae923a3:
+- math.p.numbers_to_million
+fdfd91a9c578e9d7:
+- math.s1.exponential
+fe663e1524cad207:
+- math.s1.statistics
+fec5b1e6fec01332:
+- math.s1.angles
+fecb6b8040b90e25:
+- math.s1.linear_functions
+ff721207f2b1ef4c:
+- math.s2.binomial
+ffc34394f94c61fe:
+- math.p.patterns

@@ -1250,3 +1250,64 @@ topics:
   - Prognoseintervall*
   requires:
   - math.s2.binomial
+- id: math.p.functional_relations
+  subject: Mathematik
+  label_de: Einfache funktionale Beziehungen (Grundschule)
+  kmk_anchor: Muster und Strukturen
+  grade_band: 1-4
+  keywords:
+  - funktionale Beziehung*
+  - funktionale Zusammenh*
+  - Anzahl - Preis
+  - Anzahl – Preis
+  - Proportionalität
+  requires:
+  - math.p.mult_div
+- id: math.p.combinatorics
+  subject: Mathematik
+  label_de: Einfache Kombinatorik (Grundschule)
+  kmk_anchor: L5 Daten und Zufall
+  grade_band: 1-4
+  keywords:
+  - kombinatorisch*
+  - Kombinatorik
+  - Möglichkeiten
+  requires:
+  - math.p.add_sub
+- id: math.s1.scale
+  subject: Mathematik
+  label_de: Maßstab und maßstäbliches Zeichnen
+  kmk_anchor: L2 Messen
+  grade_band: 5-7
+  keywords:
+  - Maßstab*
+  - maßstäblich*
+  - Originallänge*
+  - Bildlänge*
+  requires:
+  - math.s1.units
+  - math.s1.proportionality
+- id: math.s2.inverse_functions
+  subject: Mathematik
+  label_de: Umkehrfunktionen
+  kmk_anchor: L4 Funktionaler Zusammenhang
+  grade_band: 10-12
+  keywords:
+  - Umkehrfunktion*
+  - umkehrbar*
+  - Umkehrbarkeit
+  requires:
+  - math.s1.functions_concept
+- id: math.s2.numerics
+  subject: Mathematik
+  label_de: Numerische Näherungsverfahren
+  kmk_anchor: L1 Zahl und Operation
+  grade_band: 11-13
+  keywords:
+  - iterativ* Verfahren
+  - Näherungsverfahren
+  - Newton-Verfahren
+  - Bisektion*
+  - näherungsweise
+  requires:
+  - math.s2.derivative_rules
